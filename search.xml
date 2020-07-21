@@ -20,6 +20,94 @@
       </tags>
   </entry>
   <entry>
+    <title>Add-Ons从入门到入坟</title>
+    <url>/2020/07/21/ADD%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本贴将会更新MINECRAFTBE基岩版的Add-Ons附加包教程<br>欢迎您的关注!</p>
+<p>版权@2020 BIYUEHU，本贴严禁转载</p>
+<hr>
+<h3 id="本教程目录-正在更新中"><a href="#本教程目录-正在更新中" class="headerlink" title="本教程目录(正在更新中)"></a>本教程目录(正在更新中)</h3><h4 id="1-AddOns基础知识"><a href="#1-AddOns基础知识" class="headerlink" title="1.AddOns基础知识"></a>1.AddOns基础知识</h4><h5 id="1-1-AddOns附加包的定义与发展史"><a href="#1-1-AddOns附加包的定义与发展史" class="headerlink" title="1-1.AddOns附加包的定义与发展史"></a>1-1.AddOns附加包的定义与发展史</h5><h5 id="1-2-JSON基础认识"><a href="#1-2-JSON基础认识" class="headerlink" title="1-2.JSON基础认识"></a>1-2.JSON基础认识</h5><h5 id="1-3-工具准备"><a href="#1-3-工具准备" class="headerlink" title="1-3.工具准备"></a>1-3.工具准备</h5><h4 id="2-AddOns的组成结构"><a href="#2-AddOns的组成结构" class="headerlink" title="2.AddOns的组成结构"></a>2.AddOns的组成结构</h4><h5 id="2-1-第一个包"><a href="#2-1-第一个包" class="headerlink" title="2-1.第一个包!"></a>2-1.第一个包!</h5><h5 id="2-2-导入与测试"><a href="#2-2-导入与测试" class="headerlink" title="2-2.导入与测试"></a>2-2.导入与测试</h5><h4 id="3-自定义游戏内容"><a href="#3-自定义游戏内容" class="headerlink" title="3.自定义游戏内容"></a>3.自定义游戏内容</h4><h5 id="3-1-自定义物品"><a href="#3-1-自定义物品" class="headerlink" title="3-1.自定义物品"></a>3-1.自定义物品</h5><h5 id="3-2-自定义方块"><a href="#3-2-自定义方块" class="headerlink" title="3-2.自定义方块"></a>3-2.自定义方块</h5><h5 id="3-3-自定义生成结构"><a href="#3-3-自定义生成结构" class="headerlink" title="3-3.自定义生成结构"></a>3-3.自定义生成结构</h5><h6 id="3-3-1-自定义生物群系"><a href="#3-3-1-自定义生物群系" class="headerlink" title="3-3-1.自定义生物群系"></a>3-3-1.自定义生物群系</h6><h6 id="3-3-2-自定义树生成"><a href="#3-3-2-自定义树生成" class="headerlink" title="3-3-2.自定义树生成"></a>3-3-2.自定义树生成</h6><h6 id="3-3-3。自定义矿石生成"><a href="#3-3-3。自定义矿石生成" class="headerlink" title="3-3-3。自定义矿石生成"></a>3-3-3。自定义矿石生成</h6><h6 id="3-3-4-自定义建筑生成"><a href="#3-3-4-自定义建筑生成" class="headerlink" title="3-3-4.自定义建筑生成"></a>3-3-4.自定义建筑生成</h6><h5 id="3-4-自定义实体"><a href="#3-4-自定义实体" class="headerlink" title="3-4.自定义实体"></a>3-4.自定义实体</h5><h6 id="3-4-1-组成结构"><a href="#3-4-1-组成结构" class="headerlink" title="3-4-1.组成结构"></a>3-4-1.组成结构</h6><h6 id="3-4-2-行为包部分-实体行为-必选"><a href="#3-4-2-行为包部分-实体行为-必选" class="headerlink" title="3-4-2.行为包部分-实体行为(必选)"></a>3-4-2.行为包部分-实体行为(必选)</h6><h6 id="3-4-3-行为包部分-实体生成-可选"><a href="#3-4-3-行为包部分-实体生成-可选" class="headerlink" title="3-4-3.行为包部分-实体生成(可选)"></a>3-4-3.行为包部分-实体生成(可选)</h6><h6 id="3-4-4-行为包部分-实体掉落物-可选"><a href="#3-4-4-行为包部分-实体掉落物-可选" class="headerlink" title="3-4-4.行为包部分-实体掉落物(可选)"></a>3-4-4.行为包部分-实体掉落物(可选)</h6><h6 id="3-4-5-资源包部分-模型-可选"><a href="#3-4-5-资源包部分-模型-可选" class="headerlink" title="3-4-5.资源包部分-模型(可选)"></a>3-4-5.资源包部分-模型(可选)</h6><h6 id="3-4-6-资源包部分-贴图-可选"><a href="#3-4-6-资源包部分-贴图-可选" class="headerlink" title="3-4-6.资源包部分-贴图(可选)"></a>3-4-6.资源包部分-贴图(可选)</h6><h6 id="3-4-7-资源包部分-渲染控制器-可选"><a href="#3-4-7-资源包部分-渲染控制器-可选" class="headerlink" title="3-4-7.资源包部分-渲染控制器(可选)"></a>3-4-7.资源包部分-渲染控制器(可选)</h6><h6 id="3-4-8-资源包部分-材质-可选"><a href="#3-4-8-资源包部分-材质-可选" class="headerlink" title="3-4-8.资源包部分-材质(可选)"></a>3-4-8.资源包部分-材质(可选)</h6><h6 id="3-4-9-动画"><a href="#3-4-9-动画" class="headerlink" title="3-4-9.动画"></a>3-4-9.动画</h6><h6 id="3-4-10-动画控制器"><a href="#3-4-10-动画控制器" class="headerlink" title="3-4-10.动画控制器"></a>3-4-10.动画控制器</h6><h4 id="4-专辑篇"><a href="#4-专辑篇" class="headerlink" title="4.专辑篇"></a>4.专辑篇</h4><h5 id="4-1-动画与动画控制器"><a href="#4-1-动画与动画控制器" class="headerlink" title="4-1.动画与动画控制器"></a>4-1.动画与动画控制器</h5><h5 id="4-2-player检测器"><a href="#4-2-player检测器" class="headerlink" title="4-2.player检测器"></a>4-2.player检测器</h5><h6 id="…"><a href="#…" class="headerlink" title="…."></a>….</h6><h4 id="5-实战篇"><a href="#5-实战篇" class="headerlink" title="5.实战篇"></a>5.实战篇</h4><h6 id="…-1"><a href="#…-1" class="headerlink" title="…."></a>….</h6><hr>
+<h1 id="正式开始！"><a href="#正式开始！" class="headerlink" title="正式开始！"></a><strong>正式开始！</strong></h1><h1 id="1-AddOns基础知识-1"><a href="#1-AddOns基础知识-1" class="headerlink" title="1.AddOns基础知识"></a>1.AddOns基础知识</h1><h2 id="1-1-AddOns附加包的定义与发展史-1"><a href="#1-1-AddOns附加包的定义与发展史-1" class="headerlink" title="1-1.AddOns附加包的定义与发展史"></a>1-1.AddOns附加包的定义与发展史</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>附加包（Add-on）</strong>是朝向Minecraft全版本自定义的坚实一步，它受Mojang官方支持。由资源包+行为包组成。目前，还只有基岩版的平台支持附加包(包括Windows 10、Gear VR和Fire TV)。这些版本现在允许玩家去更改他们世界的样貌（材质）、改变物品及生物的模型、修改生物的行为，这些功能都可以通过资源包和行为包来实现。此处提供的文档受官方支持与核实，是由Minecraft开发团队提供籍以协助社区发布的。</p>
+<p>Addon大部分文件均由<strong>JSON</strong>编写<br>在1.9.0.3beta加入了前所未有的的<strong>JavaScript脚本引擎</strong>，虽然现在也不怎么完善，也只对WINDOWS10平台开放，安卓需使用方启加载，IOS彻底没救。但也让开发者不再受限于第三方的MODAPI。<br>(比如IC/HZ与张卓伟的方块启动器的MODPE)<br>除此之外，JavaScripts脚本引擎的<strong>experimental_ui</strong>基于HTML5，因此还会涉及到HTML与CSS等语言</p>
+<p><strong>以上改编自<a href="https://minecraft-zh.gamepedia.com/%E9%99%84%E5%8A%A0%E5%8C%85" target="_blank" rel="noopener">Minecraft官方WIKI</a></strong></p>
+<p><strong>网易的MOD SDK API</strong><br>网易干啥啥不行，但API却十分nice。不仅为原版Addon提供更多的扩展API(当然，本文章仅讲国际版的API)，还有网易的<strong>Pymod</strong>(python mod)，也是基于Addon，由Python语言编写，有更多的逻辑。</p>
+<h3 id="前世今生-发展史"><a href="#前世今生-发展史" class="headerlink" title="前世今生(发展史)"></a>前世今生(发展史)</h3><p>自从Minecraft的原始Java版早期开发以来，已经计划为开发人员实现添加和更改游戏内容的官方方式。官方游戏定制的计划可以追溯到2010年7月5日的Alpha v1.0.1_01，在发布之后计划称为Mod API。 据说它在Beta 1.8中发布。然后将Mod API重新命名为插件API，最初声明计划用于1.3的版本，然后用于1.4版本，然后由Curse意外地声明它将在1.5中实现。</p>
+<p>在MINECON 2012，Mojang分享了他们对插件API未来的愿景。该API将由Bukkit团队开发并旨在简化模型和下载过程，虽然包含稍微有限的功能集。最初发布开发者网站后 (<a href="http://dev.minecraft.net" target="_blank" rel="noopener">http://dev.minecraft.net</a>) 和GitHub页面，这些都在一年内被删除。</p>
+<p>开发人员曾多次提到，游戏代码中的许多更改都在准备插件API，包括2014年7月29日的Dinnerbone、Grum于2015年7月5日在“The Minecraft Team - Behind the Scenes”小组讨论和2015年10月19日，在Java版1.9的战利品表上工作时再次和Dinnerbone。一位用户回复说“我认为官方回复‘我们正在努力’真的会有很多帮助”。Dinnerbone回答说：“我们正在努力。”</p>
+<p>2016年8月12日，Searge发推文说：“MINECON 2016上将会有关于API的消息。我会谈谈我正在研究的事情以及我们的计划。但现在没有更多细节。“第二天，Grum证实了携带版上的这一点。Minecon上概述了附加组件开发的计划和路线图。</p>
+<p><strong>以上摘自<a href="https://minecraft-zh.gamepedia.com/%E9%99%84%E5%8A%A0%E5%8C%85" target="_blank" rel="noopener">Minecraft官方WIKI</a></strong></p>
+<h2 id="1-2-JSON基础认识-1"><a href="#1-2-JSON基础认识-1" class="headerlink" title="1-2.JSON基础认识"></a>1-2.JSON基础认识</h2><p><img src="https://bkimg.cdn.bcebos.com/pic/63d9f2d3572c11df6ba8d108682762d0f703c2a4?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg" alt="JSON"><br><strong>JSON(JavaScript Object Notation, JS 对象简谱)</strong> 是一种轻量级的数据交换格式。它基于 ECMAScript (欧洲计算机协会制定的js规范)的一个子集，采用完全独立于编程语言的文本格式来存储和表示数据。简洁和清晰的层次结构使得 JSON 成为理想的数据交换语言。 易于人阅读和编写，同时也易于机器解析和生成，并有效地提升网络传输效率。</p>
+<p>中文名：JavaScript 对象简谱<br>外文名：JavaScript Object Notation<br>缩写：JSON</p>
+<p><strong>以上摘自<a href="https://baike.baidu.com/item/JSON/2462549?fr=aladdin" target="_blank" rel="noopener">百度百科</a></strong></p>
+<h3 id="JSON-语法规则"><a href="#JSON-语法规则" class="headerlink" title="JSON 语法规则"></a><strong>JSON 语法规则</strong></h3><p>JSON是一个标记符的序列。这套标记符包含六个构造字符、字符串、数字和三个字面名。<br>JSON是一个序列化的对象或数组。</p>
+<p><strong>1.六个构造字符：</strong><br>begin-array = ws %x5B ws ; [ 左方括号<br>begin-object = ws %x7B ws ; { 左大括号<br>end-array = ws %x5D ws ; ] 右方括号<br>end-object = ws %x7D ws ; } 右大括号<br>name-separator = ws %x3A ws ; : 冒号<br>value-separator = ws %x2C ws ; , 逗号</p>
+<p><strong>2.在这六个构造字符的前或后允许存在无意义的空白符(ws):</strong><br>ws = *（%x20 /; 空间<br>%x09 /; 水平标签<br>%x0A /; 换行或换行<br>%x0D）; 回程</p>
+<p><strong>3.JSON的值:</strong><br>3.1 JSON的构成: ws 值 ws<br>3.2值可以是对象、数组、数字、字符串或者三个字面值(false、null、true)中的一个。值中的字面值中的英文必须使用小写。<br>3.2.1对象由花括号括起来的逗号分割的成员构成，成员是字符串键和上文所述的值由逗号分割的键值对组成，如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;<span class="string">"name"</span>: <span class="string">"John Doe"</span>, <span class="string">"age"</span>: 18, <span class="string">"address"</span>: &#123;<span class="string">"country"</span> : <span class="string">"china"</span>, <span class="string">"zip-code"</span>: <span class="string">"10000"</span>&#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>3.2.2数组是由方括号括起来的一组值构成，如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[3, 1, 4, 1, 5, 9, 2, 6]</span><br></pre></td></tr></table></figure>
+<p>3.2.3 字符串与C或者Java的字符串非常相似。字符串是由双引号包围的任意数量Unicode字符的集合，使用反斜线转义。一个字符（character）即一个单独的字符串（character string）。<br>3.2.4数字也与C或者Java的数值非常相似。除去未曾使用的八进制与十六进制格式。除去一些编码细节。 </p>
+<p><strong>一个栗子</strong>:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"地点"</span>: <span class="string">"某家商店"</span>,</span><br><span class="line">    <span class="string">"发生意外"</span>: <span class="string">"着火"</span>,</span><br><span class="line">    <span class="string">"受伤人数"</span>: 10,</span><br><span class="line">    <span class="string">"死亡人数"</span>: null,</span><br><span class="line">    <span class="string">"为认为造成?"</span>: <span class="literal">true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="JSON注释"><a href="#JSON注释" class="headerlink" title="JSON注释"></a><strong>JSON注释</strong></h3><p>MINECRAFT对JSON文件支持//与/<em>和</em>/组合的注释<br>栗子:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    //我是一个注释</span><br><span class="line"></span><br><span class="line">    /*</span><br><span class="line">    从这</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    到这都是注释</span><br><span class="line">    */</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="1-3-工具准备-1"><a href="#1-3-工具准备-1" class="headerlink" title="1-3.工具准备"></a>1-3.工具准备</h2><p>在<strong>AddOns开发</strong>时肯定是需要用到各式各样的工具的</p>
+<p><strong>以下为我的推荐：</strong><br>WINDOWS10平台(建议)：</p>
+<p>绘图工具：<br>Adobe Photoshop CC，画图3D(WIN10自带)</p>
+<p>文件管理器：<br>WINDOWS自带 文件资源管理器</p>
+<p>文本编辑器：<br><strong>JSON</strong>不像C艹,JVAV这些语言要配置环境，你甚至可以用记事本来编辑json!但十分不建议。<br>你可以选择Notepad++，Visual Studio Code这些优秀的文本编辑器</p>
+<p>建模：<br>Blockbench</p>
+<p>安卓：</p>
+<p>绘图工具：<br>像素小画家</p>
+<p>文件管理器：<br>MT文件管理器，ES文件管理器</p>
+<p>文本编辑器：<br>文件管理器自带的即可</p>
+<p>建模：<br>Blockbench（网页）</p>
+<p>IOS：<br>抬走不送</p>
+<h1 id="2-AddOns的组成结构-1"><a href="#2-AddOns的组成结构-1" class="headerlink" title="2.AddOns的组成结构"></a>2.AddOns的组成结构</h1><h2 id="2-1-第一个包-1"><a href="#2-1-第一个包-1" class="headerlink" title="2-1.第一个包!"></a>2-1.第一个包!</h2><p><strong>Addon</strong>基本组成部分如下:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Behavior_Pack &#x2F;&#x2F;1.16行为包</span><br><span class="line">——animation_controllers &#x2F;&#x2F;动画控制器(服务端)</span><br><span class="line">——animations &#x2F;&#x2F;动画(服务端)</span><br><span class="line">——biomes &#x2F;&#x2F;生物群系属性定义</span><br><span class="line">——blocks &#x2F;&#x2F;方块属性定义</span><br><span class="line">——entities &#x2F;&#x2F;实体行为属性定义</span><br><span class="line">——feature_rules &#x2F;&#x2F;生成规则</span><br><span class="line">——features  &#x2F;&#x2F;生成特征</span><br><span class="line">——functions  &#x2F;&#x2F;function指令，用于一次性执行多条指令</span><br><span class="line">——items  &#x2F;&#x2F;物品属性定义</span><br><span class="line">——loot_tables  &#x2F;&#x2F;战利品定义</span><br><span class="line">——recipes  &#x2F;&#x2F;配方定义</span><br><span class="line">——scripts  &#x2F;&#x2F;JS脚本</span><br><span class="line">——spawn_rules &#x2F;&#x2F;生物生成定义</span><br><span class="line">——manifest.json  &#x2F;&#x2F;包识别（描述）文件</span><br><span class="line">——pack_icon.png  &#x2F;&#x2F;包图标</span><br><span class="line">——bug_pack_icon.png  &#x2F;&#x2F;包出问题后的图标</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Resource_Pack  &#x2F;&#x2F;1.16资源包</span><br><span class="line">——animation_controllers &#x2F;&#x2F;动画控制器(客户端)</span><br><span class="line">——animations &#x2F;&#x2F;动画(客户端)</span><br><span class="line">——attachables  &#x2F;&#x2F;穿戴物品定义</span><br><span class="line">——entity  &#x2F;&#x2F;实体定义</span><br><span class="line">——experimental_ui  &#x2F;&#x2F;实验UI</span><br><span class="line">——font  &#x2F;&#x2F;游戏内特殊标识符</span><br><span class="line">——items  &#x2F;&#x2F;物品视觉属性定义</span><br><span class="line">——materials  &#x2F;&#x2F;材质</span><br><span class="line">——models  &#x2F;&#x2F;模型</span><br><span class="line">——particles  &#x2F;&#x2F;粒子效果属性定义</span><br><span class="line">——render_controllers  &#x2F;&#x2F;渲染控制器属性定义</span><br><span class="line">——sounds  &#x2F;&#x2F;音效,音乐存放</span><br><span class="line">——texts  &#x2F;&#x2F;lang语言文件存放</span><br><span class="line">——textures  &#x2F;&#x2F;贴图存放</span><br><span class="line">——ui  &#x2F;&#x2F;用户界面定义</span><br><span class="line">——shaders  &#x2F;&#x2F;着色器</span><br><span class="line">——credits  &#x2F;&#x2F;终末之诗文字存放</span><br><span class="line">——biomes_client.json  &#x2F;&#x2F;不同生物群系的天空和水颜色</span><br><span class="line">——block.json  &#x2F;&#x2F;方块定义</span><br><span class="line">——contents.json  </span><br><span class="line">——items_offsets_client.json  </span><br><span class="line">——loading_messages.json  &#x2F;&#x2F;加载世界时的提示语</span><br><span class="line">——sounds.json  &#x2F;&#x2F;音效,音乐定义</span><br><span class="line">——splashes.json  &#x2F;&#x2F;小标题</span><br><span class="line">——manifest.json  &#x2F;&#x2F;包识别（描述）文件</span><br><span class="line">——pack_icon.png  &#x2F;&#x2F;包图标</span><br><span class="line">——bug_pack_icon.png  &#x2F;&#x2F;包出问题后的图标</span><br></pre></td></tr></table></figure>
+
+<p>不要看到这么多文件夹与文件就头昏，并不是全都要用上的，如果只是一个能被<strong>识别与装载</strong>的包只需要一个描述文件:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">资源包与行为包都是如此</span><br><span class="line">——manifest.json</span><br></pre></td></tr></table></figure>
+<p>首先<strong>新建</strong>一个文件夹，名字随意<br><img src="https://pic.downk.cc/item/5f16a47114195aa594c509c1.png" alt="1"><br><img src="https://pic.downk.cc/item/5f16a47114195aa594c509c3.png" alt="2"></p>
+<h3 id="manifest-json"><a href="#manifest-json" class="headerlink" title="manifest.json"></a>manifest.json</h3><p>首先最好在文件管理器里把这两个选项勾上<br><img src="https://pic.downk.cc/item/5f16a47114195aa594c509c5.png" alt="3"></p>
+<p>接着新建一个txt文件，名字带后缀改成”manifest.json“</p>
+<p><img src="https://pic.downk.cc/item/5f16ac3814195aa594c8808c.png" alt="4"><br>此时windows可能会有弹窗提示，直接点击是</p>
+<p>然后输入以下代码:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    &quot;format_version&quot;: 1,</span><br><span class="line">    &quot;header&quot;: &#123;</span><br><span class="line">        &quot;description&quot;: &quot; &quot;,</span><br><span class="line">        &quot;name&quot;: &quot; &quot;,</span><br><span class="line">        &quot;uuid&quot;: &quot; &quot;,</span><br><span class="line">        &quot;version&quot;: [0, 0, 1],</span><br><span class="line">        &quot;min_engine_version&quot;: [1, 0, 0]</span><br><span class="line">    &#125;,</span><br><span class="line">    &quot;modules&quot;: [</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;description&quot;: &quot; &quot;,</span><br><span class="line">            &quot;type&quot;: &quot; &quot;,</span><br><span class="line">            &quot;uuid&quot;: &quot; &quot;,</span><br><span class="line">            &quot;version&quot;: [0, 0, 1]</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>注意：</strong>不要直接复制到粘贴，先试着自己写一下找出感觉来！</p>
+<h4 id="解释："><a href="#解释：" class="headerlink" title="解释："></a>解释：</h4><p>首先是<strong>header</strong>组里面的：<br>description：<br>可选值：任何字符串<br>解释：ADD简介</p>
+<p>name：<br>可选值：任何字符串<br>解释：ADD名字</p>
+<p>uuid：<br>ADD唯一的识别标志，不能重复！<br>UUID生成请前往<a href="http://www.uuid.online/" target="_blank" rel="noopener">此处</a></p>
+<p>verson：<br>解释：ADD版本<br>格式：[主版本号, 次版本号, 修正版本号]</p>
+<p>min_engine_version：<br>ADD最低支持的游戏版本，非必要</p>
+<p><strong>modules</strong>组：<br>description：<br>可选值：任何字符串<br>解释：资源包或行为包简介</p>
+<p>type：<br>包的类型<br>可选值：data（行为包），resources（资源包）</p>
+<p>uuid：<br>资源包或行为包一的识别标志，不能重复！<br>UUID生成请前往<a href="http://www.uuid.online/" target="_blank" rel="noopener">此处</a></p>
+<p>verson：<br>解释：资源包或行为包版本<br>格式：[主版本号, 次版本号, 修正版本号]</p>
+<h3 id="pack-icon-png"><a href="#pack-icon-png" class="headerlink" title="pack_icon.png"></a>pack_icon.png</h3><p>建议图片比例为1:1正方形<br>推荐最小像素：16x16 推荐最大像素： 1024x1024</p>
+<h2 id="2-2-导入与测试-1"><a href="#2-2-导入与测试-1" class="headerlink" title="2-2.导入与测试"></a>2-2.导入与测试</h2><h3 id="导入"><a href="#导入" class="headerlink" title="导入"></a>导入</h3><p>幸苦了这么久？那么包到底能不能用了？！<br>只要您的json格式无误，那么答案是肯定的</p>
+<p>把您的包<strong>压缩</strong>一下</p>
+<p><img src="https://pic.downk.cc/item/5f16af8e14195aa594ca00b0.png" alt="5"><br><img src="https://pic.downk.cc/item/5f16af8e14195aa594ca00b2.png" alt="6"><br>后缀改成<strong>mcpack</strong>，接着双击一下看能不能导入到游戏里！</p>
+<p><strong>注：</strong>安卓请先在设置-档案-存储位置选项改成外部。</p>
+<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p>ADDON制作时<strong>bug</strong>肯定是不可避免的<br>但是mojang却非常善解人意</p>
+<p>在games/com.mojang你可能会发现有这三个文件夹:<br><img src="https://pic.downk.cc/item/5f16b28414195aa594cad6d3.png" alt="7"><br>很多人可能都会忽略这个，但其实这是专门用来放测试资源的文件夹</p>
+<h4 id="有何不同？"><a href="#有何不同？" class="headerlink" title="有何不同？"></a>有何不同？</h4><p>1.放在这些文件夹里的资源当被装到地图上时会<strong>直接调用</strong>，不会再复制一遍。<br>2.在游戏时即可进行<strong>改动</strong>，重进存档后游戏会自动<strong>重新加载</strong>，而不需要退出游戏重进那么麻烦</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>ADD教程</category>
+      </categories>
+      <tags>
+        <tag>Add-Ons</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>BEic2基岩版工业2-本体</title>
     <url>/2020/07/20/BEic2%E5%9F%BA%E5%B2%A9%E7%89%88%E5%B7%A5%E4%B8%9A2-%E6%9C%AC%E4%BD%93/</url>
     <content><![CDATA[<p>hello，又又又更新啦！<br>啥？MC居然也能酿酒了????<br>酿药台 (×)<br>酿酒台 (√)</p>
