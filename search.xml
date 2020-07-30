@@ -20,6 +20,36 @@
       </tags>
   </entry>
   <entry>
+    <title>BEtic基岩版匠魂Add</title>
+    <url>/2020/07/30/BEtic/</url>
+    <content><![CDATA[<p>类似于BEic2，也是移植Addon<br>本Addon仅打算更新一个版本（即此版本）</p>
+<p><img src="https://pic.downk.cc/item/5f22683e14195aa59403e09a.png" alt="BEtic"></p>
+<p>介绍视频：<a href="https://www.bilibili.com/video/BV1U54y1S7NV" target="_blank" rel="noopener">点我观看b站介绍视频</a></p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版匠魂<br>英文名字:BEtic<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:—<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:2020-07-30<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h4 id="新增物品"><a href="#新增物品" class="headerlink" title="新增物品"></a>新增物品</h4><p>一共加入了五种模板:<br>手柄模具<br>护手模具<br>宽护手模具<br>宽剑刃模具<br>剑刃模具</p>
+<p>一共加入了12种武器，分为三大类：大剑,长剑,西洋剑<br>每类一共有四种不同等级（即四种不同材料制作）<br>分别由仙人掌,骨头,黑曜石,地狱岩制作，四种材料制作出的武器基础伤害分别为6,8,11,15。<br>大剑：<br>A<br>A=大剑<br>B<br>A为对应材料,B为木棍<br>大剑拥有该材料制作的武器的基础伤害+抗性提升<br>长剑：<br>A<br>A=长剑<br>B<br>A为对应材料,B为相同材料的大剑<br>长剑拥有基础伤害+速度提升<br>西洋剑：<br>A<br>A=西洋剑<br>B<br>A为对应材料,B为相同材料的长剑<br>西洋剑拥有基础伤害+2伤害</p>
+<p>加入了钴锭</p>
+<p>加入了BEticAddon介绍书,潜行使用<br>合成配方：<br>AB<br>A为书,B为木板</p>
+<p>加入了匠魂粘液球</p>
+<p>加入了史莱姆水晶</p>
+<p>加入了焦黑石砖</p>
+<h4 id="新增方块"><a href="#新增方块" class="headerlink" title="新增方块:"></a>新增方块:</h4><p>加入了焦黑石砖块<br>合成配方：<br>AA<br>AA<br>A为焦黑石砖,焦黑石砖块也可再次分为4*焦黑石砖</p>
+<p>加入了冶炼炉（装饰品）<br><img src="https://pic.downk.cc/item/5f22688f14195aa5940408af.png" alt="炉子"></p>
+<p>加入了匠魂史莱姆空岛草方块</p>
+<h4 id="新增实体"><a href="#新增实体" class="headerlink" title="新增实体"></a>新增实体</h4><p>加入了匠魂史莱姆<br>击杀后会掉落匠魂粘液球</p>
+<h4 id="新增结构"><a href="#新增结构" class="headerlink" title="新增结构"></a>新增结构</h4><p>加入了匠魂史莱姆空岛<br>会在主世界随机生成，空岛上的箱子有几率获得史莱姆水晶于匠魂史莱姆粘液球。<br><img src="https://pic.downk.cc/item/5f2269a314195aa59404ad61.png" alt="匠魂史莱姆空岛"></p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/i4GR1f4nc9i" target="_blank" rel="noopener">戳我</a></p>
+]]></content>
+      <categories>
+        <category>作品</category>
+      </categories>
+      <tags>
+        <tag>作品</tag>
+        <tag>更新</tag>
+        <tag>Add-Ons</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Add-Ons从入门到入坟</title>
     <url>/2020/07/21/ADD%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本贴将会更新MINECRAFTBE基岩版的Add-Ons附加包教程<br>欢迎您的关注!</p>
