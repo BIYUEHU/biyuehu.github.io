@@ -1,41 +1,275 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>BEic2基岩版工业2高清材质包</title>
-    <url>/2020/06/01/BEic2%E9%AB%98%E6%B8%85%E6%9D%90%E8%B4%A8%E5%8C%85/</url>
-    <content><![CDATA[<p>今天六一，祝各位大朋友和小朋友门六一快乐awa<br>接下来是六一礼物啦~</p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版工业2<br>英文名字:–<br>类型:资源包<br>前置:MinecraftBE<br>最新版本:–<br>最新版本支持游戏版本:1.16.x，1.14.x<br>最新版本支持BEic2版本:V0.2.0<br>最后更新时间:2020-06-01<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>适配了BEic2V0.2.0与BEic2扩展包_投掷炸药</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/b01bgax0h" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
+    <title>【置顶】[必看]仓库须知</title>
+    <url>/2334/11/23/%E4%BB%93%E5%BA%93%E9%A1%BB%E7%9F%A5/</url>
+    <content><![CDATA[<h2 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介:"></a>个人简介:</h2><p>Bilibili:<a href="https://space.bilibili.com/293767574" target="_blank" rel="noopener">@碧月狐dada</a><br>YOUTUBE: @BIYUEHU<br>基岩版开发者,主要是Addons开发</p>
+<p>加入付费群，历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群费用仅需0.5RMB<br>支付方式:加我QQ3324656453支付0.5<br>支持QQ和VX支付<br>该QQ只做收费，不接受问题咨询（更加不要加了后还问价格多少之内的低级问题）<br>建议中午和晚上支付，此时我才有时间<br>有时可能会不回消息，要么是因为心态崩溃要么就是太忙了，还请谅解</p>
+<p>支持与赞助:<br>赞助可以是经济上，也可以精神上<br>Bilibili关注我<a href="https://space.bilibili.com/293767574" target="_blank" rel="noopener">@碧月狐dada</a>，三联我的视频已经是对我莫大的支持与认可了awa</p>
+<p>如果土豪想给予更多金钱上的资助也请加QQ<br>数字并不重要，主要是认可</p>
+<h2 id="仓库须知"><a href="#仓库须知" class="headerlink" title="仓库须知:"></a>仓库须知:</h2><p>该站为碧月狐dada的个人博客~<br>所有公开发布过的Addon(不包括内测beta等)在这也依然能找到，相关文档也会发在此处，是一个集中的地方</p>
+<p>国外网址:<a href="https://biyuehu.github.io/" target="_blank" rel="noopener">https://biyuehu.github.io/</a><br>使用Github托管，服务器在国外，对于国内不同地区,速度也不同，第一时间更新</p>
+<p>国内镜像网址:<a href="https://biyuehu.gitee.io/" target="_blank" rel="noopener">https://biyuehu.gitee.io/</a><br>使用Gitee托管，速度比Github会快几倍，内容最迟12小时内会同步</p>
+<h3 id="规"><a href="#规" class="headerlink" title="规"></a>规<font color="#FF0000"></h3><p><strong>无规矩不成方圆，这一切都是为了保持一定秩序，不管是哪里都是如此~</strong><br><strong>一.</strong>本站的所有内容（包括资源/文章/文案等）禁止私自转载与倒卖，禁止未经允许公开发到Q群文件(或其它社交软件)，禁止未经允许装载到服务器；</p>
+<p><strong>二.</strong>目前已开启评论系统（部分置顶文章等特殊文章将会关闭评论功能），评论系统为离线的无需登录什么账号才能评论，当然评论时可以登录您的GitHub账号（有的话）或者在评论选项里填一下您的博客地址等，方便联系，也可以填名字以及头像图片链接。<br>虽说为无需强制性登录即可评论，但自带过滤垃圾评论功能，不要妄想捣乱~<br>再透露一下，在你评论时虽说没账号信息但会保存你的IP/设备/浏览器等信息，小心我找你喝茶。对于违规用户将会定期挂在公告，正常用户的信息将会定期删除，只要你配合我们,我们也会配合你；<br>以下将会视为违规：<br>宣传服务器/群聊/其它作品等毫不相干的内容和广告<br>宣传黄赌毒内容<br>恶意引战挑事<br>恶意人身攻击和威胁<br>言行带有强制性</p>
+<p>待补充ing…</p>
+<p><strong>三.</strong>Addon协议：<br>本协议专门针对本人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+</font>
+
+<h2 id="资源Bug反馈与问题咨询"><a href="#资源Bug反馈与问题咨询" class="headerlink" title="资源Bug反馈与问题咨询"></a>资源Bug反馈与问题咨询</h2><p>反馈资源的Bug以及问题咨询请前往<a href="/2334/11/22/Bug反馈与问题咨询/">Bug反馈与问题咨询专用贴</a><br>其它地方的反馈与提问将不做任何回答</p>
+<p><strong>——望周知</strong></p>
+]]></content>
+      <categories>
+        <category>资讯</category>
+      </categories>
+      <tags>
+        <tag>资讯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【置顶】Bug反馈与问题咨询专用贴</title>
+    <url>/2334/11/22/Bug%E5%8F%8D%E9%A6%88%E4%B8%8E%E9%97%AE%E9%A2%98%E5%92%A8%E8%AF%A2/</url>
+    <content><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>本贴用于资源Bug反馈与问题咨询专用贴<br>反馈与提问在该贴下面回复即可</p>
+<p><strong>请务必遵守下面的回帖格式：</strong></p>
+<h2 id="Bug反馈"><a href="#Bug反馈" class="headerlink" title="Bug反馈"></a>Bug反馈</h2><p>资源Bug反馈仅限于发布到该博客的资源，对于Beta测试版不算在内<br><strong>回帖格式：</strong><br>带*星号的为必填，回帖时去掉星号<br>带#井号后面的文字为说明</p>
+<p>*资源名称： #目前仅支持ICE AGE冰河世纪以及BEic2基岩版工业2 两个资源的反馈<br>*资源版本： #必须为<strong>最新正式版</strong>而不是beta测试版和旧版本，如果是中国版下载的，请直接填写“中国版”两字<br>*游戏版本： #必须为<strong>最新正式版</strong>而不是beta测试版和旧版本，如果是中国版下载的，请直接填写“中国版”两字<br>*设备系统:  #请填写 安卓/IOS/WIN10，可多选<br>*问题描述:  #越详细越好<br>  更改意见:  #可选填<br>  联系方式:  #可选填，可以是QQ或者邮箱，可多选</p>
+<h3 id="Bug反馈例子："><a href="#Bug反馈例子：" class="headerlink" title="Bug反馈例子："></a>Bug反馈例子：</h3><p>资源名称：BEic2基岩版工业2<br>资源版本: V0.4.0<br>游戏版本：1.16.2<br>设备系统：安卓<br>问题描述：青金石粉在高炉烧制出来的是墨囊而不是青金石<br>更改意见：修复该Bug<br>联系方式：<a href="mailto:12345ssdlh@xx.com">12345ssdlh@xx.com</a>   </p>
+<h3 id="Bug反馈注意事项"><a href="#Bug反馈注意事项" class="headerlink" title="Bug反馈注意事项:"></a>Bug反馈注意事项:</h3><p>请确保你已认真查看过更新日志是否修复您提的bug<br>请确保你使用的资源版本非beta测试版非旧版本<br>请确保你使用的游戏版本非beta测试版非旧版本<br>请确保之前没有人提过与你同样的问题（节约时间~）<br>请确保你的格式正确<br>请注意您的言行已遵守博客规矩，不带强制性/辱骂性</p>
+<h2 id="问题咨询"><a href="#问题咨询" class="headerlink" title="问题咨询"></a>问题咨询</h2><p>该项无需特定格式，直接回帖即可<br>你可以提问也可提出宝贵意见，但必须为以下<strong>范围</strong>：<br>个人博客相关问题和意见<br>Addon发布相关意见<br>Addon制作技术问题<br>PS：该贴也允许提Addon制作上的技术问题，但建议去<a href="/2020/07/21/ADD教程/">Add教程</a>贴提<br>加群和赞助相关问题</p>
+<h2 id="问题咨询注意事项："><a href="#问题咨询注意事项：" class="headerlink" title="问题咨询注意事项："></a>问题咨询注意事项：</h2><p>请确保您的问题不是导入相关问题<br>请确保您的问题不是解压密码相关问题<br>请确保您的问题不是低级问题或萌新级问题或智障型问题或可笑至极的问题<br>请确保之前没有人提过与你同样的问题（节约时间~）<br>请注意您的言行已遵守博客规矩，不带强制性/辱骂性</p>
+<h2 id="写在后头"><a href="#写在后头" class="headerlink" title="写在后头"></a>写在后头</h2><p>除了反馈和提问，本贴也可以闲聊的~<br>只要不涉及注意事项即可</p>
+<p>对于格式错误或涉及注意事项的反馈/问题将不作采纳/回复<br>我有时间也会时不时回复你们的反馈/意见/问题</p>
+]]></content>
+      <categories>
+        <category>资讯</category>
+      </categories>
+      <tags>
+        <tag>资讯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BEgc基岩版星系</title>
+    <url>/2020/10/18/BEgc%E5%9F%BA%E5%B2%A9%E7%89%88%E6%98%9F%E7%B3%BB/</url>
+    <content><![CDATA[<p>ICE AGE的更新暂告一段落（不是弃坑，不是弃坑，不是弃坑！）<br>现在主要开始制作BEGC基岩版星系<br>BEGC有几率与BEIC2进行对接联动</p>
+<p><img src="https://pic.downk.cc/item/5f793779160a154a673b839e.png" alt="ICON"></p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版星系<br>英文名字:BEgc<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:beta1017pre1<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:2020-10-17<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="beta1017pre1"><a href="#beta1017pre1" class="headerlink" title="beta1017pre1:"></a>beta1017pre1:</h3><h4 id="新增："><a href="#新增：" class="headerlink" title="新增："></a>新增：</h4><p>界面：<br>在主界面新增“关于”按钮</p>
+<h4 id="更改："><a href="#更改：" class="headerlink" title="更改："></a>更改：</h4><p>更改了主界面布局与配色<br><img src="https://pic.downk.cc/item/5f8bebff1cd1bbb86b54fe81.png" alt=""></p>
+<h3 id="beta1003pre1"><a href="#beta1003pre1" class="headerlink" title="beta1003pre1:"></a>beta1003pre1:</h3><h4 id="新增：-1"><a href="#新增：-1" class="headerlink" title="新增："></a>新增：</h4><h5 id="方块："><a href="#方块：" class="headerlink" title="方块："></a>方块：</h5><p>加入了铜块<br>加入了铝块<br>加入了锡块<br>加入了铜矿<br>加入了铝矿<br>加入了锡矿</p>
+<h5 id="物品："><a href="#物品：" class="headerlink" title="物品："></a>物品：</h5><p>加入了铜锭<br>加入了铝锭<br>加入了锡锭<br>加入了致密钢板<br>加入了致密青铜板<br>加入了致密铁板<br>加入了致密铜板<br>加入了致密锡板<br>加入了致密铝板<br>加入了重装防护板<br>加入了火箭尾翼（仅行为部分）<br>加入了一阶火箭引擎（仅行为部分）<br>加入了鼻锥（仅行为部分）<br>加入了通风孔（仅行为部分）<br>加入了锡罐（仅行为部分）</p>
+<h5 id="配方："><a href="#配方：" class="headerlink" title="配方："></a>配方：</h5><p>加入了铜块的合成<br>加入了铝块的合成<br>加入了锡块的合成<br>加入了铜矿的熔炼<br>加入了铝矿的熔炼<br>加入了锡矿的熔炼<br>加入了铜锭的合成与熔炼<br>加入了铝锭的合成与熔炼<br>加入了锡锭的合成与熔炼</p>
+<h5 id="界面："><a href="#界面：" class="headerlink" title="界面："></a>界面：</h5><p>加入了右上水印</p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议："><a href="#Addon协议：" class="headerlink" title="Addon协议："></a>Addon协议：</h3><p>本协议专门针对个人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>加群费用仅0.5RMB<br>支付请加我QQ3324656453<br>支持QQ和微信支付</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p>该资源最新beta版为内测，购买请直接加我QQ3324656453支付0.5rmb即可进入付费群<br>（付费群拥有所有付费资源与历史作品和开发中的beta非公开版等）</p>
 ]]></content>
       <categories>
         <category>作品</category>
-        <category>BEic2</category>
+        <category>BEgc</category>
       </categories>
       <tags>
         <tag>作品</tag>
         <tag>更新</tag>
-        <tag>资源包</tag>
+        <tag>Add-Ons</tag>
       </tags>
   </entry>
   <entry>
-    <title>BEic2基岩版工业2扩展包投掷炸药</title>
-    <url>/2020/05/21/BEic2%E6%89%A9%E5%B1%95%E5%8C%85%E7%82%B8%E8%8D%AF/</url>
-    <content><![CDATA[<p>扩展包为beic2addons的扩展内容<br>扩展包为时不时更新，扩展包内容一般为优化或者附加更多内容等</p>
-<p>装载扩展包前请先装载BEic2Addons本体</p>
-<p>然后是装载顺序:<br>行为包装载顺序:最先加载此扩展包，再加载BEic2本体<br>资源包:随意</p>
-<p>装上包后，再打开实验玩法</p>
-<p>为了确保player.json不被其它包覆盖，于是用player做了一个简单的time组件<br>进入存档后会有提示信息(打开聊天栏查看),即代表已可以使用</p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:投掷炸药<br>英文名字:–<br>类型:Add-Ons<br>前置:BEic2Addon<br>最新版本:–<br>最新版本支持游戏版本:1.16.x，1.14.x<br>最后更新时间:2020-05-21<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>加入了投掷炸药<br>加入了投掷核弹</p>
-<p>合成配方:<br>线(蛛丝)<br>tnt<br> ＝投掷炸药</p>
-<p>线(蛛丝)<br>核弹<br> ＝投掷核弹</p>
-<p>投掷炸药威力与tnt一样,投掷核弹威力比核弹威力小一点</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/icu8m8f" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
+    <title>ULANG框架Addon</title>
+    <url>/2020/10/18/ULANG%E6%A1%86%E6%9E%B6/</url>
+    <content><![CDATA[<p>又开一个大坑<br>暂且名为ULANG框架Addon，基于Script Engine<br>与其它Addon不同，该框架为前置型Addon<br>宗旨是提供少许的更加快捷方便的SE接口与扩展接口以及大量的GUI(Experimental UI)布局制作等</p>
+<p>目前处于Alpha阶段(比beta更靠前，属于完全关闭测试的阶段)<br>ICEAGE与BEGC都有几率在以后使用上(内嵌型)</p>
+<p><img src="https://pic.downk.cc/item/5f8bed041cd1bbb86b5543ff.png" alt="ICON"></p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:ULANG框架(待定的)<br>英文名字:Ulang framework<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:Alpha<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:–<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议："><a href="#Addon协议：" class="headerlink" title="Addon协议："></a>Addon协议：</h3><p>本协议专门针对个人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>加群费用仅0.5RMB<br>支付请加我QQ3324656453<br>支持QQ和微信支付</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p>正处于Aplha关闭测试阶段，请耐心等待开放内测…</p>
 ]]></content>
       <categories>
         <category>作品</category>
-        <category>BEic2</category>
+        <category>ULANG</category>
+      </categories>
+      <tags>
+        <tag>作品</tag>
+        <tag>更新</tag>
+        <tag>Add-Ons</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>行为记录Addon</title>
+    <url>/2020/10/17/%E8%A1%8C%E4%B8%BA%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p>这是一个基于Script Engine的Addon</p>
+<h2 id="什么是Script-Engine？"><a href="#什么是Script-Engine？" class="headerlink" title="什么是Script Engine？"></a>什么是Script Engine？</h2><p>脚本引擎(Script Engine)简称为”SE”，Minecraft基岩版的脚本引擎系统为Addon附加包的一部分，由JavaScript语言为载体。 用于制作更多较为复杂的带有逻辑性的作品<br>不过遗憾的是，Minecraft基岩版的SE目前并未成熟，API接口不完整且仅对WIN10基岩版开放了使用权，所以本Addon仅支持WIN10基岩版。</p>
+<p>目前一共支持24种玩家行为监听与记录，总计40+种结果！<br>已支持事件：<br><img src="https://attachment.mcbbs.net/forum/202010/11/135719beh6nazqjn4691sa.png" alt=""></p>
+<p>部分日志将会在聊天栏内提示，所有事件日志均会保存至：<br>C:\Users\账号\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\logs</p>
+<p><img src="https://attachment.mcbbs.net/forum/202010/11/140330r2l2o2dvl2xhb2b2.jpg" alt=""><br><img src="https://attachment.mcbbs.net/forum/202010/11/140329unotw0azutuyybub.png" alt=""></p>
+<h2 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围:"></a>适用范围:</h2><p><strong>1.Addon开发者</strong><br>在制作开发时你可以使用本Addon对其进行调试与监测，就比如 minecraft:entity_definition_event 事件可以监听实体被添加JSON事件<br><img src="https://attachment.mcbbs.net/forum/202010/11/140330c383lhcb84zbyr81.jpg" alt=""></p>
+<p><strong>2.服务器</strong><br>*仅对BDS端或基于BDS端的第三方MOD端有效<br>对于原生的BDS服务端也可以支持！</p>
+<h2 id="导入使用"><a href="#导入使用" class="headerlink" title="导入使用"></a>导入使用</h2><p><strong>单机</strong><br>方法1.将压缩包后缀名更改为.mcaddon接着双击即可<br>方法2.解压，然后复制到：<br>C:\Users\账号\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\behavior_packs</p>
+<p><strong>服务器</strong><br>*仅对BDS端或基于BDS端的第三方MOD端有效<br>解压，复制到 服务端根目录\behavior_packs 文件夹 与 服务端根目录\worlds\地图名\behavior_packs 文件夹</p>
+<p><img src="https://i0.hdslb.com/bfs/album/409fd4d64ac09c024154deb1ecbd8cbbad739485.png" alt="ICON"></p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:行为记录<br>英文名字:Log record<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:–<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:2020-10-11<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>新增24种监听事件(23种服务端事件,1种客户端事件)<br>共计40+种结果</p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议："><a href="#Addon协议：" class="headerlink" title="Addon协议："></a>Addon协议：</h3><p>本协议专门针对个人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>加群费用仅0.5RMB<br>支付请加我QQ3324656453<br>支持QQ和微信支付</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzoui.com/iLtY0hc8btc" target="_blank" rel="noopener">&gt;点我&lt;</a></p>
+<h6 id="开源地址："><a href="#开源地址：" class="headerlink" title="开源地址："></a>开源地址：</h6><p><a href="https://gitee.com/BIYUEHU/Log_record" target="_blank" rel="noopener">Gitee</a><br><a href="https://github.com/BIYUEHU/Log_record" target="_blank" rel="noopener">Github</a></p>
+]]></content>
+      <categories>
+        <category>作品</category>
+      </categories>
+      <tags>
+        <tag>作品</tag>
+        <tag>更新</tag>
+        <tag>Add-Ons</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ICE AGE冰河世纪</title>
+    <url>/2020/10/01/ICE%20AGE%E5%86%B0%E6%B2%B3%E4%B8%96%E7%BA%AA/</url>
+    <content><![CDATA[<p><strong><font color="FF0000">本贴会记录国际版ICE AGE以及中国版ICE AGE</font></strong></p>
+<p>相信一定有许多热爱冰雪世界的北方朋友,也有和我一样向往北国风光的南方朋友吧!<br>这个Addon就可以让你满足!(没错,是Addon,并非是改改贴图的材质包)您不仅可以在MINECRAFT里观看美丽的雪景,欣赏更多的壮观的景象，也可以在这美丽的冰雪世界里探索与生存</p>
+<p>此为继BEIC2(基岩版工业2)发布之后的又一个新的大坑，其制作难度了也比BEIC2难得多(因为本add的几乎所有内容与想法都是原创)<br>本Addon附加包属于修改原版几乎所有的生物群系,所以本Addon不建议加到您的旧地图里面,因为它会重新加载所有区块(仅国际版ICE AGE)！<br>原本是将这个做成新的维度的，但就以现在的MCBE国际版的附加包API…你们都懂</p>
+<p><strong>关于中国版 ICE AGE：</strong><br>因特性略有不同以及中国版MODAPI丰富的问题存在十分大的差距，有好也有坏</p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:冰河世纪<br>英文名字:ICE AGE<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:正式:V1.0.0  测试:0913pre1<br>最新版本支持游戏版本:中国版1.18<br>最后更新时间:2020-10-01</p>
+<p>ICEAGE官网：<a href="https://biyuehu.github.io/iceage.github.io" target="_blank" rel="noopener">https://biyuehu.github.io/iceage.github.io</a></p>
+<p><img src="https://pic.downk.cc/item/5f6a109c160a154a676450c8.png" alt="新ICON"><br><img src="https://pic.downk.cc/item/5f14734214195aa594eb295a.png" alt="ICE AGE"></p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="正式版1-0-0"><a href="#正式版1-0-0" class="headerlink" title="正式版1.0.0:"></a>正式版1.0.0:</h3><p>修复了几个bug<br>做了细节更改</p>
+<h3 id="beta0913pre1"><a href="#beta0913pre1" class="headerlink" title="beta0913pre1:"></a>beta0913pre1:</h3><p>方块:加入了冰川幸运方块及合成<br>ABA<br>BCB<br>ABA<br>A为发射器，B为冰川泥土，C为金块</p>
+<p>其它:更改了行为包与资源包的pack_icon</p>
+<h3 id="beta0906pre1"><a href="#beta0906pre1" class="headerlink" title="beta0906pre1:"></a>beta0906pre1:</h3><p>物品:<br>实装了介绍书，长按使用<br>合成:<br>AB<br>A为书，B为冰</p>
+<p>实装了冰魔战利品头颅，长按使用</p>
+<p>UI界面:<br>在设置界面新增了更新日志UI<br><img src="https://pic.downk.cc/item/5f6a1063160a154a676431b0.jpg" alt="UI"></p>
+<h3 id="beta0813pre1"><a href="#beta0813pre1" class="headerlink" title="beta0813pre1:"></a>beta0813pre1:</h3><p>移植了部分网易版1.0的内容：<br>加入了介绍书<br>加入了冰魔战利品头颅<br>（以上均未实装）<br>加入了冰魔BOSS<br>加入了冰魔傀儡<br>加入了暴风雪天气<br>更改了部分方块与生物贴图</p>
+<h3 id="beta0726pre1"><a href="#beta0726pre1" class="headerlink" title="beta0726pre1:"></a>beta0726pre1:</h3><p>改了一些物品的材质，改了冰川僵尸的行走速度与贴图</p>
+<h3 id="beta0725pre1"><a href="#beta0725pre1" class="headerlink" title="beta0725pre1:"></a>beta0725pre1:</h3><p>加入了冰川居民，用于交易，黄宝石,粉锭,紫水晶来源。</p>
+<h3 id="中国版1-0-0："><a href="#中国版1-0-0：" class="headerlink" title="中国版1.0.0："></a>中国版1.0.0：</h3><h4 id="新增"><a href="#新增" class="headerlink" title="新增"></a>新增</h4><h5 id="维度与生物群系与结构"><a href="#维度与生物群系与结构" class="headerlink" title="维度与生物群系与结构"></a>维度与生物群系与结构</h5><p>新增船新<strong>冰河世纪</strong>冒险维度，不再是国际版的那种更改主世界地形<br>你需要使用冰川坚冰块搭成地狱门样子然后对下方两个方块手持坚冰打火石点击即可搭建传送门</p>
+<p>新增冰川冻洋生物群系<br>只会生成与冰河世纪维度</p>
+<p>新增冰川树<br>只会生成与冰河世纪维度</p>
+<p>新增浆果丛<br>只会生成与冰河世纪维度</p>
+<p>新增冰川煤矿/冰川水晶矿/红宝石矿的自然生成<br>会生成于冰河世纪维度</p>
+<p>新增冰川坚冰矿的自然生成<br>会生成于冰河世纪维度和主世界</p>
+<h5 id="物品"><a href="#物品" class="headerlink" title="物品"></a>物品</h5><p>新增坚冰打火石<br>用于搭建冰川世界传送门<br>合成：<br>1个坚冰+1个铁锭</p>
+<p>新增冰川数树苗<br>破坏冰川树树叶有几率获得<br>可种植在冰川草方块与冰川泥土上</p>
+<p>新增浆果<br>可种植在冰川草方块与冰川泥土上<br>成熟的浆果会掉落2~4个浆果<br>未成熟的浆果不会掉落<br>使用后可恢复2格饱食度</p>
+<p>新增冰川木镐<br>等级为石头<br>合成：<br>ABA<br>BCB<br>ACA<br>B为冰川木棍，C为冰川木板</p>
+<p>新增冰川坚冰镐<br>等级为钻石<br>合成：<br>ABA<br>BCB<br>ACA<br>同上</p>
+<p>新增冰川水晶镐<br>等级为黑曜石<br>合成：<br>ABA<br>BCB<br>ACA<br>同上</p>
+<p>新增冰川木斧<br>合成：<br>BBA<br>BCA<br>ACA<br>B为冰川木棍，C为冰川木板</p>
+<p>新增冰川坚冰斧<br>合成：<br>BBA<br>BCA<br>ACA<br>同上</p>
+<p>新增冰川水晶斧<br>合成：<br>BBA<br>BCA<br>ACA<br>同上</p>
+<p>新增冰川木铲<br>合成：<br>ABA<br>ACA<br>ACA<br>B为冰川木棍，C为冰川木板</p>
+<p>新增冰川坚冰铲<br>合成：<br>ABA<br>ACA<br>ACA<br>同上</p>
+<p>新增冰川水晶铲<br>合成：<br>ABA<br>ACA<br>ACA<br>同上</p>
+<p>新增冰川水晶头盔<br>10点防御力<br>合成：<br>BBB<br>BAB<br>A为空，B为冰川水晶</p>
+<p>新增冰川水晶胸甲<br>10点防御力<br>合成：<br>BAB<br>BBB<br>BBB<br>A为空，B为冰川水晶</p>
+<p>新增冰川水晶护腿<br>10点防御力<br>合成：<br>BBB<br>BAB<br>BAB<br>A为空，B为冰川水晶</p>
+<p>新增冰川水晶靴子<br>10点防御力<br>合成：<br>BAB<br>BAB<br>A为空，B为冰川水晶</p>
+<p>新增冰魔战利品<br>该为击杀冰魔后获得的<br>长按屏幕即可穿戴</p>
+<p>新增介绍书<br>点地即可使用<br>合成：<br>书+冰</p>
+<h5 id="方块"><a href="#方块" class="headerlink" title="方块"></a>方块</h5><p>新增冰川世界传送门</p>
+<p>新增主世界传送门</p>
+<p>新增冰川火把（真）<br>合成：<br>冰川煤矿+火把</p>
+<h5 id="实体"><a href="#实体" class="headerlink" title="实体"></a>实体</h5><p>新增冰川居民<br>可以交易冰川坚冰/冰川水晶/红宝石/粉锭/黄宝石<br>会生成在冰河世纪维度</p>
+<p>新增冰魔傀儡<br>血量小于铁傀儡<br>攻击力大于铁傀儡<br>只会由冰魔生成</p>
+<p>新增冰魔<br>此为BOSS级生物，BOSS等级：二级（数字越小难度越小）<br>生成后会有暴风雪粒子效果持续10秒，会无敌120秒（两分钟）<br>使用忖民之怒远程投掷攻击</p>
+<p>新增忖民之怒<br>该为抛射物，被击中实体会受到12伤害，半径4格内所有实体会受到5秒1级的瞬间伤害</p>
+<h5 id="UI界面"><a href="#UI界面" class="headerlink" title="UI界面"></a>UI界面</h5><p>新增主界面左下角的介绍UI</p>
+<p>新增物品栏内的冰河世纪物品分页</p>
+<h4 id="更改"><a href="#更改" class="headerlink" title="更改"></a>更改</h4><p>更改了冰川水晶块贴图</p>
+<p>更改了冰川坚冰块贴图</p>
+<p>更改冰川木剑/石剑/坚冰剑/水晶剑/紫水晶战锤的伤害来源<br>不再是player模拟，而是用网易MOD SDK的提供武器伤害接口</p>
+<p>更改了冰封瓦解之镐的挖掘属性来源<br>使用网易MOD SDK提供的挖掘属性接口<br>等级为可挖掘一切方块<br>挖掘速度为钻石镐的五倍</p>
+<h4 id="移除"><a href="#移除" class="headerlink" title="移除"></a>移除</h4><p>移除了冰霜炸弹</p>
+<h4 id="修复"><a href="#修复" class="headerlink" title="修复"></a>修复</h4><p>修复了老虎的动画Bug</p>
+<h3 id="国际版V0-8-1"><a href="#国际版V0-8-1" class="headerlink" title="国际版V0.8.1:"></a>国际版V0.8.1:</h3><p>生成结构:<br>目前一共新增6个船新的生物群系:<br>冰川平原</p>
+<p>冰川山丘<br>冰川峭壁<br>冰山<br>冰湖<br>冰河<br>建筑物:<br>冰川柱子:会在冰川平原与冰胡上进行随机生成</p>
+<p>问:与原版的冰雪生物群系有何不同?<br>答:本add里的生物群系会更加的丰富也比原版的壮观(还会有更壮观的)</p>
+<p>方块与物品:<br>自然类:<br>冰川草块:<br>可在工作台里分解为6<em>雪球<br>冰川泥土<br>冰川沙子<br>冰川石头:挖掘时会掉落冰川圆石,除非用精准采集<br>冰川原木:<br>可在工作台里分解为4</em>冰川木板<br>冰川木板:<br>可以像普通木板一样合成工作台<br>冰川树叶<br>冰川基岩:作用一致<br>建筑类:<br>冰川圆石<br>冰川石砖:<br>AAA<br>AAA=冰川石砖<br>AAA<br>A为冰川圆石<br>冰川砖块:<br>AA<br>AA=冰川砖块<br>A为冰川圆石<br>冰川楼梯/半砖/墙:<br>在切石机里合成<br>矿物类:<br>冰川煤矿:<br>挖掘后会直接随机掉落1~3个冰川煤</p>
+<p>冰川煤:<br>无法直接做火把</p>
+<p>AA<br>AA=煤<br>A为冰川煤</p>
+<p>坚冰矿:<br>在熔炉或高炉里可烧制成坚冰</p>
+<p>坚冰:<br>1<em>坚冰块=9</em>坚冰</p>
+<p>坚冰块:<br>AAA<br>AAA=坚冰块<br>AAA<br>A为坚冰</p>
+<p>坚冰棍:<br>A<br>A=4*坚冰棍<br>A为坚冰</p>
+<p>水晶矿:<br>同上</p>
+<p>水晶:<br>同上</p>
+<p>水晶块:<br>同上</p>
+<p>水晶棍:<br>同上</p>
+<p>红宝石矿:<br>同上</p>
+<p>红宝石:<br>同上</p>
+<p>红宝石块:<br>同上</p>
+<p>黄宝石<br>紫水晶<br>粉锭</p>
+<p>武器类:<br>冰川木剑:<br>4伤害<br>A<br>A=冰川木剑<br>B<br>A为冰川木板,B为冰川木棍</p>
+<p>冰川石剑:<br>7伤害<br>合成方式同上</p>
+<p>冰川坚冰剑:<br>10伤害<br>同上</p>
+<p>冰川水晶剑:<br>14伤害<br>同上</p>
+<p>神器类:<br>矢量盾:<br>绝对防御物理伤害与魔法伤害,但不防御指令与虚空<br>手持即可使用，会有缓慢5的副作用<br>AAA<br>AAA=矢量盾<br>BAB<br>A为粉锭,B为空气</p>
+<p>紫水晶战锤:<br>22的伤害,但也会有缓慢2的副作用<br>AAA<br>AAA=紫水晶战锤<br>BCB<br>A为紫水晶,B为空气,C为冰川水晶棍</p>
+<p>冰封瓦解之镐:<br>手持潜行会破坏周围15 -15 15的地方<br>每使用一次就会损坏<br>AAA<br>BCB=损坏的冰封瓦解之镐<br>BCB<br>A为黄宝石,B为空气,C为冰川水晶棍<br>黄宝石+损坏的冰封瓦解之镐(无序合成)=冰封瓦解之镐</p>
+<p>红宝石权杖:<br>长按屏幕(WIN10为右键)即可连续发射(无冷却)红宝石块进行攻击<br>A<br>B=红宝石权杖<br>B<br>A为红宝石块,B为冰川水晶棍</p>
+<p>冰封审判之弓:<br>长按屏幕即可蓄力发射冰封审判箭进行攻击,会有较短冷却时间<br>BAC<br>ABC=冰封审判之弓<br>BAC<br>B为空气,A为冰川水晶,C为冰川水晶棍</p>
+<p>其它:<br>转物质燃料:<br>用于将部分物品转换为原版物品<br>ABA<br>BBB=9*转物质燃料<br>ABA<br>A为泥土,B为冰川泥土<br>问:怎么获得泥土?<br>答:在一些原版生成的建筑中会有泥土(原版建筑物未阉割)如村庄</p>
+<p>冰川火把:<br>在水下里依然可以放置<br>A<br>B=冰川火把<br>A为冰川煤<br>B为火把</p>
+<p>冰霜炸弹:<br>使水面结冰<br>A<br>B=冰霜炸弹<br>A为坚冰,B为雪球</p>
+<p>生物实体类:<br>被动生物:<br>松鼠:<br>击杀后有几率掉落榛子,榛子吃后会恢复3格饱食度,食物来源之一</p>
+<p>企鹅</p>
+<p>中立生物:<br>老虎:<br>(五毛模型，下次一定改)<br>击杀后会掉落老虎肉,恢复7格饱食度,食物来源之一</p>
+<p>敌对类:<br>冰川骷髅:<br>白天不会着火,理解成强化骷髅即可</p>
+<p>冰川僵尸:<br>同上</p>
+<p>口渴值与温度系统:<br>温度分为上线(热)与下线(冷)<br>注意保暖哟~<br>口渴值在水里即可补充[图2]<br>过度热/冷或缺水时会有不同程度的debuff,最终死亡</p>
+<h3 id="beta0716pre1"><a href="#beta0716pre1" class="headerlink" title="beta0716pre1:"></a>beta0716pre1:</h3><p>加入审批冰封弓与红宝石权杖,及合成配方<br>加入新生物松鼠</p>
+<h3 id="beta0714pre1"><a href="#beta0714pre1" class="headerlink" title="beta0714pre1:"></a>beta0714pre1:</h3><p>生物蛋贴图已添加<br>加入冰封崩溃之镐,潜行即可破坏周围15 -15 15的所有地方<br>每使用一次就会损坏,需要与黄宝石再合成一次</p>
+<p>加入了黄宝石,紫水晶,粉锭,均用于合成武器</p>
+<h3 id="beta0712pre1"><a href="#beta0712pre1" class="headerlink" title="beta0712pre1:"></a>beta0712pre1:</h3><p>重画矢量盾模型与贴图<br>重画冰川砖块贴图<br>重画水晶块贴图</p>
+<p>加入紫水晶战锤(22伤害,缓慢2级)<br>冰川僵尸/骷髅已加入动画与贴图</p>
+<p>熔炉与高炉:<br>坚冰/水晶/红宝石矿=坚冰/水晶/红宝石</p>
+<p>beta0710pre1:<br>加入了冰川冰砖和冰川砖块(贴图待重画)以及冰川砖块对应的楼梯,半砖,墙<br>加入了一个盾牌?属于一种神器,名字待定<br>与普通盾不同,拿在手上可以绝对防御所有物理伤害与魔法伤害(指令与虚空除外)<br>依然是半成品中的半成品,名字待定,贴图与第一人称视角的3D均要重搞</p>
+<h3 id="beta0708pre1"><a href="#beta0708pre1" class="headerlink" title="beta0708pre1:"></a>beta0708pre1:</h3><p>加入了方块<br>红宝石矿(比水晶矿更稀有)<br>红宝石块<br>水晶块(贴图待重画)<br>坚冰块</p>
+<p>加入了物品<br>反物质燃料(用于将冰川世界物品转换为主世界的物品)<br>红宝石<br>冰川炸弹(可以让水结冰)<br>冰川火把(亮度稍弱,但可以在水中放置)</p>
+<p>加入了一堆工作台合成配方<br>9红宝石=1红宝石块<br>1红宝石块=9红宝石<br>9坚冰=1坚冰块<br>1坚冰块=1坚冰<br>9水晶=1水晶块<br>1水晶块=9水晶</p>
+<p>A<br>A<br>A =4*冰川木棍/冰川圆石棍/坚冰棍/水晶棍<br>A为冰川木板/冰川圆石/坚冰/水晶 </p>
+<p>A<br>A<br>B = 冰川木/冰川圆石/坚冰/水晶剑<br>A 为冰川木板/冰川圆石/坚冰/水晶<br>B为冰川木棍/冰川圆石棍/坚冰棍/水晶棍</p>
+<p>1冰川原木=4*冰川木板</p>
+<p>AA<br>AA=工作台<br>A为冰川木板</p>
+<p>AAA<br>ABA<br>AAA=熔炉<br>A为冰川圆石<br>B为空气</p>
+<p>1冰川草快=6雪球</p>
+<p>冰川煤矿每次挖掘会随机掉落0~4个冰川煤<br>4冰川煤=1煤</p>
+<p>A<br>B=冰霜炸弹<br>A为坚冰<br>B为雪球</p>
+<p>A<br>B=冰川火把<br>A为冰川煤<br>B为火把</p>
+<p>ABA<br>BBB<br>ABA=反物质燃料<br>A为泥土<br>B为冰川泥土</p>
+<h3 id="beta0705pre3"><a href="#beta0705pre3" class="headerlink" title="beta0705pre3:"></a>beta0705pre3:</h3><p>加入了老虎的模型与贴图,加入了企鹅的模型与贴图<br>加入了四把武器的伤害<br>伤害分别为:冰川木剑4点,冰川石剑7点,坚冰剑10点,水晶剑14点<br>光照系统已适配安卓,IOS,WIN10等平台</p>
+<h3 id="beta0705pre2"><a href="#beta0705pre2" class="headerlink" title="beta0705pre2:"></a>beta0705pre2:</h3><p>加入了总计四个新生物,1个被动生物,2个敌对生物,1个中立生物<br>模型和贴图正在搞</p>
+<h3 id="beta0702pre1"><a href="#beta0702pre1" class="headerlink" title="beta0702pre1:"></a>beta0702pre1:</h3><p>核心构建完成,加入了基础物品方块,更改了所有群系,加入了船新Shader光照与天空贴图</p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议："><a href="#Addon协议：" class="headerlink" title="Addon协议："></a>Addon协议：</h3><p>本协议专门针对个人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>加群费用仅0.5RMB<br>支付请加我QQ3324656453<br>支持QQ和微信支付</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><strong>*beta版不公开发布</strong><br><a href="https://biyuehudada.lanzoui.com/iC6Zjh5pesj" target="_blank" rel="noopener">&gt;正式版V1.0.0&lt;</a><br><a href="https://biyuehudada.lanzous.com/iaVKqeoqeyh" target="_blank" rel="noopener">&gt;预览版V0.8.1&lt;</a></p>
+]]></content>
+      <categories>
+        <category>作品</category>
+        <category>冰河世纪</category>
+      </categories>
+      <tags>
+        <tag>作品</tag>
+        <tag>更新</tag>
+        <tag>Add-Ons</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中秋节Addon</title>
+    <url>/2020/10/01/%E4%B8%AD%E7%A7%8B%E8%8A%82/</url>
+    <content><![CDATA[<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:中秋节Addon<br>英文名字:-<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:-<br>最新版本支持游戏版本:1.16.x，1.14.x<br>最后更新时间:2020-10-01<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>加入了冰糖月饼<br>加入了蛋黄月饼<br>加入了豆沙月饼<br>加入了五仁月饼</p>
+<p>加入了月饼商人，用于交易月饼</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzoui.com/i1ntHh2ltqf" target="_blank" rel="noopener">https://biyuehudada.lanzoui.com/i1ntHh2ltqf</a></p>
+]]></content>
+      <categories>
+        <category>作品</category>
+        <category>节日系列Add</category>
       </categories>
       <tags>
         <tag>作品</tag>
@@ -131,6 +365,60 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
       <categories>
         <category>作品</category>
         <category>BEic2</category>
+      </categories>
+      <tags>
+        <tag>作品</tag>
+        <tag>更新</tag>
+        <tag>Add-Ons</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Minecraft Dungeons武器Addon</title>
+    <url>/2020/08/15/%E5%9C%B0%E4%B8%8B%E5%9F%8E%E6%AD%A6%E5%99%A8Addon/</url>
+    <content><![CDATA[<p>本Addon一共新增了五把Minecraft Dungeons（MINECRAFT地下城）里的武器。<br>仅为瞎搞一小时不到做的Addon。</p>
+<p>一切贴图与武器名字均来源于<strong>Minecraft Dungeons</strong></p>
+<p>介绍视频：<a href="">点我观看b站介绍视频</a></p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:MINECRAFT地下城武器Addon<br>英文名字:—<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:—<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:2020-08-15<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h4 id="新增物品"><a href="#新增物品" class="headerlink" title="新增物品"></a>新增物品</h4><p><strong>斧子：</strong><br>拥有19攻击伤害<br><img src="https://pic.downk.cc/item/5f37a20914195aa594f98b56.png" alt="斧子"></p>
+<p><strong>大剑：</strong><br>拥有22攻击伤害<br>带附魔效果<br><img src="https://pic.downk.cc/item/5f37a20914195aa594f98b5a.png" alt="大剑"></p>
+<p><strong>弯刀：</strong><br>拥有34攻击伤害与3速度<br><img src="https://pic.downk.cc/item/5f37a20914195aa594f98b5e.png" alt="弯刀"></p>
+<p><strong>链锤：</strong><br>拥有42攻击伤害<br><img src="https://pic.downk.cc/item/5f37a20914195aa594f98b62.png" alt="链锤"></p>
+<p><strong>大锤：</strong><br>拥有60攻击伤害与1幸运<br>带附魔效果以及3D模型效果（第三人称视角）<br><img src="https://pic.downk.cc/item/5f37a20914195aa594f98b66.png" alt="大锤"></p>
+<p><strong>介绍书：</strong><br>潜行即可一键获得所有武器</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/inXqRfnhi4h" target="_blank" rel="noopener">戳我</a></p>
+]]></content>
+      <categories>
+        <category>作品</category>
+      </categories>
+      <tags>
+        <tag>作品</tag>
+        <tag>更新</tag>
+        <tag>Add-Ons</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BEtic基岩版匠魂Add</title>
+    <url>/2020/07/30/BEtic/</url>
+    <content><![CDATA[<p>类似于BEic2，也是移植Addon<br>本Addon仅打算更新一个版本（即此版本）</p>
+<p><img src="https://pic.downk.cc/item/5f22683e14195aa59403e09a.png" alt="BEtic"></p>
+<p>介绍视频：<a href="https://www.bilibili.com/video/BV1U54y1S7NV" target="_blank" rel="noopener">点我观看b站介绍视频</a></p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版匠魂<br>英文名字:BEtic<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:—<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:2020-07-30<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h4 id="新增物品"><a href="#新增物品" class="headerlink" title="新增物品"></a>新增物品</h4><p>一共加入了五种模板:<br>手柄模具<br>护手模具<br>宽护手模具<br>宽剑刃模具<br>剑刃模具</p>
+<p>一共加入了12种武器，分为三大类：大剑,长剑,西洋剑<br>每类一共有四种不同等级（即四种不同材料制作）<br>分别由仙人掌,骨头,黑曜石,地狱岩制作，四种材料制作出的武器基础伤害分别为6,8,11,15。<br>大剑：<br>A<br>A=大剑<br>B<br>A为对应材料,B为木棍<br>大剑拥有该材料制作的武器的基础伤害+抗性提升<br>长剑：<br>A<br>A=长剑<br>B<br>A为对应材料,B为相同材料的大剑<br>长剑拥有基础伤害+速度提升<br>西洋剑：<br>A<br>A=西洋剑<br>B<br>A为对应材料,B为相同材料的长剑<br>西洋剑拥有基础伤害+2伤害</p>
+<p>加入了钴锭</p>
+<p>加入了BEticAddon介绍书,潜行使用<br>合成配方：<br>AB<br>A为书,B为木板</p>
+<p>加入了匠魂粘液球</p>
+<p>加入了史莱姆水晶</p>
+<p>加入了焦黑石砖</p>
+<h4 id="新增方块"><a href="#新增方块" class="headerlink" title="新增方块:"></a>新增方块:</h4><p>加入了焦黑石砖块<br>合成配方：<br>AA<br>AA<br>A为焦黑石砖,焦黑石砖块也可再次分为4*焦黑石砖</p>
+<p>加入了冶炼炉（装饰品）<br><img src="https://pic.downk.cc/item/5f22688f14195aa5940408af.png" alt="炉子"></p>
+<p>加入了匠魂史莱姆空岛草方块</p>
+<h4 id="新增实体"><a href="#新增实体" class="headerlink" title="新增实体"></a>新增实体</h4><p>加入了匠魂史莱姆<br>击杀后会掉落匠魂粘液球</p>
+<h4 id="新增结构"><a href="#新增结构" class="headerlink" title="新增结构"></a>新增结构</h4><p>加入了匠魂史莱姆空岛<br>会在主世界随机生成，空岛上的箱子有几率获得史莱姆水晶于匠魂史莱姆粘液球。<br><img src="https://pic.downk.cc/item/5f2269a314195aa59404ad61.png" alt="匠魂史莱姆空岛"></p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/i4GR1f4nc9i" target="_blank" rel="noopener">戳我</a></p>
+]]></content>
+      <categories>
+        <category>作品</category>
       </categories>
       <tags>
         <tag>作品</tag>
@@ -393,76 +681,6 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
       </tags>
   </entry>
   <entry>
-    <title>BEic2基岩版工业2翻译补丁包</title>
-    <url>/2020/05/12/BEic2%E7%BF%BB%E8%AF%91%E8%A1%A5%E4%B8%81%E5%8C%85/</url>
-    <content><![CDATA[<p>优化了en_US,en_UK,zh_TW的翻译</p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版工业2翻译补丁包<br>英文名字:–<br>类型:资源包<br>前置:BEic2Addon<br>最新版本:V0.2.0(不再更新)<br>最新版本支持游戏版本:1.16.x，1.14.x<br>最新版本支持BEic2版本:BEic2V0.2.0，BEic2扩展包_投掷炸药<br>最后更新时间:2020-05-12<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="V0-2-0"><a href="#V0-2-0" class="headerlink" title="V0.2.0:"></a>V0.2.0:</h3><p>适配了BEic2扩展包_炸药</p>
-<h3 id="V0-1-0"><a href="#V0-1-0" class="headerlink" title="V0.1.0"></a>V0.1.0</h3><p>适配了BEic2V0.2.0</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/b01bf4r7g" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
-]]></content>
-      <categories>
-        <category>作品</category>
-        <category>BEic2</category>
-      </categories>
-      <tags>
-        <tag>作品</tag>
-        <tag>更新</tag>
-        <tag>资源包</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【置顶】Bug反馈与问题咨询专用贴</title>
-    <url>/2334/11/22/Bug%E5%8F%8D%E9%A6%88%E4%B8%8E%E9%97%AE%E9%A2%98%E5%92%A8%E8%AF%A2/</url>
-    <content><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>本贴用于资源Bug反馈与问题咨询专用贴<br>反馈与提问在该贴下面回复即可</p>
-<p><strong>请务必遵守下面的回帖格式：</strong></p>
-<h2 id="Bug反馈"><a href="#Bug反馈" class="headerlink" title="Bug反馈"></a>Bug反馈</h2><p>资源Bug反馈仅限于发布到该博客的资源，对于Beta测试版不算在内<br><strong>回帖格式：</strong><br>带*星号的为必填，回帖时去掉星号<br>带#井号后面的文字为说明</p>
-<p>*资源名称： #目前仅支持ICE AGE冰河世纪以及BEic2基岩版工业2 两个资源的反馈<br>*资源版本： #必须为<strong>最新正式版</strong>而不是beta测试版和旧版本，如果是中国版下载的，请直接填写“中国版”两字<br>*游戏版本： #必须为<strong>最新正式版</strong>而不是beta测试版和旧版本，如果是中国版下载的，请直接填写“中国版”两字<br>*设备系统:  #请填写 安卓/IOS/WIN10，可多选<br>*问题描述:  #越详细越好<br>  更改意见:  #可选填<br>  联系方式:  #可选填，可以是QQ或者邮箱，可多选</p>
-<h3 id="Bug反馈例子："><a href="#Bug反馈例子：" class="headerlink" title="Bug反馈例子："></a>Bug反馈例子：</h3><p>资源名称：BEic2基岩版工业2<br>资源版本: V0.4.0<br>游戏版本：1.16.2<br>设备系统：安卓<br>问题描述：青金石粉在高炉烧制出来的是墨囊而不是青金石<br>更改意见：修复该Bug<br>联系方式：<a href="mailto:12345ssdlh@xx.com">12345ssdlh@xx.com</a>   </p>
-<h3 id="Bug反馈注意事项"><a href="#Bug反馈注意事项" class="headerlink" title="Bug反馈注意事项:"></a>Bug反馈注意事项:</h3><p>请确保你已认真查看过更新日志是否修复您提的bug<br>请确保你使用的资源版本非beta测试版非旧版本<br>请确保你使用的游戏版本非beta测试版非旧版本<br>请确保之前没有人提过与你同样的问题（节约时间~）<br>请确保你的格式正确<br>请注意您的言行已遵守博客规矩，不带强制性/辱骂性</p>
-<h2 id="问题咨询"><a href="#问题咨询" class="headerlink" title="问题咨询"></a>问题咨询</h2><p>该项无需特定格式，直接回帖即可<br>你可以提问也可提出宝贵意见，但必须为以下<strong>范围</strong>：<br>个人博客相关问题和意见<br>Addon发布相关意见<br>Addon制作技术问题<br>PS：该贴也允许提Addon制作上的技术问题，但建议去<a href="/2020/07/21/ADD教程/">Add教程</a>贴提<br>加群和赞助相关问题</p>
-<h2 id="问题咨询注意事项："><a href="#问题咨询注意事项：" class="headerlink" title="问题咨询注意事项："></a>问题咨询注意事项：</h2><p>请确保您的问题不是导入相关问题<br>请确保您的问题不是解压密码相关问题<br>请确保您的问题不是低级问题或萌新级问题或智障型问题或可笑至极的问题<br>请确保之前没有人提过与你同样的问题（节约时间~）<br>请注意您的言行已遵守博客规矩，不带强制性/辱骂性</p>
-<h2 id="写在后头"><a href="#写在后头" class="headerlink" title="写在后头"></a>写在后头</h2><p>除了反馈和提问，本贴也可以闲聊的~<br>只要不涉及注意事项即可</p>
-<p>对于格式错误或涉及注意事项的反馈/问题将不作采纳/回复<br>我有时间也会时不时回复你们的反馈/意见/问题</p>
-]]></content>
-      <categories>
-        <category>资讯</category>
-      </categories>
-      <tags>
-        <tag>资讯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>BEtic基岩版匠魂Add</title>
-    <url>/2020/07/30/BEtic/</url>
-    <content><![CDATA[<p>类似于BEic2，也是移植Addon<br>本Addon仅打算更新一个版本（即此版本）</p>
-<p><img src="https://pic.downk.cc/item/5f22683e14195aa59403e09a.png" alt="BEtic"></p>
-<p>介绍视频：<a href="https://www.bilibili.com/video/BV1U54y1S7NV" target="_blank" rel="noopener">点我观看b站介绍视频</a></p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版匠魂<br>英文名字:BEtic<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:—<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:2020-07-30<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h4 id="新增物品"><a href="#新增物品" class="headerlink" title="新增物品"></a>新增物品</h4><p>一共加入了五种模板:<br>手柄模具<br>护手模具<br>宽护手模具<br>宽剑刃模具<br>剑刃模具</p>
-<p>一共加入了12种武器，分为三大类：大剑,长剑,西洋剑<br>每类一共有四种不同等级（即四种不同材料制作）<br>分别由仙人掌,骨头,黑曜石,地狱岩制作，四种材料制作出的武器基础伤害分别为6,8,11,15。<br>大剑：<br>A<br>A=大剑<br>B<br>A为对应材料,B为木棍<br>大剑拥有该材料制作的武器的基础伤害+抗性提升<br>长剑：<br>A<br>A=长剑<br>B<br>A为对应材料,B为相同材料的大剑<br>长剑拥有基础伤害+速度提升<br>西洋剑：<br>A<br>A=西洋剑<br>B<br>A为对应材料,B为相同材料的长剑<br>西洋剑拥有基础伤害+2伤害</p>
-<p>加入了钴锭</p>
-<p>加入了BEticAddon介绍书,潜行使用<br>合成配方：<br>AB<br>A为书,B为木板</p>
-<p>加入了匠魂粘液球</p>
-<p>加入了史莱姆水晶</p>
-<p>加入了焦黑石砖</p>
-<h4 id="新增方块"><a href="#新增方块" class="headerlink" title="新增方块:"></a>新增方块:</h4><p>加入了焦黑石砖块<br>合成配方：<br>AA<br>AA<br>A为焦黑石砖,焦黑石砖块也可再次分为4*焦黑石砖</p>
-<p>加入了冶炼炉（装饰品）<br><img src="https://pic.downk.cc/item/5f22688f14195aa5940408af.png" alt="炉子"></p>
-<p>加入了匠魂史莱姆空岛草方块</p>
-<h4 id="新增实体"><a href="#新增实体" class="headerlink" title="新增实体"></a>新增实体</h4><p>加入了匠魂史莱姆<br>击杀后会掉落匠魂粘液球</p>
-<h4 id="新增结构"><a href="#新增结构" class="headerlink" title="新增结构"></a>新增结构</h4><p>加入了匠魂史莱姆空岛<br>会在主世界随机生成，空岛上的箱子有几率获得史莱姆水晶于匠魂史莱姆粘液球。<br><img src="https://pic.downk.cc/item/5f2269a314195aa59404ad61.png" alt="匠魂史莱姆空岛"></p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/i4GR1f4nc9i" target="_blank" rel="noopener">戳我</a></p>
-]]></content>
-      <categories>
-        <category>作品</category>
-      </categories>
-      <tags>
-        <tag>作品</tag>
-        <tag>更新</tag>
-        <tag>Add-Ons</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>作品WIKI</title>
     <url>/2020/07/19/%E4%BD%9C%E5%93%81wiki/</url>
     <content><![CDATA[<p>支持人数多了，自然也就有了，否则也是白干一场。<br>                                 ——周树人                                                </p>
@@ -475,220 +693,16 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
       </tags>
   </entry>
   <entry>
-    <title>ICE AGE冰河世纪</title>
-    <url>/2020/10/01/ICE%20AGE%E5%86%B0%E6%B2%B3%E4%B8%96%E7%BA%AA/</url>
-    <content><![CDATA[<p><strong><font color="FF0000">本贴会记录国际版ICE AGE以及中国版ICE AGE</font></strong></p>
-<p>相信一定有许多热爱冰雪世界的北方朋友,也有和我一样向往北国风光的南方朋友吧!<br>这个Addon就可以让你满足!(没错,是Addon,并非是改改贴图的材质包)您不仅可以在MINECRAFT里观看美丽的雪景,欣赏更多的壮观的景象，也可以在这美丽的冰雪世界里探索与生存</p>
-<p>此为继BEIC2(基岩版工业2)发布之后的又一个新的大坑，其制作难度了也比BEIC2难得多(因为本add的几乎所有内容与想法都是原创)<br>本Addon附加包属于修改原版几乎所有的生物群系,所以本Addon不建议加到您的旧地图里面,因为它会重新加载所有区块(仅国际版ICE AGE)！<br>原本是将这个做成新的维度的，但就以现在的MCBE国际版的附加包API…你们都懂</p>
-<p><strong>关于中国版 ICE AGE：</strong><br>因特性略有不同以及中国版MODAPI丰富的问题存在十分大的差距，有好也有坏</p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:冰河世纪<br>英文名字:ICE AGE<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:正式:V1.0.0  测试:0913pre1<br>最新版本支持游戏版本:中国版1.18<br>最后更新时间:2020-10-01</p>
-<p>ICEAGE官网：<a href="https://biyuehu.github.io/iceage.github.io" target="_blank" rel="noopener">https://biyuehu.github.io/iceage.github.io</a></p>
-<p><img src="https://pic.downk.cc/item/5f6a109c160a154a676450c8.png" alt="新ICON"><br><img src="https://pic.downk.cc/item/5f14734214195aa594eb295a.png" alt="ICE AGE"></p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="正式版1-0-0"><a href="#正式版1-0-0" class="headerlink" title="正式版1.0.0:"></a>正式版1.0.0:</h3><p>修复了几个bug<br>做了细节更改</p>
-<h3 id="beta0913pre1"><a href="#beta0913pre1" class="headerlink" title="beta0913pre1:"></a>beta0913pre1:</h3><p>方块:加入了冰川幸运方块及合成<br>ABA<br>BCB<br>ABA<br>A为发射器，B为冰川泥土，C为金块</p>
-<p>其它:更改了行为包与资源包的pack_icon</p>
-<h3 id="beta0906pre1"><a href="#beta0906pre1" class="headerlink" title="beta0906pre1:"></a>beta0906pre1:</h3><p>物品:<br>实装了介绍书，长按使用<br>合成:<br>AB<br>A为书，B为冰</p>
-<p>实装了冰魔战利品头颅，长按使用</p>
-<p>UI界面:<br>在设置界面新增了更新日志UI<br><img src="https://pic.downk.cc/item/5f6a1063160a154a676431b0.jpg" alt="UI"></p>
-<h3 id="beta0813pre1"><a href="#beta0813pre1" class="headerlink" title="beta0813pre1:"></a>beta0813pre1:</h3><p>移植了部分网易版1.0的内容：<br>加入了介绍书<br>加入了冰魔战利品头颅<br>（以上均未实装）<br>加入了冰魔BOSS<br>加入了冰魔傀儡<br>加入了暴风雪天气<br>更改了部分方块与生物贴图</p>
-<h3 id="beta0726pre1"><a href="#beta0726pre1" class="headerlink" title="beta0726pre1:"></a>beta0726pre1:</h3><p>改了一些物品的材质，改了冰川僵尸的行走速度与贴图</p>
-<h3 id="beta0725pre1"><a href="#beta0725pre1" class="headerlink" title="beta0725pre1:"></a>beta0725pre1:</h3><p>加入了冰川居民，用于交易，黄宝石,粉锭,紫水晶来源。</p>
-<h3 id="中国版1-0-0："><a href="#中国版1-0-0：" class="headerlink" title="中国版1.0.0："></a>中国版1.0.0：</h3><h4 id="新增"><a href="#新增" class="headerlink" title="新增"></a>新增</h4><h5 id="维度与生物群系与结构"><a href="#维度与生物群系与结构" class="headerlink" title="维度与生物群系与结构"></a>维度与生物群系与结构</h5><p>新增船新<strong>冰河世纪</strong>冒险维度，不再是国际版的那种更改主世界地形<br>你需要使用冰川坚冰块搭成地狱门样子然后对下方两个方块手持坚冰打火石点击即可搭建传送门</p>
-<p>新增冰川冻洋生物群系<br>只会生成与冰河世纪维度</p>
-<p>新增冰川树<br>只会生成与冰河世纪维度</p>
-<p>新增浆果丛<br>只会生成与冰河世纪维度</p>
-<p>新增冰川煤矿/冰川水晶矿/红宝石矿的自然生成<br>会生成于冰河世纪维度</p>
-<p>新增冰川坚冰矿的自然生成<br>会生成于冰河世纪维度和主世界</p>
-<h5 id="物品"><a href="#物品" class="headerlink" title="物品"></a>物品</h5><p>新增坚冰打火石<br>用于搭建冰川世界传送门<br>合成：<br>1个坚冰+1个铁锭</p>
-<p>新增冰川数树苗<br>破坏冰川树树叶有几率获得<br>可种植在冰川草方块与冰川泥土上</p>
-<p>新增浆果<br>可种植在冰川草方块与冰川泥土上<br>成熟的浆果会掉落2~4个浆果<br>未成熟的浆果不会掉落<br>使用后可恢复2格饱食度</p>
-<p>新增冰川木镐<br>等级为石头<br>合成：<br>ABA<br>BCB<br>ACA<br>B为冰川木棍，C为冰川木板</p>
-<p>新增冰川坚冰镐<br>等级为钻石<br>合成：<br>ABA<br>BCB<br>ACA<br>同上</p>
-<p>新增冰川水晶镐<br>等级为黑曜石<br>合成：<br>ABA<br>BCB<br>ACA<br>同上</p>
-<p>新增冰川木斧<br>合成：<br>BBA<br>BCA<br>ACA<br>B为冰川木棍，C为冰川木板</p>
-<p>新增冰川坚冰斧<br>合成：<br>BBA<br>BCA<br>ACA<br>同上</p>
-<p>新增冰川水晶斧<br>合成：<br>BBA<br>BCA<br>ACA<br>同上</p>
-<p>新增冰川木铲<br>合成：<br>ABA<br>ACA<br>ACA<br>B为冰川木棍，C为冰川木板</p>
-<p>新增冰川坚冰铲<br>合成：<br>ABA<br>ACA<br>ACA<br>同上</p>
-<p>新增冰川水晶铲<br>合成：<br>ABA<br>ACA<br>ACA<br>同上</p>
-<p>新增冰川水晶头盔<br>10点防御力<br>合成：<br>BBB<br>BAB<br>A为空，B为冰川水晶</p>
-<p>新增冰川水晶胸甲<br>10点防御力<br>合成：<br>BAB<br>BBB<br>BBB<br>A为空，B为冰川水晶</p>
-<p>新增冰川水晶护腿<br>10点防御力<br>合成：<br>BBB<br>BAB<br>BAB<br>A为空，B为冰川水晶</p>
-<p>新增冰川水晶靴子<br>10点防御力<br>合成：<br>BAB<br>BAB<br>A为空，B为冰川水晶</p>
-<p>新增冰魔战利品<br>该为击杀冰魔后获得的<br>长按屏幕即可穿戴</p>
-<p>新增介绍书<br>点地即可使用<br>合成：<br>书+冰</p>
-<h5 id="方块"><a href="#方块" class="headerlink" title="方块"></a>方块</h5><p>新增冰川世界传送门</p>
-<p>新增主世界传送门</p>
-<p>新增冰川火把（真）<br>合成：<br>冰川煤矿+火把</p>
-<h5 id="实体"><a href="#实体" class="headerlink" title="实体"></a>实体</h5><p>新增冰川居民<br>可以交易冰川坚冰/冰川水晶/红宝石/粉锭/黄宝石<br>会生成在冰河世纪维度</p>
-<p>新增冰魔傀儡<br>血量小于铁傀儡<br>攻击力大于铁傀儡<br>只会由冰魔生成</p>
-<p>新增冰魔<br>此为BOSS级生物，BOSS等级：二级（数字越小难度越小）<br>生成后会有暴风雪粒子效果持续10秒，会无敌120秒（两分钟）<br>使用忖民之怒远程投掷攻击</p>
-<p>新增忖民之怒<br>该为抛射物，被击中实体会受到12伤害，半径4格内所有实体会受到5秒1级的瞬间伤害</p>
-<h5 id="UI界面"><a href="#UI界面" class="headerlink" title="UI界面"></a>UI界面</h5><p>新增主界面左下角的介绍UI</p>
-<p>新增物品栏内的冰河世纪物品分页</p>
-<h4 id="更改"><a href="#更改" class="headerlink" title="更改"></a>更改</h4><p>更改了冰川水晶块贴图</p>
-<p>更改了冰川坚冰块贴图</p>
-<p>更改冰川木剑/石剑/坚冰剑/水晶剑/紫水晶战锤的伤害来源<br>不再是player模拟，而是用网易MOD SDK的提供武器伤害接口</p>
-<p>更改了冰封瓦解之镐的挖掘属性来源<br>使用网易MOD SDK提供的挖掘属性接口<br>等级为可挖掘一切方块<br>挖掘速度为钻石镐的五倍</p>
-<h4 id="移除"><a href="#移除" class="headerlink" title="移除"></a>移除</h4><p>移除了冰霜炸弹</p>
-<h4 id="修复"><a href="#修复" class="headerlink" title="修复"></a>修复</h4><p>修复了老虎的动画Bug</p>
-<h3 id="国际版V0-8-1"><a href="#国际版V0-8-1" class="headerlink" title="国际版V0.8.1:"></a>国际版V0.8.1:</h3><p>生成结构:<br>目前一共新增6个船新的生物群系:<br>冰川平原</p>
-<p>冰川山丘<br>冰川峭壁<br>冰山<br>冰湖<br>冰河<br>建筑物:<br>冰川柱子:会在冰川平原与冰胡上进行随机生成</p>
-<p>问:与原版的冰雪生物群系有何不同?<br>答:本add里的生物群系会更加的丰富也比原版的壮观(还会有更壮观的)</p>
-<p>方块与物品:<br>自然类:<br>冰川草块:<br>可在工作台里分解为6<em>雪球<br>冰川泥土<br>冰川沙子<br>冰川石头:挖掘时会掉落冰川圆石,除非用精准采集<br>冰川原木:<br>可在工作台里分解为4</em>冰川木板<br>冰川木板:<br>可以像普通木板一样合成工作台<br>冰川树叶<br>冰川基岩:作用一致<br>建筑类:<br>冰川圆石<br>冰川石砖:<br>AAA<br>AAA=冰川石砖<br>AAA<br>A为冰川圆石<br>冰川砖块:<br>AA<br>AA=冰川砖块<br>A为冰川圆石<br>冰川楼梯/半砖/墙:<br>在切石机里合成<br>矿物类:<br>冰川煤矿:<br>挖掘后会直接随机掉落1~3个冰川煤</p>
-<p>冰川煤:<br>无法直接做火把</p>
-<p>AA<br>AA=煤<br>A为冰川煤</p>
-<p>坚冰矿:<br>在熔炉或高炉里可烧制成坚冰</p>
-<p>坚冰:<br>1<em>坚冰块=9</em>坚冰</p>
-<p>坚冰块:<br>AAA<br>AAA=坚冰块<br>AAA<br>A为坚冰</p>
-<p>坚冰棍:<br>A<br>A=4*坚冰棍<br>A为坚冰</p>
-<p>水晶矿:<br>同上</p>
-<p>水晶:<br>同上</p>
-<p>水晶块:<br>同上</p>
-<p>水晶棍:<br>同上</p>
-<p>红宝石矿:<br>同上</p>
-<p>红宝石:<br>同上</p>
-<p>红宝石块:<br>同上</p>
-<p>黄宝石<br>紫水晶<br>粉锭</p>
-<p>武器类:<br>冰川木剑:<br>4伤害<br>A<br>A=冰川木剑<br>B<br>A为冰川木板,B为冰川木棍</p>
-<p>冰川石剑:<br>7伤害<br>合成方式同上</p>
-<p>冰川坚冰剑:<br>10伤害<br>同上</p>
-<p>冰川水晶剑:<br>14伤害<br>同上</p>
-<p>神器类:<br>矢量盾:<br>绝对防御物理伤害与魔法伤害,但不防御指令与虚空<br>手持即可使用，会有缓慢5的副作用<br>AAA<br>AAA=矢量盾<br>BAB<br>A为粉锭,B为空气</p>
-<p>紫水晶战锤:<br>22的伤害,但也会有缓慢2的副作用<br>AAA<br>AAA=紫水晶战锤<br>BCB<br>A为紫水晶,B为空气,C为冰川水晶棍</p>
-<p>冰封瓦解之镐:<br>手持潜行会破坏周围15 -15 15的地方<br>每使用一次就会损坏<br>AAA<br>BCB=损坏的冰封瓦解之镐<br>BCB<br>A为黄宝石,B为空气,C为冰川水晶棍<br>黄宝石+损坏的冰封瓦解之镐(无序合成)=冰封瓦解之镐</p>
-<p>红宝石权杖:<br>长按屏幕(WIN10为右键)即可连续发射(无冷却)红宝石块进行攻击<br>A<br>B=红宝石权杖<br>B<br>A为红宝石块,B为冰川水晶棍</p>
-<p>冰封审判之弓:<br>长按屏幕即可蓄力发射冰封审判箭进行攻击,会有较短冷却时间<br>BAC<br>ABC=冰封审判之弓<br>BAC<br>B为空气,A为冰川水晶,C为冰川水晶棍</p>
-<p>其它:<br>转物质燃料:<br>用于将部分物品转换为原版物品<br>ABA<br>BBB=9*转物质燃料<br>ABA<br>A为泥土,B为冰川泥土<br>问:怎么获得泥土?<br>答:在一些原版生成的建筑中会有泥土(原版建筑物未阉割)如村庄</p>
-<p>冰川火把:<br>在水下里依然可以放置<br>A<br>B=冰川火把<br>A为冰川煤<br>B为火把</p>
-<p>冰霜炸弹:<br>使水面结冰<br>A<br>B=冰霜炸弹<br>A为坚冰,B为雪球</p>
-<p>生物实体类:<br>被动生物:<br>松鼠:<br>击杀后有几率掉落榛子,榛子吃后会恢复3格饱食度,食物来源之一</p>
-<p>企鹅</p>
-<p>中立生物:<br>老虎:<br>(五毛模型，下次一定改)<br>击杀后会掉落老虎肉,恢复7格饱食度,食物来源之一</p>
-<p>敌对类:<br>冰川骷髅:<br>白天不会着火,理解成强化骷髅即可</p>
-<p>冰川僵尸:<br>同上</p>
-<p>口渴值与温度系统:<br>温度分为上线(热)与下线(冷)<br>注意保暖哟~<br>口渴值在水里即可补充[图2]<br>过度热/冷或缺水时会有不同程度的debuff,最终死亡</p>
-<h3 id="beta0716pre1"><a href="#beta0716pre1" class="headerlink" title="beta0716pre1:"></a>beta0716pre1:</h3><p>加入审批冰封弓与红宝石权杖,及合成配方<br>加入新生物松鼠</p>
-<h3 id="beta0714pre1"><a href="#beta0714pre1" class="headerlink" title="beta0714pre1:"></a>beta0714pre1:</h3><p>生物蛋贴图已添加<br>加入冰封崩溃之镐,潜行即可破坏周围15 -15 15的所有地方<br>每使用一次就会损坏,需要与黄宝石再合成一次</p>
-<p>加入了黄宝石,紫水晶,粉锭,均用于合成武器</p>
-<h3 id="beta0712pre1"><a href="#beta0712pre1" class="headerlink" title="beta0712pre1:"></a>beta0712pre1:</h3><p>重画矢量盾模型与贴图<br>重画冰川砖块贴图<br>重画水晶块贴图</p>
-<p>加入紫水晶战锤(22伤害,缓慢2级)<br>冰川僵尸/骷髅已加入动画与贴图</p>
-<p>熔炉与高炉:<br>坚冰/水晶/红宝石矿=坚冰/水晶/红宝石</p>
-<p>beta0710pre1:<br>加入了冰川冰砖和冰川砖块(贴图待重画)以及冰川砖块对应的楼梯,半砖,墙<br>加入了一个盾牌?属于一种神器,名字待定<br>与普通盾不同,拿在手上可以绝对防御所有物理伤害与魔法伤害(指令与虚空除外)<br>依然是半成品中的半成品,名字待定,贴图与第一人称视角的3D均要重搞</p>
-<h3 id="beta0708pre1"><a href="#beta0708pre1" class="headerlink" title="beta0708pre1:"></a>beta0708pre1:</h3><p>加入了方块<br>红宝石矿(比水晶矿更稀有)<br>红宝石块<br>水晶块(贴图待重画)<br>坚冰块</p>
-<p>加入了物品<br>反物质燃料(用于将冰川世界物品转换为主世界的物品)<br>红宝石<br>冰川炸弹(可以让水结冰)<br>冰川火把(亮度稍弱,但可以在水中放置)</p>
-<p>加入了一堆工作台合成配方<br>9红宝石=1红宝石块<br>1红宝石块=9红宝石<br>9坚冰=1坚冰块<br>1坚冰块=1坚冰<br>9水晶=1水晶块<br>1水晶块=9水晶</p>
-<p>A<br>A<br>A =4*冰川木棍/冰川圆石棍/坚冰棍/水晶棍<br>A为冰川木板/冰川圆石/坚冰/水晶 </p>
-<p>A<br>A<br>B = 冰川木/冰川圆石/坚冰/水晶剑<br>A 为冰川木板/冰川圆石/坚冰/水晶<br>B为冰川木棍/冰川圆石棍/坚冰棍/水晶棍</p>
-<p>1冰川原木=4*冰川木板</p>
-<p>AA<br>AA=工作台<br>A为冰川木板</p>
-<p>AAA<br>ABA<br>AAA=熔炉<br>A为冰川圆石<br>B为空气</p>
-<p>1冰川草快=6雪球</p>
-<p>冰川煤矿每次挖掘会随机掉落0~4个冰川煤<br>4冰川煤=1煤</p>
-<p>A<br>B=冰霜炸弹<br>A为坚冰<br>B为雪球</p>
-<p>A<br>B=冰川火把<br>A为冰川煤<br>B为火把</p>
-<p>ABA<br>BBB<br>ABA=反物质燃料<br>A为泥土<br>B为冰川泥土</p>
-<h3 id="beta0705pre3"><a href="#beta0705pre3" class="headerlink" title="beta0705pre3:"></a>beta0705pre3:</h3><p>加入了老虎的模型与贴图,加入了企鹅的模型与贴图<br>加入了四把武器的伤害<br>伤害分别为:冰川木剑4点,冰川石剑7点,坚冰剑10点,水晶剑14点<br>光照系统已适配安卓,IOS,WIN10等平台</p>
-<h3 id="beta0705pre2"><a href="#beta0705pre2" class="headerlink" title="beta0705pre2:"></a>beta0705pre2:</h3><p>加入了总计四个新生物,1个被动生物,2个敌对生物,1个中立生物<br>模型和贴图正在搞</p>
-<h3 id="beta0702pre1"><a href="#beta0702pre1" class="headerlink" title="beta0702pre1:"></a>beta0702pre1:</h3><p>核心构建完成,加入了基础物品方块,更改了所有群系,加入了船新Shader光照与天空贴图</p>
-<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议："><a href="#Addon协议：" class="headerlink" title="Addon协议："></a>Addon协议：</h3><p>本协议专门针对个人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
-<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
-<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>加群费用仅0.5RMB<br>支付请加我QQ3324656453<br>支持QQ和微信支付</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><strong>*beta版不公开发布</strong><br><a href="https://biyuehudada.lanzoui.com/iC6Zjh5pesj" target="_blank" rel="noopener">&gt;正式版V1.0.0&lt;</a><br><a href="https://biyuehudada.lanzous.com/iaVKqeoqeyh" target="_blank" rel="noopener">&gt;预览版V0.8.1&lt;</a></p>
-]]></content>
-      <categories>
-        <category>作品</category>
-        <category>冰河世纪</category>
-      </categories>
-      <tags>
-        <tag>作品</tag>
-        <tag>更新</tag>
-        <tag>Add-Ons</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Minecraft Dungeons武器Addon</title>
-    <url>/2020/08/15/%E5%9C%B0%E4%B8%8B%E5%9F%8E%E6%AD%A6%E5%99%A8Addon/</url>
-    <content><![CDATA[<p>本Addon一共新增了五把Minecraft Dungeons（MINECRAFT地下城）里的武器。<br>仅为瞎搞一小时不到做的Addon。</p>
-<p>一切贴图与武器名字均来源于<strong>Minecraft Dungeons</strong></p>
-<p>介绍视频：<a href="">点我观看b站介绍视频</a></p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:MINECRAFT地下城武器Addon<br>英文名字:—<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:—<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:2020-08-15<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h4 id="新增物品"><a href="#新增物品" class="headerlink" title="新增物品"></a>新增物品</h4><p><strong>斧子：</strong><br>拥有19攻击伤害<br><img src="https://pic.downk.cc/item/5f37a20914195aa594f98b56.png" alt="斧子"></p>
-<p><strong>大剑：</strong><br>拥有22攻击伤害<br>带附魔效果<br><img src="https://pic.downk.cc/item/5f37a20914195aa594f98b5a.png" alt="大剑"></p>
-<p><strong>弯刀：</strong><br>拥有34攻击伤害与3速度<br><img src="https://pic.downk.cc/item/5f37a20914195aa594f98b5e.png" alt="弯刀"></p>
-<p><strong>链锤：</strong><br>拥有42攻击伤害<br><img src="https://pic.downk.cc/item/5f37a20914195aa594f98b62.png" alt="链锤"></p>
-<p><strong>大锤：</strong><br>拥有60攻击伤害与1幸运<br>带附魔效果以及3D模型效果（第三人称视角）<br><img src="https://pic.downk.cc/item/5f37a20914195aa594f98b66.png" alt="大锤"></p>
-<p><strong>介绍书：</strong><br>潜行即可一键获得所有武器</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/inXqRfnhi4h" target="_blank" rel="noopener">戳我</a></p>
-]]></content>
+    <title>作品集</title>
+    <url>/2020/07/19/%E4%BD%9C%E5%93%81%E9%9B%86/</url>
+    <content><![CDATA[<h4 id="ULANG框架"><a href="#ULANG框架" class="headerlink" title="ULANG框架"></a><a href="/2020/10/18/ULANG框架/">ULANG框架</a></h4><h6 id=""><a href="#" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="BEgc基岩版星系"><a href="#BEgc基岩版星系" class="headerlink" title="BEgc基岩版星系"></a><a href="/2020/10/18/BEgc基岩版星系/">BEgc基岩版星系</a></h4><h6 id="-1"><a href="#-1" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="行为记录"><a href="#行为记录" class="headerlink" title="行为记录"></a><a href="/2020/10/17/%E8%A1%8C%E4%B8%BA%E8%AE%B0%E5%BD%95/">行为记录</a></h4><h6 id="-2"><a href="#-2" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="BEtic基岩版匠魂"><a href="#BEtic基岩版匠魂" class="headerlink" title="BEtic基岩版匠魂"></a><a href="/2020/07/30/BEtic/">BEtic基岩版匠魂</a></h4><h6 id="-3"><a href="#-3" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="ICE-AGE-冰河世纪"><a href="#ICE-AGE-冰河世纪" class="headerlink" title="ICE AGE 冰河世纪"></a><a href="/2020/10/01/ICE%20AGE冰河世纪/">ICE AGE 冰河世纪</a></h4><h6 id="-4"><a href="#-4" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="BEic2基岩版工业2系列"><a href="#BEic2基岩版工业2系列" class="headerlink" title="-BEic2基岩版工业2系列"></a>-<a href="/2020/02/07/BEic2基岩版工业2/">BEic2基岩版工业2系列</a></h4><p>- -BEic2本体<br>- -BEic2周边作品<br>- - -BEic2优化资源包<br>- - - -BEic2翻译补丁包<br>- - - -BEic2高清资源包<br>- - -BEic2扩展包<br>- - - -BEic2扩展包投掷炸药</p>
+<h6 id="-5"><a href="#-5" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="节日系列Add"><a href="#节日系列Add" class="headerlink" title="-节日系列Add"></a>-<a href="/2020/06/27/节日系列Add/">节日系列Add</a></h4><p>- -端午节Addon<br>- -中秋节Addon</p>
+<h6 id="-6"><a href="#-6" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="垃圾分类-垃圾桶"><a href="#垃圾分类-垃圾桶" class="headerlink" title="垃圾分类-垃圾桶"></a><a href="/2020/06/25/%E5%9E%83%E5%9C%BE%E5%88%86%E7%B1%BB/">垃圾分类-垃圾桶</a></h4><h6 id="-7"><a href="#-7" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="水作合集"><a href="#水作合集" class="headerlink" title="水作合集"></a><a href="/2019/12/29/水作合集/">水作合集</a></h4>]]></content>
       <categories>
         <category>作品</category>
       </categories>
       <tags>
         <tag>作品</tag>
-        <tag>更新</tag>
-        <tag>Add-Ons</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【置顶】[必看]仓库须知</title>
-    <url>/2334/11/23/%E4%BB%93%E5%BA%93%E9%A1%BB%E7%9F%A5/</url>
-    <content><![CDATA[<h2 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介:"></a>个人简介:</h2><p>Bilibili:<a href="https://space.bilibili.com/293767574" target="_blank" rel="noopener">@碧月狐dada</a><br>YOUTUBE: @BIYUEHU<br>基岩版开发者,主要是Addons开发</p>
-<p>加入付费群，历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群费用仅需0.5RMB<br>支付方式:加我QQ3324656453支付0.5<br>支持QQ和VX支付<br>该QQ只做收费，不接受问题咨询（更加不要加了后还问价格多少之内的低级问题）<br>建议中午和晚上支付，此时我才有时间<br>有时可能会不回消息，要么是因为心态崩溃要么就是太忙了，还请谅解</p>
-<p>支持与赞助:<br>赞助可以是经济上，也可以精神上<br>Bilibili关注我<a href="https://space.bilibili.com/293767574" target="_blank" rel="noopener">@碧月狐dada</a>，三联我的视频已经是对我莫大的支持与认可了awa</p>
-<p>如果土豪想给予更多金钱上的资助也请加QQ<br>数字并不重要，主要是认可</p>
-<h2 id="仓库须知"><a href="#仓库须知" class="headerlink" title="仓库须知:"></a>仓库须知:</h2><p>该站为碧月狐dada的个人博客~<br>所有公开发布过的Addon(不包括内测beta等)在这也依然能找到，相关文档也会发在此处，是一个集中的地方</p>
-<p>国外网址:<a href="https://biyuehu.github.io/" target="_blank" rel="noopener">https://biyuehu.github.io/</a><br>使用Github托管，服务器在国外，对于国内不同地区,速度也不同，第一时间更新</p>
-<p>国内镜像网址:<a href="https://biyuehu.gitee.io/" target="_blank" rel="noopener">https://biyuehu.gitee.io/</a><br>使用Gitee托管，速度比Github会快几倍，内容最迟12小时内会同步</p>
-<h3 id="规"><a href="#规" class="headerlink" title="规"></a>规<font color="#FF0000"></h3><p><strong>无规矩不成方圆，这一切都是为了保持一定秩序，不管是哪里都是如此~</strong><br><strong>一.</strong>本站的所有内容（包括资源/文章/文案等）禁止私自转载与倒卖，禁止未经允许公开发到Q群文件(或其它社交软件)，禁止未经允许装载到服务器；</p>
-<p><strong>二.</strong>目前已开启评论系统（部分置顶文章等特殊文章将会关闭评论功能），评论系统为离线的无需登录什么账号才能评论，当然评论时可以登录您的GitHub账号（有的话）或者在评论选项里填一下您的博客地址等，方便联系，也可以填名字以及头像图片链接。<br>虽说为无需强制性登录即可评论，但自带过滤垃圾评论功能，不要妄想捣乱~<br>再透露一下，在你评论时虽说没账号信息但会保存你的IP/设备/浏览器等信息，小心我找你喝茶。对于违规用户将会定期挂在公告，正常用户的信息将会定期删除，只要你配合我们,我们也会配合你；<br>以下将会视为违规：<br>宣传服务器/群聊/其它作品等毫不相干的内容和广告<br>宣传黄赌毒内容<br>恶意引战挑事<br>恶意人身攻击和威胁<br>言行带有强制性</p>
-<p>待补充ing…</p>
-<p><strong>三.</strong>Addon协议：<br>本协议专门针对本人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
-<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
-</font>
-
-<h2 id="资源Bug反馈与问题咨询"><a href="#资源Bug反馈与问题咨询" class="headerlink" title="资源Bug反馈与问题咨询"></a>资源Bug反馈与问题咨询</h2><p>反馈资源的Bug以及问题咨询请前往<a href="/2334/11/22/Bug反馈与问题咨询/">Bug反馈与问题咨询专用贴</a><br>其它地方的反馈与提问将不做任何回答</p>
-<p><strong>——望周知</strong></p>
-]]></content>
-      <categories>
-        <category>资讯</category>
-      </categories>
-      <tags>
-        <tag>资讯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>水作合集</title>
-    <url>/2019/12/29/%E6%B0%B4%E4%BD%9C%E5%90%88%E9%9B%86/</url>
-    <content><![CDATA[<h2 id="水作合集"><a href="#水作合集" class="headerlink" title="水作合集"></a>水作合集</h2><h3 id="有蝠同享，有难吃瓜"><a href="#有蝠同享，有难吃瓜" class="headerlink" title="有蝠同享，有难吃瓜"></a>有蝠同享，有难吃瓜</h3><p>支持游戏版本:1.16x，1.15.x，1.14x，1.13.x，1.12.x<br>最后更新时间:2020-01-19</p>
-<h4 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h4><p><a href="https://biyuehudada.lanzous.com/i8KIxeqptmb" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
-<h3 id="老八秘制小汉堡"><a href="#老八秘制小汉堡" class="headerlink" title="老八秘制小汉堡"></a>老八秘制小汉堡</h3><p>支持游戏版本:1.16x，1.15.x，1.14x，1.13.x，1.12.x<br>最后更新时间:2019-12-29</p>
-<h4 id="下载链接-1"><a href="#下载链接-1" class="headerlink" title="下载链接:"></a>下载链接:</h4><p><a href="https://biyuehudada.lanzous.com/ic7onub" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
-<h3 id="投掷烈焰弹"><a href="#投掷烈焰弹" class="headerlink" title="投掷烈焰弹"></a>投掷烈焰弹</h3><p><a href="/2017/04/13/投掷烈焰弹/">*另见</a></p>
-]]></content>
-      <categories>
-        <category>作品</category>
-      </categories>
-      <tags>
-        <tag>作品</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>垃圾分类-垃圾桶</title>
-    <url>/2020/06/25/%E5%9E%83%E5%9C%BE%E5%88%86%E7%B1%BB/</url>
-    <content><![CDATA[<p>没想到吧!MC里也要垃圾分类</p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:垃圾分类-垃圾桶<br>英文名字:-<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:-<br>最新版本支持游戏版本:1.16.x，1.14.x<br>最后更新时间:2020-06-25<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>加了三个垃圾桶<br>分别对应:<br>红色-有害垃圾桶<br>绿色-可回收垃圾桶<br>黄色-湿垃圾</p>
-<p>为了进行点缀，本Add也加了一些”垃圾”</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/izI0Ve3epvc" target="_blank" rel="noopener">https://biyuehudada.lanzous.com/izI0Ve3epvc</a></p>
-]]></content>
-      <categories>
-        <category>作品</category>
-      </categories>
-      <tags>
-        <tag>作品</tag>
-        <tag>更新</tag>
-        <tag>Add-Ons</tag>
       </tags>
   </entry>
   <entry>
@@ -728,44 +742,83 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
       </tags>
   </entry>
   <entry>
-    <title>支持与赞助</title>
-    <url>/2016/01/01/%E6%94%AF%E6%8C%81%E4%B8%8E%E8%B5%9E%E5%8A%A9/</url>
-    <content><![CDATA[<p>加入付费群，历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>特殊期间,加群费用再次下降至0.5RMB<br>支付方式:加我QQ3324656453支付0.5<br>支持QQ和VX支付<br>该QQ只做收费，不接受问题咨询（更加不要加了后还问价格多少之内的低级问题）<br>建议中午和晚上支付，此时我才有时间<br>有时可能会不回消息，要么是因为心态崩溃要么就是太忙了，还请谅解</p>
-<p>赞助可以是经济上，也可以精神上<br>Bilibili关注我<a href="https://space.bilibili.com/293767574" target="_blank" rel="noopener">@碧月狐dada</a>，三联我的视频已经是对我莫大的支持与认可了awa</p>
-<p>如果土豪想给予更多金钱上的资助也请加QQ<br>数字并不重要，主要是认可与心意</p>
-]]></content>
-      <categories>
-        <category>资讯</category>
-      </categories>
-      <tags>
-        <tag>资讯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>投掷烈焰弹</title>
-    <url>/2017/04/13/%E6%8A%95%E6%8E%B7%E7%83%88%E7%84%B0%E5%BC%B9/</url>
-    <content><![CDATA[<h3 id="投掷烈焰弹"><a href="#投掷烈焰弹" class="headerlink" title="投掷烈焰弹"></a>投掷烈焰弹</h3><p>支持游戏版本:1.16x——1.0.x<br>最后更新时间:2017-04-13</p>
-<h4 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h4><p><a href="https://biyuehudada.lanzous.com/iOTwDdru8cf" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
+    <title>垃圾分类-垃圾桶</title>
+    <url>/2020/06/25/%E5%9E%83%E5%9C%BE%E5%88%86%E7%B1%BB/</url>
+    <content><![CDATA[<p>没想到吧!MC里也要垃圾分类</p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:垃圾分类-垃圾桶<br>英文名字:-<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:-<br>最新版本支持游戏版本:1.16.x，1.14.x<br>最后更新时间:2020-06-25<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>加了三个垃圾桶<br>分别对应:<br>红色-有害垃圾桶<br>绿色-可回收垃圾桶<br>黄色-湿垃圾</p>
+<p>为了进行点缀，本Add也加了一些”垃圾”</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/izI0Ve3epvc" target="_blank" rel="noopener">https://biyuehudada.lanzous.com/izI0Ve3epvc</a></p>
 ]]></content>
       <categories>
         <category>作品</category>
       </categories>
       <tags>
         <tag>作品</tag>
+        <tag>更新</tag>
         <tag>Add-Ons</tag>
       </tags>
   </entry>
   <entry>
-    <title>作品集</title>
-    <url>/2020/07/19/%E4%BD%9C%E5%93%81%E9%9B%86/</url>
-    <content><![CDATA[<h4 id="BEgc基岩版星系"><a href="#BEgc基岩版星系" class="headerlink" title="BEgc基岩版星系"></a><a href="/2020/10/04/BEgc基岩版星系/">BEgc基岩版星系</a></h4><h6 id=""><a href="#" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="BEtic基岩版匠魂"><a href="#BEtic基岩版匠魂" class="headerlink" title="BEtic基岩版匠魂"></a><a href="/2020/07/30/BEtic/">BEtic基岩版匠魂</a></h4><h6 id="-1"><a href="#-1" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="ICE-AGE-冰河世纪"><a href="#ICE-AGE-冰河世纪" class="headerlink" title="ICE AGE 冰河世纪"></a><a href="/2020/10/01/ICE%20AGE冰河世纪/">ICE AGE 冰河世纪</a></h4><h6 id="-2"><a href="#-2" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="BEic2基岩版工业2系列"><a href="#BEic2基岩版工业2系列" class="headerlink" title="-BEic2基岩版工业2系列"></a>-<a href="/2020/02/07/BEic2基岩版工业2/">BEic2基岩版工业2系列</a></h4><p>- -BEic2本体<br>- -BEic2周边作品<br>- - -BEic2优化资源包<br>- - - -BEic2翻译补丁包<br>- - - -BEic2高清资源包<br>- - -BEic2扩展包<br>- - - -BEic2扩展包投掷炸药</p>
-<h6 id="-3"><a href="#-3" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="节日系列Add"><a href="#节日系列Add" class="headerlink" title="-节日系列Add"></a>-<a href="/2020/06/27/节日系列Add/">节日系列Add</a></h4><p>- -端午节Addon<br>- -中秋节Addon</p>
-<h6 id="-4"><a href="#-4" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="垃圾分类-垃圾桶"><a href="#垃圾分类-垃圾桶" class="headerlink" title="垃圾分类-垃圾桶"></a><a href="/2020/06/25/%E5%9E%83%E5%9C%BE%E5%88%86%E7%B1%BB/">垃圾分类-垃圾桶</a></h4><h6 id="-5"><a href="#-5" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="水作合集"><a href="#水作合集" class="headerlink" title="水作合集"></a><a href="/2019/12/29/水作合集/">水作合集</a></h4>]]></content>
+    <title>BEic2基岩版工业2高清材质包</title>
+    <url>/2020/06/01/BEic2%E9%AB%98%E6%B8%85%E6%9D%90%E8%B4%A8%E5%8C%85/</url>
+    <content><![CDATA[<p>今天六一，祝各位大朋友和小朋友门六一快乐awa<br>接下来是六一礼物啦~</p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版工业2<br>英文名字:–<br>类型:资源包<br>前置:MinecraftBE<br>最新版本:–<br>最新版本支持游戏版本:1.16.x，1.14.x<br>最新版本支持BEic2版本:V0.2.0<br>最后更新时间:2020-06-01<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>适配了BEic2V0.2.0与BEic2扩展包_投掷炸药</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/b01bgax0h" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
+]]></content>
       <categories>
         <category>作品</category>
+        <category>BEic2</category>
       </categories>
       <tags>
         <tag>作品</tag>
+        <tag>更新</tag>
+        <tag>资源包</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BEic2基岩版工业2扩展包投掷炸药</title>
+    <url>/2020/05/21/BEic2%E6%89%A9%E5%B1%95%E5%8C%85%E7%82%B8%E8%8D%AF/</url>
+    <content><![CDATA[<p>扩展包为beic2addons的扩展内容<br>扩展包为时不时更新，扩展包内容一般为优化或者附加更多内容等</p>
+<p>装载扩展包前请先装载BEic2Addons本体</p>
+<p>然后是装载顺序:<br>行为包装载顺序:最先加载此扩展包，再加载BEic2本体<br>资源包:随意</p>
+<p>装上包后，再打开实验玩法</p>
+<p>为了确保player.json不被其它包覆盖，于是用player做了一个简单的time组件<br>进入存档后会有提示信息(打开聊天栏查看),即代表已可以使用</p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:投掷炸药<br>英文名字:–<br>类型:Add-Ons<br>前置:BEic2Addon<br>最新版本:–<br>最新版本支持游戏版本:1.16.x，1.14.x<br>最后更新时间:2020-05-21<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>加入了投掷炸药<br>加入了投掷核弹</p>
+<p>合成配方:<br>线(蛛丝)<br>tnt<br> ＝投掷炸药</p>
+<p>线(蛛丝)<br>核弹<br> ＝投掷核弹</p>
+<p>投掷炸药威力与tnt一样,投掷核弹威力比核弹威力小一点</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/icu8m8f" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
+]]></content>
+      <categories>
+        <category>作品</category>
+        <category>BEic2</category>
+      </categories>
+      <tags>
+        <tag>作品</tag>
+        <tag>更新</tag>
+        <tag>Add-Ons</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BEic2基岩版工业2翻译补丁包</title>
+    <url>/2020/05/12/BEic2%E7%BF%BB%E8%AF%91%E8%A1%A5%E4%B8%81%E5%8C%85/</url>
+    <content><![CDATA[<p>优化了en_US,en_UK,zh_TW的翻译</p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版工业2翻译补丁包<br>英文名字:–<br>类型:资源包<br>前置:BEic2Addon<br>最新版本:V0.2.0(不再更新)<br>最新版本支持游戏版本:1.16.x，1.14.x<br>最新版本支持BEic2版本:BEic2V0.2.0，BEic2扩展包_投掷炸药<br>最后更新时间:2020-05-12<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="V0-2-0"><a href="#V0-2-0" class="headerlink" title="V0.2.0:"></a>V0.2.0:</h3><p>适配了BEic2扩展包_炸药</p>
+<h3 id="V0-1-0"><a href="#V0-1-0" class="headerlink" title="V0.1.0"></a>V0.1.0</h3><p>适配了BEic2V0.2.0</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/b01bf4r7g" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
+]]></content>
+      <categories>
+        <category>作品</category>
+        <category>BEic2</category>
+      </categories>
+      <tags>
+        <tag>作品</tag>
+        <tag>更新</tag>
+        <tag>资源包</tag>
       </tags>
   </entry>
   <entry>
@@ -798,100 +851,47 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
       </tags>
   </entry>
   <entry>
-    <title>中秋节Addon</title>
-    <url>/2020/10/01/%E4%B8%AD%E7%A7%8B%E8%8A%82/</url>
-    <content><![CDATA[<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:中秋节Addon<br>英文名字:-<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:-<br>最新版本支持游戏版本:1.16.x，1.14.x<br>最后更新时间:2020-10-01<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>加入了冰糖月饼<br>加入了蛋黄月饼<br>加入了豆沙月饼<br>加入了五仁月饼</p>
-<p>加入了月饼商人，用于交易月饼</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzoui.com/i1ntHh2ltqf" target="_blank" rel="noopener">https://biyuehudada.lanzoui.com/i1ntHh2ltqf</a></p>
+    <title>水作合集</title>
+    <url>/2019/12/29/%E6%B0%B4%E4%BD%9C%E5%90%88%E9%9B%86/</url>
+    <content><![CDATA[<h2 id="水作合集"><a href="#水作合集" class="headerlink" title="水作合集"></a>水作合集</h2><h3 id="有蝠同享，有难吃瓜"><a href="#有蝠同享，有难吃瓜" class="headerlink" title="有蝠同享，有难吃瓜"></a>有蝠同享，有难吃瓜</h3><p>支持游戏版本:1.16x，1.15.x，1.14x，1.13.x，1.12.x<br>最后更新时间:2020-01-19</p>
+<h4 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h4><p><a href="https://biyuehudada.lanzous.com/i8KIxeqptmb" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
+<h3 id="老八秘制小汉堡"><a href="#老八秘制小汉堡" class="headerlink" title="老八秘制小汉堡"></a>老八秘制小汉堡</h3><p>支持游戏版本:1.16x，1.15.x，1.14x，1.13.x，1.12.x<br>最后更新时间:2019-12-29</p>
+<h4 id="下载链接-1"><a href="#下载链接-1" class="headerlink" title="下载链接:"></a>下载链接:</h4><p><a href="https://biyuehudada.lanzous.com/ic7onub" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
+<h3 id="投掷烈焰弹"><a href="#投掷烈焰弹" class="headerlink" title="投掷烈焰弹"></a>投掷烈焰弹</h3><p><a href="/2017/04/13/投掷烈焰弹/">*另见</a></p>
 ]]></content>
       <categories>
         <category>作品</category>
-        <category>节日系列Add</category>
       </categories>
       <tags>
         <tag>作品</tag>
-        <tag>更新</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>投掷烈焰弹</title>
+    <url>/2017/04/13/%E6%8A%95%E6%8E%B7%E7%83%88%E7%84%B0%E5%BC%B9/</url>
+    <content><![CDATA[<h3 id="投掷烈焰弹"><a href="#投掷烈焰弹" class="headerlink" title="投掷烈焰弹"></a>投掷烈焰弹</h3><p>支持游戏版本:1.16x——1.0.x<br>最后更新时间:2017-04-13</p>
+<h4 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h4><p><a href="https://biyuehudada.lanzous.com/iOTwDdru8cf" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
+]]></content>
+      <categories>
+        <category>作品</category>
+      </categories>
+      <tags>
+        <tag>作品</tag>
         <tag>Add-Ons</tag>
       </tags>
   </entry>
   <entry>
-    <title>BEgc基岩版星系</title>
-    <url>/2020/10/18/BEgc%E5%9F%BA%E5%B2%A9%E7%89%88%E6%98%9F%E7%B3%BB/</url>
-    <content><![CDATA[<p>ICE AGE的更新暂告一段落（不是弃坑，不是弃坑，不是弃坑！）<br>现在主要开始制作BEGC基岩版星系<br>BEGC有几率与BEIC2进行对接联动</p>
-<p><img src="https://pic.downk.cc/item/5f793779160a154a673b839e.png" alt="ICON"></p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版星系<br>英文名字:BEgc<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:beta1017pre1<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:2020-10-17<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="beta1017pre1"><a href="#beta1017pre1" class="headerlink" title="beta1017pre1:"></a>beta1017pre1:</h3><h4 id="新增："><a href="#新增：" class="headerlink" title="新增："></a>新增：</h4><p>界面：<br>在主界面新增“关于”按钮</p>
-<h4 id="更改："><a href="#更改：" class="headerlink" title="更改："></a>更改：</h4><p>更改了主界面布局与配色<br><img src="https://pic.downk.cc/item/5f8bebff1cd1bbb86b54fe81.png" alt=""></p>
-<h3 id="beta1003pre1"><a href="#beta1003pre1" class="headerlink" title="beta1003pre1:"></a>beta1003pre1:</h3><h4 id="新增：-1"><a href="#新增：-1" class="headerlink" title="新增："></a>新增：</h4><h5 id="方块："><a href="#方块：" class="headerlink" title="方块："></a>方块：</h5><p>加入了铜块<br>加入了铝块<br>加入了锡块<br>加入了铜矿<br>加入了铝矿<br>加入了锡矿</p>
-<h5 id="物品："><a href="#物品：" class="headerlink" title="物品："></a>物品：</h5><p>加入了铜锭<br>加入了铝锭<br>加入了锡锭<br>加入了致密钢板<br>加入了致密青铜板<br>加入了致密铁板<br>加入了致密铜板<br>加入了致密锡板<br>加入了致密铝板<br>加入了重装防护板<br>加入了火箭尾翼（仅行为部分）<br>加入了一阶火箭引擎（仅行为部分）<br>加入了鼻锥（仅行为部分）<br>加入了通风孔（仅行为部分）<br>加入了锡罐（仅行为部分）</p>
-<h5 id="配方："><a href="#配方：" class="headerlink" title="配方："></a>配方：</h5><p>加入了铜块的合成<br>加入了铝块的合成<br>加入了锡块的合成<br>加入了铜矿的熔炼<br>加入了铝矿的熔炼<br>加入了锡矿的熔炼<br>加入了铜锭的合成与熔炼<br>加入了铝锭的合成与熔炼<br>加入了锡锭的合成与熔炼</p>
-<h5 id="界面："><a href="#界面：" class="headerlink" title="界面："></a>界面：</h5><p>加入了右上水印</p>
-<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议："><a href="#Addon协议：" class="headerlink" title="Addon协议："></a>Addon协议：</h3><p>本协议专门针对个人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
-<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
-<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>加群费用仅0.5RMB<br>支付请加我QQ3324656453<br>支持QQ和微信支付</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p>该资源最新beta版为内测，购买请直接加我QQ3324656453支付0.5rmb即可进入付费群<br>（付费群拥有所有付费资源与历史作品和开发中的beta非公开版等）</p>
+    <title>支持与赞助</title>
+    <url>/2016/01/01/%E6%94%AF%E6%8C%81%E4%B8%8E%E8%B5%9E%E5%8A%A9/</url>
+    <content><![CDATA[<p>加入付费群，历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>特殊期间,加群费用再次下降至0.5RMB<br>支付方式:加我QQ3324656453支付0.5<br>支持QQ和VX支付<br>该QQ只做收费，不接受问题咨询（更加不要加了后还问价格多少之内的低级问题）<br>建议中午和晚上支付，此时我才有时间<br>有时可能会不回消息，要么是因为心态崩溃要么就是太忙了，还请谅解</p>
+<p>赞助可以是经济上，也可以精神上<br>Bilibili关注我<a href="https://space.bilibili.com/293767574" target="_blank" rel="noopener">@碧月狐dada</a>，三联我的视频已经是对我莫大的支持与认可了awa</p>
+<p>如果土豪想给予更多金钱上的资助也请加QQ<br>数字并不重要，主要是认可与心意</p>
 ]]></content>
       <categories>
-        <category>作品</category>
-        <category>BEgc</category>
+        <category>资讯</category>
       </categories>
       <tags>
-        <tag>作品</tag>
-        <tag>更新</tag>
-        <tag>Add-Ons</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>行为记录Addon</title>
-    <url>/2020/10/17/%E8%A1%8C%E4%B8%BA%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<p>这是一个基于Script Engine的Addon</p>
-<h2 id="什么是Script-Engine？"><a href="#什么是Script-Engine？" class="headerlink" title="什么是Script Engine？"></a>什么是Script Engine？</h2><p>脚本引擎(Script Engine)简称为”SE”，Minecraft基岩版的脚本引擎系统为Addon附加包的一部分，由JavaScript语言为载体。 用于制作更多较为复杂的带有逻辑性的作品<br>不过遗憾的是，Minecraft基岩版的SE目前并未成熟，API接口不完整且仅对WIN10基岩版开放了使用权，所以本Addon仅支持WIN10基岩版。</p>
-<p>目前一共支持24种玩家行为监听与记录，总计40+种结果！<br>已支持事件：<br><img src="https://attachment.mcbbs.net/forum/202010/11/135719beh6nazqjn4691sa.png" alt=""></p>
-<p>部分日志将会在聊天栏内提示，所有事件日志均会保存至：<br>C:\Users\账号\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\logs</p>
-<p><img src="https://attachment.mcbbs.net/forum/202010/11/140330r2l2o2dvl2xhb2b2.jpg" alt=""><br><img src="https://attachment.mcbbs.net/forum/202010/11/140329unotw0azutuyybub.png" alt=""></p>
-<h2 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围:"></a>适用范围:</h2><p><strong>1.Addon开发者</strong><br>在制作开发时你可以使用本Addon对其进行调试与监测，就比如 minecraft:entity_definition_event 事件可以监听实体被添加JSON事件<br><img src="https://attachment.mcbbs.net/forum/202010/11/140330c383lhcb84zbyr81.jpg" alt=""></p>
-<p><strong>2.服务器</strong><br>*仅对BDS端或基于BDS端的第三方MOD端有效<br>对于原生的BDS服务端也可以支持！</p>
-<h2 id="导入使用"><a href="#导入使用" class="headerlink" title="导入使用"></a>导入使用</h2><p><strong>单机</strong><br>方法1.将压缩包后缀名更改为.mcaddon接着双击即可<br>方法2.解压，然后复制到：<br>C:\Users\账号\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\behavior_packs</p>
-<p><strong>服务器</strong><br>*仅对BDS端或基于BDS端的第三方MOD端有效<br>解压，复制到 服务端根目录\behavior_packs 文件夹 与 服务端根目录\worlds\地图名\behavior_packs 文件夹</p>
-<p><img src="https://i0.hdslb.com/bfs/album/409fd4d64ac09c024154deb1ecbd8cbbad739485.png" alt="ICON"></p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:行为记录<br>英文名字:Log record<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:–<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:2020-10-11<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>新增24种监听事件(23种服务端事件,1种客户端事件)<br>共计40+种结果</p>
-<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议："><a href="#Addon协议：" class="headerlink" title="Addon协议："></a>Addon协议：</h3><p>本协议专门针对个人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
-<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
-<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>加群费用仅0.5RMB<br>支付请加我QQ3324656453<br>支持QQ和微信支付</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzoui.com/iLtY0hc8btc" target="_blank" rel="noopener">&gt;点我&lt;</a></p>
-<h6 id="开源地址："><a href="#开源地址：" class="headerlink" title="开源地址："></a>开源地址：</h6><p><a href="https://gitee.com/BIYUEHU/Log_record" target="_blank" rel="noopener">Gitee</a><br><a href="https://github.com/BIYUEHU/Log_record" target="_blank" rel="noopener">Github</a></p>
-]]></content>
-      <categories>
-        <category>作品</category>
-      </categories>
-      <tags>
-        <tag>作品</tag>
-        <tag>更新</tag>
-        <tag>Add-Ons</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ULANG框架Addon</title>
-    <url>/2020/10/18/ULANG%E6%A1%86%E6%9E%B6/</url>
-    <content><![CDATA[<p>又开一个大坑<br>暂且名为ULANG框架Addon，基于Script Engine<br>与其它Addon不同，该框架为前置型Addon<br>宗旨是提供少许的更加快捷方便的SE接口与扩展接口以及大量的GUI(Experimental UI)布局制作等</p>
-<p>目前处于Alpha阶段(比beta更靠前，属于完全关闭测试的阶段)<br>ICEAGE与BEGC都有几率在以后使用上(内嵌型)</p>
-<p><img src="https://pic.downk.cc/item/5f8bed041cd1bbb86b5543ff.png" alt="ICON"></p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:ULANG框架(待定的)<br>英文名字:Ulang framework<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:Alpha<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:–<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议："><a href="#Addon协议：" class="headerlink" title="Addon协议："></a>Addon协议：</h3><p>本协议专门针对个人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
-<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
-<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>加群费用仅0.5RMB<br>支付请加我QQ3324656453<br>支持QQ和微信支付</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p>正处于Aplha关闭测试阶段，请耐心等待开放内测…</p>
-]]></content>
-      <categories>
-        <category>作品</category>
-        <category>ULANG</category>
-      </categories>
-      <tags>
-        <tag>作品</tag>
-        <tag>更新</tag>
-        <tag>Add-Ons</tag>
+        <tag>资讯</tag>
       </tags>
   </entry>
 </search>
