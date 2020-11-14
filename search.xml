@@ -3,22 +3,20 @@
   <entry>
     <title>【置顶】[必看]仓库须知</title>
     <url>/2334/11/23/%E4%BB%93%E5%BA%93%E9%A1%BB%E7%9F%A5/</url>
-    <content><![CDATA[<h2 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介:"></a>个人简介:</h2><p>Bilibili:<a href="https://space.bilibili.com/293767574" target="_blank" rel="noopener">@碧月狐dada</a><br>YOUTUBE: @BIYUEHU<br>基岩版开发者,主要是Addons开发</p>
-<p>加入付费群，历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群费用仅需0.5RMB<br>支付方式:加我QQ3324656453支付0.5<br>支持QQ和VX支付<br>该QQ只做收费，不接受问题咨询（更加不要加了后还问价格多少之内的低级问题）<br>建议中午和晚上支付，此时我才有时间<br>有时可能会不回消息，要么是因为心态崩溃要么就是太忙了，还请谅解</p>
+    <content><![CDATA[<h2 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介:"></a>个人简介:</h2><p>Bilibili:<a href="https://space.bilibili.com/293767574" target="_blank" rel="noopener">@碧月狐dada</a></p>
+<p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
 <p>支持与赞助:<br>赞助可以是经济上，也可以精神上<br>Bilibili关注我<a href="https://space.bilibili.com/293767574" target="_blank" rel="noopener">@碧月狐dada</a>，三联我的视频已经是对我莫大的支持与认可了awa</p>
-<p>如果土豪想给予更多金钱上的资助也请加QQ<br>数字并不重要，主要是认可</p>
+<p>如果土豪想给予更多金钱上的资助也请加QQ<br>金额并不重要，主要是认可</p>
 <h2 id="仓库须知"><a href="#仓库须知" class="headerlink" title="仓库须知:"></a>仓库须知:</h2><p>该站为碧月狐dada的个人博客~<br>所有公开发布过的Addon(不包括内测beta等)在这也依然能找到，相关文档也会发在此处，是一个集中的地方</p>
 <p>国外网址:<a href="https://biyuehu.github.io/" target="_blank" rel="noopener">https://biyuehu.github.io/</a><br>使用Github托管，服务器在国外，对于国内不同地区,速度也不同，第一时间更新</p>
 <p>国内镜像网址:<a href="https://biyuehu.gitee.io/" target="_blank" rel="noopener">https://biyuehu.gitee.io/</a><br>使用Gitee托管，速度比Github会快几倍，内容最迟12小时内会同步</p>
-<h3 id="规"><a href="#规" class="headerlink" title="规"></a>规<font color="#FF0000"></h3><p><strong>无规矩不成方圆，这一切都是为了保持一定秩序，不管是哪里都是如此~</strong><br><strong>一.</strong>本站的所有内容（包括资源/文章/文案等）禁止私自转载与倒卖，禁止未经允许公开发到Q群文件(或其它社交软件)，禁止未经允许装载到服务器；</p>
-<p><strong>二.</strong>目前已开启评论系统（部分置顶文章等特殊文章将会关闭评论功能），评论系统为离线的无需登录什么账号才能评论，当然评论时可以登录您的GitHub账号（有的话）或者在评论选项里填一下您的博客地址等，方便联系，也可以填名字以及头像图片链接。<br>虽说为无需强制性登录即可评论，但自带过滤垃圾评论功能，不要妄想捣乱~<br>再透露一下，在你评论时虽说没账号信息但会保存你的IP/设备/浏览器等信息，小心我找你喝茶。对于违规用户将会定期挂在公告，正常用户的信息将会定期删除，只要你配合我们,我们也会配合你；<br>以下将会视为违规：<br>宣传服务器/群聊/其它作品等毫不相干的内容和广告<br>宣传黄赌毒内容<br>恶意引战挑事<br>恶意人身攻击和威胁<br>言行带有强制性</p>
+<h3 id="规"><a href="#规" class="headerlink" title="规"></a>规<font color="#FF0000"></h3><p><strong>一.</strong>本站的所有内容（包括资源/文章/文案等）禁止私自转载与倒卖，禁止未经允许公开发到Q群文件(或其它社交软件)，禁止未经允许装载到服务器；</p>
+<p><strong>二.</strong>目前已开启评论系统（部分置顶文章等特殊文章将会关闭评论功能），评论系统为离线。<br>虽说为无需强制性登录即可评论，但自带过滤垃圾评论功能，不要妄想捣乱~<br>在评论时虽说没账号信息但会保存你的IP/设备/浏览器等信息，小心找你喝茶。对于违规用户将会定期挂在公告；<br>以下将会视为违规：<br>宣传服务器/群聊/其它作品等毫不相干的内容和广告<br>宣传黄赌毒内容<br>恶意引战挑事<br>恶意人身攻击和威胁<br>言行带有强制性</p>
 <p>待补充ing…</p>
 <p><strong>三.</strong>Addon协议：<br>本协议专门针对本人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
-<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
 </font>
 
 <h2 id="资源Bug反馈与问题咨询"><a href="#资源Bug反馈与问题咨询" class="headerlink" title="资源Bug反馈与问题咨询"></a>资源Bug反馈与问题咨询</h2><p>反馈资源的Bug以及问题咨询请前往<a href="/2334/11/22/Bug反馈与问题咨询/">Bug反馈与问题咨询专用贴</a><br>其它地方的反馈与提问将不做任何回答</p>
-<p><strong>——望周知</strong></p>
 ]]></content>
       <categories>
         <category>资讯</category>
@@ -33,13 +31,13 @@
     <content><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>本贴用于资源Bug反馈与问题咨询专用贴<br>反馈与提问在该贴下面回复即可</p>
 <p><strong>请务必遵守下面的回帖格式：</strong></p>
 <h2 id="Bug反馈"><a href="#Bug反馈" class="headerlink" title="Bug反馈"></a>Bug反馈</h2><p>资源Bug反馈仅限于发布到该博客的资源，对于Beta测试版不算在内<br><strong>回帖格式：</strong><br>带*星号的为必填，回帖时去掉星号<br>带#井号后面的文字为说明</p>
-<p>*资源名称： #目前仅支持ICE AGE冰河世纪以及BEic2基岩版工业2 两个资源的反馈<br>*资源版本： #必须为<strong>最新正式版</strong>而不是beta测试版和旧版本，如果是中国版下载的，请直接填写“中国版”两字<br>*游戏版本： #必须为<strong>最新正式版</strong>而不是beta测试版和旧版本，如果是中国版下载的，请直接填写“中国版”两字<br>*设备系统:  #请填写 安卓/IOS/WIN10，可多选<br>*问题描述:  #越详细越好<br>  更改意见:  #可选填<br>  联系方式:  #可选填，可以是QQ或者邮箱，可多选</p>
+<p>*资源名称： #目前支持ICE AGE冰河世纪、BEic2基岩版工业2、ULANG框架、BEgc基岩版星系 的反馈<br>*资源版本： #必须为<strong>最新正式版</strong>而不是beta测试版和旧版本，如果是中国版下载的，请直接填写“中国版”两字<br>*游戏版本： #必须为<strong>最新正式版</strong>而不是beta测试版和旧版本，如果是中国版下载的，请直接填写“中国版”两字<br>*设备系统:  #请填写 安卓/IOS/WIN10，可多选<br>*问题描述:  #越详细越好<br>  更改意见:  #可选填<br>  联系方式:  #可选填，可以是QQ或者邮箱，可多选</p>
 <h3 id="Bug反馈例子："><a href="#Bug反馈例子：" class="headerlink" title="Bug反馈例子："></a>Bug反馈例子：</h3><p>资源名称：BEic2基岩版工业2<br>资源版本: V0.4.0<br>游戏版本：1.16.2<br>设备系统：安卓<br>问题描述：青金石粉在高炉烧制出来的是墨囊而不是青金石<br>更改意见：修复该Bug<br>联系方式：<a href="mailto:12345ssdlh@xx.com">12345ssdlh@xx.com</a>   </p>
 <h3 id="Bug反馈注意事项"><a href="#Bug反馈注意事项" class="headerlink" title="Bug反馈注意事项:"></a>Bug反馈注意事项:</h3><p>请确保你已认真查看过更新日志是否修复您提的bug<br>请确保你使用的资源版本非beta测试版非旧版本<br>请确保你使用的游戏版本非beta测试版非旧版本<br>请确保之前没有人提过与你同样的问题（节约时间~）<br>请确保你的格式正确<br>请注意您的言行已遵守博客规矩，不带强制性/辱骂性</p>
 <h2 id="问题咨询"><a href="#问题咨询" class="headerlink" title="问题咨询"></a>问题咨询</h2><p>该项无需特定格式，直接回帖即可<br>你可以提问也可提出宝贵意见，但必须为以下<strong>范围</strong>：<br>个人博客相关问题和意见<br>Addon发布相关意见<br>Addon制作技术问题<br>PS：该贴也允许提Addon制作上的技术问题，但建议去<a href="/2020/07/21/ADD教程/">Add教程</a>贴提<br>加群和赞助相关问题</p>
 <h2 id="问题咨询注意事项："><a href="#问题咨询注意事项：" class="headerlink" title="问题咨询注意事项："></a>问题咨询注意事项：</h2><p>请确保您的问题不是导入相关问题<br>请确保您的问题不是解压密码相关问题<br>请确保您的问题不是低级问题或萌新级问题或智障型问题或可笑至极的问题<br>请确保之前没有人提过与你同样的问题（节约时间~）<br>请注意您的言行已遵守博客规矩，不带强制性/辱骂性</p>
 <h2 id="写在后头"><a href="#写在后头" class="headerlink" title="写在后头"></a>写在后头</h2><p>除了反馈和提问，本贴也可以闲聊的~<br>只要不涉及注意事项即可</p>
-<p>对于格式错误或涉及注意事项的反馈/问题将不作采纳/回复<br>我有时间也会时不时回复你们的反馈/意见/问题</p>
+<p>对于格式错误或涉及注意事项的反馈/问题将不作采纳/回复<br>有时间也会时不时回复反馈/意见/问题</p>
 ]]></content>
       <categories>
         <category>资讯</category>
@@ -82,9 +80,9 @@
 <p>目前处于Alpha阶段(比beta更靠前，属于完全关闭测试的阶段)<br>ICEAGE与BEGC都有几率在以后使用上(内嵌型)</p>
 <p><img src="https://pic.downk.cc/item/5f8bed041cd1bbb86b5543ff.png" alt="ICON"></p>
 <h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:ULANG框架(待定的)<br>英文名字:Ulang framework<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:Alpha<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:–<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议："><a href="#Addon协议：" class="headerlink" title="Addon协议："></a>Addon协议：</h3><p>本协议专门针对个人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
-<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
-<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>加群费用仅0.5RMB<br>支付请加我QQ3324656453<br>支持QQ和微信支付</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
 <h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p>正处于Aplha关闭测试阶段，请耐心等待开放内测…</p>
 ]]></content>
       <categories>
@@ -112,10 +110,10 @@
 <p><img src="https://i0.hdslb.com/bfs/album/409fd4d64ac09c024154deb1ecbd8cbbad739485.png" alt="ICON"></p>
 <h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:行为记录<br>英文名字:Log record<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:–<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:2020-10-11<br>来源:原创</p>
 <h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>新增24种监听事件(23种服务端事件,1种客户端事件)<br>共计40+种结果</p>
-<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议："><a href="#Addon协议：" class="headerlink" title="Addon协议："></a>Addon协议：</h3><p>本协议专门针对个人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
-<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
-<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>加群费用仅0.5RMB<br>支付请加我QQ3324656453<br>支持QQ和微信支付</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzoui.com/iLtY0hc8btc" target="_blank" rel="noopener">&gt;点我&lt;</a></p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzoui.com/iLtY0hc8btc" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
 <h6 id="开源地址："><a href="#开源地址：" class="headerlink" title="开源地址："></a>开源地址：</h6><p><a href="https://gitee.com/BIYUEHU/Log_record" target="_blank" rel="noopener">Gitee</a><br><a href="https://github.com/BIYUEHU/Log_record" target="_blank" rel="noopener">Github</a></p>
 ]]></content>
       <categories>
@@ -244,9 +242,9 @@
 <h3 id="beta0705pre3"><a href="#beta0705pre3" class="headerlink" title="beta0705pre3:"></a>beta0705pre3:</h3><p>加入了老虎的模型与贴图,加入了企鹅的模型与贴图<br>加入了四把武器的伤害<br>伤害分别为:冰川木剑4点,冰川石剑7点,坚冰剑10点,水晶剑14点<br>光照系统已适配安卓,IOS,WIN10等平台</p>
 <h3 id="beta0705pre2"><a href="#beta0705pre2" class="headerlink" title="beta0705pre2:"></a>beta0705pre2:</h3><p>加入了总计四个新生物,1个被动生物,2个敌对生物,1个中立生物<br>模型和贴图正在搞</p>
 <h3 id="beta0702pre1"><a href="#beta0702pre1" class="headerlink" title="beta0702pre1:"></a>beta0702pre1:</h3><p>核心构建完成,加入了基础物品方块,更改了所有群系,加入了船新Shader光照与天空贴图</p>
-<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议："><a href="#Addon协议：" class="headerlink" title="Addon协议："></a>Addon协议：</h3><p>本协议专门针对个人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
-<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
-<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>加群费用仅0.5RMB<br>支付请加我QQ3324656453<br>支持QQ和微信支付</p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
 <h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><strong>*beta版不公开发布</strong><br><a href="https://biyuehudada.lanzoui.com/iC6Zjh5pesj" target="_blank" rel="noopener">&gt;正式版V1.0.0&lt;</a><br><a href="https://biyuehudada.lanzous.com/iaVKqeoqeyh" target="_blank" rel="noopener">&gt;预览版V0.8.1&lt;</a></p>
 ]]></content>
       <categories>
@@ -265,7 +263,7 @@
     <content><![CDATA[<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:中秋节Addon<br>英文名字:-<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:-<br>最新版本支持游戏版本:1.16.x，1.14.x<br>最后更新时间:2020-10-01<br>来源:原创</p>
 <h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>加入了冰糖月饼<br>加入了蛋黄月饼<br>加入了豆沙月饼<br>加入了五仁月饼</p>
 <p>加入了月饼商人，用于交易月饼</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzoui.com/i1ntHh2ltqf" target="_blank" rel="noopener">https://biyuehudada.lanzoui.com/i1ntHh2ltqf</a></p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzoui.com/i1ntHh2ltqf" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
 ]]></content>
       <categories>
         <category>作品</category>
@@ -357,9 +355,9 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
 <h3 id="V0-1-1"><a href="#V0-1-1" class="headerlink" title="V0.1.1:"></a>V0.1.1:</h3><p>以下内容为直接摘取自上次的发布贴</p>
 <p>新增矿石:铜,锡,铅,铀，会自然生成，铀矿最为稀有<br>可以放到熔炉/高炉里烧制成锭【图1】<br>锭（外加铁锭,金锭,钻石,煤）可以直接在工作台最中间分解成两个粉然后再次放到高炉里（熔炉不可以）烧制成原料【图2】<br>共新增7种锭,11种粉<br>新增工具:铜稿,剑 锻造锤（图3）工业剪刀（图4）<br>共增加9种板子（合成配方图6），一种外壳一种线（合成配方图5,7）<br>新增9种方块:<br>可以把新增的7种锭合成为块，也可以分解（图8,10）<br>共7种<br>橡胶树（有两种状态），有橡胶的橡胶树可以直接合成为橡胶（别吐槽了，会改的）（图9）<br>新增物品:<br>电池（图11）<br>电路板（图12）</p>
 <hr>
-<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议："><a href="#Addon协议：" class="headerlink" title="Addon协议："></a>Addon协议：</h3><p>本协议专门针对个人制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
-<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.使用本Addon即代表你遵守协议，否则别用；<br>5.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
-<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>加群费用仅0.5RMB<br>支付请加我QQ3324656453<br>支持QQ和微信支付</p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
 <h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p>该资源最新正式版V0.5.0为付费版，购买请直接加我QQ3324656453支付0.5rmb即可进入付费群<br>（付费群拥有所有付费资源与历史作品和开发中的beta非公开版等）<br>V0.1.1到V0.4.1的版本<a href="https://biyuehudada.lanzous.com/b01bdf3xc" target="_blank" rel="noopener">&gt;戳老子&lt;</a></p>
 ]]></content>
       <categories>
@@ -385,7 +383,7 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
 <p><strong>链锤：</strong><br>拥有42攻击伤害<br><img src="https://pic.downk.cc/item/5f37a20914195aa594f98b62.png" alt="链锤"></p>
 <p><strong>大锤：</strong><br>拥有60攻击伤害与1幸运<br>带附魔效果以及3D模型效果（第三人称视角）<br><img src="https://pic.downk.cc/item/5f37a20914195aa594f98b66.png" alt="大锤"></p>
 <p><strong>介绍书：</strong><br>潜行即可一键获得所有武器</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/inXqRfnhi4h" target="_blank" rel="noopener">戳我</a></p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/inXqRfnhi4h" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
 ]]></content>
       <categories>
         <category>作品</category>
@@ -415,7 +413,10 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
 <p>加入了匠魂史莱姆空岛草方块</p>
 <h4 id="新增实体"><a href="#新增实体" class="headerlink" title="新增实体"></a>新增实体</h4><p>加入了匠魂史莱姆<br>击杀后会掉落匠魂粘液球</p>
 <h4 id="新增结构"><a href="#新增结构" class="headerlink" title="新增结构"></a>新增结构</h4><p>加入了匠魂史莱姆空岛<br>会在主世界随机生成，空岛上的箱子有几率获得史莱姆水晶于匠魂史莱姆粘液球。<br><img src="https://pic.downk.cc/item/5f2269a314195aa59404ad61.png" alt="匠魂史莱姆空岛"></p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/i4GR1f4nc9i" target="_blank" rel="noopener">戳我</a></p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/i4GR1f4nc9i" target="_blank" rel="noopener">&gt;正式版V1.0.0&lt;</a></p>
 ]]></content>
       <categories>
         <category>作品</category>
@@ -697,7 +698,10 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
     <url>/2020/07/19/%E4%BD%9C%E5%93%81%E9%9B%86/</url>
     <content><![CDATA[<h4 id="ULANG框架"><a href="#ULANG框架" class="headerlink" title="ULANG框架"></a><a href="/2020/10/18/ULANG框架/">ULANG框架</a></h4><h6 id=""><a href="#" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="BEgc基岩版星系"><a href="#BEgc基岩版星系" class="headerlink" title="BEgc基岩版星系"></a><a href="/2020/10/18/BEgc基岩版星系/">BEgc基岩版星系</a></h4><h6 id="-1"><a href="#-1" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="行为记录"><a href="#行为记录" class="headerlink" title="行为记录"></a><a href="/2020/10/17/%E8%A1%8C%E4%B8%BA%E8%AE%B0%E5%BD%95/">行为记录</a></h4><h6 id="-2"><a href="#-2" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="BEtic基岩版匠魂"><a href="#BEtic基岩版匠魂" class="headerlink" title="BEtic基岩版匠魂"></a><a href="/2020/07/30/BEtic/">BEtic基岩版匠魂</a></h4><h6 id="-3"><a href="#-3" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="ICE-AGE-冰河世纪"><a href="#ICE-AGE-冰河世纪" class="headerlink" title="ICE AGE 冰河世纪"></a><a href="/2020/10/01/ICE%20AGE冰河世纪/">ICE AGE 冰河世纪</a></h4><h6 id="-4"><a href="#-4" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="BEic2基岩版工业2系列"><a href="#BEic2基岩版工业2系列" class="headerlink" title="-BEic2基岩版工业2系列"></a>-<a href="/2020/02/07/BEic2基岩版工业2/">BEic2基岩版工业2系列</a></h4><p>- -BEic2本体<br>- -BEic2周边作品<br>- - -BEic2优化资源包<br>- - - -BEic2翻译补丁包<br>- - - -BEic2高清资源包<br>- - -BEic2扩展包<br>- - - -BEic2扩展包投掷炸药</p>
 <h6 id="-5"><a href="#-5" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="节日系列Add"><a href="#节日系列Add" class="headerlink" title="-节日系列Add"></a>-<a href="/2020/06/27/节日系列Add/">节日系列Add</a></h4><p>- -端午节Addon<br>- -中秋节Addon</p>
-<h6 id="-6"><a href="#-6" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="垃圾分类-垃圾桶"><a href="#垃圾分类-垃圾桶" class="headerlink" title="垃圾分类-垃圾桶"></a><a href="/2020/06/25/%E5%9E%83%E5%9C%BE%E5%88%86%E7%B1%BB/">垃圾分类-垃圾桶</a></h4><h6 id="-7"><a href="#-7" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="水作合集"><a href="#水作合集" class="headerlink" title="水作合集"></a><a href="/2019/12/29/水作合集/">水作合集</a></h4>]]></content>
+<h6 id="-6"><a href="#-6" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="垃圾分类-垃圾桶"><a href="#垃圾分类-垃圾桶" class="headerlink" title="垃圾分类-垃圾桶"></a><a href="/2020/06/25/%E5%9E%83%E5%9C%BE%E5%88%86%E7%B1%BB/">垃圾分类-垃圾桶</a></h4><h6 id="-7"><a href="#-7" class="headerlink" title="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"></a>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h6><h4 id="水作合集"><a href="#水作合集" class="headerlink" title="水作合集"></a><a href="/2019/12/29/水作合集/">水作合集</a></h4><h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
+]]></content>
       <categories>
         <category>作品</category>
       </categories>
@@ -715,7 +719,10 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
 <p>粽子神剑:<br>名字只是个比喻~伤害为8如果没有伤害请确保此Addon中的player.json是否有被其它add覆盖</p>
 <h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:端午节Addon<br>英文名字:-<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:-<br>最新版本支持游戏版本:1.16.x，1.14.x<br>最后更新时间:2020-06-27<br>来源:原创</p>
 <h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>加入了生的豆沙粽/肉粽/甜粽<br>加入了数的豆沙粽/肉粽/甜粽<br>加入了糖块<br>加入了面粉,糯米<br>加入了粽子苹果<br>加入了粽子神剑</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/ieiP8e0n9ne" target="_blank" rel="noopener">https://biyuehudada.lanzous.com/ieiP8e0n9ne</a></p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/ieiP8e0n9ne" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
 ]]></content>
       <categories>
         <category>作品</category>
@@ -748,7 +755,10 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
 <h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:垃圾分类-垃圾桶<br>英文名字:-<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:-<br>最新版本支持游戏版本:1.16.x，1.14.x<br>最后更新时间:2020-06-25<br>来源:原创</p>
 <h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><p>加了三个垃圾桶<br>分别对应:<br>红色-有害垃圾桶<br>绿色-可回收垃圾桶<br>黄色-湿垃圾</p>
 <p>为了进行点缀，本Add也加了一些”垃圾”</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/izI0Ve3epvc" target="_blank" rel="noopener">https://biyuehudada.lanzous.com/izI0Ve3epvc</a></p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><a href="https://biyuehudada.lanzous.com/izI0Ve3epvc" target="_blank" rel="noopener">&gt;戳我&lt;</a></p>
 ]]></content>
       <categories>
         <category>作品</category>
@@ -839,7 +849,9 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
 <h4 id="扩展资源包"><a href="#扩展资源包" class="headerlink" title="扩展资源包"></a>扩展资源包</h4><p><a href="/2020/05/12/BEic2%E7%BF%BB%E8%AF%91%E8%A1%A5%E4%B8%81%E5%8C%85/">BEic2翻译补丁包</a></p>
 <p><a href="/2020/06/01/BEic2%E9%AB%98%E6%B8%85%E6%9D%90%E8%B4%A8%E5%8C%85">BEic2高清材质包</a></p>
 <h4 id="扩展包"><a href="#扩展包" class="headerlink" title="扩展包"></a>扩展包</h4><p><a href="/2020/05/21/BEic2%E6%89%A9%E5%B1%95%E5%8C%85%E7%82%B8%E8%8D%AF/">投掷炸药</a></p>
-<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><p>不要TM随便乱发，禁止倒卖,禁止擅自转载搬运,禁止公开发到QQ(或其它)群文件或装到服务器(必须由我亲自同意才行),否则我们也很乐意公开一下你的名字的</p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
 ]]></content>
       <categories>
         <category>作品</category>
@@ -883,9 +895,9 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
   <entry>
     <title>支持与赞助</title>
     <url>/2016/01/01/%E6%94%AF%E6%8C%81%E4%B8%8E%E8%B5%9E%E5%8A%A9/</url>
-    <content><![CDATA[<p>加入付费群，历史作品与最新作品的beta内测版均会第一时间发布于此<br>正式版发布也会在这里提前发<br>特殊期间,加群费用再次下降至0.5RMB<br>支付方式:加我QQ3324656453支付0.5<br>支持QQ和VX支付<br>该QQ只做收费，不接受问题咨询（更加不要加了后还问价格多少之内的低级问题）<br>建议中午和晚上支付，此时我才有时间<br>有时可能会不回消息，要么是因为心态崩溃要么就是太忙了，还请谅解</p>
-<p>赞助可以是经济上，也可以精神上<br>Bilibili关注我<a href="https://space.bilibili.com/293767574" target="_blank" rel="noopener">@碧月狐dada</a>，三联我的视频已经是对我莫大的支持与认可了awa</p>
-<p>如果土豪想给予更多金钱上的资助也请加QQ<br>数字并不重要，主要是认可与心意</p>
+    <content><![CDATA[<p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付<br>该QQ只做收费，不接受问题咨询（更加不要加了后还问价格多少之内的低级问题）<br>建议中午和晚上支付，此时我才有时间<br>有时可能会不回消息，要么是因为心态崩溃要么就是太忙了，还请谅解</p>
+<p>Bilibili关注我<a href="https://space.bilibili.com/293767574" target="_blank" rel="noopener">@碧月狐dada</a>，三联我的视频已经是对我莫大的支持与认可了awa</p>
+<p>如果土豪想给予更多金钱上的资助也请加QQ<br>金额并不重要，主要是认可与心意</p>
 ]]></content>
       <categories>
         <category>资讯</category>
