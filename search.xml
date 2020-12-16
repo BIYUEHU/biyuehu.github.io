@@ -64,9 +64,13 @@
       </tags>
   </entry>
   <entry>
-    <title>【置顶】更新说明-201205</title>
+    <title>【置顶】更新说明-201216</title>
     <url>/2334/11/20/%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/</url>
     <content><![CDATA[<p>本公告标题后缀将会随最后更新时间而改变<br>主要记载博客与Addon方面的更新内容<br>以方便大家了解内容变动</p>
+<h2 id="201216："><a href="#201216：" class="headerlink" title="201216："></a>201216：</h2><ul>
+<li>ICEAGE V3.0.0发布</li>
+<li>BEic2 V0.7.92发布</li>
+</ul>
 <h2 id="201205："><a href="#201205：" class="headerlink" title="201205："></a>201205：</h2><ul>
 <li>ICEAGE V2.0.12发布</li>
 <li><a href="/photos">相册</a>更新</li>
@@ -81,9 +85,98 @@
       </tags>
   </entry>
   <entry>
+    <title>BEic2基岩版工业2-本体</title>
+    <url>/2020/12/16/BEic2%E5%9F%BA%E5%B2%A9%E7%89%88%E5%B7%A5%E4%B8%9A2-%E6%9C%AC%E4%BD%93/</url>
+    <content><![CDATA[<p><strong><font color="#FF0000">本贴记录的为国际版BEic2，对于中国版BEic2会略有差距（有好也有坏），请自行分辨。</font></strong></p>
+<p>0.7.92主要对1.16.100及以上版本就行了新API接口适配</p>
+<p>支持<a href="/2020/12/16/ICE%20AGE冰河世纪/">ICEAGE</a>与BEic2一起装载，且双方的工具均可挖掘对方方块</p>
+<p><img src="https://pic.downk.cc/item/5fafe0095b02e238c909f875.png" alt="V0.6.0"><br><img src="https://pic.downk.cc/item/5f435efd160a154a67ebf1f0.png" alt="V0.5.0"><br><img src="https://pic.downk.cc/item/5f15b34014195aa5945446bd.png" alt="V0.4.0"><br><img src="https://i1.hdslb.com/bfs/archive/fa474ea52ac353324d7b35bed6cb5c280a9bf26f.jpg@560w_350h_100Q_1c.webp" alt="V0.1.1"></p>
+<p><a href="">点击观看B站介绍视频</a></p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版工业2<br>英文名字:BEic2<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:正式版V0.7.92<br>最新版本支持游戏版本:1.16.X<br>最后更新时间:2020-12-16<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="正式版0-7-92："><a href="#正式版0-7-92：" class="headerlink" title="正式版0.7.92："></a>正式版0.7.92：</h3><p>对1.16.100及以上版本进行新接口适配</p>
+<p>废除了player.json部分功能（非全部）<br>支持ICEAGE与BEic2一起装载，且双方的工具均可挖掘对方方块<br>更改了一些细节<br>更新了lang语言文件<br>新增了几个bug<br><img src="https://pic.downk.cc/item/5fda06343ffa7d37b3774882.png" alt=""></p>
+<p><img src="https://pic.downk.cc/item/5fda06343ffa7d37b377487d.png" alt=""></p>
+<h3 id="正式版0-6-0"><a href="#正式版0-6-0" class="headerlink" title="正式版0.6.0:"></a>正式版0.6.0:</h3><p>新增:<br>物品:<br>新增粗制碳板<br>新增碳板<br>新增纳米剑</p>
+<p>UI:<br>新增Addon介绍UI(H5UI)<br>新增问卷调查UI(H5UI)<br>新增Addon协议UI(H5UI)<br>新增游戏内右上角水印<br>新增铁炉UI，暂未实装(H5UI)</p>
+<p>正式版0.5.0:<br>新增<br>加入了铜线<br>合成：<br>AB<br>A为工业剪刀，B为铜板</p>
+<p>加入了绝缘铜线<br>合成：<br>橡胶+铜线</p>
+<p>加入了日光灯<br>用于合成夜视镜<br>合成：<br>ABA<br>ACA<br>AAA<br>A为玻璃，B为绝缘铜线，C为锡线</p>
+<p>加入了高级充电电池<br>用于合成夜视镜</p>
+<p>加入了高级热交换器<br>用于合成夜视镜</p>
+<p>加入了夜视镜<br>挖矿必备三件套之一<br>手持长按屏幕即可穿戴（键盘控制为手持右键），穿戴后将会获得夜视Buff<br>合成：<br>ABA<br>CDC<br>EFE<br>A为高级热交换器，B为高级充电电池，C为日光灯，D为防爆玻璃，E为橡胶，F为电路板</p>
+<p>加入了青铜剑的合成配方以及攻击伤害<br>合成：<br>A<br>A<br>B<br>A为青铜锭，B为木棍</p>
+<p>*加入了Script Engine(以下简称”SE”)脚本引擎系统 SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之所以强调这个是因为SE目前官方仍在测试中，只能WIN10端加载，而安卓则需要方块启动器，IOS没救，但方块启动器1.16至今仍未更新<br>为了照顾移动端玩家，本次V0.5.0版本分为带脚本引擎版与不带脚本引擎版<br>有何不同？<br>脚本引擎一般用于做许多逻辑功能，由于该技术不成熟我对SE也没完全掌握，该版本的脚本引擎内容均为测试使用，没有任何核心内容涉及<br>即使不带也无伤大雅</p>
+<p>对于带脚本引擎版进入游戏会有是否加载的提示界面</p>
+<h3 id="正式版0-4-1"><a href="#正式版0-4-1" class="headerlink" title="正式版0.4.1:"></a>正式版0.4.1:</h3><p>新增<br>新增橡胶树生成结构，常生成于高海拔地区(如高地和高山)</p>
+<p>更改<br>更改了辐射枪子弹的模型<br>更改了主界面介绍GUI<br>更改了资源包的pack_icon图标<br>更改了行为包的pack_icon图标</p>
+<p>修复:<br>修复了青金石粉烧制会变成墨囊的bug<br>修复了橡胶树块的材质丢失bug<br>修复了铁粉无法烧制的bug</p>
+<h3 id="正式版-0-4-0"><a href="#正式版-0-4-0" class="headerlink" title="正式版.0.4.0:"></a>正式版.0.4.0:</h3><h4 id="新增"><a href="#新增" class="headerlink" title="新增"></a>新增</h4><p>加入了石杯<br>合成:<br>AA<br>AAA<br>AA<br>A为石头</p>
+<p>加入了朗姆酒:<br>饮用获得buff：<br>抗性提升 1级 30s<br>防火 1级 30s</p>
+<p>酿造台里:<br>甘蔗+石杯=朗姆酒</p>
+<p>加入了高浓啤酒:<br>获得buff：<br>挖掘疲劳 3级 20s<br>力量 1级 40s</p>
+<p>酿造台里:<br>啤酒花+石杯=高浓啤酒</p>
+<p>加入了低醇啤酒:<br>获得buff：<br>挖掘疲劳 30s<br>力量 25s</p>
+<p>酿造台里:<br>小麦+石杯=低醇啤酒</p>
+<p>酒桶:<br>A<br>B=酒桶<br>A</p>
+<p>A为橡木木板<br>B为橡胶树原木</p>
+<p>加入了啤酒花（块状与物品）与啤酒花种子<br>啤酒花(块状)被挖掘时有几率掉落啤酒花(物品)与啤酒花种子<br>啤酒花种子可以在泥土,草方块,砂土上种植变成啤酒花(块状)</p>
+<h4 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h4><p>调整了铁炉的贴图位置</p>
+<h4 id="修复"><a href="#修复" class="headerlink" title="修复"></a>修复</h4><p>修复了3个bug</p>
+<p>正式版0.3.06:<br>将自定义方块适配了1.16的版本，但是在物品栏里也找不到(API问题,作者不背锅)<br>只能像自定义物品一样,使用/give指令获得</p>
+<p>本版本为紧急更新适配,并非V0.3.0全部内容</p>
+<h3 id="V0-2-0"><a href="#V0-2-0" class="headerlink" title="V0.2.0:"></a>V0.2.0:</h3><h4 id="新增-1"><a href="#新增-1" class="headerlink" title="新增:"></a>新增:</h4><h4 id="物品"><a href="#物品" class="headerlink" title="物品:"></a>物品:</h4><h5 id="普通物品"><a href="#普通物品" class="headerlink" title="普通物品:"></a>普通物品:</h5><p>新增石粉<br>新增铀235,铀238,小撮铀235,小撮铀238,(合成核弹)<br>新增钚,小撮钚(同上)<br>新增能量水晶(合成辐射枪)<br>新增绝缘锡线(合成电路板)<br>新增粉碎铀矿石(合成小撮钚和小撮铀238)<br>新增树脂(获取橡胶)<br>新增没有电的电池与充满电的电池</p>
+<h5 id="工具"><a href="#工具" class="headerlink" title="工具:"></a>工具:</h5><p>新增工具 锤子(用于砸碎铀矿石制作粉碎铀矿石)<br>新增有电的挖矿/爆破辐射枪,没电的挖矿/爆破辐射枪(两种模式,挖矿模式和爆破模式,默认挖矿模式，潜行使用,用久后需要使用电池充电)<br>新增青铜头盔（半成品，直接用指令/replaceitem entity @p slot.armor.head 0 biyuehu:beic2_toukui_tong）</p>
+<h4 id="方块"><a href="#方块" class="headerlink" title="方块:"></a>方块:</h4><p>新增防爆玻璃(专门防核弹,抗暴堪比基岩)<br>新增铁炉(半成品)<br>新增铀块<br>新增没有燃料的核弹(没任何用)</p>
+<h4 id="实体"><a href="#实体" class="headerlink" title="实体:"></a>实体:</h4><p>新增工业tnt(威力是tnt4倍,并且一放就炸)<br>新增已填满燃料的核弹(范围最高可涉及到半径60的地方,130以内会有虚弱与剧毒buff)<br>辐射枪子弹(顾名思义)</p>
+<h4 id="配方"><a href="#配方" class="headerlink" title="配方:"></a>配方:</h4><h5 id="合成"><a href="#合成" class="headerlink" title="合成:"></a>合成:</h5><p>新增铀235与铀238/小撮铀235与小撮铀238/钚与小撮钚之间的合成与分解(类似铁粒与铁锭之间的关系)</p>
+<p>新增青铜剑的合成方式:<br>ABA<br>ABA<br>ACA<br>A空气,B青铜锭,C木棍</p>
+<p>新增青铜锭的合成方式:<br>AA<br>AB<br>A铜粉,B锡粉</p>
+<p>新增锤子的合成方式:<br>CAA<br>BAA<br>CAA<br>A空气,B木棍,A青铜锭</p>
+<p>新增能量水晶的合成方式:<br>AAA<br>ABA<br>AAA<br>A红石，B钻石</p>
+<p>新增树脂的合成方式:<br>直接将有橡胶的橡胶树放到合成栏里</p>
+<p>新增小撮铀238的合成方式:<br>将铀块放到合成栏里分解即可，现在不能分解成铀锭了</p>
+<p>新增铁炉合成方式:<br>KAK<br>AKA<br>ABA<br>A 铁锭 B熔炉 K空气</p>
+<p>新增绝缘锡线合成方式:<br>一个橡胶加一个锡线</p>
+<p>新增粉碎铀矿石的合成方式:<br>一个锤子加一个铀矿石</p>
+<p>新增防爆玻璃的合成方式:<br>AAA<br>ABA<br>AAA<br>A黑曜石,B玻璃</p>
+<p>新增辐射枪的合成方式:<br>AAB<br>CCD<br>ECC<br>A红石,E电路板,C铁板,B能量水晶,E空气,即可合成没有电的挖矿模式辐射枪</p>
+<p>没有电的辐射枪加有电的电池可以合成有电的辐射枪</p>
+<p>有电/没电的挖矿模式/爆破模式辐射枪可直接放在合成栏里切换模式</p>
+<p>新增没有燃料的核弹的合成方式:<br>ABA<br>BCB<br>ABA<br>A火药,B铀锭,C工业tnt</p>
+<p>注意:以下两个可以合成但是会有巴戈,直接创造获取<br>工业tnt:<br>AAA<br>BBB<br>AAA<br>A燧石,Btnt</p>
+<p>有燃料的核弹:<br>钚,铀235,铀238+工业tnt+铀块</p>
+<h5 id="熔炼"><a href="#熔炼" class="headerlink" title="熔炼:"></a>熔炼:</h5><p>新增充满电的电池的熔炼方式:<br>高炉里:没有电的电池</p>
+<p>新增小撮铀235的熔炼方式:<br>烟熏炉里:粉碎的铀矿石</p>
+<p>新增小撮钚的熔炼方式:<br>高炉里:粉碎的铀矿石</p>
+<p>新增橡胶的熔炼方式:<br>熔炉,烟熏炉,篝火里:树脂</p>
+<h4 id="其它"><a href="#其它" class="headerlink" title="其它:"></a>其它:</h4><p>新增全局资源中的作品信息GUI</p>
+<p>修改&amp;移除&amp;修复bug:<br>将上个版本的电池为没有电的电池<br>修改了橡胶的获取方式<br>现在只能用绝缘锡线合成电路板<br>修改了物品”Biyuehu:BEic2_jian_tong”的lang文件名字</p>
+<p>移除了上个版本获取1号彩蛋的function</p>
+<p>修复了无法合成青金石粉和青金石板的bug</p>
+<h5 id="彩蛋"><a href="#彩蛋" class="headerlink" title="彩蛋:"></a>彩蛋:</h5><p>彩蛋1(加入于V0.1.1):<br>Cookies，只能用/give @S  Biyuehu:caidan_binggan获得<br>吃了会有生命恢复</p>
+<p>彩蛋2(加入于V0.2.0):<br>法杖，合成:<br>A<br>B<br>C<br>A红石,B钻石块,C烈焰棒<br>潜行朝地使用，会使周围的实体获得升天buff，最终摔死</p>
+<h3 id="正式版0-1-1"><a href="#正式版0-1-1" class="headerlink" title="正式版0.1.1:"></a>正式版0.1.1:</h3><p>以下内容为直接摘取自上次的发布贴</p>
+<p>新增矿石:铜,锡,铅,铀，会自然生成，铀矿最为稀有<br>可以放到熔炉/高炉里烧制成锭【图1】<br>锭（外加铁锭,金锭,钻石,煤）可以直接在工作台最中间分解成两个粉然后再次放到高炉里（熔炉不可以）烧制成原料【图2】<br>共新增7种锭,11种粉<br>新增工具:铜稿,剑 锻造锤（图3）工业剪刀（图4）<br>共增加9种板子（合成配方图6），一种外壳一种线（合成配方图5,7）<br>新增9种方块:<br>可以把新增的7种锭合成为块，也可以分解（图8,10）<br>共7种<br>橡胶树（有两种状态），有橡胶的橡胶树可以直接合成为橡胶（别吐槽了，会改的）（图9）<br>新增物品:<br>电池（图11）<br>电路板（图12）</p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p>V0.5.0与V0.7.92为付费资源，请加入付费群。<br>V0.1.1到V0.4.1的版本<a href="https://biyuehudada.lanzous.com/b01bdf3xc" target="_blank" rel="noopener">&gt;戳老子&lt;</a></p>
+]]></content>
+      <categories>
+        <category>作品</category>
+        <category>BEic2</category>
+      </categories>
+      <tags>
+        <tag>作品</tag>
+        <tag>更新</tag>
+        <tag>Add-Ons</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ICE AGE冰河世纪</title>
-    <url>/2020/12/05/ICE%20AGE%E5%86%B0%E6%B2%B3%E4%B8%96%E7%BA%AA/</url>
+    <url>/2020/12/16/ICE%20AGE%E5%86%B0%E6%B2%B3%E4%B8%96%E7%BA%AA/</url>
     <content><![CDATA[<p><strong><font color="FF0000">本贴会记录国际版ICE AGE以及中国版ICE AGE</font></strong></p>
+<p>支持ICEAGE与<a href="/2020/02/07/BEic2基岩版工业2/">BEic2</a>一起装载，且双方的工具均可挖掘对方方块</p>
 <p>相信一定有许多热爱冰雪世界的北方朋友,也有和我一样向往北国风光的南方朋友吧!<br>这个Addon就可以让你满足!(没错,是Addon,并非是改改贴图的材质包)您不仅可以在MINECRAFT里观看美丽的雪景,欣赏更多的壮观的景象，也可以在这美丽的冰雪世界里探索与生存</p>
 <p>此为继BEIC2(基岩版工业2)发布之后的又一个新的大坑，其制作难度了也比BEIC2难得多(因为本add的几乎所有内容与想法都是原创)<br>本Addon附加包属于修改原版几乎所有的生物群系,所以本Addon不建议加到您的旧地图里面,因为它会重新加载所有区块(仅国际版ICE AGE)！<br>原本是将这个做成新的维度的，但就以现在的MCBE国际版的附加包API…你们都懂</p>
 <p><strong>关于中国版 ICE AGE：</strong><br>因特性略有不同以及中国版MODAPI丰富的问题存在十分大的差距，有好也有坏</p>
@@ -91,7 +184,9 @@
 <p>ICEAGE官网：<a href="https://biyuehu.github.io/iceage.github.io" target="_blank" rel="noopener">https://biyuehu.github.io/iceage.github.io</a></p>
 <p><img src="https://pic.downk.cc/item/5f6a109c160a154a676450c8.png" alt="新ICON"><br><img src="https://pic.downk.cc/item/5fcb5820394ac52378671ef1.png" alt=""></p>
 <p><img src="https://pic.downk.cc/item/5fcb584d394ac52378675947.png" alt=""></p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="正式版2-0-1-2"><a href="#正式版2-0-1-2" class="headerlink" title="正式版2.0.1.2:"></a>正式版2.0.1.2:</h3><p>更新了lang语言文件<br>更改了一些细节</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="正式版3-0-0："><a href="#正式版3-0-0：" class="headerlink" title="正式版3.0.0："></a>正式版3.0.0：</h3><p>更新了lang语言文件<br>实装了“书”<br>支持ICEAGE与BEic2一起装载，且双方的工具均可挖掘对方方块<br>更改了一些细节<br>加了n个bug<br><img src="https://pic.downk.cc/item/5fda06343ffa7d37b3774882.png" alt=""></p>
+<p><img src="https://pic.downk.cc/item/5fda06343ffa7d37b377487d.png" alt=""></p>
+<h3 id="正式版2-0-1-2"><a href="#正式版2-0-1-2" class="headerlink" title="正式版2.0.1.2:"></a>正式版2.0.1.2:</h3><p>更新了lang语言文件<br>更改了一些细节</p>
 <p><img src="https://pic.downk.cc/item/5fcb584d394ac52378675945.png" alt=""></p>
 <p><img src="https://pic.downk.cc/item/5fcb5900394ac5237868161b.png" alt=""></p>
 <h3 id="beta1129pre1："><a href="#beta1129pre1：" class="headerlink" title="beta1129pre1："></a>beta1129pre1：</h3><p>对大部分方块/物品/实体进行了1.16.100正式版适配<br>对大部分武器废除了原本使用player文件模拟的功能<br>对其进行使用了新的接口（但player并未完全无用）<br>移除了暴风雪<br>移除了冰川原石木棍与冰川原石剑<br>暂时性废除审批之弓与红宝石权杖与介绍书作用<br>改了一下UI<br>改了一下崩解之镐<br>改了一些东西<br>改了一些细节</p>
@@ -205,7 +300,8 @@
 <h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
 <p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
 <h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><strong>*beta版不公开发布</strong><br><a href="https://biyuehudada.lanzoui.com/iDwnOj2yuqb" target="_blank" rel="noopener">&gt;正式版V2.0.12&lt;</a><br><a href="https://biyuehudada.lanzoui.com/iC6Zjh5pesj" target="_blank" rel="noopener">&gt;正式版V1.0.0&lt;</a><br><a href="https://biyuehudada.lanzous.com/iaVKqeoqeyh" target="_blank" rel="noopener">&gt;预览版V0.8.1&lt;</a></p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p><strong>*正式版3.0.0为付费版本</strong></p>
+<p><strong>*beta版不公开发布</strong><br><a href="https://biyuehudada.lanzoui.com/iDwnOj2yuqb" target="_blank" rel="noopener">&gt;正式版V2.0.12&lt;</a><br><a href="https://biyuehudada.lanzoui.com/iC6Zjh5pesj" target="_blank" rel="noopener">&gt;正式版V1.0.0&lt;</a><br><a href="https://biyuehudada.lanzous.com/iaVKqeoqeyh" target="_blank" rel="noopener">&gt;预览版V0.8.1&lt;</a></p>
 ]]></content>
       <categories>
         <category>作品</category>
@@ -339,99 +435,6 @@
       </categories>
       <tags>
         <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>BEic2基岩版工业2-本体</title>
-    <url>/2020/11/14/BEic2%E5%9F%BA%E5%B2%A9%E7%89%88%E5%B7%A5%E4%B8%9A2-%E6%9C%AC%E4%BD%93/</url>
-    <content><![CDATA[<p><strong><font color="#FF0000">本贴记录的为国际版BEic2，对于中国版BEic2会略有差距（有好也有坏），请自行分辨。</font></strong></p>
-<p>V0.6.0再度更新!该版本内嵌ULANG框架Alpha v0.0.24版本<br>也是ULANG框架的首次公开测试！</p>
-<p><img src="https://pic.downk.cc/item/5fafe0095b02e238c909f875.png" alt="V0.6.0"><br><img src="https://pic.downk.cc/item/5f435efd160a154a67ebf1f0.png" alt="V0.5.0"><br><img src="https://pic.downk.cc/item/5f15b34014195aa5945446bd.png" alt="V0.4.0"><br><img src="https://i1.hdslb.com/bfs/archive/fa474ea52ac353324d7b35bed6cb5c280a9bf26f.jpg@560w_350h_100Q_1c.webp" alt="V0.1.1"></p>
-<p><a href="">点击观看B站介绍视频</a></p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版工业2<br>英文名字:BEic2<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:正式版V0.6.0<br>最新版本支持游戏版本:1.16.X<br>最后更新时间:2020-11-14<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="V0-6-0"><a href="#V0-6-0" class="headerlink" title="V0.6.0:"></a>V0.6.0:</h3><h4 id="新增"><a href="#新增" class="headerlink" title="新增"></a>新增</h4><h5 id="物品"><a href="#物品" class="headerlink" title="物品"></a>物品</h5><p>新增粗制碳板<br>新增碳板<br>新增纳米剑</p>
-<h5 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h5><p>新增Addon介绍UI(H5UI)<br>新增问卷调查UI(H5UI)<br>新增Addon协议UI(H5UI)<br>新增游戏内右上角水印<br>新增铁炉UI，暂未实装(H5UI)</p>
-<h3 id="V0-5-0"><a href="#V0-5-0" class="headerlink" title="V0.5.0:"></a>V0.5.0:</h3><h4 id="新增-1"><a href="#新增-1" class="headerlink" title="新增"></a>新增</h4><p>加入了铜线<br>合成：<br>AB<br>A为工业剪刀，B为铜板</p>
-<p>加入了绝缘铜线<br>合成：<br>橡胶+铜线</p>
-<p>加入了日光灯<br>用于合成夜视镜<br>合成：<br>ABA<br>ACA<br>AAA<br>A为玻璃，B为绝缘铜线，C为锡线<br><img src="https://pic.downk.cc/item/5f435efd160a154a67ebf1e4.png" alt=""></p>
-<p>加入了高级充电电池<br>用于合成夜视镜</p>
-<p>加入了高级热交换器<br>用于合成夜视镜</p>
-<p>加入了夜视镜<br>挖矿必备三件套之一<br>手持长按屏幕即可穿戴（键盘控制为手持右键），穿戴后将会获得夜视Buff<br>合成：<br>ABA<br>CDC<br>EFE<br>A为高级热交换器，B为高级充电电池，C为日光灯，D为防爆玻璃，E为橡胶，F为电路板<br><img src="https://pic.downk.cc/item/5f435efd160a154a67ebf1e6.png" alt=""></p>
-<p>加入了青铜剑的合成配方以及攻击伤害<br>合成：<br>A<br>A<br>B<br>A为青铜锭，B为木棍<br><img src="https://pic.downk.cc/item/5f435efd160a154a67ebf1ea.png" alt=""></p>
-<font color="#FF0000">
-*加入了Script Engine(以下简称"SE")脚本引擎系统
-SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之所以强调这个是因为SE目前官方仍在测试中，只能WIN10端加载，而安卓则需要方块启动器，IOS没救，但方块启动器1.16至今仍未更新</font>
-
-<p><strong>为了照顾移动端玩家，本次V0.5.0版本分为带脚本引擎版与不带脚本引擎版</strong><br><strong>有何不同？</strong><br>脚本引擎一般用于做许多逻辑功能，由于该技术不成熟我对SE也没完全掌握，该版本的脚本引擎内容均为测试使用，没有任何核心内容涉及<br>即使不带也无伤大雅</p>
-<p>对于带脚本引擎版进入游戏会有是否加载的提示界面<br><img src="https://pic.downk.cc/item/5f435efd160a154a67ebf1ec.png" alt=""></p>
-<h4 id="更改"><a href="#更改" class="headerlink" title="更改"></a>更改</h4><p>更改了核弹（实体）的生物蛋贴图<br>更改了工业TNT（实体）的生物蛋贴图</p>
-<h4 id="修复"><a href="#修复" class="headerlink" title="修复"></a>修复</h4><p>送走了1个特性，运来了3个特性</p>
-<h3 id="V0-4-1"><a href="#V0-4-1" class="headerlink" title="V0.4.1:"></a>V0.4.1:</h3><h4 id="新增-2"><a href="#新增-2" class="headerlink" title="新增"></a>新增</h4><p>新增橡胶树生成结构，常生成于高海拔地区(如高地和高山)</p>
-<h4 id="更改-1"><a href="#更改-1" class="headerlink" title="更改"></a>更改</h4><p>更改了辐射枪子弹的模型<br>更改了主界面介绍GUI<br>更改了资源包的pack_icon图标<br>更改了行为包的pack_icon图标</p>
-<h4 id="修复-1"><a href="#修复-1" class="headerlink" title="修复"></a>修复</h4><p>修复了青金石粉烧制会变成墨囊的bug<br>修复了橡胶树块的材质丢失bug<br>修复了铁粉无法烧制的bug</p>
-<h3 id="V-0-4-0"><a href="#V-0-4-0" class="headerlink" title="V.0.4.0:"></a>V.0.4.0:</h3><h4 id="新增-3"><a href="#新增-3" class="headerlink" title="新增"></a>新增</h4><p>加入了石杯<br>合成:<br>AA<br>AAA<br>AA<br>A为石头</p>
-<p>加入了朗姆酒:<br>饮用获得buff：<br>抗性提升 1级 30s<br>防火 1级 30s</p>
-<p>酿造台里:<br>甘蔗+石杯=朗姆酒</p>
-<p>加入了高浓啤酒:<br>获得buff：<br>挖掘疲劳 3级 20s<br>力量 1级 40s</p>
-<p>酿造台里:<br>啤酒花+石杯=高浓啤酒</p>
-<p>加入了低醇啤酒:<br>获得buff：<br>挖掘疲劳 30s<br>力量 25s</p>
-<p>酿造台里:<br>小麦+石杯=低醇啤酒</p>
-<p>酒桶:<br>A<br>B=酒桶<br>A</p>
-<p>A为橡木木板<br>B为橡胶树原木</p>
-<p>加入了啤酒花（块状与物品）与啤酒花种子<br>啤酒花(块状)被挖掘时有几率掉落啤酒花(物品)与啤酒花种子<br>啤酒花种子可以在泥土,草方块,砂土上种植变成啤酒花(块状)</p>
-<h4 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h4><p>调整了铁炉的贴图位置</p>
-<h4 id="修复-2"><a href="#修复-2" class="headerlink" title="修复"></a>修复</h4><p>修复了3个bug</p>
-<h3 id="V0-3-06"><a href="#V0-3-06" class="headerlink" title="V0.3.06:"></a>V0.3.06:</h3><p>将自定义方块适配了1.16的版本，但是在物品栏里也找不到(API问题,作者不背锅)<br>只能像自定义物品一样,使用/give指令获得</p>
-<p>本版本为紧急更新适配,并非V0.3.0全部内容</p>
-<h3 id="V0-2-0"><a href="#V0-2-0" class="headerlink" title="V0.2.0:"></a>V0.2.0:</h3><p>新增:<br>物品:</p>
-<p>普通物品:<br>新增石粉<br>新增铀235,铀238,小撮铀235,小撮铀238,(合成核弹)<br>新增钚,小撮钚(同上)<br>新增能量水晶(合成辐射枪)<br>新增绝缘锡线(合成电路板)<br>新增粉碎铀矿石(合成小撮钚和小撮铀238)<br>新增树脂(获取橡胶)<br>新增没有电的电池与充满电的电池</p>
-<p>工具:<br>新增工具 锤子(用于砸碎铀矿石制作粉碎铀矿石)<br>新增有电的挖矿/爆破辐射枪,没电的挖矿/爆破辐射枪(两种模式,挖矿模式和爆破模式,默认挖矿模式，潜行使用,用久后需要使用电池充电)<br>新增青铜头盔（半成品，直接用指令/replaceitem entity @p slot.armor.head 0 biyuehu:beic2_toukui_tong）</p>
-<p>方块:</p>
-<p>新增防爆玻璃(专门防核弹,抗暴堪比基岩)<br>新增铁炉(半成品)<br>新增铀块<br>新增没有燃料的核弹(没任何用)</p>
-<p>实体:<br>新增工业tnt(威力是tnt4倍,并且一放就炸)<br>新增已填满燃料的核弹(范围最高可涉及到半径60的地方,130以内会有虚弱与剧毒buff)<br>辐射枪子弹(顾名思义)</p>
-<p>配方:<br>合成:<br>新增铀235与铀238/小撮铀235与小撮铀238/钚与小撮钚之间的合成与分解(类似铁粒与铁锭之间的关系)</p>
-<p>新增青铜剑的合成方式:<br>ABA<br>ABA<br>ACA<br>A空气,B青铜锭,C木棍</p>
-<p>新增青铜锭的合成方式:<br>AA<br>AB<br>A铜粉,B锡粉</p>
-<p>新增锤子的合成方式:<br>CAA<br>BAA<br>CAA<br>A空气,B木棍,A青铜锭</p>
-<p>新增能量水晶的合成方式:<br>AAA<br>ABA<br>AAA<br>A红石，B钻石</p>
-<p>新增树脂的合成方式:<br>直接将有橡胶的橡胶树放到合成栏里</p>
-<p>新增小撮铀238的合成方式:<br>将铀块放到合成栏里分解即可，现在不能分解成铀锭了</p>
-<p>新增铁炉合成方式:<br>KAK<br>AKA<br>ABA<br>A 铁锭 B熔炉 K空气</p>
-<p>新增绝缘锡线合成方式:<br>一个橡胶加一个锡线</p>
-<p>新增粉碎铀矿石的合成方式:<br>一个锤子加一个铀矿石</p>
-<p>新增防爆玻璃的合成方式:<br>AAA<br>ABA<br>AAA<br>A黑曜石,B玻璃</p>
-<p>新增辐射枪的合成方式:<br>AAB<br>CCD<br>ECC<br>A红石,E电路板,C铁板,B能量水晶,E空气,即可合成没有电的挖矿模式辐射枪</p>
-<p>没有电的辐射枪加有电的电池可以合成有电的辐射枪</p>
-<p>有电/没电的挖矿模式/爆破模式辐射枪可直接放在合成栏里切换模式</p>
-<p>新增没有燃料的核弹的合成方式:<br>ABA<br>BCB<br>ABA<br>A火药,B铀锭,C工业tnt</p>
-<p>注意:以下两个可以合成但是会有巴戈,直接创造获取<br>工业tnt:<br>AAA<br>BBB<br>AAA<br>A燧石,Btnt</p>
-<p>有燃料的核弹:<br>钚,铀235,铀238+工业tnt+铀块</p>
-<p>熔炼:</p>
-<p>新增充满电的电池的熔炼方式:<br>高炉里:没有电的电池</p>
-<p>新增小撮铀235的熔炼方式:<br>烟熏炉里:粉碎的铀矿石</p>
-<p>新增小撮钚的熔炼方式:<br>高炉里:粉碎的铀矿石</p>
-<p>新增橡胶的熔炼方式:<br>熔炉,烟熏炉,篝火里:树脂</p>
-<p>其它:<br>新增全局资源中的作品信息GUI</p>
-<p>修改&amp;移除&amp;修复bug:<br>将上个版本的电池为没有电的电池<br>修改了橡胶的获取方式<br>现在只能用绝缘锡线合成电路板<br>修改了物品”Biyuehu:BEic2_jian_tong”的lang文件名字</p>
-<p>移除了上个版本获取1号彩蛋的function</p>
-<p>修复了无法合成青金石粉和青金石板的bug</p>
-<p>彩蛋:<br>彩蛋1(加入于V0.1.1):<br>Cookies，只能用/give @S  Biyuehu:caidan_binggan获得<br>吃了会有生命恢复</p>
-<p>彩蛋2(加入于V0.2.0):<br>法杖，合成:<br>A<br>B<br>C<br>A红石,B钻石块,C烈焰棒<br>潜行朝地使用，会使周围的实体获得升天buff，最终摔死</p>
-<h3 id="V0-1-1"><a href="#V0-1-1" class="headerlink" title="V0.1.1:"></a>V0.1.1:</h3><p>以下内容为直接摘取自上次的发布贴</p>
-<p>新增矿石:铜,锡,铅,铀，会自然生成，铀矿最为稀有<br>可以放到熔炉/高炉里烧制成锭【图1】<br>锭（外加铁锭,金锭,钻石,煤）可以直接在工作台最中间分解成两个粉然后再次放到高炉里（熔炉不可以）烧制成原料【图2】<br>共新增7种锭,11种粉<br>新增工具:铜稿,剑 锻造锤（图3）工业剪刀（图4）<br>共增加9种板子（合成配方图6），一种外壳一种线（合成配方图5,7）<br>新增9种方块:<br>可以把新增的7种锭合成为块，也可以分解（图8,10）<br>共7种<br>橡胶树（有两种状态），有橡胶的橡胶树可以直接合成为橡胶（别吐槽了，会改的）（图9）<br>新增物品:<br>电池（图11）<br>电路板（图12）</p>
-<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
-<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
-<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p>V0.5.0与V0.6.0为付费资源，请加入付费群。<br>V0.1.1到V0.4.1的版本<a href="https://biyuehudada.lanzous.com/b01bdf3xc" target="_blank" rel="noopener">&gt;戳老子&lt;</a></p>
-]]></content>
-      <categories>
-        <category>作品</category>
-        <category>BEic2</category>
-      </categories>
-      <tags>
-        <tag>作品</tag>
-        <tag>更新</tag>
-        <tag>Add-Ons</tag>
       </tags>
   </entry>
   <entry>
@@ -722,11 +725,11 @@ SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之
 <p>作为最著名的Minecraft模组之一<br>工业是初次接触大型Minecraft模组的玩家很好的选择。</p>
 <p>当然这只是JAVA版的模组，基岩版部分玩家可能心中已经有无数个草泥马奔腾而过了(雾)</p>
 <p>而BEic2既是以Add-Ons方式在基岩版上重新制作,目前依然在开发中ing…</p>
-<p><img src="https://pic.downk.cc/item/5f2bb5bb14195aa594622903.png" alt="icon"></p>
+<p><img src="https://pic.downk.cc/item/5fafe0095b02e238c909f875.png" alt="icon"></p>
 <p><a href="">点击观看B站介绍视频</a></p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版工业2<br>英文名字:BEic2<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:正式版V0.6.0<br>最新版本支持游戏版本:1.16.X<br>最后更新时间:2020-11-14<br>来源:原创</p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版工业2<br>英文名字:BEic2<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:正式版0.7.92<br>最新版本支持游戏版本:1.16.X<br>最后更新时间:2020-12-16<br>来源:原创</p>
 <h2 id="特色"><a href="#特色" class="headerlink" title="特色"></a>特色</h2><p>BEic2Addon与其它的移植版工业Addon不同<br>在更新BEic2本体时,我还会时不时做一些BEic2周边作品<br>比如优化资源包或扩展包</p>
-<h2 id="BEic2基岩版工业2"><a href="#BEic2基岩版工业2" class="headerlink" title="BEic2基岩版工业2"></a>BEic2基岩版工业2</h2><p><a href="/2020/11/14/BEic2基岩版工业2-本体/">详细内容</a><br>注:本贴只做总结</p>
+<h2 id="BEic2基岩版工业2"><a href="#BEic2基岩版工业2" class="headerlink" title="BEic2基岩版工业2"></a>BEic2基岩版工业2</h2><p><a href="/2020/12/16/BEic2基岩版工业2-本体/">详细内容</a><br>注:本贴只做总结</p>
 <h3 id="周边作品"><a href="#周边作品" class="headerlink" title="周边作品"></a>周边作品</h3><p>周边作品目前包括两类：<br>优化资源包与扩展包</p>
 <h4 id="扩展资源包"><a href="#扩展资源包" class="headerlink" title="扩展资源包"></a>扩展资源包</h4><p><a href="/2020/05/12/BEic2%E7%BF%BB%E8%AF%91%E8%A1%A5%E4%B8%81%E5%8C%85/">BEic2翻译补丁包</a></p>
 <p><a href="/2020/06/01/BEic2%E9%AB%98%E6%B8%85%E6%9D%90%E8%B4%A8%E5%8C%85">BEic2高清材质包</a></p>
