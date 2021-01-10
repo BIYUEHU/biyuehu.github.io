@@ -35,7 +35,7 @@
 <p><strong>请务必遵守下面的回帖格式：</strong></p>
 <h2 id="Bug反馈"><a href="#Bug反馈" class="headerlink" title="Bug反馈"></a>Bug反馈</h2><p>资源Bug反馈仅限于发布到该博客的资源，对于Beta测试版不算在内<br><strong>回帖格式：</strong><br>带*星号的为必填，回帖时去掉星号<br>带#井号后面的文字为说明</p>
 <p>*资源名称： #目前支持ICE AGE冰河世纪、BEic2基岩版工业2、ULANG框架、BEgc基岩版星系 的反馈<br>*资源版本： #必须为<strong>最新正式版</strong>而不是beta测试版和旧版本，如果是中国版下载的，请直接填写“中国版”两字<br>*游戏版本： #必须为<strong>最新正式版</strong>而不是beta测试版和旧版本，如果是中国版下载的，请直接填写“中国版”两字<br>*设备系统:  #请填写 安卓/IOS/WIN10，可多选<br>*问题描述:  #越详细越好<br>  更改意见:  #可选填<br>  联系方式:  #可选填，可以是QQ或者邮箱，可多选</p>
-<h3 id="Bug反馈例子："><a href="#Bug反馈例子：" class="headerlink" title="Bug反馈例子："></a>Bug反馈例子：</h3><p>资源名称：BEic2基岩版工业2<br>资源版本: V0.4.0<br>游戏版本：1.16.2<br>设备系统：安卓<br>问题描述：青金石粉在高炉烧制出来的是墨囊而不是青金石<br>更改意见：修复该Bug<br>联系方式：<a href="mailto:12345ssdlh@xx.com">12345ssdlh@xx.com</a>   </p>
+<h3 id="Bug反馈例子："><a href="#Bug反馈例子：" class="headerlink" title="Bug反馈例子："></a>Bug反馈例子：</h3><p>资源名称：BEic2基岩版工业2<br>资源版本：V0.4.0<br>游戏版本：1.16.2<br>设备系统：安卓<br>问题描述：青金石粉在高炉烧制出来的是墨囊而不是青金石<br>更改意见：修复该Bug<br>联系方式：<a href="mailto:12345ssdlh@xx.com">12345ssdlh@xx.com</a>   </p>
 <h3 id="Bug反馈注意事项"><a href="#Bug反馈注意事项" class="headerlink" title="Bug反馈注意事项:"></a>Bug反馈注意事项:</h3><p>请确保你已认真查看过更新日志是否修复您提的bug<br>请确保你使用的资源版本非beta测试版非旧版本<br>请确保你使用的游戏版本非beta测试版非旧版本<br>请确保之前没有人提过与你同样的问题（节约时间~）<br>请确保你的格式正确<br>请注意您的言行已遵守博客规矩，不带强制性/辱骂性</p>
 <h2 id="问题咨询"><a href="#问题咨询" class="headerlink" title="问题咨询"></a>问题咨询</h2><p>该项无需特定格式，直接回帖即可<br>你可以提问也可提出宝贵意见，但必须为以下<strong>范围</strong>：<br>个人博客相关问题和意见<br>Addon发布相关意见<br>Addon制作技术问题<br>PS：该贴也允许提Addon制作上的技术问题，但建议去<a href="/ADD教程/">Add教程</a>贴提<br>加群和赞助相关问题</p>
 <h2 id="问题咨询注意事项："><a href="#问题咨询注意事项：" class="headerlink" title="问题咨询注意事项："></a>问题咨询注意事项：</h2><p>请确保您的问题不是导入相关问题<br>请确保您的问题不是解压密码相关问题<br>请确保您的问题不是低级问题或萌新级问题或智障型问题或可笑至极的问题<br>请确保之前没有人提过与你同样的问题（节约时间~）<br>请注意您的言行已遵守博客规矩，不带强制性/辱骂性</p>
@@ -64,9 +64,18 @@
       </tags>
   </entry>
   <entry>
-    <title>【置顶】更新说明-201216</title>
+    <title>【置顶】更新说明-210109</title>
     <url>/2334/11/20/%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/</url>
     <content><![CDATA[<p>本公告标题后缀将会随最后更新时间而改变<br>主要记载博客与Addon方面的更新内容<br>以方便大家了解内容变动</p>
+<h2 id="210109："><a href="#210109：" class="headerlink" title="210109："></a>210109：</h2><ul>
+<li><p>ICEAGE V4.0.0发布</p>
+</li>
+<li><p>BEic2 V0.8.0发布</p>
+</li>
+<li><p>BEgc 1231pre发布</p>
+<p>2021年第一批作品</p>
+</li>
+</ul>
 <h2 id="201216："><a href="#201216：" class="headerlink" title="201216："></a>201216：</h2><ul>
 <li>ICEAGE V3.0.0发布</li>
 <li>BEic2 V0.7.92发布</li>
@@ -86,14 +95,15 @@
   </entry>
   <entry>
     <title>BEic2基岩版工业2-本体</title>
-    <url>/2020/12/16/BEic2%E5%9F%BA%E5%B2%A9%E7%89%88%E5%B7%A5%E4%B8%9A2-%E6%9C%AC%E4%BD%93/</url>
+    <url>/2021/01/10/BEic2%E5%9F%BA%E5%B2%A9%E7%89%88%E5%B7%A5%E4%B8%9A2-%E6%9C%AC%E4%BD%93/</url>
     <content><![CDATA[<p><strong><font color="#FF0000">本贴记录的为国际版BEic2，对于中国版BEic2会略有差距（有好也有坏），请自行分辨。</font></strong></p>
-<p>0.7.92主要对1.16.100及以上版本就行了新API接口适配</p>
+<p>0.8.0为完善更新，2021年BEic2的第一个版本</p>
 <p>支持<a href="/2020/12/16/ICE%20AGE冰河世纪/">ICEAGE</a>与BEic2一起装载，且双方的工具均可挖掘对方方块</p>
 <p><img src="https://pic.downk.cc/item/5fafe0095b02e238c909f875.png" alt="V0.6.0"><br><img src="https://pic.downk.cc/item/5f435efd160a154a67ebf1f0.png" alt="V0.5.0"><br><img src="https://pic.downk.cc/item/5f15b34014195aa5945446bd.png" alt="V0.4.0"><br><img src="https://i1.hdslb.com/bfs/archive/fa474ea52ac353324d7b35bed6cb5c280a9bf26f.jpg@560w_350h_100Q_1c.webp" alt="V0.1.1"></p>
 <p><a href="">点击观看B站介绍视频</a></p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版工业2<br>英文名字:BEic2<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:正式版V0.7.92<br>最新版本支持游戏版本:1.16.X<br>最后更新时间:2020-12-16<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="正式版0-7-92："><a href="#正式版0-7-92：" class="headerlink" title="正式版0.7.92："></a>正式版0.7.92：</h3><p>对1.16.100及以上版本进行新接口适配</p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版工业2<br>英文名字:BEic2<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:正式版0.8.0<br>最新版本支持游戏版本:1.16.X<br>最后更新时间:2021-01-09<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="正式版0-8-0："><a href="#正式版0-8-0：" class="headerlink" title="正式版0.8.0："></a>正式版0.8.0：</h3><p>2021年BEic2的第一个版本<br>本次为完善更新<br>内嵌ULANG版本更新至Aplha V0.0.28<br>更改了介绍书贴图<br>更改了文字介绍内容，加入了外传黑名单<br>更改了细节<br>加了几个bug</p>
+<h3 id="正式版0-7-92："><a href="#正式版0-7-92：" class="headerlink" title="正式版0.7.92："></a>正式版0.7.92：</h3><p>对1.16.100及以上版本进行新接口适配</p>
 <p>废除了player.json部分功能（非全部）<br>支持ICEAGE与BEic2一起装载，且双方的工具均可挖掘对方方块<br>更改了一些细节<br>更新了lang语言文件<br>新增了几个bug<br><img src="https://pic.downk.cc/item/5fda06343ffa7d37b3774882.png" alt=""></p>
 <p><img src="https://pic.downk.cc/item/5fda06343ffa7d37b377487d.png" alt=""></p>
 <h3 id="正式版0-6-0"><a href="#正式版0-6-0" class="headerlink" title="正式版0.6.0:"></a>正式版0.6.0:</h3><p>新增:<br>物品:<br>新增粗制碳板<br>新增碳板<br>新增纳米剑</p>
@@ -174,17 +184,18 @@
   </entry>
   <entry>
     <title>ICE AGE冰河世纪</title>
-    <url>/2020/12/16/ICE%20AGE%E5%86%B0%E6%B2%B3%E4%B8%96%E7%BA%AA/</url>
+    <url>/2021/01/10/ICE%20AGE%E5%86%B0%E6%B2%B3%E4%B8%96%E7%BA%AA/</url>
     <content><![CDATA[<p><strong><font color="FF0000">本贴会记录国际版ICE AGE以及中国版ICE AGE</font></strong></p>
 <p>支持ICEAGE与<a href="/2020/02/07/BEic2基岩版工业2/">BEic2</a>一起装载，且双方的工具均可挖掘对方方块</p>
 <p>相信一定有许多热爱冰雪世界的北方朋友,也有和我一样向往北国风光的南方朋友吧!<br>这个Addon就可以让你满足!(没错,是Addon,并非是改改贴图的材质包)您不仅可以在MINECRAFT里观看美丽的雪景,欣赏更多的壮观的景象，也可以在这美丽的冰雪世界里探索与生存</p>
 <p>此为继BEIC2(基岩版工业2)发布之后的又一个新的大坑，其制作难度了也比BEIC2难得多(因为本add的几乎所有内容与想法都是原创)<br>本Addon附加包属于修改原版几乎所有的生物群系,所以本Addon不建议加到您的旧地图里面,因为它会重新加载所有区块(仅国际版ICE AGE)！<br>原本是将这个做成新的维度的，但就以现在的MCBE国际版的附加包API…你们都懂</p>
 <p><strong>关于中国版 ICE AGE：</strong><br>因特性略有不同以及中国版MODAPI丰富的问题存在十分大的差距，有好也有坏</p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:冰河世纪<br>英文名字:ICE AGE<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:2.0.12<br>最新版本支持游戏版本:1.16.X<br>最后更新时间:2020-12-05</p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:冰河世纪<br>英文名字:ICE AGE<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:4.0.0<br>最新版本支持游戏版本:1.16.X<br>最后更新时间:2021-01-09</p>
 <p>ICEAGE官网：<a href="https://biyuehu.github.io/iceage.github.io" target="_blank" rel="noopener">https://biyuehu.github.io/iceage.github.io</a></p>
 <p><img src="https://pic.downk.cc/item/5f6a109c160a154a676450c8.png" alt="新ICON"><br><img src="https://pic.downk.cc/item/5fcb5820394ac52378671ef1.png" alt=""></p>
 <p><img src="https://pic.downk.cc/item/5fcb584d394ac52378675947.png" alt=""></p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="正式版3-0-0："><a href="#正式版3-0-0：" class="headerlink" title="正式版3.0.0："></a>正式版3.0.0：</h3><p>更新了lang语言文件<br>实装了“书”<br>支持ICEAGE与BEic2一起装载，且双方的工具均可挖掘对方方块<br>更改了一些细节<br>加了n个bug<br><img src="https://pic.downk.cc/item/5fda06343ffa7d37b3774882.png" alt=""></p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="正式版4-0-0："><a href="#正式版4-0-0：" class="headerlink" title="正式版4.0.0："></a>正式版4.0.0：</h3><p>2021年ICEAGE的第一个版本<br>本次为完善更新<br>更改了文字介绍内容，加入了外传黑名单<br>更改了细节<br>加了几个bug</p>
+<h3 id="正式版3-0-0："><a href="#正式版3-0-0：" class="headerlink" title="正式版3.0.0："></a>正式版3.0.0：</h3><p>更新了lang语言文件<br>实装了“书”<br>支持ICEAGE与BEic2一起装载，且双方的工具均可挖掘对方方块<br>更改了一些细节<br>加了n个bug<br><img src="https://pic.downk.cc/item/5fda06343ffa7d37b3774882.png" alt=""></p>
 <p><img src="https://pic.downk.cc/item/5fda06343ffa7d37b377487d.png" alt=""></p>
 <h3 id="正式版2-0-1-2"><a href="#正式版2-0-1-2" class="headerlink" title="正式版2.0.1.2:"></a>正式版2.0.1.2:</h3><p>更新了lang语言文件<br>更改了一些细节</p>
 <p><img src="https://pic.downk.cc/item/5fcb584d394ac52378675945.png" alt=""></p>
@@ -314,6 +325,39 @@
       </tags>
   </entry>
   <entry>
+    <title>BEgc基岩版星系</title>
+    <url>/2021/01/10/BEgc%E5%9F%BA%E5%B2%A9%E7%89%88%E6%98%9F%E7%B3%BB/</url>
+    <content><![CDATA[<p>ICE AGE的更新暂告一段落（不是弃坑，不是弃坑，不是弃坑！）<br>现在主要开始制作BEGC基岩版星系<br>BEGC有几率与BEIC2进行对接联动</p>
+<p><img src="https://pic.downk.cc/item/5f793779160a154a673b839e.png" alt="ICON"></p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版星系<br>英文名字:BEgc<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:beta1231pre1<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:2021-01-09<br>来源:原创</p>
+<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="beta1231pre1："><a href="#beta1231pre1：" class="headerlink" title="beta1231pre1："></a>beta1231pre1：</h3><p>2021年BEgc的第一个版本<br>内嵌了ULANG框架 Alpha V0.0.28<br>在熔炉内可将石油烧制为燃油<br>更改了一阶火箭（生物蛋）贴图<br>手持石油桶点击（左键）方块可将石油放置在地上（固态）<br>手持空桶点击（左键）固态石油可拾取石油（使用Script Engine做的硬核流体）</p>
+<h3 id="beta1227pre1"><a href="#beta1227pre1" class="headerlink" title="beta1227pre1:"></a>beta1227pre1:</h3><p>加入了燃油<br>加入了石油<br>加入了一阶火箭，暂未实装完毕<br>目前可以手持燃油对其进行装油，装载一次后无法再次装载</p>
+<h3 id="beta1219pre1"><a href="#beta1219pre1" class="headerlink" title="beta1219pre1:"></a>beta1219pre1:</h3><p>将已有内容适配到1.16.100及以上版本<br>改了点细节</p>
+<h3 id="beta1107pre1"><a href="#beta1107pre1" class="headerlink" title="beta1107pre1:"></a>beta1107pre1:</h3><h4 id="更改："><a href="#更改：" class="headerlink" title="更改："></a>更改：</h4><h5 id="界面："><a href="#界面：" class="headerlink" title="界面："></a>界面：</h5><p>改了点细节</p>
+<h3 id="beta1024pre1"><a href="#beta1024pre1" class="headerlink" title="beta1024pre1:"></a>beta1024pre1:</h3><h4 id="新增"><a href="#新增" class="headerlink" title="新增:"></a>新增:</h4><h5 id="物品："><a href="#物品：" class="headerlink" title="物品："></a>物品：</h5><p>加入了重装防护板资源部分<br>加入了火箭尾翼资源部分<br>加入了一阶火箭引擎资源部分<br>加入了鼻锥资源部分<br>加入了通风孔资源部分<br>加入了锡罐资源部分</p>
+<h5 id="配方："><a href="#配方：" class="headerlink" title="配方："></a>配方：</h5><p>加入了致密钢板合成<br>加入了致密青铜板合成<br>加入了致密铁板合成<br>加入了致密铜板合成<br>加入了致密锡板合成<br>加入了致密铝板合成<br>加入了重装防护板合成<br>加入了火箭尾翼合成<br>加入了一阶火箭引擎合成<br>加入了鼻锥合成<br>加入了通风孔合成<br>加入了锡罐合成</p>
+<h3 id="beta1017pre1"><a href="#beta1017pre1" class="headerlink" title="beta1017pre1:"></a>beta1017pre1:</h3><h4 id="新增："><a href="#新增：" class="headerlink" title="新增："></a>新增：</h4><p>界面：<br>在主界面新增“关于”按钮</p>
+<h4 id="更改：-1"><a href="#更改：-1" class="headerlink" title="更改："></a>更改：</h4><p>更改了主界面布局与配色<br><img src="https://pic.downk.cc/item/5f8bebff1cd1bbb86b54fe81.png" alt=""></p>
+<h3 id="beta1003pre1"><a href="#beta1003pre1" class="headerlink" title="beta1003pre1:"></a>beta1003pre1:</h3><h4 id="新增：-1"><a href="#新增：-1" class="headerlink" title="新增："></a>新增：</h4><h5 id="方块："><a href="#方块：" class="headerlink" title="方块："></a>方块：</h5><p>加入了铜块<br>加入了铝块<br>加入了锡块<br>加入了铜矿<br>加入了铝矿<br>加入了锡矿</p>
+<h5 id="物品：-1"><a href="#物品：-1" class="headerlink" title="物品："></a>物品：</h5><p>加入了铜锭<br>加入了铝锭<br>加入了锡锭<br>加入了致密钢板<br>加入了致密青铜板<br>加入了致密铁板<br>加入了致密铜板<br>加入了致密锡板<br>加入了致密铝板<br>加入了重装防护板<br>加入了火箭尾翼（仅行为部分）<br>加入了一阶火箭引擎（仅行为部分）<br>加入了鼻锥（仅行为部分）<br>加入了通风孔（仅行为部分）<br>加入了锡罐（仅行为部分）</p>
+<h5 id="配方：-1"><a href="#配方：-1" class="headerlink" title="配方："></a>配方：</h5><p>加入了铜块的合成<br>加入了铝块的合成<br>加入了锡块的合成<br>加入了铜矿的熔炼<br>加入了铝矿的熔炼<br>加入了锡矿的熔炼<br>加入了铜锭的合成与熔炼<br>加入了铝锭的合成与熔炼<br>加入了锡锭的合成与熔炼</p>
+<h5 id="界面：-1"><a href="#界面：-1" class="headerlink" title="界面："></a>界面：</h5><p>加入了右上水印</p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
+<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
+<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
+<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p>该资源正处于beta内测阶段，请加入付费群获取。</p>
+]]></content>
+      <categories>
+        <category>作品</category>
+        <category>BEgc</category>
+      </categories>
+      <tags>
+        <tag>作品</tag>
+        <tag>更新</tag>
+        <tag>Add-Ons</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>MarkDown基础语法</title>
     <url>/2020/12/05/MarkDown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<h1 id="什么是MarkDown"><a href="#什么是MarkDown" class="headerlink" title="什么是MarkDown?"></a>什么是MarkDown?</h1><p><strong>MarkDown</strong>是一种<a href="https://baike.baidu.com/item/轻量级标记语言/52671915" target="_blank" rel="noopener">轻量级标记语言</a>，创始人为约翰·格鲁伯（英语：John Gruber）。 它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。</p>
@@ -435,36 +479,6 @@
       </categories>
       <tags>
         <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>BEgc基岩版星系</title>
-    <url>/2020/10/18/BEgc%E5%9F%BA%E5%B2%A9%E7%89%88%E6%98%9F%E7%B3%BB/</url>
-    <content><![CDATA[<p>ICE AGE的更新暂告一段落（不是弃坑，不是弃坑，不是弃坑！）<br>现在主要开始制作BEGC基岩版星系<br>BEGC有几率与BEIC2进行对接联动</p>
-<p><img src="https://pic.downk.cc/item/5f793779160a154a673b839e.png" alt="ICON"></p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版星系<br>英文名字:BEgc<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:beta1017pre1<br>最新版本支持游戏版本:1.16.x<br>最后更新时间:2020-10-17<br>来源:原创</p>
-<h2 id="历史更新日志"><a href="#历史更新日志" class="headerlink" title="历史更新日志:"></a>历史更新日志:</h2><h3 id="beta1107pre1"><a href="#beta1107pre1" class="headerlink" title="beta1107pre1:"></a>beta1107pre1:</h3><h4 id="更改："><a href="#更改：" class="headerlink" title="更改："></a>更改：</h4><h5 id="界面："><a href="#界面：" class="headerlink" title="界面："></a>界面：</h5><p>改了点细节</p>
-<h3 id="beta1024pre1"><a href="#beta1024pre1" class="headerlink" title="beta1024pre1:"></a>beta1024pre1:</h3><h4 id="新增"><a href="#新增" class="headerlink" title="新增:"></a>新增:</h4><h5 id="物品："><a href="#物品：" class="headerlink" title="物品："></a>物品：</h5><p>加入了重装防护板资源部分<br>加入了火箭尾翼资源部分<br>加入了一阶火箭引擎资源部分<br>加入了鼻锥资源部分<br>加入了通风孔资源部分<br>加入了锡罐资源部分</p>
-<h5 id="配方："><a href="#配方：" class="headerlink" title="配方："></a>配方：</h5><p>加入了致密钢板合成<br>加入了致密青铜板合成<br>加入了致密铁板合成<br>加入了致密铜板合成<br>加入了致密锡板合成<br>加入了致密铝板合成<br>加入了重装防护板合成<br>加入了火箭尾翼合成<br>加入了一阶火箭引擎合成<br>加入了鼻锥合成<br>加入了通风孔合成<br>加入了锡罐合成</p>
-<h3 id="beta1017pre1"><a href="#beta1017pre1" class="headerlink" title="beta1017pre1:"></a>beta1017pre1:</h3><h4 id="新增："><a href="#新增：" class="headerlink" title="新增："></a>新增：</h4><p>界面：<br>在主界面新增“关于”按钮</p>
-<h4 id="更改：-1"><a href="#更改：-1" class="headerlink" title="更改："></a>更改：</h4><p>更改了主界面布局与配色<br><img src="https://pic.downk.cc/item/5f8bebff1cd1bbb86b54fe81.png" alt=""></p>
-<h3 id="beta1003pre1"><a href="#beta1003pre1" class="headerlink" title="beta1003pre1:"></a>beta1003pre1:</h3><h4 id="新增：-1"><a href="#新增：-1" class="headerlink" title="新增："></a>新增：</h4><h5 id="方块："><a href="#方块：" class="headerlink" title="方块："></a>方块：</h5><p>加入了铜块<br>加入了铝块<br>加入了锡块<br>加入了铜矿<br>加入了铝矿<br>加入了锡矿</p>
-<h5 id="物品：-1"><a href="#物品：-1" class="headerlink" title="物品："></a>物品：</h5><p>加入了铜锭<br>加入了铝锭<br>加入了锡锭<br>加入了致密钢板<br>加入了致密青铜板<br>加入了致密铁板<br>加入了致密铜板<br>加入了致密锡板<br>加入了致密铝板<br>加入了重装防护板<br>加入了火箭尾翼（仅行为部分）<br>加入了一阶火箭引擎（仅行为部分）<br>加入了鼻锥（仅行为部分）<br>加入了通风孔（仅行为部分）<br>加入了锡罐（仅行为部分）</p>
-<h5 id="配方：-1"><a href="#配方：-1" class="headerlink" title="配方："></a>配方：</h5><p>加入了铜块的合成<br>加入了铝块的合成<br>加入了锡块的合成<br>加入了铜矿的熔炼<br>加入了铝矿的熔炼<br>加入了锡矿的熔炼<br>加入了铜锭的合成与熔炼<br>加入了铝锭的合成与熔炼<br>加入了锡锭的合成与熔炼</p>
-<h5 id="界面：-1"><a href="#界面：-1" class="headerlink" title="界面："></a>界面：</h5><p>加入了右上水印</p>
-<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><h3 id="Addon协议（201101）："><a href="#Addon协议（201101）：" class="headerlink" title="Addon协议（201101）："></a>Addon协议（201101）：</h3><p>本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议</p>
-<p>1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；<br>2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；<br>3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；<br>4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）<br>5.使用本Addon即代表你遵守协议，否则别用；<br>6.如若不愿遵守以上协议，请注意您的个人隐私安全；</p>
-<h3 id="加入内测"><a href="#加入内测" class="headerlink" title="加入内测"></a>加入内测</h3><p>付费群:历史作品与最新作品的beta内测版均会第一时间发布于此<br>加群仅需2.0RMB<br>支付请加QQ3324656453<br>支持QQ和微信支付</p>
-<h5 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接:"></a>下载链接:</h5><p>该资源正处于beta内测阶段，请加入付费群获取。</p>
-]]></content>
-      <categories>
-        <category>作品</category>
-        <category>BEgc</category>
-      </categories>
-      <tags>
-        <tag>作品</tag>
-        <tag>更新</tag>
-        <tag>Add-Ons</tag>
       </tags>
   </entry>
   <entry>
@@ -727,7 +741,7 @@
 <p>而BEic2既是以Add-Ons方式在基岩版上重新制作,目前依然在开发中ing…</p>
 <p><img src="https://pic.downk.cc/item/5fafe0095b02e238c909f875.png" alt="icon"></p>
 <p><a href="">点击观看B站介绍视频</a></p>
-<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版工业2<br>英文名字:BEic2<br>类型:Add-Ons<br>前置:MinecraftBE<br>最新版本:正式版0.7.92<br>最新版本支持游戏版本:1.16.X<br>最后更新时间:2020-12-16<br>来源:原创</p>
+<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息:"></a>基本信息:</h2><p>中文名字:基岩版工业2<br>英文名字:BEic2<br>类型:Add-Ons<br>前置:ULANG<br>最新版本:正式版0.8.0<br>最新版本支持游戏版本:1.16.X<br>最后更新时间:2021-01-09<br>来源:原创</p>
 <h2 id="特色"><a href="#特色" class="headerlink" title="特色"></a>特色</h2><p>BEic2Addon与其它的移植版工业Addon不同<br>在更新BEic2本体时,我还会时不时做一些BEic2周边作品<br>比如优化资源包或扩展包</p>
 <h2 id="BEic2基岩版工业2"><a href="#BEic2基岩版工业2" class="headerlink" title="BEic2基岩版工业2"></a>BEic2基岩版工业2</h2><p><a href="/2020/12/16/BEic2基岩版工业2-本体/">详细内容</a><br>注:本贴只做总结</p>
 <h3 id="周边作品"><a href="#周边作品" class="headerlink" title="周边作品"></a>周边作品</h3><p>周边作品目前包括两类：<br>优化资源包与扩展包</p>
