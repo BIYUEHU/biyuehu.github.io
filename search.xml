@@ -64,9 +64,16 @@
       </tags>
   </entry>
   <entry>
-    <title>【置顶】更新说明-210109</title>
+    <title>【置顶】更新说明-210126</title>
     <url>/2334/11/20/%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E/</url>
     <content><![CDATA[<p>本公告标题后缀将会随最后更新时间而改变<br>主要记载博客与Addon方面的更新内容<br>以方便大家了解内容变动</p>
+<h2 id="210126："><a href="#210126：" class="headerlink" title="210126："></a>210126：</h2><ul>
+<li>新增外传黑名单</li>
+<li>新增博客附属网站-<a href="https://biyuehu.gitee.io/script-engine-doc1/#/" target="_blank" rel="noopener">脚本引擎文档</a></li>
+<li>新增博客附属网站-<a href="https://biyuehu.gitee.io/uuid/" target="_blank" rel="noopener">UUID生成</a></li>
+<li>新增博客附属网站-<a href="https://biyuehu.gitee.io/seimg/" target="_blank" rel="noopener">随机色图</a></li>
+<li>新增博客附属网站-<a href="https://biyuehu.gitee.io/motd/" target="_blank" rel="noopener">Motdpe服务器状态查询</a></li>
+</ul>
 <h2 id="210109："><a href="#210109：" class="headerlink" title="210109："></a>210109：</h2><ul>
 <li><p>ICEAGE V4.0.0发布</p>
 </li>
@@ -85,6 +92,22 @@
 <li><a href="/photos">相册</a>更新</li>
 <li>该公告发布</li>
 </ul>
+]]></content>
+      <categories>
+        <category>资讯</category>
+      </categories>
+      <tags>
+        <tag>资讯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【置顶】外传黑名单</title>
+    <url>/2334/11/19/%E5%A4%96%E4%BC%A0%E9%BB%91%E5%90%8D%E5%8D%95/</url>
+    <content><![CDATA[<h1 id="外传黑名单已更新"><a href="#外传黑名单已更新" class="headerlink" title="外传黑名单已更新"></a>外传黑名单已更新</h1><hr>
+<p>外传平台 外传者信息 外传文件<br>苦力怕论坛 klpbbs:<a href="https://klpbbs.com/?15490" target="_blank" rel="noopener">https://klpbbs.com/?15490</a><br>MCBBS:<br>XTS2005:<a href="https://www.mcbbs.net/?3727196" target="_blank" rel="noopener">https://www.mcbbs.net/?3727196</a><br>stonebig:<a href="https://www.mcbbs.net/?3831211" target="_blank" rel="noopener">https://www.mcbbs.net/?3831211</a><br>bilibili:stonebig:<a href="https://b23.tv/ot3daH" target="_blank" rel="noopener">https://b23.tv/ot3daH</a><br>QQ:3040744717<br>外传BEic20.1.1~0.6.0,BEtic1.0.0+3<em>beta,BEgc4</em>beta，并在klpbbs,mcbbs,b站泄露密码,该事件影响不小<br>QQ QQ:3515135336 外传BEic2v0.2.0<br>QQ QQ:2606249268 外传BEic2V4.0.<br>QQ QQ:1656424706 外传BETICV1.0.0,被发现后秒退群</p>
+<hr>
+<p>外传黑名单将会在Q群/博客/以及之后的Add内挂起<br>欢迎各位进行监督，只要不是由群主亲自发布均为外传，发现外传请第一时间向管理员举报，举报者会根据实际情况进行1r~20r奖励</p>
+<p>最后更新于：2021-01-26</p>
 ]]></content>
       <categories>
         <category>资讯</category>
