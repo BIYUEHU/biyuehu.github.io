@@ -1,0 +1,4673 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="Gridea静态个人博客">
+<meta name="description" content="&#34;无论今后发生请不要后悔与我相遇&#34; -CL">
+<meta name="theme-color" content="#c0eb75">
+<title>BiyuehuBlog</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1657251463236">
+<link rel="stylesheet" href="/media/css/gemini.css">
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/atom-one-dark.css"
+  rel="stylesheet">
+
+<link rel="stylesheet" href="/styles/main.css">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="/media/js/jquery.js"></script>
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="gemini">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>BiyuehuBlog</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">&#34;无论今后发生请不要后悔与我相遇&#34; -CL</p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-home"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives/" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item nav-item-active">
+              
+              
+                <a href="/tags/" target="_self">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/作品集/" target="_self">
+                  <i class="fa fa-globe"></i> 作品
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/photos/" target="_self">
+                  <i class="fa fa-globe"></i> 相册
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/about/" target="_self">
+                  <i class="fa fa-user"></i> 关于
+                </a>
+              
+            </li>
+          
+          
+            
+              <li class="nav-item ">
+                <a href="/friends/" target="_self">
+                  
+                    <i class="fa fa-address-book"></i> 友链
+                  
+                </a>
+              </li>
+            
+          
+          
+            <li id="fa_search" class="nav-item">
+              <a href="javascript:void(0);">
+                <i class="fa fa-search"></i> <span class="language" data-lan="search">搜索</span>
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout  gemini">
+      <div class="section-layout-wrapper">
+        <div id="sidebarMeta" class="sidebar">
+    
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">Biyuehu</p>
+    
+    <div class="site-description right-motion">
+      
+        <p id="binft">网络/软件工程开发,MCBE多领域开发,硬件等各领域都略有涉及
+老二次元、萝莉控、原批
+糊狸的交流群:317691609</p>
+      
+    </div>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">27</span>
+        <span class="site-item-stat-name language" data-lan="article">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">7</span>
+        <span class="site-item-stat-name language" data-lan="tag">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item">
+        <span class="site-item-rss">
+            <i class="fa fa-rss"></i>
+            <a href="http://biyuehu.github.io/atom.xml" target="_blank">RSS</a>
+        </span>
+      </div>
+    
+  
+  
+    <div class="sidebar-item sidebar-item-social">
+      <div class="social-item">
+        
+          
+            <a href="https://github.com/BIYUEHU">
+              <i class="fa fa-github-alt" title="BIYUEHU"></i>
+            </a>
+          
+            <a href="https://space.bilibili.com/293767574">
+              <i class="fa fa-globe" title="BILIBILI@碧月狐dada"></i>
+            </a>
+          
+        
+        
+      </div>
+    </div>
+  
+
+
+
+</div>
+</div>
+<script>
+  let sidebarMeta = document.querySelector('#sidebarMeta');
+  let scheme = 'gemini';
+  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
+  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
+    document.addEventListener('scroll', function(e) {
+      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
+        sidebarWrapper.classList.add('home-sidebar-fixed')
+      } else {
+        sidebarWrapper.classList.remove('home-sidebar-fixed')
+      }
+    });
+  }
+  </script>
+        <div class="section-box box-shadow-wrapper">
+          <section class="section tags-section bg-color posts-expand">
+            <div class="tags-box">
+  <div class="tag-cloud-title language" data-lan="cloud-tags" data-count="7">
+    非常好！目前共计 7 个标签，继续努力！
+  </div>
+  <div class="tag-cloud-list" id="tags">
+    
+      
+      
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+      
+        
+          
+            
+      
+        
+      
+      <a class="cloud-tag" href="http://biyuehu.github.io/tag/-U20S_60R/" rel="21">作品</a>
+    
+      
+      
+        
+          
+        
+      
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+      <a class="cloud-tag" href="http://biyuehu.github.io/tag/dgQ3CXI3T/" rel="1">OCS</a>
+    
+      
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+      <a class="cloud-tag" href="http://biyuehu.github.io/tag/Yh2hHvHzfD/" rel="16">更新</a>
+    
+      
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+            
+      
+        
+      
+      <a class="cloud-tag" href="http://biyuehu.github.io/tag/SeDHH5uRY-/" rel="14">Add-Ons</a>
+    
+      
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+            
+      
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+      <a class="cloud-tag" href="http://biyuehu.github.io/tag/a9rwvgIsB/" rel="5">资讯</a>
+    
+      
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+      <a class="cloud-tag" href="http://biyuehu.github.io/tag/oE_jfEBhpI/" rel="1">教程</a>
+    
+      
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+            
+      
+        
+          
+        
+          
+        
+          
+        
+      
+        
+          
+            
+      
+        
+          
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+          
+        
+      
+        
+      
+      <a class="cloud-tag" href="http://biyuehu.github.io/tag/rq99SzkrUE/" rel="2">资源包</a>
+    
+  </div>
+</div>
+<script>
+
+  let fontStart = 12, fontEnd = 30, colorStart = '#666', colorEnd = '#000';
+  let tags = document.querySelector('#tags').children;
+  let counts = [];
+  for(let i = 0; i < tags.length; i++) {
+    counts.push(tags[i].rel);
+  }
+  let lowest = Math.min.apply(null,counts), highest = Math.max.apply(null,counts);;
+  let range = highest - lowest;
+  if (range === 0) {
+    range = 1;
+  }
+  let fontIncr, colorIncr;
+  fontIncr = (fontEnd - fontStart) / range;
+  
+  let sColorArr = toRGB(colorStart), eColorArr = toRGB(colorEnd);
+
+  for(let i = 0; i < tags.length; i++) {
+    let disCount = tags[i].rel - lowest;
+    let fontSize = fontStart + disCount * fontIncr;
+    let style = 'font-size: ' + fontSize + 'px;';
+    let arr = [];
+    for(let c = 0; c < sColorArr.length; c++) {
+      if (disCount === 0) {
+        disCount = 1;
+      }
+      let val = (sColorArr[c] - eColorArr[c]) / range * disCount;
+      if (val >= 100) {
+        val = eColorArr[c];
+      } else if (val <= 0) {
+        val = sColorArr[c];
+      }
+      arr[c] = Math.floor(val);
+    }
+    style += 'color: ' + toHex(arr);
+    tags[i].style = style;
+  }
+
+  function toRGB(code) {
+    if (code.length === 4) {
+      code = code.replace(/(\w)(\w)(\w)/gi, "\$1\$1\$2\$2\$3\$3");
+    }
+    var hex = /(\w{2})(\w{2})(\w{2})/.exec(code);
+    return [parseInt(hex[1], 16), parseInt(hex[2], 16), parseInt(hex[3], 16)];
+  }
+
+  function toHex(ary) {
+    return "#" + ((1 << 24) + (ary[0] << 16) + (ary[1] << 8) + ary[2]).toString(16).slice(1);
+  }
+
+</script>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <center>
+      已运行:<span id="run_time"></span>
+      <span class="post-meta-divider">|</span>
+      已咕咕:<span id="gugu_time"></span>
+    </center>
+
+    总字数:<span id="word_count"></span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_pv">浏览数:<span id="busuanzi_value_site_pv"></span> 次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">访客数:<span id="busuanzi_value_site_uv"></span> 人</span>
+
+    <script>
+      function runTime() {
+        str = "";
+        BirthDay = new Date("January 30,2019");
+        today = new Date();
+        timeold = today.getTime() - BirthDay.getTime();
+        msPerDay = 24 * 60 * 60 * 1000;
+        e_daysold = timeold / msPerDay;
+        daysold = Math.floor(e_daysold);
+        str += daysold + "天";
+        return str;
+      }
+      setInterval(function () {
+        $("#run_time").html(runTime());
+      }, 1000);
+    </script>
+
+    <script>
+      function guguTime() {
+        str = "";
+        guguDay = new Date(document.lastModified);
+        today = new Date();
+        timeold = today.getTime() - guguDay.getTime();
+        msPerDay = 24 * 60 * 60 * 1000;
+        e_daysold = timeold / msPerDay;
+        daysold = Math.floor(e_daysold);
+        str += daysold + "天";
+        return str;
+      }
+      setInterval(function () {
+        $("#gugu_time").html(guguTime());
+      }, 1000);
+    </script>
+
+    <script>
+      function site() {
+
+        return 275.6 + "k";
+      };
+
+      setInterval(function () {
+        $("#word_count").html(site());
+      }, 1000);
+    </script>
+
+    <div class="copyright">
+      Created by
+      <a href="https://github.com/YuZhangWang" target="_blank">YuZhangWang</a>
+      ©2019-Present
+      <span class="post-meta-divider">|</span>
+      Powered By
+      <a href="https://github.com/YuZhangWang/YuZhangWang.github.io" target="_blank">Github</a>
+      <span class="post-meta-divider">|</span>
+      Theme By
+      <a href="https://github.com/theme-next/hexo-theme-next" target="_blank">Next</a>
+    </div>
+    <div class="poweredby">
+      Powered by BIYUEHU
+<script src="https://myhkw.cn/api/player/1624181502117" id="myhk" key="1624181502117" m="1"></script>
+    </div>
+  </footer>
+  
+    
+        <div class="gemini back-to-top" id="back_to_top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span class="scrollpercent"> <span id="back_to_top_text">0</span>% </span>
+            
+        </div>
+        
+                  
+                        
+</div>
+<script>
+  let sideBarOpen = "sidebar-open";
+  let body = document.body;
+  let back2Top = document.querySelector("#back_to_top"),
+    back2TopText = document.querySelector("#back_to_top_text"),
+    drawerBox = document.querySelector("#drawer_box"),
+    rightSideBar = document.querySelector(".sidebar"),
+    viewport = document.querySelector("body");
+
+  function scrollAnimation(currentY, targetY) {
+    let needScrollTop = targetY - currentY;
+    let _currentY = currentY;
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10);
+      _currentY += dist;
+      window.scrollTo(_currentY, currentY);
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY);
+      } else {
+        window.scrollTo(_currentY, targetY);
+      }
+    }, 1);
+  }
+
+  back2Top.addEventListener("click", function (e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+
+  window.addEventListener("scroll", function (e) {
+    let percent =
+      (document.scrollingElement.scrollTop /
+        (document.scrollingElement.scrollHeight -
+          document.scrollingElement.clientHeight)) *
+      100;
+    if (percent > 1 && !back2Top.classList.contains("back-top-active")) {
+      back2Top.classList.add("back-top-active");
+    }
+    if (percent == 0) {
+      back2Top.classList.remove("back-top-active");
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  let hasCacu = false;
+  window.addEventListener("resize", function (e) {
+    calcuHeight();
+  });
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (
+      (!hasCacu && back2Top.classList.contains("pisces")) ||
+      back2Top.classList.contains("gemini")
+    ) {
+      let sideBar = document.querySelector(".sidebar");
+      let navUl = document.querySelector("#site_nav");
+      sideBar.style =
+        "margin-top:" + (navUl.offsetHeight + navUl.offsetTop + 15) + "px;";
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+
+  let open = false,
+    MOTION_TIME = 300,
+    RIGHT_MOVE_DIS = "320px";
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll(".right-motion");
+    let right = drawerBox.classList.contains("right");
+
+    let transitionDir = right
+      ? "transition.slideRightIn"
+      : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS,
+      };
+      closeProp = {
+        paddingRight: "0px",
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS,
+      };
+      closeProp = {
+        paddingLeft: "0px",
+      };
+    }
+
+    drawerBox.onclick = function () {
+      open = !open;
+      jQuery.Velocity(rightSideBar, "stop");
+      jQuery.Velocity(viewport, "stop");
+      jQuery.Velocity(rightMotions, "stop");
+      if (open) {
+        jQuery.Velocity(
+          rightSideBar,
+          {
+            width: RIGHT_MOVE_DIS,
+          },
+          {
+            duration: MOTION_TIME,
+            begin: function () {
+              jQuery.Velocity(rightMotions, transitionDir, {});
+            },
+          }
+        );
+        jQuery.Velocity(viewport, openProp, {
+          duration: MOTION_TIME,
+        });
+      } else {
+        jQuery.Velocity(
+          rightSideBar,
+          {
+            width: "0px",
+          },
+          {
+            duration: MOTION_TIME,
+            begin: function () {
+              jQuery.Velocity(rightMotions, {
+                opacity: 0,
+              });
+            },
+          }
+        );
+        jQuery.Velocity(viewport, closeProp, {
+          duration: MOTION_TIME,
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle("muse-line");
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    };
+  }
+
+  // 链接跳转
+  let newWindow = "false";
+  if (newWindow === "true") {
+    let links = document.querySelectorAll(".post-body a");
+    links.forEach((item) => {
+      if (!item.classList.contains("btn")) {
+        item.setAttribute("target", "_blank");
+      }
+    });
+  }
+
+  let faSearch = document.querySelector("#fa_search");
+  faSearch &&
+    faSearch.addEventListener("click", function () {
+      document.querySelector("#search_mask").style = "";
+    });
+
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+  // 离开当前页title变化
+  var leaveTitle = "";
+  var normal_title = document.title;
+  if (leaveTitle) {
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState == "hidden") {
+        normal_title = document.title;
+        document.title = leaveTitle;
+      } else {
+        document.title = normal_title;
+      }
+    });
+  }
+</script>
+
+<link rel="stylesheet" href="/media/css/jquery.fancybox.css" />
+<script src="/media/js/jquery.fancybox.js"></script>
+
+<script>
+  let images = document.querySelectorAll(".section img");
+  images.forEach((image) => {
+    var parent = image.parentElement;
+    var next = image.nextElementSibling;
+    parent.removeChild(image);
+    var aelem = document.createElement("a");
+    aelem.href = image.src;
+    aelem.dataset["fancybox"] = "images";
+    aelem.dataset["rel"] = "fancybox-button";
+    aelem.classList.add("fancybox");
+    aelem.appendChild(image);
+    parent.insertBefore(aelem, next);
+  });
+</script>
+  </div>
+</body>
+
+  <div class="search-mask" id="search_mask" style="display: none;">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input id="search" type="text" class="language" data-lan="search" placeholder="搜索">
+      </div>
+      <i id="close" class="fa fa-times-circle"></i>
+    </div>
+    <div class="stat-box">
+      <span id="stat_count">0</span><span class="language" data-lan="stat">条相关条目，使用了</span><span id="stat_times">0</span><span class="language" data-lan="stat-time">毫秒</span>
+      <hr>
+    </div>
+    <div class="result" id="result">
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/huliwebside/"" data-c="
+          &lt;h1 id=&#34;whats-this&#34;&gt;What&#39;s this?&lt;/h1&gt;
+&lt;p&gt;狐🦊狐的各种&lt;s&gt;稀奇古怪、好玩有趣、奇妙神秘的&lt;/s&gt;网站整理&lt;/p&gt;
+&lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
+&lt;p&gt;Gtihub源站:&lt;a href=&#34;https://biyuehu.github.io&#34;&gt;https://biyuehu.github.io&lt;/a&gt;&lt;br&gt;
+GiteeChina镜像站:&lt;a href=&#34;https://biyuehu.gitee.io&#34;&gt;https://biyuehu.gitee.io&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;其它托管网站&#34;&gt;其它托管网站&lt;/h2&gt;
+&lt;p&gt;AddonWiki:&lt;a href=&#34;https://addonwiki.gitee.io%5D&#34;&gt;https://addonwiki.gitee.io&lt;/a&gt;&lt;br&gt;
+N年未更新，有兴趣就自己去看&lt;br&gt;
+已废弃且关闭:ICEAGE官网、OCS服务器官网(早期)、Motdpe服务器状态查询(API已归属至HULIAPI)、UUID生成(API已归属至HULIAPI)、随机色图(HULIAPI一堆色图API自己找)、脚本引擎文档(AddonWiki:?)&lt;/p&gt;
+&lt;h2 id=&#34;huliapi相关大工程&#34;&gt;HULIAPI相关(大工程)&lt;/h2&gt;
+&lt;p&gt;↓为什么都没域名? &amp;gt;&amp;gt;&amp;gt; 有huliapi.xyz，但是你TM给我身份证备案?&lt;br&gt;
+目前云服务器更换,IP也更换,部分网站端口更改,仅保留有用的网站&lt;br&gt;
+HULIAPI:&lt;a href=&#34;http://82.157.165.201:81&#34;&gt;http://82.157.165.201&lt;/a&gt;&lt;br&gt;
+-HULIAPI工具箱:&lt;a href=&#34;http://82.157.165.201:81/tool&#34;&gt;http://82.157.165.201/tool&lt;/a&gt;&lt;br&gt;
+--工具箱:HULIWS控制台、HULI留言板、HULI影视网、HULI聊天室、HULI在线音乐1、HULI在线音乐2、PHP加密、修改QQ在线状态、空白昵称设置、燃鹅代玩、免费领赞、短信轰炸、福利、社工API、php常用代码、等级加速、名片赞接口生成、QQ提取、DIY气泡、随即视频、更新日志&lt;br&gt;
+HULIShop商店:&lt;a href=&#34;http://82.157.165.201:82&#34;&gt;http://82.157.165.201:82&lt;/a&gt;&lt;br&gt;
+HULIBBS论坛:&lt;a href=&#34;http://82.157.165.201:83&#34;&gt;http://82.157.165.201:83&lt;/a&gt;&lt;br&gt;
+HULI站点状态记录:&lt;a href=&#34;http://82.157.165.201:90&#34;&gt;http://82.157.165.201:90&lt;/a&gt;&lt;br&gt;
+HULIYZ验证:&lt;a href=&#34;http://82.157.165.201:88&#34;&gt;http://82.157.165.201:88&lt;/a&gt;&lt;br&gt;
+HULI云黑(HCB):&lt;a href=&#34;http://82.157.165.201:89&#34;&gt;http://82.157.165.201:89&lt;/a&gt;&lt;br&gt;
+HULI站点状态记录:&lt;a href=&#34;http://82.157.165.201:90&#34;&gt;http://82.157.165.201:90&lt;/a&gt;&lt;br&gt;
+HULIBed图床:&lt;a href=&#34;http://82.157.165.201:93&#34;&gt;http://82.157.165.201:93&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ocs&#34;&gt;OCS&lt;/h2&gt;
+&lt;p&gt;OCS官网:&lt;a href=&#34;http://82.157.165.201:85&#34;&gt;http://82.157.165.201:85&lt;/a&gt;&lt;br&gt;
+-问卷:&lt;a href=&#34;http://82.157.165.201:85/wj&#34;&gt;http://82.157.165.201:85/wj&lt;/a&gt;&lt;br&gt;
+OCS网页控制台:&lt;a href=&#34;http://82.157.165.201:84&#34;&gt;http://82.157.165.201:84&lt;/a&gt;&lt;br&gt;
+OCS星图:&lt;a href=&#34;http://82.157.165.201:10101&#34;&gt;http://82.157.165.201:10101&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##DOC&lt;br&gt;
+ULANG文档:&lt;a href=&#34;https://huliapi.xyz:86/ulangdoc&#34;&gt;https://huliapi.xyz:86/ulangdoc&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;服务&#34;&gt;服务&lt;/h2&gt;
+&lt;p&gt;HULIWS服务器:ws://huliapi.xyz:1&lt;br&gt;
+HULIWS网页控制台URL:ws://huliapi.xyz:(Port每次随机生成)&lt;br&gt;
+HULIWS网页控制台:爬，上面有&lt;/p&gt;
+">狐狸の网站+服务合集</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/aboutocs/"" data-c="
+          &lt;p&gt;&lt;strong&gt;OCS&lt;/strong&gt;全称&lt;sub&gt;OurCraftServer(我们的世界服务器)&lt;/sub&gt;，一个以“MCBE多玩法服务器”为宗旨的MCBEServer~&lt;/p&gt;
+&lt;h2 id=&#34;ocs简介&#34;&gt;OCS简介&lt;/h2&gt;
+&lt;p&gt;OurCraftServer始于2019年11月01日的一次开服协商。初期OCS并非国际版服务器，而是我的世界中国版(移动端)的一个普普通通的租赁服务器。且初衷是“我的世界大型红石生存服务器”。初期的服务器名字也是变化不定。一开始是“You and I World” 或者“You and I Craft”，后来经过某位热心的成员的建议决定为OURCRAFT。&lt;br&gt;
+后来服务器管理层的成立，因此管理层则普遍性称为 OURCRAF T，服务器名改为OurCraftServer。&lt;/p&gt;
+&lt;h2 id=&#34;ourcraft工作室&#34;&gt;OURCRAFT工作室&lt;/h2&gt;
+&lt;p&gt;OURCRAFTSUTDIO(我们的世界工作室)，普遍性称为“OURCRAFT”，简称OC。&lt;br&gt;
+OCS与OC密不可分。OCS的运营、管理、服务等全为OC提供。OCS虽然属于OC工作室，但值得一提的是，OCS比OC的诞生时间更加的早。&lt;br&gt;
+OC工作室一开始主要是OCS的管理层，后来2020年09月份OC不仅服务OCS，且决定重新在我的世界中国版上创作作品(地图/资源包/ADD/皮肤)发布。从此开始，OC的格局分为了两大部分，一是OCS的运营/管理/服务，二是中国版上资源开发。&lt;br&gt;
+OC工作室并无所谓的“旗下服务器”之称，OCS是属于OC的一重大部分之一。&lt;/p&gt;
+&lt;h2 id=&#34;ocs历史&#34;&gt;OCS历史&lt;/h2&gt;
+&lt;h4 id=&#34;网易时代&#34;&gt;网易时代&lt;/h4&gt;
+&lt;p&gt;2019.11.01——2020.03.12&lt;/p&gt;
+&lt;h5 id=&#34;初期发展&#34;&gt;初期发展&lt;/h5&gt;
+&lt;p&gt;OurCraftServer始于2019年11月01日的一次开服协商。初期OCS并非国际版服务器，而是我的世界中国版(移动端)的一个普普通通的租赁服务器。且初衷是“我的世界大型红石生存服务器”。初期的服务器名字也是变化不定。一开始是“You and I World” 或者“You and I Craft”。&lt;br&gt;
+开服近一个月后，后来经过某位热心的成员的建议决定为OURCRA FT。&lt;/p&gt;
+&lt;h5 id=&#34;款年度烟花晚会&#34;&gt;款年度烟花晚会&lt;/h5&gt;
+&lt;p&gt;在2019年12月31日，OCS举办有史以来的第一次大型活动 ——2020跨年度烟花晚会。&lt;br&gt;
+虽然参加人员的不多，但也是历史性的一次。&lt;br&gt;
+2019.12.21.11.40 —2020.01.01.00.20&lt;br&gt;
+活动大约为40分钟 ，举办的也较为成功。&lt;/p&gt;
+&lt;h5 id=&#34;疯狂时期&#34;&gt;“疯狂时期”&lt;/h5&gt;
+&lt;p&gt;此外，腐竹也私下举报过l两到三次的小活动，如2020年01月27日当天晚上的炸服活动。这里暂不一一列举。&lt;/p&gt;
+&lt;h5 id=&#34;外挂之争&#34;&gt;外挂之争&lt;/h5&gt;
+&lt;p&gt;2020年03月02日，我的世界中国版发生了两起重大的炸服事件——网易两个大型服务器被炸，虽然看似事不关己，但网易的两个较大的服务器都被炸了，这很明显是外挂者赤裸裸的挑衅。&lt;br&gt;
+当天，OCS腐竹也决定在2020年03月12日退出网易租赁服。此时，《OCS服规第一版（草案）》也正式颁布。&lt;/p&gt;
+&lt;h6 id=&#34;腐竹声明&#34;&gt;“腐竹声明”&lt;/h6&gt;
+&lt;p&gt;......&lt;/p&gt;
+&lt;h5 id=&#34;网易时代结束&#34;&gt;网易时代结束&lt;/h5&gt;
+&lt;p&gt;2020年03月12日，我的世界中国版 OURCRAFT租赁服正式关服，彻底退出网易版，搬至国际版。网易时代结束。&lt;/p&gt;
+&lt;h3 id=&#34;国际服&#34;&gt;国际服&lt;/h3&gt;
+&lt;p&gt;2020.03.18——?&lt;/p&gt;
+&lt;h4 id=&#34;国际服一周目&#34;&gt;国际服一周目&lt;/h4&gt;
+&lt;p&gt;2020.03.18——2020.03.22&lt;/p&gt;
+&lt;h5 id=&#34;颠簸时代&#34;&gt;颠簸时代&lt;/h5&gt;
+&lt;p&gt;2020年03月18日，国际服一周目上线。可惜，一周目是一个短命阶段，因为是第一次在国际版运营缺少开服经验。仅存两三周，当时截图也非常少。&lt;br&gt;
+一周目使用的仅是纯净版BDS，仅装了其数十个Addon且开启了白名单与人工询问审核制。&lt;/p&gt;
+&lt;h5 id=&#34;一周目的衰退&#34;&gt;一周目的衰退&lt;/h5&gt;
+&lt;p&gt;因为经验的不足，在一周目开服后4天后2020年3月22号便遇到了问题。地图因未知原因而损坏无法进入。&lt;br&gt;
+过了几天后，VPS也到期，腐竹因经济原因无法支付续期费用。一周目因此被迫关服，进入了OCS第一次低谷阶段。&lt;br&gt;
+在低谷阶段还经历了一次服务器群解散事件。&lt;/p&gt;
+&lt;h5 id=&#34;金蝉脱壳&#34;&gt;“金蝉脱壳”&lt;/h5&gt;
+&lt;h4 id=&#34;国际服二周目&#34;&gt;国际服二周目&lt;/h4&gt;
+&lt;p&gt;2020.04.12——2020.09.02&lt;br&gt;
+所幸第一次低谷阶段不长，在服务器成员的努力帮助下，2020年04月12日，国际服二周目正式上线。&lt;br&gt;
+二周目使用的是面积为1024x1024珠峰地形地图。当时名为“珠峰极限生存”。&lt;/p&gt;
+&lt;p&gt;在2020年04月份末时由于腐竹带头摸鱼，导致服务器异常冷淡，二周目第一代主城也未能及时动工。&lt;br&gt;
+后来第一代主城抛弃，开始第二代主城的建设。&lt;br&gt;
+在此期间，OCS经历了第二次低谷阶段，虽然时间仅一周不到。管理员也未能及时上线，导致2020年05月03日发现出生点周围多处地方被炸，地形也被大面积破坏直至虚空层。最后根据行为记录判定为一名叫做“mutant”的玩家使用toolbox所为，管理员第一时间将其玩家ban+banip并踢出群聊，作案时间估计为2020年04月29日——2020年05月2日期间。&lt;br&gt;
+也随着玩家的增多，“管理层”这一概念也逐渐的开始出现，最终服务器名字也成为了如今这样，“OurCraftServer”，管理层则称为“OurCraft”。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;图一为OCS专用ADD中的内容，OCS专用ADD也随服务器名字变化过一次。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;OCS专用ADD由碧月狐dada制作，早在一周目时就已开始开发。现已推出3.0版本。&lt;/p&gt;
+&lt;h5 id=&#34;焕然新生&#34;&gt;焕然新生&lt;/h5&gt;
+&lt;p&gt;在二周目初阶段，吸取了一周目的教训。VPS配置有所提高，并对部分ADD进行优化。也前后相继使用了EZ,BDX,BDX+JSR等BDS第三方MOD端，后期由于一些原因，最终使用服务端BedrockX。&lt;br&gt;
+除了使用BedrockX自带的Tpa,Money,land,Npc,Cname,Back…插件，也使用了其它圈内大佬制作的插件，并使用BedrockX给的BDXLUA、BDXGLANG等接口自行制作Lua插件。&lt;/p&gt;
+&lt;p&gt;地图是有限的，在一群肝帝的探索与搜刮后，1024x的范围显得也有一点太狭窄了。2020年05月份，原珠峰地形地图称之为“一服”，也称为主服。此外，也开阔了一个正常的世界供探索生存，称为“二服”。&lt;/p&gt;
+&lt;h5 id=&#34;初尝楚果&#34;&gt;初尝楚果&lt;/h5&gt;
+&lt;p&gt;2020年06月份，OCS接入了“Black基岩版服务器云黑”，并第一时间对其之前某玩家的所作所为进行了上报。&lt;/p&gt;
+&lt;h5 id=&#34;第一个聚落的成立&#34;&gt;第一个聚落的成立&lt;/h5&gt;
+&lt;p&gt;2020年06月15日，由于两位肝帝使一服出生点一带的区域发展变得极快。&lt;br&gt;
+最终，一服出生点一带的部分区域被命为“天空之城”，据投票结果以“BaseMu”玩家担任该聚落的村长。从此，聚落制也登上了序幕…&lt;br&gt;
+...&lt;br&gt;
+很快，OCS第二个聚落也出现了，位于二服出生点附近，名为“花殇庄”，村长由OP“睿殇”担任。&lt;/p&gt;
+&lt;h5 id=&#34;交通实行&#34;&gt;交通实行&lt;/h5&gt;
+&lt;p&gt;花殇庄的建立促使OCS第一条交通道路建成——001道 跨海桥。长约1500M，共三站，分别为：花殇庄——腐竹二号家-海底火彩盒——雪地平原&lt;/p&gt;
+&lt;p&gt;“001道”的建成，因此也特地做了一个纪念性的logo。&lt;br&gt;
+该logo沿用了约两个月。&lt;/p&gt;
+&lt;h5 id=&#34;端午节活动&#34;&gt;端午节活动&lt;/h5&gt;
+&lt;p&gt;6月16日开始，OP“Biyuehu666”开始了端午节赛龙舟比赛的场地，整个比赛场地在离花殇庄的不远处。比赛区域共分为三个阶段:&lt;br&gt;
+第一阶段:简单,指示灯为黄色第二阶段:普通,提示灯为蓝色,将会出现分岔路与斜坡等陷阱第三阶段:困难,提示灯为白色,会出现以上以及二选一等陷阱,会出现随机奖励&lt;/p&gt;
+&lt;p&gt;除此之外，某不知名ADD作者即OP“碧月狐dada”也制作了端午节的专属Addon。&lt;br&gt;
+整个端午节活动维持6天，赛龙舟比赛在2020年06月25日22时00点举行。&lt;/p&gt;
+&lt;p&gt;2020年06月25日23时00点，端午节赛龙舟比赛圆满结束。&lt;/p&gt;
+&lt;h5 id=&#34;iceage&#34;&gt;ICEAGE&lt;/h5&gt;
+&lt;p&gt;2020年07月02日，“碧月狐dada”在她的付费群发布了第一个ICEAGE(冰河世纪)Addon的beta版本。&lt;br&gt;
+2020年07月17日发布了V0.8.1预览版本。至此，OCS开启了“三服”，三服主要围绕ICEAGEAddon，并外加了N个辅助性ADD，使用纯净版BDS服务端，无插件。三服与一、二服均不在同一地图内。但白名单会相互同步。&lt;/p&gt;
+&lt;h5 id=&#34;鼎盛时代&#34;&gt;“鼎盛时代“&lt;/h5&gt;
+&lt;p&gt;回望整个发展过程，2020年06月与07月可谓是有史以来OCS与OC最为辉煌的时刻。&lt;/p&gt;
+&lt;p&gt;“鼎盛”一词形容过去的繁华，过去的就已经过去了。再辉煌的事物也终将陨落….&lt;br&gt;
+在2020年08月上旬，情况还不算太糟糕。&lt;br&gt;
+2020年08月10日左右，由于几大肝帝相继因为不同原因而无法常时间上线。OP果断选择关闭了服务器白名单以及所有防外挂系统。&lt;/p&gt;
+&lt;h5 id=&#34;0813事件&#34;&gt;0813事件&lt;/h5&gt;
+&lt;p&gt;2020年08月13日，在白名单与防外挂系统被依依关闭后，也果然不出所料…&lt;br&gt;
+约2020年08月13日15时，某名D开头的玩家大量使用TNT轰炸，其中一服大面积被破坏，包括其天空之城与第二代主城以及二服出生点周围被大量破坏，包括其001道,花殇庄。&lt;br&gt;
+虽然白名单与防外挂均已关闭，但BDS管家机器人的游戏内聊天记录转发至服务器群功能并未关闭。 当天18时左右，作案者再次进入服务器，可能因为粗心或完全是挑衅而在输入指令时没有加斜杆，导致被BDS管家机器人转发到群内，所有群员共同目睹了“fill ~70 ~20 ~50 tnt”。随后管理员立即上线，凶手也离开了服务器。对于此次事件大都认为是OP挂或OP中有内鬼，但因该XBOXID为陌生账号（之前无任何进出记录），较偏向于OP挂。&lt;/p&gt;
+&lt;h5 id=&#34;新手村&#34;&gt;新手村&lt;/h5&gt;
+&lt;p&gt;经历0813事件后，为了给新人提供更加良好的环境，于是便建立了新的聚落——新手村。&lt;br&gt;
+新手村矗立在花殇庄对面，肉眼可见，中间由一条大裂缝峡谷所分开。新手村提供了现成的房子，新手可自由选择入住。&lt;br&gt;
+&lt;strong&gt;新手村住房分类&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;名称&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;大型房&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;中型房&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;小型房&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;村长房&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;编号&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;A&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;B&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;C&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;S&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;可居住&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;是&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;是&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;是&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;否&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h5 id=&#34;第三代主城&#34;&gt;第三代主城&lt;/h5&gt;
+&lt;p&gt;在2020年8月中旬开始了二周目第三代主城的建设。&lt;br&gt;
+新主城特点主要体现于大以及开放。虽然在天空鸟瞰的效果并不咋样，但是第一人称世界是非常nice。&lt;br&gt;
+且开放了许许多多的功能以及传送点和须知等。&lt;/p&gt;
+&lt;h5 id=&#34;走向衰亡&#34;&gt;走向衰亡&lt;/h5&gt;
+&lt;p&gt;8月下旬，是开学的紧迫阶段，每日玩家平均进入量几乎保持在0~3人。&lt;br&gt;
+此外，VPS也将到期，腐竹已无更多资金投入到服务器，尽管VPS未到期，也将会更加冷清持续僵硬的状态。&lt;br&gt;
+因此，OC内部经过讨论，在8月27日声明将在8月29号开始陆续关闭各种服务，直到9月2日完全关闭。&lt;/p&gt;
+&lt;h5 id=&#34;宣告结束&#34;&gt;宣告结束&lt;/h5&gt;
+&lt;p&gt;8月29号-OCS官网关闭8月30号-OCS三服关闭8月31号-OCS主服（二周目）关闭9月02号-所有Q群机器人服务关闭&lt;br&gt;
+9月03号，OCS最高管理员进行了最后的数据备份。&lt;br&gt;
+持续了5个月的OurCraftServer二周目宣告结束。&lt;/p&gt;
+&lt;h4 id=&#34;国际服三周目&#34;&gt;国际服三周目&lt;/h4&gt;
+&lt;p&gt;2021.01.25——2021.04.10&lt;/p&gt;
+&lt;h5 id=&#34;死后复燃&#34;&gt;死后复燃&lt;/h5&gt;
+&lt;p&gt;自二周目2020年9月关服到2021年1月，经历了约4个多月的“关门锁国”。虽然在2020年12就已打算重新开服，但因当时的基岩版服务器圈生态并不利于我们，这个计划也就这样磨灭了。终于，修复、更改完大部分服务器内容，在2021年1月25日三周目正式上线。&lt;br&gt;
+三周目继续使用二周目于2020年9月3日备份的地图，依旧使用BDS+BedrockX，并保留玩家个人数据。在Addon与插件方面也做了很大更改，也废除了服务器内与生存无太大关联的内容，更加重视“插件生存”。&lt;/p&gt;
+&lt;h5 id=&#34;老玩家回归活动&#34;&gt;老玩家回归活动&lt;/h5&gt;
+&lt;p&gt;在三周目开服当天，也发起了第一个2021年第一个活动——老玩家回归活动，内容与名字一致。会分别奖励网易时代与国际服一周目或二周目的老玩家回归。&lt;br&gt;
+活动时间为2021.01.25——2021.02.15，共持续21天&lt;/p&gt;
+&lt;h5 id=&#34;又一次的低谷&#34;&gt;又一次的低谷？&lt;/h5&gt;
+&lt;p&gt;虽说三周目已经到来，服务器也无需再为资金不足操劳，但三周目开服至今基本上仍是无人问津。3月份，再次开学，人流量继续保持冰点；腐竹不在线，管理员也寥寥无几，加上BedrockX的由于游戏正式版的不断更新也无过多音讯，服务器完全处于随时可能跑路的状态…OCS又将何去何从……&lt;/p&gt;
+&lt;p&gt;(后话:最终在无人问津中因无人而低调的关服于2021.04.10)&lt;/p&gt;
+&lt;h4 id=&#34;国际服三周目续&#34;&gt;国际服三周目(续)&lt;/h4&gt;
+&lt;p&gt;2021.07.26-2021.12.11&lt;/p&gt;
+&lt;h4 id=&#34;国际服四周目&#34;&gt;国际服四周目&lt;/h4&gt;
+&lt;p&gt;2022.01.11-Now&lt;br&gt;
+（这里的历史由后人来书写~）&lt;/p&gt;
+&lt;h2 id=&#34;ocs详细时间表&#34;&gt;OCS详细时间表&lt;/h2&gt;
+&lt;p&gt;网易时代  2019.11.01——2020.03.12  133天，约4个月&lt;br&gt;
+网易时代初阶段  2019.11.01——2019.12.01  31天&lt;br&gt;
+网易版租赁服开服&lt;br&gt;
+网易时代中阶段  2019.12.02——2020.02.01  62天&lt;br&gt;
+第一次活动：跨年度烟花晚会。逐渐发展起来。&lt;br&gt;
+大事件：“疯狂时期”；&lt;br&gt;
+网易时代末阶段  2020.02.02——2020.03.12  40天&lt;br&gt;
+大事件：外挂之争；“腐竹声明”；&lt;br&gt;
+网易租赁服关服&lt;/p&gt;
+&lt;p&gt;国际服一周目  2020.03.18——2020.03.22  5天，约一个月不到&lt;br&gt;
+颠簸时代。初次在国际服发展，无运营经验，也因众多因素而被迫关服&lt;br&gt;
+大事件：第一次低谷时期&lt;br&gt;
+国际服二周目 2020.04.12——2020.09.02  145天，约5个月&lt;br&gt;
+国际服二周目初阶段  2020.04.12——2020.06.01  52天&lt;br&gt;
+服务器MOD端升为“BedrockX”;二周目第二代主城建成&lt;br&gt;
+大事件：“金蝉脱壳”；焕然新生；第二次低谷时期&lt;br&gt;
+国际服二周目中阶段  2020.06.02——2020.08.01  61天&lt;br&gt;
+鼎盛时代。二服开通；第一个聚落：天空之城成立；花殇庄成立；端午节活动；0001道路建成；三服开通（独立存档）&lt;br&gt;
+大事件：初尝楚果；&lt;br&gt;
+国际服二周目末阶段  2020.08.02——2020.09.02  32天&lt;br&gt;
+大事件：0813事件（衰亡的开始）	&lt;br&gt;
+新手村建成；第三代主城建成；二周目关服&lt;br&gt;
+国际服三周目  2021.01.25——2021.04.10  74天 约2个月&lt;br&gt;
+三周目为延续二周目地图，来的伟大，去的无闻&lt;br&gt;
+大事件:老玩家回归活动&lt;br&gt;
+国际服三周目(续) 2021.07.26-2021.12.11 138 约4个月&lt;br&gt;
+或写作3.1周目,不再使用二三周目地图,但继续延续二周目宗旨,MOD端由BDX变为LiteLoader;与三周目差距远大于二周目与三周目的差距;&lt;br&gt;
+国际服四周目 2022.01.11-Now&lt;br&gt;
+距离三周目(续)关服整整一个月,继续沿用三周目(续)地图，或本身即是三周目(续)，只是改了个名字&lt;br&gt;
+@OURCRAFT&lt;/p&gt;
+">关于OCS</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/ICE AGE冰河世纪/"" data-c="
+          &lt;p&gt;&lt;strong&gt;&lt;font color=&#34;FF0000&#34;&gt;本贴会记录国际版ICE AGE以及中国版ICE AGE&lt;/font&gt;&lt;/strong&gt;&lt;br&gt;
+目前已经ICE AGE中的群系适配为1.18版本中的新地形样式，效果明显&lt;/p&gt;
+&lt;p&gt;支持ICEAGE与&lt;a href=&#34;/post/BEic2%E5%9F%BA%E5%B2%A9%E7%89%88%E5%B7%A5%E4%B8%9A2&#34;&gt;BEic2&lt;/a&gt;一起装载，且双方的工具均可挖掘对方方块&lt;/p&gt;
+&lt;p&gt;相信一定有许多热爱冰雪世界的北方朋友,也有和我一样向往北国风光的南方朋友吧!&lt;br&gt;
+这个Addon就可以让你满足!(没错,是Addon,并非是改改贴图的材质包)您不仅可以在MINECRAFT里观看美丽的雪景,欣赏更多的壮观的景象，也可以在这美丽的冰雪世界里探索与生存&lt;/p&gt;
+&lt;p&gt;此为继BEIC2(基岩版工业2)发布之后的又一个新的大坑，其制作难度了也比BEIC2难得多(因为本add的几乎所有内容与想法都是原创)&lt;br&gt;
+本Addon附加包属于修改原版几乎所有的生物群系,所以本Addon不建议加到您的旧地图里面,因为它会重新加载所有区块(仅国际版ICE AGE)！&lt;br&gt;
+原本是将这个做成新的维度的，但就以现在的MCBE国际版的附加包API...你们都懂&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关于中国版 ICE AGE：&lt;/strong&gt;&lt;br&gt;
+因特性略有不同以及中国版MODAPI丰富的问题存在十分大的差距，有好也有坏&lt;/p&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:冰河世纪&lt;br&gt;
+英文名字:ICE AGE&lt;br&gt;
+类型:Add-Ons&lt;br&gt;
+前置:MinecraftBE&lt;br&gt;
+最新版本:beta1120B1&lt;br&gt;
+最新版本支持游戏版本:1.17.X&lt;br&gt;
+最后更新时间:2021-11-20&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;官网已炸&lt;/s&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.imgdb.cn/item/6198ca862ab3f51d918271db.png&#34; alt=&#34;&amp;quot;新图标&amp;quot;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.downk.cc/item/5f6a109c160a154a676450c8.png&#34; alt=&#34;新ICON&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5fcb5820394ac52378671ef1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://pic.downk.cc/item/5fcb584d394ac52378675947.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;h3 id=&#34;beta1120b1&#34;&gt;beta1120B1:&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;相隔6个月之久的更新&lt;/em&gt;&lt;br&gt;
+新增1.17及1.18beta版本中新增的总计8个生物群系文件的对应ICEAGE群系&lt;br&gt;
+&lt;img src=&#34;https://pic.imgdb.cn/item/6198ca4a2ab3f51d9182464e.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.imgdb.cn/item/6198ca4a2ab3f51d91824653.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.imgdb.cn/item/6198ca4a2ab3f51d9182465e.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.imgdb.cn/item/6198ca4a2ab3f51d9182466b.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.imgdb.cn/item/6198ca4a2ab3f51d91824674.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.imgdb.cn/item/6198ca712ab3f51d9182652c.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.imgdb.cn/item/6198ca722ab3f51d91826537.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.imgdb.cn/item/6198ca722ab3f51d91826549.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.imgdb.cn/item/6198ca722ab3f51d91826552.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+适配了1.18版中的新地形生成&lt;br&gt;
+更改了资源包与行为包pack_icon图标为&amp;quot;新图标&amp;quot;&lt;br&gt;
+更改了主界面的6张背景图，图为本版本实拍效果图&lt;/p&gt;
+&lt;h3 id=&#34;beta0530b1&#34;&gt;beta0530B1:&lt;/h3&gt;
+&lt;p&gt;新增物品冰川审判之弓功能&lt;br&gt;
+新增物品霜弹及功能&lt;br&gt;
+新增方块冰川火把及模型,功能&lt;br&gt;
+新增方块未成熟的浆果及模型&lt;br&gt;
+新增方块已成熟的浆果及模型&lt;br&gt;
+新增方块冰川树苗及模型&lt;br&gt;
+新增群系冰雪平原&lt;br&gt;
+新增群系冰雪山丘&lt;br&gt;
+新增群系冰川平原&lt;br&gt;
+新增群系冰川山丘&lt;br&gt;
+新增群系冰沙平原&lt;br&gt;
+新增群系冰沙山丘&lt;br&gt;
+新增群系冰冻海洋&lt;br&gt;
+新增群系冰雪树林(待改进)&lt;br&gt;
+新增结构冰川数&lt;/p&gt;
+&lt;p&gt;更改了方块冰川树叶模型及材料&lt;/p&gt;
+&lt;p&gt;修复物品冰川坚冰头盔/胸甲/护腿/靴子模型bug&lt;br&gt;
+修复物品冰川水晶头盔/胸甲/护腿/靴子模型bug&lt;/p&gt;
+&lt;p&gt;移除了之前的所有群系&lt;/p&gt;
+&lt;h3 id=&#34;beta0523b1&#34;&gt;beta0523B1:&lt;/h3&gt;
+&lt;p&gt;新增冰川木镐/斧/铲/锄&lt;br&gt;
+新增冰川坚冰镐/斧/铲/锄&lt;br&gt;
+新增冰川水晶镐/斧/铲/锄&lt;br&gt;
+新增冰川坚冰头盔/胸甲/护腿/靴子&lt;br&gt;
+新增冰川水晶头盔/胸甲/护腿/靴子&lt;br&gt;
+新增冰魔法杖&lt;br&gt;
+新增目前已有武器工具装备可使用铁砧修复的功能&lt;/p&gt;
+&lt;p&gt;更改目前已有武器工具装备在耐久,攻击伤害与挖掘效率细节内容&lt;br&gt;
+更改了lang语言文件&lt;/p&gt;
+&lt;p&gt;移除红宝石&lt;br&gt;
+移除红宝石块&lt;br&gt;
+移除红宝石矿&lt;br&gt;
+移除红宝石权杖&lt;/p&gt;
+&lt;p&gt;修复矢量盾模型bug&lt;br&gt;
+修复冰魔头颅模型bug&lt;br&gt;
+修复冰魔战利品的历史bug&lt;/p&gt;
+&lt;h3 id=&#34;正式版400&#34;&gt;正式版4.0.0：&lt;/h3&gt;
+&lt;p&gt;2021年ICEAGE的第一个版本&lt;br&gt;
+本次为完善更新&lt;br&gt;
+更改了文字介绍内容，加入了外传黑名单&lt;br&gt;
+更改了细节&lt;br&gt;
+加了几个bug&lt;/p&gt;
+&lt;h3 id=&#34;正式版300&#34;&gt;正式版3.0.0：&lt;/h3&gt;
+&lt;p&gt;更新了lang语言文件&lt;br&gt;
+实装了“书”&lt;br&gt;
+支持ICEAGE与BEic2一起装载，且双方的工具均可挖掘对方方块&lt;br&gt;
+更改了一些细节&lt;br&gt;
+加了n个bug&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5fda06343ffa7d37b3774882.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://pic.downk.cc/item/5fda06343ffa7d37b377487d.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;正式版2012&#34;&gt;正式版2.0.1.2:&lt;/h3&gt;
+&lt;p&gt;更新了lang语言文件&lt;br&gt;
+更改了一些细节&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;3&#34;&gt;&lt;img src=&#34;https://pic.downk.cc/item/5fcb584d394ac52378675945.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;4&#34;&gt;&lt;img src=&#34;https://pic.downk.cc/item/5fcb5900394ac5237868161b.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;beta1129pre1&#34;&gt;beta1129pre1：&lt;/h3&gt;
+&lt;p&gt;对大部分方块/物品/实体进行了1.16.100正式版适配&lt;br&gt;
+对大部分武器废除了原本使用player文件模拟的功能&lt;br&gt;
+对其进行使用了新的接口（但player并未完全无用）&lt;br&gt;
+移除了暴风雪&lt;br&gt;
+移除了冰川原石木棍与冰川原石剑&lt;br&gt;
+暂时性废除审批之弓与红宝石权杖与介绍书作用&lt;br&gt;
+改了一下UI&lt;br&gt;
+改了一下崩解之镐&lt;br&gt;
+改了一些东西&lt;br&gt;
+改了一些细节&lt;/p&gt;
+&lt;h3 id=&#34;正式版100&#34;&gt;正式版1.0.0:&lt;/h3&gt;
+&lt;p&gt;修复了几个bug&lt;br&gt;
+做了细节更改&lt;/p&gt;
+&lt;h3 id=&#34;beta0913pre1&#34;&gt;beta0913pre1:&lt;/h3&gt;
+&lt;p&gt;方块:加入了冰川幸运方块及合成&lt;br&gt;
+ABA&lt;br&gt;
+BCB&lt;br&gt;
+ABA&lt;br&gt;
+A为发射器，B为冰川泥土，C为金块&lt;/p&gt;
+&lt;p&gt;其它:更改了行为包与资源包的pack_icon&lt;/p&gt;
+&lt;h3 id=&#34;beta0906pre1&#34;&gt;beta0906pre1:&lt;/h3&gt;
+&lt;p&gt;物品:&lt;br&gt;
+实装了介绍书，长按使用&lt;br&gt;
+合成:&lt;br&gt;
+AB&lt;br&gt;
+A为书，B为冰&lt;/p&gt;
+&lt;p&gt;实装了冰魔战利品头颅，长按使用&lt;/p&gt;
+&lt;p&gt;UI界面:&lt;br&gt;
+在设置界面新增了更新日志UI&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5f6a1063160a154a676431b0.jpg&#34; alt=&#34;UI&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;beta0813pre1&#34;&gt;beta0813pre1:&lt;/h3&gt;
+&lt;p&gt;移植了部分网易版1.0的内容：&lt;br&gt;
+加入了介绍书&lt;br&gt;
+加入了冰魔战利品头颅&lt;br&gt;
+（以上均未实装）&lt;br&gt;
+加入了冰魔BOSS&lt;br&gt;
+加入了冰魔傀儡&lt;br&gt;
+加入了暴风雪天气&lt;br&gt;
+更改了部分方块与生物贴图&lt;/p&gt;
+&lt;h3 id=&#34;beta0726pre1&#34;&gt;beta0726pre1:&lt;/h3&gt;
+&lt;p&gt;改了一些物品的材质，改了冰川僵尸的行走速度与贴图&lt;/p&gt;
+&lt;h3 id=&#34;beta0725pre1&#34;&gt;beta0725pre1:&lt;/h3&gt;
+&lt;p&gt;加入了冰川居民，用于交易，黄宝石,粉锭,紫水晶来源。&lt;/p&gt;
+&lt;h3 id=&#34;中国版100&#34;&gt;中国版1.0.0：&lt;/h3&gt;
+&lt;h4 id=&#34;新增&#34;&gt;新增&lt;/h4&gt;
+&lt;h5 id=&#34;维度与生物群系与结构&#34;&gt;维度与生物群系与结构&lt;/h5&gt;
+&lt;p&gt;新增船新&lt;strong&gt;冰河世纪&lt;/strong&gt;冒险维度，不再是国际版的那种更改主世界地形&lt;br&gt;
+你需要使用冰川坚冰块搭成地狱门样子然后对下方两个方块手持坚冰打火石点击即可搭建传送门&lt;/p&gt;
+&lt;p&gt;新增冰川冻洋生物群系&lt;br&gt;
+只会生成与冰河世纪维度&lt;/p&gt;
+&lt;p&gt;新增冰川树&lt;br&gt;
+只会生成与冰河世纪维度&lt;/p&gt;
+&lt;p&gt;新增浆果丛&lt;br&gt;
+只会生成与冰河世纪维度&lt;/p&gt;
+&lt;p&gt;新增冰川煤矿/冰川水晶矿/红宝石矿的自然生成&lt;br&gt;
+会生成于冰河世纪维度&lt;/p&gt;
+&lt;p&gt;新增冰川坚冰矿的自然生成&lt;br&gt;
+会生成于冰河世纪维度和主世界&lt;/p&gt;
+&lt;h5 id=&#34;物品&#34;&gt;物品&lt;/h5&gt;
+&lt;p&gt;新增坚冰打火石&lt;br&gt;
+用于搭建冰川世界传送门&lt;br&gt;
+合成：&lt;br&gt;
+1个坚冰+1个铁锭&lt;/p&gt;
+&lt;p&gt;新增冰川数树苗&lt;br&gt;
+破坏冰川树树叶有几率获得&lt;br&gt;
+可种植在冰川草方块与冰川泥土上&lt;/p&gt;
+&lt;p&gt;新增浆果&lt;br&gt;
+可种植在冰川草方块与冰川泥土上&lt;br&gt;
+成熟的浆果会掉落2~4个浆果&lt;br&gt;
+未成熟的浆果不会掉落&lt;br&gt;
+使用后可恢复2格饱食度&lt;/p&gt;
+&lt;p&gt;新增冰川木镐&lt;br&gt;
+等级为石头&lt;br&gt;
+合成：&lt;br&gt;
+ABA&lt;br&gt;
+BCB&lt;br&gt;
+ACA&lt;br&gt;
+B为冰川木棍，C为冰川木板&lt;/p&gt;
+&lt;p&gt;新增冰川坚冰镐&lt;br&gt;
+等级为钻石&lt;br&gt;
+合成：&lt;br&gt;
+ABA&lt;br&gt;
+BCB&lt;br&gt;
+ACA&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;新增冰川水晶镐&lt;br&gt;
+等级为黑曜石&lt;br&gt;
+合成：&lt;br&gt;
+ABA&lt;br&gt;
+BCB&lt;br&gt;
+ACA&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;新增冰川木斧&lt;br&gt;
+合成：&lt;br&gt;
+BBA&lt;br&gt;
+BCA&lt;br&gt;
+ACA&lt;br&gt;
+B为冰川木棍，C为冰川木板&lt;/p&gt;
+&lt;p&gt;新增冰川坚冰斧&lt;br&gt;
+合成：&lt;br&gt;
+BBA&lt;br&gt;
+BCA&lt;br&gt;
+ACA&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;新增冰川水晶斧&lt;br&gt;
+合成：&lt;br&gt;
+BBA&lt;br&gt;
+BCA&lt;br&gt;
+ACA&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;新增冰川木铲&lt;br&gt;
+合成：&lt;br&gt;
+ABA&lt;br&gt;
+ACA&lt;br&gt;
+ACA&lt;br&gt;
+B为冰川木棍，C为冰川木板&lt;/p&gt;
+&lt;p&gt;新增冰川坚冰铲&lt;br&gt;
+合成：&lt;br&gt;
+ABA&lt;br&gt;
+ACA&lt;br&gt;
+ACA&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;新增冰川水晶铲&lt;br&gt;
+合成：&lt;br&gt;
+ABA&lt;br&gt;
+ACA&lt;br&gt;
+ACA&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;新增冰川水晶头盔&lt;br&gt;
+10点防御力&lt;br&gt;
+合成：&lt;br&gt;
+BBB&lt;br&gt;
+BAB&lt;br&gt;
+A为空，B为冰川水晶&lt;/p&gt;
+&lt;p&gt;新增冰川水晶胸甲&lt;br&gt;
+10点防御力&lt;br&gt;
+合成：&lt;br&gt;
+BAB&lt;br&gt;
+BBB&lt;br&gt;
+BBB&lt;br&gt;
+A为空，B为冰川水晶&lt;/p&gt;
+&lt;p&gt;新增冰川水晶护腿&lt;br&gt;
+10点防御力&lt;br&gt;
+合成：&lt;br&gt;
+BBB&lt;br&gt;
+BAB&lt;br&gt;
+BAB&lt;br&gt;
+A为空，B为冰川水晶&lt;/p&gt;
+&lt;p&gt;新增冰川水晶靴子&lt;br&gt;
+10点防御力&lt;br&gt;
+合成：&lt;br&gt;
+BAB&lt;br&gt;
+BAB&lt;br&gt;
+A为空，B为冰川水晶&lt;/p&gt;
+&lt;p&gt;新增冰魔战利品&lt;br&gt;
+该为击杀冰魔后获得的&lt;br&gt;
+长按屏幕即可穿戴&lt;/p&gt;
+&lt;p&gt;新增介绍书&lt;br&gt;
+点地即可使用&lt;br&gt;
+合成：&lt;br&gt;
+书+冰&lt;/p&gt;
+&lt;h5 id=&#34;方块&#34;&gt;方块&lt;/h5&gt;
+&lt;p&gt;新增冰川世界传送门&lt;/p&gt;
+&lt;p&gt;新增主世界传送门&lt;/p&gt;
+&lt;p&gt;新增冰川火把（真）&lt;br&gt;
+合成：&lt;br&gt;
+冰川煤矿+火把&lt;/p&gt;
+&lt;h5 id=&#34;实体&#34;&gt;实体&lt;/h5&gt;
+&lt;p&gt;新增冰川居民&lt;br&gt;
+可以交易冰川坚冰/冰川水晶/红宝石/粉锭/黄宝石&lt;br&gt;
+会生成在冰河世纪维度&lt;/p&gt;
+&lt;p&gt;新增冰魔傀儡&lt;br&gt;
+血量小于铁傀儡&lt;br&gt;
+攻击力大于铁傀儡&lt;br&gt;
+只会由冰魔生成&lt;/p&gt;
+&lt;p&gt;新增冰魔&lt;br&gt;
+此为BOSS级生物，BOSS等级：二级（数字越小难度越小）&lt;br&gt;
+生成后会有暴风雪粒子效果持续10秒，会无敌120秒（两分钟）&lt;br&gt;
+使用忖民之怒远程投掷攻击&lt;/p&gt;
+&lt;p&gt;新增忖民之怒&lt;br&gt;
+该为抛射物，被击中实体会受到12伤害，半径4格内所有实体会受到5秒1级的瞬间伤害&lt;/p&gt;
+&lt;h5 id=&#34;ui界面&#34;&gt;UI界面&lt;/h5&gt;
+&lt;p&gt;新增主界面左下角的介绍UI&lt;/p&gt;
+&lt;p&gt;新增物品栏内的冰河世纪物品分页&lt;/p&gt;
+&lt;h4 id=&#34;更改&#34;&gt;更改&lt;/h4&gt;
+&lt;p&gt;更改了冰川水晶块贴图&lt;/p&gt;
+&lt;p&gt;更改了冰川坚冰块贴图&lt;/p&gt;
+&lt;p&gt;更改冰川木剑/石剑/坚冰剑/水晶剑/紫水晶战锤的伤害来源&lt;br&gt;
+不再是player模拟，而是用网易MOD SDK的提供武器伤害接口&lt;/p&gt;
+&lt;p&gt;更改了冰封瓦解之镐的挖掘属性来源&lt;br&gt;
+使用网易MOD SDK提供的挖掘属性接口&lt;br&gt;
+等级为可挖掘一切方块&lt;br&gt;
+挖掘速度为钻石镐的五倍&lt;/p&gt;
+&lt;h4 id=&#34;移除&#34;&gt;移除&lt;/h4&gt;
+&lt;p&gt;移除了冰霜炸弹&lt;/p&gt;
+&lt;h4 id=&#34;修复&#34;&gt;修复&lt;/h4&gt;
+&lt;p&gt;修复了老虎的动画Bug&lt;/p&gt;
+&lt;h3 id=&#34;国际版v081&#34;&gt;国际版V0.8.1:&lt;/h3&gt;
+&lt;p&gt;生成结构:&lt;br&gt;
+目前一共新增6个船新的生物群系:&lt;br&gt;
+冰川平原&lt;/p&gt;
+&lt;p&gt;冰川山丘&lt;br&gt;
+冰川峭壁&lt;br&gt;
+冰山&lt;br&gt;
+冰湖&lt;br&gt;
+冰河&lt;br&gt;
+建筑物:&lt;br&gt;
+冰川柱子:会在冰川平原与冰胡上进行随机生成&lt;/p&gt;
+&lt;p&gt;问:与原版的冰雪生物群系有何不同?&lt;br&gt;
+答:本add里的生物群系会更加的丰富也比原版的壮观(还会有更壮观的)&lt;/p&gt;
+&lt;p&gt;方块与物品:&lt;br&gt;
+自然类:&lt;br&gt;
+冰川草块:&lt;br&gt;
+可在工作台里分解为6&lt;em&gt;雪球&lt;br&gt;
+冰川泥土&lt;br&gt;
+冰川沙子&lt;br&gt;
+冰川石头:挖掘时会掉落冰川圆石,除非用精准采集&lt;br&gt;
+冰川原木:&lt;br&gt;
+可在工作台里分解为4&lt;/em&gt;冰川木板&lt;br&gt;
+冰川木板:&lt;br&gt;
+可以像普通木板一样合成工作台&lt;br&gt;
+冰川树叶&lt;br&gt;
+冰川基岩:作用一致&lt;br&gt;
+建筑类:&lt;br&gt;
+冰川圆石&lt;br&gt;
+冰川石砖:&lt;br&gt;
+AAA&lt;br&gt;
+AAA=冰川石砖&lt;br&gt;
+AAA&lt;br&gt;
+A为冰川圆石&lt;br&gt;
+冰川砖块:&lt;br&gt;
+AA&lt;br&gt;
+AA=冰川砖块&lt;br&gt;
+A为冰川圆石&lt;br&gt;
+冰川楼梯/半砖/墙:&lt;br&gt;
+在切石机里合成&lt;br&gt;
+矿物类:&lt;br&gt;
+冰川煤矿:&lt;br&gt;
+挖掘后会直接随机掉落1~3个冰川煤&lt;/p&gt;
+&lt;p&gt;冰川煤:&lt;br&gt;
+无法直接做火把&lt;/p&gt;
+&lt;p&gt;AA&lt;br&gt;
+AA=煤&lt;br&gt;
+A为冰川煤&lt;/p&gt;
+&lt;p&gt;坚冰矿:&lt;br&gt;
+在熔炉或高炉里可烧制成坚冰&lt;/p&gt;
+&lt;p&gt;坚冰:&lt;br&gt;
+1&lt;em&gt;坚冰块=9&lt;/em&gt;坚冰&lt;/p&gt;
+&lt;p&gt;坚冰块:&lt;br&gt;
+AAA&lt;br&gt;
+AAA=坚冰块&lt;br&gt;
+AAA&lt;br&gt;
+A为坚冰&lt;/p&gt;
+&lt;p&gt;坚冰棍:&lt;br&gt;
+A&lt;br&gt;
+A=4*坚冰棍&lt;br&gt;
+A为坚冰&lt;/p&gt;
+&lt;p&gt;水晶矿:&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;水晶:&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;水晶块:&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;水晶棍:&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;红宝石矿:&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;红宝石:&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;红宝石块:&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;黄宝石&lt;br&gt;
+紫水晶&lt;br&gt;
+粉锭&lt;/p&gt;
+&lt;p&gt;武器类:&lt;br&gt;
+冰川木剑:&lt;br&gt;
+4伤害&lt;br&gt;
+A&lt;br&gt;
+A=冰川木剑&lt;br&gt;
+B&lt;br&gt;
+A为冰川木板,B为冰川木棍&lt;/p&gt;
+&lt;p&gt;冰川石剑:&lt;br&gt;
+7伤害&lt;br&gt;
+合成方式同上&lt;/p&gt;
+&lt;p&gt;冰川坚冰剑:&lt;br&gt;
+10伤害&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;冰川水晶剑:&lt;br&gt;
+14伤害&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;神器类:&lt;br&gt;
+矢量盾:&lt;br&gt;
+绝对防御物理伤害与魔法伤害,但不防御指令与虚空&lt;br&gt;
+手持即可使用，会有缓慢5的副作用&lt;br&gt;
+AAA&lt;br&gt;
+AAA=矢量盾&lt;br&gt;
+BAB&lt;br&gt;
+A为粉锭,B为空气&lt;/p&gt;
+&lt;p&gt;紫水晶战锤:&lt;br&gt;
+22的伤害,但也会有缓慢2的副作用&lt;br&gt;
+AAA&lt;br&gt;
+AAA=紫水晶战锤&lt;br&gt;
+BCB&lt;br&gt;
+A为紫水晶,B为空气,C为冰川水晶棍&lt;/p&gt;
+&lt;p&gt;冰封瓦解之镐:&lt;br&gt;
+手持潜行会破坏周围15 -15 15的地方&lt;br&gt;
+每使用一次就会损坏&lt;br&gt;
+AAA&lt;br&gt;
+BCB=损坏的冰封瓦解之镐&lt;br&gt;
+BCB&lt;br&gt;
+A为黄宝石,B为空气,C为冰川水晶棍&lt;br&gt;
+黄宝石+损坏的冰封瓦解之镐(无序合成)=冰封瓦解之镐&lt;/p&gt;
+&lt;p&gt;红宝石权杖:&lt;br&gt;
+长按屏幕(WIN10为右键)即可连续发射(无冷却)红宝石块进行攻击&lt;br&gt;
+A&lt;br&gt;
+B=红宝石权杖&lt;br&gt;
+B&lt;br&gt;
+A为红宝石块,B为冰川水晶棍&lt;/p&gt;
+&lt;p&gt;冰封审判之弓:&lt;br&gt;
+长按屏幕即可蓄力发射冰封审判箭进行攻击,会有较短冷却时间&lt;br&gt;
+BAC&lt;br&gt;
+ABC=冰封审判之弓&lt;br&gt;
+BAC&lt;br&gt;
+B为空气,A为冰川水晶,C为冰川水晶棍&lt;/p&gt;
+&lt;p&gt;其它:&lt;br&gt;
+转物质燃料:&lt;br&gt;
+用于将部分物品转换为原版物品&lt;br&gt;
+ABA&lt;br&gt;
+BBB=9*转物质燃料&lt;br&gt;
+ABA&lt;br&gt;
+A为泥土,B为冰川泥土&lt;br&gt;
+问:怎么获得泥土?&lt;br&gt;
+答:在一些原版生成的建筑中会有泥土(原版建筑物未阉割)如村庄&lt;/p&gt;
+&lt;p&gt;冰川火把:&lt;br&gt;
+在水下里依然可以放置&lt;br&gt;
+A&lt;br&gt;
+B=冰川火把&lt;br&gt;
+A为冰川煤&lt;br&gt;
+B为火把&lt;/p&gt;
+&lt;p&gt;冰霜炸弹:&lt;br&gt;
+使水面结冰&lt;br&gt;
+A&lt;br&gt;
+B=冰霜炸弹&lt;br&gt;
+A为坚冰,B为雪球&lt;/p&gt;
+&lt;p&gt;生物实体类:&lt;br&gt;
+被动生物:&lt;br&gt;
+松鼠:&lt;br&gt;
+击杀后有几率掉落榛子,榛子吃后会恢复3格饱食度,食物来源之一&lt;/p&gt;
+&lt;p&gt;企鹅&lt;/p&gt;
+&lt;p&gt;中立生物:&lt;br&gt;
+老虎:&lt;br&gt;
+(五毛模型，下次一定改)&lt;br&gt;
+击杀后会掉落老虎肉,恢复7格饱食度,食物来源之一&lt;/p&gt;
+&lt;p&gt;敌对类:&lt;br&gt;
+冰川骷髅:&lt;br&gt;
+白天不会着火,理解成强化骷髅即可&lt;/p&gt;
+&lt;p&gt;冰川僵尸:&lt;br&gt;
+同上&lt;/p&gt;
+&lt;p&gt;口渴值与温度系统:&lt;br&gt;
+温度分为上线(热)与下线(冷)&lt;br&gt;
+注意保暖哟~&lt;br&gt;
+口渴值在水里即可补充[图2]&lt;br&gt;
+过度热/冷或缺水时会有不同程度的debuff,最终死亡&lt;/p&gt;
+&lt;h3 id=&#34;beta0716pre1&#34;&gt;beta0716pre1:&lt;/h3&gt;
+&lt;p&gt;加入审批冰封弓与红宝石权杖,及合成配方&lt;br&gt;
+加入新生物松鼠&lt;/p&gt;
+&lt;h3 id=&#34;beta0714pre1&#34;&gt;beta0714pre1:&lt;/h3&gt;
+&lt;p&gt;生物蛋贴图已添加&lt;br&gt;
+加入冰封崩溃之镐,潜行即可破坏周围15 -15 15的所有地方&lt;br&gt;
+每使用一次就会损坏,需要与黄宝石再合成一次&lt;/p&gt;
+&lt;p&gt;加入了黄宝石,紫水晶,粉锭,均用于合成武器&lt;/p&gt;
+&lt;h3 id=&#34;beta0712pre1&#34;&gt;beta0712pre1:&lt;/h3&gt;
+&lt;p&gt;重画矢量盾模型与贴图&lt;br&gt;
+重画冰川砖块贴图&lt;br&gt;
+重画水晶块贴图&lt;/p&gt;
+&lt;p&gt;加入紫水晶战锤(22伤害,缓慢2级)&lt;br&gt;
+冰川僵尸/骷髅已加入动画与贴图&lt;/p&gt;
+&lt;p&gt;熔炉与高炉:&lt;br&gt;
+坚冰/水晶/红宝石矿=坚冰/水晶/红宝石&lt;/p&gt;
+&lt;p&gt;beta0710pre1:&lt;br&gt;
+加入了冰川冰砖和冰川砖块(贴图待重画)以及冰川砖块对应的楼梯,半砖,墙&lt;br&gt;
+加入了一个盾牌?属于一种神器,名字待定&lt;br&gt;
+与普通盾不同,拿在手上可以绝对防御所有物理伤害与魔法伤害(指令与虚空除外)&lt;br&gt;
+依然是半成品中的半成品,名字待定,贴图与第一人称视角的3D均要重搞&lt;/p&gt;
+&lt;h3 id=&#34;beta0708pre1&#34;&gt;beta0708pre1:&lt;/h3&gt;
+&lt;p&gt;加入了方块&lt;br&gt;
+红宝石矿(比水晶矿更稀有)&lt;br&gt;
+红宝石块&lt;br&gt;
+水晶块(贴图待重画)&lt;br&gt;
+坚冰块&lt;/p&gt;
+&lt;p&gt;加入了物品&lt;br&gt;
+反物质燃料(用于将冰川世界物品转换为主世界的物品)&lt;br&gt;
+红宝石&lt;br&gt;
+冰川炸弹(可以让水结冰)&lt;br&gt;
+冰川火把(亮度稍弱,但可以在水中放置)&lt;/p&gt;
+&lt;p&gt;加入了一堆工作台合成配方&lt;br&gt;
+9红宝石=1红宝石块&lt;br&gt;
+1红宝石块=9红宝石&lt;br&gt;
+9坚冰=1坚冰块&lt;br&gt;
+1坚冰块=1坚冰&lt;br&gt;
+9水晶=1水晶块&lt;br&gt;
+1水晶块=9水晶&lt;/p&gt;
+&lt;p&gt;A&lt;br&gt;
+A&lt;br&gt;
+A =4*冰川木棍/冰川圆石棍/坚冰棍/水晶棍&lt;br&gt;
+A为冰川木板/冰川圆石/坚冰/水晶&lt;/p&gt;
+&lt;p&gt;A&lt;br&gt;
+A&lt;br&gt;
+B = 冰川木/冰川圆石/坚冰/水晶剑&lt;br&gt;
+A 为冰川木板/冰川圆石/坚冰/水晶&lt;br&gt;
+B为冰川木棍/冰川圆石棍/坚冰棍/水晶棍&lt;/p&gt;
+&lt;p&gt;1冰川原木=4*冰川木板&lt;/p&gt;
+&lt;p&gt;AA&lt;br&gt;
+AA=工作台&lt;br&gt;
+A为冰川木板&lt;/p&gt;
+&lt;p&gt;AAA&lt;br&gt;
+ABA&lt;br&gt;
+AAA=熔炉&lt;br&gt;
+A为冰川圆石&lt;br&gt;
+B为空气&lt;/p&gt;
+&lt;p&gt;1冰川草快=6雪球&lt;/p&gt;
+&lt;p&gt;冰川煤矿每次挖掘会随机掉落0~4个冰川煤&lt;br&gt;
+4冰川煤=1煤&lt;/p&gt;
+&lt;p&gt;A&lt;br&gt;
+B=冰霜炸弹&lt;br&gt;
+A为坚冰&lt;br&gt;
+B为雪球&lt;/p&gt;
+&lt;p&gt;A&lt;br&gt;
+B=冰川火把&lt;br&gt;
+A为冰川煤&lt;br&gt;
+B为火把&lt;/p&gt;
+&lt;p&gt;ABA&lt;br&gt;
+BBB&lt;br&gt;
+ABA=反物质燃料&lt;br&gt;
+A为泥土&lt;br&gt;
+B为冰川泥土&lt;/p&gt;
+&lt;h3 id=&#34;beta0705pre3&#34;&gt;beta0705pre3:&lt;/h3&gt;
+&lt;p&gt;加入了老虎的模型与贴图,加入了企鹅的模型与贴图&lt;br&gt;
+加入了四把武器的伤害&lt;br&gt;
+伤害分别为:冰川木剑4点,冰川石剑7点,坚冰剑10点,水晶剑14点&lt;br&gt;
+光照系统已适配安卓,IOS,WIN10等平台&lt;/p&gt;
+&lt;h3 id=&#34;beta0705pre2&#34;&gt;beta0705pre2:&lt;/h3&gt;
+&lt;p&gt;加入了总计四个新生物,1个被动生物,2个敌对生物,1个中立生物&lt;br&gt;
+模型和贴图正在搞&lt;/p&gt;
+&lt;h3 id=&#34;beta0702pre1&#34;&gt;beta0702pre1:&lt;/h3&gt;
+&lt;p&gt;核心构建完成,加入了基础物品方块,更改了所有群系,加入了船新Shader光照与天空贴图&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此,包括BEic2,BEgc,IceAge,BEtic等系列作品&lt;br&gt;
+加群仅需10.0RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;请加群&lt;/p&gt;
+">ICE AGE冰河世纪</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/huliws/"" data-c="
+          &lt;h1 id=&#34;huliws&#34;&gt;HULIWS&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;这是一个Minecraft基岩版&lt;strong&gt;WebSocketMod&lt;/strong&gt;，功能齐全且强大，并提过额外的API，可用于多种领域。&lt;br&gt;
+例如：开发调试、行为记录&amp;amp;检测&amp;amp;日志、实时内容（内容更新、名单之类的）等&lt;/p&gt;
+&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;
+&lt;h3 id=&#34;方法一&#34;&gt;方法一&lt;/h3&gt;
+&lt;p&gt;1.下载本项目，将其解压&lt;br&gt;
+2.在其根目录的地址栏内输入”cmd“调出CMD&lt;br&gt;
+3.输入&amp;quot;node main.js&amp;quot;或”npm run huliws“回车&lt;br&gt;
+4.在游戏里输入&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;/connect 127.0.0.1:1  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;方法二&#34;&gt;方法二&lt;/h3&gt;
+&lt;p&gt;1.下载本项目，将其解压&lt;br&gt;
+2.在根目录找到”start.bat“，双击运行&lt;br&gt;
+4.在游戏里输入&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;/connect 127.0.0.1:1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;方法三&#34;&gt;方法三&lt;/h3&gt;
+&lt;p&gt;&lt;s&gt;使用我们已搭建好的WS服务器,无需下载&lt;/s&gt;&lt;br&gt;
+在游戏里输入&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;/connect 111.67.196.75:1  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;PS:在本机连接请确保已解除UWP应用循环限制&lt;/strong&gt;&lt;br&gt;
+否则将无法连接;以管理员身份运行CMD,输入&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-cmd&#34;&gt;CheckNetIsolation.exe LoopbackExempt –a –p=S-1-15-2-1958404141-86561845-1752920682-3514627264-368642714-62675701-733520436  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;文档&#34;&gt;文档&lt;/h2&gt;
+&lt;p&gt;请前往GitHub仓库&lt;a href=&#34;https://github.com/BIYUEHU/huliws/&#34;&gt;查看&lt;/a&gt;&lt;/p&gt;
+">HULIWS服务Mod介绍</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/mcaddonbox/"" data-c="
+          &lt;h1 id=&#34;mcaddon_box&#34;&gt;MCAddon_Box&lt;/h1&gt;
+&lt;h2 id=&#34;mc附加包_工具箱&#34;&gt;MC附加包_工具箱&lt;/h2&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://github.com/BIYUEHU/MCAddon_Box/blob/main/res/pack_icon.png&#34; alt=&#34;pack_icon&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;一些fei话&#34;&gt;一些&lt;s&gt;fei&lt;/s&gt;话&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从开始制造到停更到写这篇md的废话(我是把GitHub当作博客写了)，不想看的直接下滑即可&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;第一个版本&lt;strong&gt;v0.0.4&lt;/strong&gt;发布于2020年10月20日在付费群内，至今为此，除了某资源群群主在允许下分享过某个远古版本的安装包外，从未公开发布过；&lt;/p&gt;
+&lt;p&gt;软件功能与名字一致，一开始只是因为当初某人用&lt;strong&gt;AutoJS&lt;/strong&gt;做了批量生成Addon文件的JS脚本(如item、block、manifest等相关文件)，然后便脑子一热有了制造一个全面的新手Addon工具箱的想法;当然，这玩意最终是很失败的。不论什么，一开始是热情满载的，后来随着现实中各种原因就无限🕊了，刚开始隔几天或隔几周就换更新一个版本，后来间隔时间也就愈来愈长了（&lt;/p&gt;
+&lt;p&gt;在2021年5月4日进行了最后一次的打包，就此停更，版本也最终定格于&lt;strong&gt;v0.3.3&lt;/strong&gt;。但是，现在写这个md发到github以及发布（公开）是2021年10月30日，说来挺巧的，去年的10天前发了第一个版本；&lt;/p&gt;
+&lt;h4 id=&#34;失败之处&#34;&gt;失败之处&lt;/h4&gt;
+&lt;p&gt;软件初衷是制造一个全面的新手Addon工具箱；But,对于新手，并不友好(用了就知道了)，因为许多地方对于新手而言是很难弄懂的；懂的都是有基础的，但是有基础又有谁会用这种一点都不节约时间还不方便的东西来生成所需文件了，&lt;s&gt;但凡学点其它语言就能写个批量生产脚本&lt;/s&gt;&lt;/p&gt;
+&lt;h4 id=&#34;停更原因失败之处二&#34;&gt;停更原因(&amp;amp;失败之处二)&lt;/h4&gt;
+&lt;p&gt;上面说过，&lt;code&gt;随着现实中各种原因就无限🕊了&lt;/code&gt;；无论是制作这个还是我的Addon或者我的其它东西，能用在这上面的精力+时间都是越来越少了（懂得都懂啊），最终只能极少时候抽出一点时间；当然，空余时间还是有的，但并不意味着要把空余时间用于这上面；随着Minecraft的不断更新，Addon也自然在更新，作为一个旧开发者，对Addon的兴趣是逐渐无了，内容逐渐变多了，但也已失去了最初的热情了，更何况需要很多时间去适应和学习新内容，新内容的更新，旧内容自然就淘汰，这也成为了这个跨度一年多才公开发布的&lt;strong&gt;MCAddonBox&lt;/strong&gt;失败之处二，里面生成文件都基本是1.16.100前的格式和内容。Addon开的各种坑，&lt;strong&gt;AddonWiki&lt;/strong&gt;，甚至&lt;strong&gt;博客&lt;/strong&gt;也都没有什么精力和时间去更新和管理了，时间肯定有，但终究失去了做这件事的热情，也就有了&lt;code&gt;“没回报的东西我凭什么做”&lt;/code&gt;的观念(在网易光明正大的恰烂💴理由)；但也或许真就是时间不够，现在对于&lt;strong&gt;MC&lt;/strong&gt;也只是偶尔上线实际游玩一下，但对MC更新和相关内容依然会主动去了解，这就挺矛盾的；&lt;/p&gt;
+&lt;h3 id=&#34;有用的&#34;&gt;有用的&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;MCAddon_Box&lt;/strong&gt;(MC附加包_工具箱)基于AutoJsApp制作，使用&lt;strong&gt;JavaScript&lt;/strong&gt;语言&lt;/p&gt;
+&lt;p&gt;虽说这玩意很失败，但是代码开源下鬼知道有没有什么用了？&lt;s&gt;或者用来凑下我Github仓库数量&lt;/s&gt;&lt;/p&gt;
+&lt;h5 id=&#34;下载&#34;&gt;下载&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/BIYUEHU/MCAddon_Box/blob/main/build/MCAddon_Box_v0.3.3.apk&#34;&gt;MCAddon_Box_v0.3.3&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;更新日志&#34;&gt;更新日志&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;取自应用内&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;0.3.3&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;弃坑了弃坑了,不出意外是最后一个版本&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;更改了UI布局&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新增生成合成文件可视化界面&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新增生成合成文件切石机,制图台,酿造台功能&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新增三种导出功能&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新增关于界面&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;更改了图标&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新增编辑blocks.json文件功能&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新增编辑terrain_texture.json文件功能&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;新增编辑item_texture.json文件功能&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0.2.9&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;加了几个可视化界面&lt;/li&gt;
+&lt;li&gt;加了些东西&lt;/li&gt;
+&lt;li&gt;实装了一些功能&lt;/li&gt;
+&lt;li&gt;优化了一些功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0.1.4&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;实装了熔炼配方文件生成按钮&lt;/li&gt;
+&lt;li&gt;改善了导出按钮&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0.0.7&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;实装了有序合成配方文件生成按钮&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0.0.6&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;加入了UUID获取工具&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;加入新建图标按钮实际作用&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;现在新建包将会有默认图标&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;更改了剩余UI布局等&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;0.0.4&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;加了堆按钮&lt;/li&gt;
+&lt;li&gt;实装了资源包manifest文件生成&lt;/li&gt;
+&lt;li&gt;实装了行为包manifest文件生成&lt;/li&gt;
+&lt;li&gt;实装了item资源文件&lt;/li&gt;
+&lt;li&gt;实装了item行为文件生成&lt;/li&gt;
+&lt;li&gt;实装了block行为文件生成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;github仓库&#34;&gt;Github仓库:&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/BIYUEHU/MCAddon_Box&#34;&gt;&amp;gt;&lt;/a&gt;&lt;/p&gt;
+">MCAddonBox(MC附加包工具箱)</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/about/"" data-c="
+          &lt;h2 id=&#34;个人简介&#34;&gt;个人简介:&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;碧月狐dada(BIYUEHU)&lt;/strong&gt;，请区分”碧月狐dada“与&amp;quot;碧月狐&amp;quot;，两者并无任何关联;&lt;br&gt;
+主要为MC基岩版Addon/Mod开发者，也曾做过MCWebSocket、ModPe、BDS-LUA、BDS-LL-JS插件等，&lt;s&gt;以及网易我的世界开发者&lt;/s&gt;;&lt;br&gt;
+网络工程与软件也有涉及,主要还是Web后端+前端开发的后端，不怎么擅长美术设计(×)&lt;br&gt;
+其它也做过小栗子QQ机器人插件(EPL),Android应用等;以及一些记不清的杂项开发（×）次次要为BilibiliUP主&lt;br&gt;
+兴趣方面那当然是老二次元、ACG，以及萝莉控(也不止是萝莉，可爱的少女啥的最喜欢了)&lt;br&gt;
+原神2.0版本玩家&lt;br&gt;
+当前正打算开始研究捣鼓&lt;strong&gt;Linux&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;语言&#34;&gt;语言&lt;/h2&gt;
+&lt;p&gt;最最最最擅长的自不必说那当然是&lt;strong&gt;JavaScript&lt;/strong&gt;,使用时间最长,JS的各领域应用也多少有过一点(NodeJS、AutoJS、MCJS-LL、MCJS-SE、MCJS-GT、MCJS-MODPE...)&lt;br&gt;
+其次是&lt;strong&gt;Php&lt;/strong&gt;，后端麻，自不必多说，对于已经擅长JS后写php也是行云流水，写的也比较多&lt;br&gt;
+&lt;strong&gt;Python&lt;/strong&gt;:实践用的虽少，但还是会用&lt;br&gt;
+虽说主要是玩后端，但后端人咋说也会一点点的前端&lt;strong&gt;HTML、CSS&lt;/strong&gt;，&lt;br&gt;
+&lt;strong&gt;EPL(易语言)&lt;/strong&gt;:主要是写QQ机器人插件时，也就很少时候会用来写点简单软件&lt;br&gt;
+&lt;strong&gt;LUA&lt;/strong&gt;:学的也蛮早，早期用来写写MCBDX的lua服务器插件&lt;/p&gt;
+&lt;p&gt;糊狸当前即将面临毕业季，学业越来越来重，事也很多，所以说平常时间也会越来越少&lt;br&gt;
+欢迎加入糊狸的交流群317691609&lt;br&gt;
+历史作品与最新作品的beta内测版均会第一时间发布于此,包括BEic2,BEgc,IceAge,BEtic等系列作品&lt;br&gt;
+付费Addon购买请管理员列表里找并咨询收费员&lt;br&gt;
+支持QQ,微信和支付宝支付&lt;/p&gt;
+&lt;p&gt;支持与赞助:&lt;br&gt;
+欢迎打赏~&lt;br&gt;
+文末的二维码或者&lt;a href=&#34;http://82.157.165.201/tool/data/dashang&#34;&gt;打赏页&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;须知&#34;&gt;须知:&lt;/h2&gt;
+&lt;p&gt;该站为碧月狐dada的个人博客~&lt;br&gt;
+所有公开发布过的Addon(不包括内测beta等)在这也依然能找到，相关文档也会发在此处，现在将更偏向于博客（×&lt;/p&gt;
+&lt;p&gt;国外网址:&lt;a href=&#34;https://biyuehu.github.io/&#34;&gt;https://biyuehu.github.io/&lt;/a&gt;&lt;br&gt;
+使用Github托管，服务器在国外，对于国内不同地区,速度也不同，第一时间更新&lt;/p&gt;
+&lt;p&gt;国内镜像网址:&lt;a href=&#34;https://biyuehu.gitee.io/&#34;&gt;https://biyuehu.gitee.io/&lt;/a&gt;&lt;br&gt;
+使用Gitee托管，速度比Github会快几倍，内容最迟12小时内会同步&lt;/p&gt;
+&lt;h3 id=&#34;导航&#34;&gt;导航&lt;/h3&gt;
+&lt;p&gt;主页: &lt;a href=&#34;/&#34;&gt;#&lt;/a&gt;&lt;br&gt;
+归档: &lt;a href=&#34;/archives&#34;&gt;#&lt;/a&gt;&lt;br&gt;
+标签: &lt;a href=&#34;/tags&#34;&gt;#&lt;/a&gt;&lt;br&gt;
+作品: &lt;a href=&#34;/post/%E4%BD%9C%E5%93%81%E9%9B%86&#34;&gt;#&lt;/a&gt;&lt;br&gt;
+相册: &lt;a href=&#34;/post/photos&#34;&gt;#&lt;/a&gt;&lt;br&gt;
+关于: &lt;a href=&#34;/post/about&#34;&gt;#&lt;/a&gt;&lt;br&gt;
+友链: &lt;a href=&#34;/friends&#34;&gt;#&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;规&#34;&gt;规&lt;/h3&gt;
+&lt;p&gt;**一.**本站的所有内容（包括资源/文章/文案等）禁止私自转载与倒卖，禁止未经允许公开发到Q群文件(或其它社交软件)，禁止未经允许装载到服务器；&lt;/p&gt;
+&lt;p&gt;**二.**目前已开启评论系统（部分置顶文章等特殊文章将会关闭评论功能），评论系统为离线。&lt;br&gt;
+虽说为无需强制性登录即可评论，但自带过滤垃圾评论功能，不要妄想捣乱~&lt;br&gt;
+在评论时虽说没账号信息但会保存你的IP/设备/浏览器等信息，小心找你喝茶。对于违规用户将会定期挂在公告；&lt;br&gt;
+以下将会视为违规：&lt;br&gt;
+宣传服务器/群聊/其它作品等毫不相干的内容和广告&lt;br&gt;
+宣传黄赌毒内容&lt;br&gt;
+恶意引战挑事&lt;br&gt;
+恶意人身攻击和威胁&lt;br&gt;
+言行带有强制性&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;三.Addon协议（210508）：&lt;/strong&gt;&lt;br&gt;
+本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;br&gt;
+1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）；&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的安全；&lt;/p&gt;
+&lt;h2 id=&#34;资源bug反馈与问题咨询&#34;&gt;资源Bug反馈与问题咨询&lt;/h2&gt;
+&lt;p&gt;反馈资源的Bug以及问题咨询请前往&lt;a href=&#34;/2334/11/22/Bug%E5%8F%8D%E9%A6%88%E4%B8%8E%E9%97%AE%E9%A2%98%E5%92%A8%E8%AF%A2/&#34;&gt;Bug反馈与问题咨询专用贴&lt;/a&gt;&lt;br&gt;
+其它地方的反馈与提问将不做任何回答&lt;/p&gt;
+">博客须知</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/Bug反馈与问题咨询/"" data-c="
+          &lt;h2 id=&#34;写在前面&#34;&gt;写在前面&lt;/h2&gt;
+&lt;p&gt;本贴用于资源Bug反馈与问题咨询专用贴&lt;br&gt;
+反馈与提问在该贴下面回复即可&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;请务必遵守下面的回帖格式：&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;bug反馈&#34;&gt;Bug反馈&lt;/h2&gt;
+&lt;p&gt;资源Bug反馈仅限于发布到该博客的资源，对于Beta测试版不算在内&lt;br&gt;
+&lt;strong&gt;回帖格式：&lt;/strong&gt;&lt;br&gt;
+带*星号的为必填，回帖时去掉星号&lt;br&gt;
+带#井号后面的文字为说明&lt;/p&gt;
+&lt;p&gt;*资源名称： #目前支持ICE AGE冰河世纪、BEic2基岩版工业2、ULANG框架、BEgc基岩版星系 的反馈&lt;br&gt;
+*资源版本： #必须为&lt;strong&gt;最新正式版&lt;/strong&gt;而不是beta测试版和旧版本，如果是中国版下载的，请直接填写“中国版”两字&lt;br&gt;
+*游戏版本： #必须为&lt;strong&gt;最新正式版&lt;/strong&gt;而不是beta测试版和旧版本，如果是中国版下载的，请直接填写“中国版”两字&lt;br&gt;
+*设备系统:  #请填写 安卓/IOS/WIN10，可多选&lt;br&gt;
+*问题描述:  #越详细越好&lt;br&gt;
+更改意见:  #可选填&lt;br&gt;
+联系方式:  #可选填，可以是QQ或者邮箱，可多选&lt;/p&gt;
+&lt;h3 id=&#34;bug反馈例子&#34;&gt;Bug反馈例子：&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;资源名称：BEic2基岩版工业2
+资源版本：V0.4.0
+游戏版本：1.16.2 
+设备系统：安卓
+问题描述：青金石粉在高炉烧制出来的是墨囊而不是青金石
+更改意见：修复该Bug
+联系方式：12345ssdlh@xx.com   
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;bug反馈注意事项&#34;&gt;Bug反馈注意事项:&lt;/h3&gt;
+&lt;p&gt;请确保你已认真查看过更新日志是否修复您提的bug&lt;br&gt;
+请确保你使用的资源版本非beta测试版非旧版本&lt;br&gt;
+请确保你使用的游戏版本非beta测试版非旧版本&lt;br&gt;
+请确保之前没有人提过与你同样的问题（节约时间~）&lt;br&gt;
+请确保你的格式正确&lt;br&gt;
+请注意您的言行已遵守博客规矩，不带强制性/辱骂性&lt;/p&gt;
+&lt;h2 id=&#34;问题咨询&#34;&gt;问题咨询&lt;/h2&gt;
+&lt;p&gt;该项无需特定格式，直接回帖即可&lt;br&gt;
+你可以提问也可提出宝贵意见，但必须为以下&lt;strong&gt;范围&lt;/strong&gt;：&lt;br&gt;
+个人博客相关问题和意见&lt;br&gt;
+Addon发布相关意见&lt;br&gt;
+Addon制作技术问题&lt;br&gt;
+加群和赞助相关问题&lt;/p&gt;
+&lt;h2 id=&#34;问题咨询注意事项&#34;&gt;问题咨询注意事项：&lt;/h2&gt;
+&lt;p&gt;请确保您的问题不是导入相关问题&lt;br&gt;
+请确保您的问题不是解压密码相关问题&lt;br&gt;
+请确保您的问题不是低级问题或萌新级问题或智障型问题或可笑至极的问题&lt;br&gt;
+请确保之前没有人提过与你同样的问题（节约时间~）&lt;br&gt;
+请注意您的言行已遵守博客规矩，不带强制性/辱骂性&lt;/p&gt;
+&lt;h2 id=&#34;写在后面&#34;&gt;写在后面&lt;/h2&gt;
+&lt;p&gt;除了反馈和提问，本贴也可以闲聊的~&lt;br&gt;
+只要不涉及注意事项即可&lt;/p&gt;
+&lt;p&gt;对于格式错误或涉及注意事项的反馈/问题将不作采纳/回复&lt;br&gt;
+有时间也会时不时回复反馈/意见/问题&lt;/p&gt;
+">Bug反馈与问题咨询专用贴</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/春节/"" data-c="
+          &lt;p&gt;b站介绍视频：&lt;a href=&#34;https://www.bilibili.com/video/BV1Lo4y197NM&#34;&gt;&amp;gt;点我&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:春节Addon&lt;br&gt;
+英文名字:-&lt;br&gt;
+类型:Add-Ons&lt;br&gt;
+前置:MinecraftBE&lt;br&gt;
+最新版本:-&lt;br&gt;
+最新版本支持游戏版本:1.16.x，1.14.x&lt;br&gt;
+最后更新时间:2020-10-01&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;p&gt;加入了鞭炮&lt;br&gt;
+加入了红包&lt;/p&gt;
+&lt;p&gt;加入了年兽&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此&lt;br&gt;
+加群需3.5RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;null&lt;/p&gt;
+">春节Addon</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/资源外传黑名单/"" data-c="
+          &lt;h1 id=&#34;过期内容也不再更新&#34;&gt;过期内容，也不再更新&lt;/h1&gt;
+&lt;h2 id=&#34;推荐使用-huli云黑-hcb&#34;&gt;推荐使用&amp;gt; &lt;a href=&#34;http://82.157.165.201:89&#34;&gt;HULI云黑-HCB&lt;/a&gt;&lt;/h2&gt;
+&lt;h4 id=&#34;外传黑名单&#34;&gt;外传黑名单&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;外传平台-外传者信息-外传文件苦力怕论坛-klpbbshttpsklpbbscom15490mcbbsxts2005httpswwwmcbbsnet3727196stonebighttpswwwmcbbsnet3831211bilibilistonebighttpsb23tvot3dahqq3040744717外传beic2011~060betic1003betabegc4beta并在klpbbsmcbbsb站泄露密码该事件影响不小qq-qq3515135336-外传beic2v020qq-qq2606249268-外传beic2v40qq-qq1656424706-外传beticv100被发现后秒退群&#34;&gt;外传平台 外传者信息 外传文件&lt;br&gt;
+苦力怕论坛 klpbbs:&lt;a href=&#34;https://klpbbs.com/?15490&#34;&gt;https://klpbbs.com/?15490&lt;/a&gt;&lt;br&gt;
+MCBBS:&lt;br&gt;
+XTS2005:&lt;a href=&#34;https://www.mcbbs.net/?3727196&#34;&gt;https://www.mcbbs.net/?3727196&lt;/a&gt;&lt;br&gt;
+stonebig:&lt;a href=&#34;https://www.mcbbs.net/?3831211&#34;&gt;https://www.mcbbs.net/?3831211&lt;/a&gt;&lt;br&gt;
+bilibili:stonebig:&lt;a href=&#34;https://b23.tv/ot3daH&#34;&gt;https://b23.tv/ot3daH&lt;/a&gt;&lt;br&gt;
+QQ:3040744717&lt;br&gt;
+外传BEic20.1.1~0.6.0,BEtic1.0.0+3&lt;em&gt;beta,BEgc4&lt;/em&gt;beta，并在klpbbs,mcbbs,b站泄露密码,该事件影响不小&lt;br&gt;
+QQ QQ:3515135336 外传BEic2v0.2.0&lt;br&gt;
+QQ QQ:2606249268 外传BEic2V4.0.&lt;br&gt;
+QQ QQ:1656424706 外传BETICV1.0.0,被发现后秒退群&lt;/h2&gt;
+&lt;p&gt;外传黑名单将会在Q群/博客/以及之后的Add内挂起&lt;br&gt;
+欢迎各位进行监督，只要不是由群主亲自发布均为外传，发现外传请第一时间向管理员举报，举报者会根据实际情况进行1r~20r奖励&lt;/p&gt;
+&lt;p&gt;最后更新于：2021-10-31&lt;/p&gt;
+">资源外传黑名单</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/ULANG框架/"" data-c="
+          &lt;p&gt;ULANG以MinecraftBE版Addon(附加包)的Script Engine(脚本引擎)为内核，宗旨为创造更多方便快捷的接口以及UI部分(主要是菜单型UI,就比如现在这种)，以弥补官方脚本引擎接口的不足之处。&lt;/p&gt;
+&lt;p&gt;最新版本betaV0.1.0发布也是最后一个版本，不再更新&lt;br&gt;
+&lt;a href=&#34;https://huliapi.xyz:86/ulangdoc&#34;&gt;ULANG文档&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;目前依赖该前置addon列表&#34;&gt;目前依赖该前置Addon列表：&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;中文名字&lt;/th&gt;
+&lt;th&gt;英文名字&lt;/th&gt;
+&lt;th&gt;图标&lt;/th&gt;
+&lt;th&gt;作者&lt;/th&gt;
+&lt;th&gt;依赖版本&lt;/th&gt;
+&lt;th&gt;详细信息&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;基岩版工业2&lt;/td&gt;
+&lt;td&gt;BEic2&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://img.imgdb.cn/item/5ffb0ec93ffa7d37b38b5097.png&#34; alt=&#34;BEic2&#34; loading=&#34;lazy&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://space.bilibili.com/293767574&#34;&gt;@碧月狐dada&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;自V0.6.0起&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;/2020/02/07/BEic2%E5%9F%BA%E5%B2%A9%E7%89%88%E5%B7%A5%E4%B8%9A2/&#34;&gt;BEic2基岩版工业2系列&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;基岩版星系&lt;/td&gt;
+&lt;td&gt;BEgc&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;https://img.imgdb.cn/item/5f8bed041cd1bbb86b5543ff.png&#34; alt=&#34;BEgc&#34; loading=&#34;lazy&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://space.bilibili.com/293767574&#34;&gt;@碧月狐dada&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;自beta1231pre1起&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;/2021/01/10/BEgc%E5%9F%BA%E5%B2%A9%E7%89%88%E6%98%9F%E7%B3%BB/&#34;&gt;BEgc基岩版星系&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;未来将会有更多Addon进行使用！&lt;/p&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:ULANG框架&lt;br&gt;
+英文名字:Ulang framework&lt;br&gt;
+类型:Add-Ons&lt;br&gt;
+前置:MinecraftBE&lt;br&gt;
+最新版本:Alpha&lt;br&gt;
+最新版本支持游戏版本:1.16.x&lt;br&gt;
+最后更新时间:--&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此,包括BEic2,BEgc,IceAge,BEtic等系列作品&lt;br&gt;
+加群仅需10.0RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/BIYUEHU/ulangframe/releases/tag/ulang&#34;&gt;ULANGAddon-betaV0.1.0&lt;/a&gt;&lt;/p&gt;
+">ULANG框架Addon</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/BEgc基岩版星系/"" data-c="
+          &lt;p&gt;ICE AGE的更新暂告一段落（不是弃坑，不是弃坑，不是弃坑！）&lt;br&gt;
+现在主要开始制作BEGC基岩版星系&lt;br&gt;
+BEGC有几率与BEIC2进行对接联动&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://pic.downk.cc/item/5f793779160a154a673b839e.png&#34; alt=&#34;ICON&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:基岩版星系&lt;br&gt;
+英文名字:BEgc&lt;br&gt;
+类型:Add-Ons&lt;br&gt;
+前置:MinecraftBE&lt;br&gt;
+最新版本:beta1231pre1&lt;br&gt;
+最新版本支持游戏版本:1.16.x&lt;br&gt;
+最后更新时间:2021-01-09&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;h3 id=&#34;beta1231pre1&#34;&gt;beta1231pre1：&lt;/h3&gt;
+&lt;p&gt;2021年BEgc的第一个版本&lt;br&gt;
+内嵌了ULANG框架 Alpha V0.0.28&lt;br&gt;
+在熔炉内可将石油烧制为燃油&lt;br&gt;
+更改了一阶火箭（生物蛋）贴图&lt;br&gt;
+手持石油桶点击（左键）方块可将石油放置在地上（固态）&lt;br&gt;
+手持空桶点击（左键）固态石油可拾取石油（使用Script Engine做的硬核流体）&lt;/p&gt;
+&lt;h3 id=&#34;beta1227pre1&#34;&gt;beta1227pre1:&lt;/h3&gt;
+&lt;p&gt;加入了燃油&lt;br&gt;
+加入了石油&lt;br&gt;
+加入了一阶火箭，暂未实装完毕&lt;br&gt;
+目前可以手持燃油对其进行装油，装载一次后无法再次装载&lt;/p&gt;
+&lt;h3 id=&#34;beta1219pre1&#34;&gt;beta1219pre1:&lt;/h3&gt;
+&lt;p&gt;将已有内容适配到1.16.100及以上版本&lt;br&gt;
+改了点细节&lt;/p&gt;
+&lt;h3 id=&#34;beta1107pre1&#34;&gt;beta1107pre1:&lt;/h3&gt;
+&lt;h4 id=&#34;更改&#34;&gt;更改：&lt;/h4&gt;
+&lt;h5 id=&#34;界面&#34;&gt;界面：&lt;/h5&gt;
+&lt;p&gt;改了点细节&lt;/p&gt;
+&lt;h3 id=&#34;beta1024pre1&#34;&gt;beta1024pre1:&lt;/h3&gt;
+&lt;h4 id=&#34;新增&#34;&gt;新增:&lt;/h4&gt;
+&lt;h5 id=&#34;物品&#34;&gt;物品：&lt;/h5&gt;
+&lt;p&gt;加入了重装防护板资源部分&lt;br&gt;
+加入了火箭尾翼资源部分&lt;br&gt;
+加入了一阶火箭引擎资源部分&lt;br&gt;
+加入了鼻锥资源部分&lt;br&gt;
+加入了通风孔资源部分&lt;br&gt;
+加入了锡罐资源部分&lt;/p&gt;
+&lt;h5 id=&#34;配方&#34;&gt;配方：&lt;/h5&gt;
+&lt;p&gt;加入了致密钢板合成&lt;br&gt;
+加入了致密青铜板合成&lt;br&gt;
+加入了致密铁板合成&lt;br&gt;
+加入了致密铜板合成&lt;br&gt;
+加入了致密锡板合成&lt;br&gt;
+加入了致密铝板合成&lt;br&gt;
+加入了重装防护板合成&lt;br&gt;
+加入了火箭尾翼合成&lt;br&gt;
+加入了一阶火箭引擎合成&lt;br&gt;
+加入了鼻锥合成&lt;br&gt;
+加入了通风孔合成&lt;br&gt;
+加入了锡罐合成&lt;/p&gt;
+&lt;h3 id=&#34;beta1017pre1&#34;&gt;beta1017pre1:&lt;/h3&gt;
+&lt;h4 id=&#34;新增-2&#34;&gt;新增：&lt;/h4&gt;
+&lt;p&gt;界面：&lt;br&gt;
+在主界面新增“关于”按钮&lt;/p&gt;
+&lt;h4 id=&#34;更改-2&#34;&gt;更改：&lt;/h4&gt;
+&lt;p&gt;更改了主界面布局与配色&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5f8bebff1cd1bbb86b54fe81.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;beta1003pre1&#34;&gt;beta1003pre1:&lt;/h3&gt;
+&lt;h4 id=&#34;新增-3&#34;&gt;新增：&lt;/h4&gt;
+&lt;h5 id=&#34;方块&#34;&gt;方块：&lt;/h5&gt;
+&lt;p&gt;加入了铜块&lt;br&gt;
+加入了铝块&lt;br&gt;
+加入了锡块&lt;br&gt;
+加入了铜矿&lt;br&gt;
+加入了铝矿&lt;br&gt;
+加入了锡矿&lt;/p&gt;
+&lt;h5 id=&#34;物品-2&#34;&gt;物品：&lt;/h5&gt;
+&lt;p&gt;加入了铜锭&lt;br&gt;
+加入了铝锭&lt;br&gt;
+加入了锡锭&lt;br&gt;
+加入了致密钢板&lt;br&gt;
+加入了致密青铜板&lt;br&gt;
+加入了致密铁板&lt;br&gt;
+加入了致密铜板&lt;br&gt;
+加入了致密锡板&lt;br&gt;
+加入了致密铝板&lt;br&gt;
+加入了重装防护板&lt;br&gt;
+加入了火箭尾翼（仅行为部分）&lt;br&gt;
+加入了一阶火箭引擎（仅行为部分）&lt;br&gt;
+加入了鼻锥（仅行为部分）&lt;br&gt;
+加入了通风孔（仅行为部分）&lt;br&gt;
+加入了锡罐（仅行为部分）&lt;/p&gt;
+&lt;h5 id=&#34;配方-2&#34;&gt;配方：&lt;/h5&gt;
+&lt;p&gt;加入了铜块的合成&lt;br&gt;
+加入了铝块的合成&lt;br&gt;
+加入了锡块的合成&lt;br&gt;
+加入了铜矿的熔炼&lt;br&gt;
+加入了铝矿的熔炼&lt;br&gt;
+加入了锡矿的熔炼&lt;br&gt;
+加入了铜锭的合成与熔炼&lt;br&gt;
+加入了铝锭的合成与熔炼&lt;br&gt;
+加入了锡锭的合成与熔炼&lt;/p&gt;
+&lt;h5 id=&#34;界面-2&#34;&gt;界面：&lt;/h5&gt;
+&lt;p&gt;加入了右上水印&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此,包括BEic2,BEgc,IceAge,BEtic等系列作品&lt;br&gt;
+加群仅需10.0RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;该资源正处于beta内测阶段，请加入付费群获取。&lt;/p&gt;
+">BEgc基岩版星系</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/BEic2基岩版工业2-本体/"" data-c="
+          &lt;p&gt;&lt;strong&gt;&lt;font color=&#34;#FF0000&#34;&gt;本贴记录的为国际版BEic2，对于中国版BEic2会略有差距（有好也有坏），请自行分辨。&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;0.8.0为完善更新，2021年BEic2的第一个版本&lt;/p&gt;
+&lt;p&gt;支持[ICEAGE](/post/ICE AGE冰河世纪)与BEic2一起装载，且双方的工具均可挖掘对方方块&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pic.downk.cc/item/5fafe0095b02e238c909f875.png&#34; alt=&#34;V0.6.0&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5f435efd160a154a67ebf1f0.png&#34; alt=&#34;V0.5.0&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5f15b34014195aa5945446bd.png&#34; alt=&#34;V0.4.0&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://i1.hdslb.com/bfs/archive/fa474ea52ac353324d7b35bed6cb5c280a9bf26f.jpg@560w_350h_100Q_1c.webp&#34; alt=&#34;V0.1.1&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;点击观看B站介绍视频&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:基岩版工业2&lt;br&gt;
+英文名字:BEic2&lt;br&gt;
+类型:Add-Ons&lt;br&gt;
+前置:MinecraftBE&lt;br&gt;
+最新版本:正式版0.8.0&lt;br&gt;
+最新版本支持游戏版本:1.16.X&lt;br&gt;
+最后更新时间:2021-01-09&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;h3 id=&#34;正式版080&#34;&gt;正式版0.8.0：&lt;/h3&gt;
+&lt;p&gt;2021年BEic2的第一个版本&lt;br&gt;
+本次为完善更新&lt;br&gt;
+内嵌ULANG版本更新至Aplha V0.0.28&lt;br&gt;
+更改了介绍书贴图&lt;br&gt;
+更改了文字介绍内容，加入了外传黑名单&lt;br&gt;
+更改了细节&lt;br&gt;
+加了几个bug&lt;/p&gt;
+&lt;h3 id=&#34;正式版0792&#34;&gt;正式版0.7.92：&lt;/h3&gt;
+&lt;p&gt;对1.16.100及以上版本进行新接口适配&lt;/p&gt;
+&lt;p&gt;废除了player.json部分功能（非全部）&lt;br&gt;
+支持ICEAGE与BEic2一起装载，且双方的工具均可挖掘对方方块&lt;br&gt;
+更改了一些细节&lt;br&gt;
+更新了lang语言文件&lt;br&gt;
+新增了几个bug&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5fda06343ffa7d37b3774882.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://pic.downk.cc/item/5fda06343ffa7d37b377487d.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;正式版060&#34;&gt;正式版0.6.0:&lt;/h3&gt;
+&lt;p&gt;新增:&lt;br&gt;
+物品:&lt;br&gt;
+新增粗制碳板&lt;br&gt;
+新增碳板&lt;br&gt;
+新增纳米剑&lt;/p&gt;
+&lt;p&gt;UI:&lt;br&gt;
+新增Addon介绍UI(H5UI)&lt;br&gt;
+新增问卷调查UI(H5UI)&lt;br&gt;
+新增Addon协议UI(H5UI)&lt;br&gt;
+新增游戏内右上角水印&lt;br&gt;
+新增铁炉UI，暂未实装(H5UI)&lt;/p&gt;
+&lt;p&gt;正式版0.5.0:&lt;br&gt;
+新增&lt;br&gt;
+加入了铜线&lt;br&gt;
+合成：&lt;br&gt;
+AB&lt;br&gt;
+A为工业剪刀，B为铜板&lt;/p&gt;
+&lt;p&gt;加入了绝缘铜线&lt;br&gt;
+合成：&lt;br&gt;
+橡胶+铜线&lt;/p&gt;
+&lt;p&gt;加入了日光灯&lt;br&gt;
+用于合成夜视镜&lt;br&gt;
+合成：&lt;br&gt;
+ABA&lt;br&gt;
+ACA&lt;br&gt;
+AAA&lt;br&gt;
+A为玻璃，B为绝缘铜线，C为锡线&lt;/p&gt;
+&lt;p&gt;加入了高级充电电池&lt;br&gt;
+用于合成夜视镜&lt;/p&gt;
+&lt;p&gt;加入了高级热交换器&lt;br&gt;
+用于合成夜视镜&lt;/p&gt;
+&lt;p&gt;加入了夜视镜&lt;br&gt;
+挖矿必备三件套之一&lt;br&gt;
+手持长按屏幕即可穿戴（键盘控制为手持右键），穿戴后将会获得夜视Buff&lt;br&gt;
+合成：&lt;br&gt;
+ABA&lt;br&gt;
+CDC&lt;br&gt;
+EFE&lt;br&gt;
+A为高级热交换器，B为高级充电电池，C为日光灯，D为防爆玻璃，E为橡胶，F为电路板&lt;/p&gt;
+&lt;p&gt;加入了青铜剑的合成配方以及攻击伤害&lt;br&gt;
+合成：&lt;br&gt;
+A&lt;br&gt;
+A&lt;br&gt;
+B&lt;br&gt;
+A为青铜锭，B为木棍&lt;/p&gt;
+&lt;p&gt;*加入了Script Engine(以下简称&amp;quot;SE&amp;quot;)脚本引擎系统 SE为官方给Addon提供的脚本接口，由JavaScript语言编写，这里之所以强调这个是因为SE目前官方仍在测试中，只能WIN10端加载，而安卓则需要方块启动器，IOS没救，但方块启动器1.16至今仍未更新&lt;br&gt;
+为了照顾移动端玩家，本次V0.5.0版本分为带脚本引擎版与不带脚本引擎版&lt;br&gt;
+有何不同？&lt;br&gt;
+脚本引擎一般用于做许多逻辑功能，由于该技术不成熟我对SE也没完全掌握，该版本的脚本引擎内容均为测试使用，没有任何核心内容涉及&lt;br&gt;
+即使不带也无伤大雅&lt;/p&gt;
+&lt;p&gt;对于带脚本引擎版进入游戏会有是否加载的提示界面&lt;/p&gt;
+&lt;h3 id=&#34;正式版041&#34;&gt;正式版0.4.1:&lt;/h3&gt;
+&lt;p&gt;新增&lt;br&gt;
+新增橡胶树生成结构，常生成于高海拔地区(如高地和高山)&lt;/p&gt;
+&lt;p&gt;更改&lt;br&gt;
+更改了辐射枪子弹的模型&lt;br&gt;
+更改了主界面介绍GUI&lt;br&gt;
+更改了资源包的pack_icon图标&lt;br&gt;
+更改了行为包的pack_icon图标&lt;/p&gt;
+&lt;p&gt;修复:&lt;br&gt;
+修复了青金石粉烧制会变成墨囊的bug&lt;br&gt;
+修复了橡胶树块的材质丢失bug&lt;br&gt;
+修复了铁粉无法烧制的bug&lt;/p&gt;
+&lt;h3 id=&#34;正式版040&#34;&gt;正式版.0.4.0:&lt;/h3&gt;
+&lt;h4 id=&#34;新增&#34;&gt;新增&lt;/h4&gt;
+&lt;p&gt;加入了石杯&lt;br&gt;
+合成:&lt;br&gt;
+AA&lt;br&gt;
+AAA&lt;br&gt;
+AA&lt;br&gt;
+A为石头&lt;/p&gt;
+&lt;p&gt;加入了朗姆酒:&lt;br&gt;
+饮用获得buff：&lt;br&gt;
+抗性提升 1级 30s&lt;br&gt;
+防火 1级 30s&lt;/p&gt;
+&lt;p&gt;酿造台里:&lt;br&gt;
+甘蔗+石杯=朗姆酒&lt;/p&gt;
+&lt;p&gt;加入了高浓啤酒:&lt;br&gt;
+获得buff：&lt;br&gt;
+挖掘疲劳 3级 20s&lt;br&gt;
+力量 1级 40s&lt;/p&gt;
+&lt;p&gt;酿造台里:&lt;br&gt;
+啤酒花+石杯=高浓啤酒&lt;/p&gt;
+&lt;p&gt;加入了低醇啤酒:&lt;br&gt;
+获得buff：&lt;br&gt;
+挖掘疲劳 30s&lt;br&gt;
+力量 25s&lt;/p&gt;
+&lt;p&gt;酿造台里:&lt;br&gt;
+小麦+石杯=低醇啤酒&lt;/p&gt;
+&lt;p&gt;酒桶:&lt;br&gt;
+A&lt;br&gt;
+B=酒桶&lt;br&gt;
+A&lt;/p&gt;
+&lt;p&gt;A为橡木木板&lt;br&gt;
+B为橡胶树原木&lt;/p&gt;
+&lt;p&gt;加入了啤酒花（块状与物品）与啤酒花种子&lt;br&gt;
+啤酒花(块状)被挖掘时有几率掉落啤酒花(物品)与啤酒花种子&lt;br&gt;
+啤酒花种子可以在泥土,草方块,砂土上种植变成啤酒花(块状)&lt;/p&gt;
+&lt;h4 id=&#34;修改&#34;&gt;修改&lt;/h4&gt;
+&lt;p&gt;调整了铁炉的贴图位置&lt;/p&gt;
+&lt;h4 id=&#34;修复&#34;&gt;修复&lt;/h4&gt;
+&lt;p&gt;修复了3个bug&lt;/p&gt;
+&lt;p&gt;正式版0.3.06:&lt;br&gt;
+将自定义方块适配了1.16的版本，但是在物品栏里也找不到(API问题,作者不背锅)&lt;br&gt;
+只能像自定义物品一样,使用/give指令获得&lt;/p&gt;
+&lt;p&gt;本版本为紧急更新适配,并非V0.3.0全部内容&lt;/p&gt;
+&lt;h3 id=&#34;v020&#34;&gt;V0.2.0:&lt;/h3&gt;
+&lt;h4 id=&#34;新增-2&#34;&gt;新增:&lt;/h4&gt;
+&lt;h4 id=&#34;物品&#34;&gt;物品:&lt;/h4&gt;
+&lt;h5 id=&#34;普通物品&#34;&gt;普通物品:&lt;/h5&gt;
+&lt;p&gt;新增石粉&lt;br&gt;
+新增铀235,铀238,小撮铀235,小撮铀238,(合成核弹)&lt;br&gt;
+新增钚,小撮钚(同上)&lt;br&gt;
+新增能量水晶(合成辐射枪)&lt;br&gt;
+新增绝缘锡线(合成电路板)&lt;br&gt;
+新增粉碎铀矿石(合成小撮钚和小撮铀238)&lt;br&gt;
+新增树脂(获取橡胶)&lt;br&gt;
+新增没有电的电池与充满电的电池&lt;/p&gt;
+&lt;h5 id=&#34;工具&#34;&gt;工具:&lt;/h5&gt;
+&lt;p&gt;新增工具 锤子(用于砸碎铀矿石制作粉碎铀矿石)&lt;br&gt;
+新增有电的挖矿/爆破辐射枪,没电的挖矿/爆破辐射枪(两种模式,挖矿模式和爆破模式,默认挖矿模式，潜行使用,用久后需要使用电池充电)&lt;br&gt;
+新增青铜头盔（半成品，直接用指令/replaceitem entity @p slot.armor.head 0 biyuehu:beic2_toukui_tong）&lt;/p&gt;
+&lt;h4 id=&#34;方块&#34;&gt;方块:&lt;/h4&gt;
+&lt;p&gt;新增防爆玻璃(专门防核弹,抗暴堪比基岩)&lt;br&gt;
+新增铁炉(半成品)&lt;br&gt;
+新增铀块&lt;br&gt;
+新增没有燃料的核弹(没任何用)&lt;/p&gt;
+&lt;h4 id=&#34;实体&#34;&gt;实体:&lt;/h4&gt;
+&lt;p&gt;新增工业tnt(威力是tnt4倍,并且一放就炸)&lt;br&gt;
+新增已填满燃料的核弹(范围最高可涉及到半径60的地方,130以内会有虚弱与剧毒buff)&lt;br&gt;
+辐射枪子弹(顾名思义)&lt;/p&gt;
+&lt;h4 id=&#34;配方&#34;&gt;配方:&lt;/h4&gt;
+&lt;h5 id=&#34;合成&#34;&gt;合成:&lt;/h5&gt;
+&lt;p&gt;新增铀235与铀238/小撮铀235与小撮铀238/钚与小撮钚之间的合成与分解(类似铁粒与铁锭之间的关系)&lt;/p&gt;
+&lt;p&gt;新增青铜剑的合成方式:&lt;br&gt;
+ABA&lt;br&gt;
+ABA&lt;br&gt;
+ACA&lt;br&gt;
+A空气,B青铜锭,C木棍&lt;/p&gt;
+&lt;p&gt;新增青铜锭的合成方式:&lt;br&gt;
+AA&lt;br&gt;
+AB&lt;br&gt;
+A铜粉,B锡粉&lt;/p&gt;
+&lt;p&gt;新增锤子的合成方式:&lt;br&gt;
+CAA&lt;br&gt;
+BAA&lt;br&gt;
+CAA&lt;br&gt;
+A空气,B木棍,A青铜锭&lt;/p&gt;
+&lt;p&gt;新增能量水晶的合成方式:&lt;br&gt;
+AAA&lt;br&gt;
+ABA&lt;br&gt;
+AAA&lt;br&gt;
+A红石，B钻石&lt;/p&gt;
+&lt;p&gt;新增树脂的合成方式:&lt;br&gt;
+直接将有橡胶的橡胶树放到合成栏里&lt;/p&gt;
+&lt;p&gt;新增小撮铀238的合成方式:&lt;br&gt;
+将铀块放到合成栏里分解即可，现在不能分解成铀锭了&lt;/p&gt;
+&lt;p&gt;新增铁炉合成方式:&lt;br&gt;
+KAK&lt;br&gt;
+AKA&lt;br&gt;
+ABA&lt;br&gt;
+A 铁锭 B熔炉 K空气&lt;/p&gt;
+&lt;p&gt;新增绝缘锡线合成方式:&lt;br&gt;
+一个橡胶加一个锡线&lt;/p&gt;
+&lt;p&gt;新增粉碎铀矿石的合成方式:&lt;br&gt;
+一个锤子加一个铀矿石&lt;/p&gt;
+&lt;p&gt;新增防爆玻璃的合成方式:&lt;br&gt;
+AAA&lt;br&gt;
+ABA&lt;br&gt;
+AAA&lt;br&gt;
+A黑曜石,B玻璃&lt;/p&gt;
+&lt;p&gt;新增辐射枪的合成方式:&lt;br&gt;
+AAB&lt;br&gt;
+CCD&lt;br&gt;
+ECC&lt;br&gt;
+A红石,E电路板,C铁板,B能量水晶,E空气,即可合成没有电的挖矿模式辐射枪&lt;/p&gt;
+&lt;p&gt;没有电的辐射枪加有电的电池可以合成有电的辐射枪&lt;/p&gt;
+&lt;p&gt;有电/没电的挖矿模式/爆破模式辐射枪可直接放在合成栏里切换模式&lt;/p&gt;
+&lt;p&gt;新增没有燃料的核弹的合成方式:&lt;br&gt;
+ABA&lt;br&gt;
+BCB&lt;br&gt;
+ABA&lt;br&gt;
+A火药,B铀锭,C工业tnt&lt;/p&gt;
+&lt;p&gt;注意:以下两个可以合成但是会有巴戈,直接创造获取&lt;br&gt;
+工业tnt:&lt;br&gt;
+AAA&lt;br&gt;
+BBB&lt;br&gt;
+AAA&lt;br&gt;
+A燧石,Btnt&lt;/p&gt;
+&lt;p&gt;有燃料的核弹:&lt;br&gt;
+钚,铀235,铀238+工业tnt+铀块&lt;/p&gt;
+&lt;h5 id=&#34;熔炼&#34;&gt;熔炼:&lt;/h5&gt;
+&lt;p&gt;新增充满电的电池的熔炼方式:&lt;br&gt;
+高炉里:没有电的电池&lt;/p&gt;
+&lt;p&gt;新增小撮铀235的熔炼方式:&lt;br&gt;
+烟熏炉里:粉碎的铀矿石&lt;/p&gt;
+&lt;p&gt;新增小撮钚的熔炼方式:&lt;br&gt;
+高炉里:粉碎的铀矿石&lt;/p&gt;
+&lt;p&gt;新增橡胶的熔炼方式:&lt;br&gt;
+熔炉,烟熏炉,篝火里:树脂&lt;/p&gt;
+&lt;h4 id=&#34;其它&#34;&gt;其它:&lt;/h4&gt;
+&lt;p&gt;新增全局资源中的作品信息GUI&lt;/p&gt;
+&lt;p&gt;修改&amp;amp;移除&amp;amp;修复bug:&lt;br&gt;
+将上个版本的电池为没有电的电池&lt;br&gt;
+修改了橡胶的获取方式&lt;br&gt;
+现在只能用绝缘锡线合成电路板&lt;br&gt;
+修改了物品&amp;quot;Biyuehu:BEic2_jian_tong&amp;quot;的lang文件名字&lt;/p&gt;
+&lt;p&gt;移除了上个版本获取1号彩蛋的function&lt;/p&gt;
+&lt;p&gt;修复了无法合成青金石粉和青金石板的bug&lt;/p&gt;
+&lt;h5 id=&#34;彩蛋&#34;&gt;彩蛋:&lt;/h5&gt;
+&lt;p&gt;彩蛋1(加入于V0.1.1):&lt;br&gt;
+Cookies，只能用/give @S  Biyuehu:caidan_binggan获得&lt;br&gt;
+吃了会有生命恢复&lt;/p&gt;
+&lt;p&gt;彩蛋2(加入于V0.2.0):&lt;br&gt;
+法杖，合成:&lt;br&gt;
+A&lt;br&gt;
+B&lt;br&gt;
+C&lt;br&gt;
+A红石,B钻石块,C烈焰棒&lt;br&gt;
+潜行朝地使用，会使周围的实体获得升天buff，最终摔死&lt;/p&gt;
+&lt;h3 id=&#34;正式版011&#34;&gt;正式版0.1.1:&lt;/h3&gt;
+&lt;p&gt;以下内容为直接摘取自上次的发布贴&lt;/p&gt;
+&lt;p&gt;新增矿石:铜,锡,铅,铀，会自然生成，铀矿最为稀有&lt;br&gt;
+可以放到熔炉/高炉里烧制成锭【图1】&lt;br&gt;
+锭（外加铁锭,金锭,钻石,煤）可以直接在工作台最中间分解成两个粉然后再次放到高炉里（熔炉不可以）烧制成原料【图2】&lt;br&gt;
+共新增7种锭,11种粉&lt;br&gt;
+新增工具:铜稿,剑 锻造锤（图3）工业剪刀（图4）&lt;br&gt;
+共增加9种板子（合成配方图6），一种外壳一种线（合成配方图5,7）&lt;br&gt;
+新增9种方块:&lt;br&gt;
+可以把新增的7种锭合成为块，也可以分解（图8,10）&lt;br&gt;
+共7种&lt;br&gt;
+橡胶树（有两种状态），有橡胶的橡胶树可以直接合成为橡胶（别吐槽了，会改的）（图9）&lt;br&gt;
+新增物品:&lt;br&gt;
+电池（图11）&lt;br&gt;
+电路板（图12）&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此,包括BEic2,BEgc,IceAge,BEtic等系列作品&lt;br&gt;
+加群仅需10.0RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;请加群&lt;/p&gt;
+">BEic2基岩版工业2-本体</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/更新说明/"" data-c="
+          &lt;p&gt;本公告标题后缀将会随最后更新时间而改变&lt;br&gt;
+&lt;s&gt;主要记载博客与Addon方面的更新内容&lt;/s&gt;&lt;br&gt;
+&lt;s&gt;以方便大家了解内容变动&lt;/s&gt;&lt;br&gt;
+👆this before&lt;br&gt;
+主要记载博客、Addon、及🦊相关整活新内容&lt;/p&gt;
+&lt;h2 id=&#34;211031&#34;&gt;211031&lt;/h2&gt;
+&lt;p&gt;博客附属网站-&lt;a href=&#34;https://biyuehu.gitee.io/motd/&#34;&gt;Motdpe服务器状态查询&lt;/a&gt;关闭&lt;br&gt;
+至此，所有博客附属网站全部关闭&lt;br&gt;
+&lt;strong&gt;博客进行n年所说的“大改“，框架由Hexo更为Gridea，主题大变样，也意味着博客的走向将于之前不同&lt;/strong&gt;&lt;br&gt;
+几乎所有文章进行更新&lt;br&gt;
+也由于种种原因，文章评论无法成功转移&lt;/p&gt;
+&lt;h2 id=&#34;2110前期模糊&#34;&gt;2110前期(模糊)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://111.67.196.75:89&#34;&gt;HULI云黑&lt;/a&gt;建成&lt;br&gt;
+&lt;a href=&#34;http://111.67.196.75:90&#34;&gt;HULI站点状态记录&lt;/a&gt;建成&lt;br&gt;
+&lt;a href=&#34;http://111.67.196.75:91&#34;&gt;HULI壁纸&lt;/a&gt;建成&lt;/p&gt;
+&lt;h2 id=&#34;21070809模糊&#34;&gt;2107&lt;sub&gt;08&lt;/sub&gt;09(模糊)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://111.67.196.75:81&#34;&gt;HULIAPI&lt;/a&gt;建成&lt;br&gt;
+&lt;a href=&#34;http://111.67.196.75:82&#34;&gt;HULI代刷网&lt;/a&gt;建成&lt;br&gt;
+&lt;a href=&#34;http://111.67.196.75:83&#34;&gt;HULI照妖镜&lt;/a&gt;建成&lt;br&gt;
+&lt;a href=&#34;http://111.67.196.75:84&#34;&gt;HULI查绑网&lt;/a&gt;建成&lt;br&gt;
+HULIWS正式发布+启用&lt;br&gt;
+OCS服务器三周目(续)开始&lt;br&gt;
+&lt;a href=&#34;http://111.67.196.75:81&#34;&gt;OCS官网&lt;/a&gt;建成&lt;br&gt;
+3个网站建成，但未进行实际使用或已废弃&lt;br&gt;
+&lt;a href=&#34;http://111.67.196.75:5212&#34;&gt;狐盘&lt;/a&gt;建成&lt;br&gt;
+OCS服务器三周目(续)衰亡&lt;/p&gt;
+&lt;h2 id=&#34;记不清的时间段里1&#34;&gt;记不清的时间段里1&lt;/h2&gt;
+&lt;p&gt;博客附属网站-&lt;a href=&#34;https://biyuehu.gitee.io/script-engine-doc1/#/&#34;&gt;脚本引擎文档&lt;/a&gt;&lt;br&gt;
+博客附属网站-&lt;a href=&#34;https://biyuehu.gitee.io/uuid/&#34;&gt;UUID生成&lt;/a&gt;&lt;br&gt;
+博客附属网站-&lt;a href=&#34;https://biyuehu.gitee.io/seimg/&#34;&gt;随机色图&lt;/a&gt;&lt;br&gt;
+均已关闭&lt;br&gt;
+ICEAGE官网关闭&lt;br&gt;
+...谁知道还有没有什么记不清的事了？&lt;/p&gt;
+&lt;h2 id=&#34;210227&#34;&gt;210227：&lt;/h2&gt;
+&lt;p&gt;有段时间没有更新博客惹emm.): ..因为最近在忙其它事情，于是在开学前抽空更新一下博客以及总结在这段时间做的大部分内容&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;更新了“作品集”&lt;/li&gt;
+&lt;li&gt;更新了友链链接&lt;/li&gt;
+&lt;li&gt;节日系列Addon-春节新年发布&lt;/li&gt;
+&lt;li&gt;Add教程贴删除&lt;br&gt;
+当然，这不是遗弃了。而是将其并入&lt;a href=&#34;https://addonwiki.gitee.io&#34;&gt;AddonWiki&lt;/a&gt;其中，并作修改&lt;br&gt;
+包括之前博客附属站的MCBE脚本引擎中文文档也被并入。&lt;br&gt;
+&lt;a href=&#34;https://addonwiki.gitee.io&#34;&gt;AddonWiki&lt;/a&gt;不属于博客附属站，而是另一个独立的网页(但还是我的╰(￣ω￣ｏ))&lt;br&gt;
+&lt;strong&gt;AddonWiki&lt;/strong&gt;不仅包括入门教程，还有其它方面的各种资料，以及基岩版相关的开发相关内容和API文档，不管是大佬还是新手菜鸟都可以去康一康（←这不是恰饭，就算是也是我恰我自己(￣▽￣)&amp;quot;）&lt;br&gt;
+据某人的可靠消息称，但最近一段时间博客或许会进行大改o(&lt;em&gt;￣▽￣&lt;/em&gt;)ブ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;210126&#34;&gt;210126：&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;新增外传黑名单&lt;/li&gt;
+&lt;li&gt;新增博客附属网站-&lt;a href=&#34;https://biyuehu.gitee.io/script-engine-doc1/#/&#34;&gt;脚本引擎文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;新增博客附属网站-&lt;a href=&#34;https://biyuehu.gitee.io/uuid/&#34;&gt;UUID生成&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;新增博客附属网站-&lt;a href=&#34;https://biyuehu.gitee.io/seimg/&#34;&gt;随机色图&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;新增博客附属网站-&lt;a href=&#34;https://biyuehu.gitee.io/motd/&#34;&gt;Motdpe服务器状态查询&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;210109&#34;&gt;210109：&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ICEAGE V4.0.0发布&lt;/li&gt;
+&lt;li&gt;BEic2 V0.8.0发布&lt;/li&gt;
+&lt;li&gt;BEgc 1231pre发布&lt;br&gt;
+2021年第一批作品&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;201216&#34;&gt;201216：&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ICEAGE V3.0.0发布&lt;/li&gt;
+&lt;li&gt;BEic2 V0.7.92发布&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;201205&#34;&gt;201205：&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ICEAGE V2.0.12发布&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/photos&#34;&gt;相册&lt;/a&gt;更新&lt;/li&gt;
+&lt;li&gt;该公告发布&lt;/li&gt;
+&lt;/ul&gt;
+">更新说明-211031</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/MarkDown基础语法/"" data-c="
+          &lt;h1 id=&#34;什么是markdown&#34;&gt;什么是MarkDown?&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;MarkDown&lt;/strong&gt;是一种&lt;a href=&#34;https://baike.baidu.com/item/%E8%BD%BB%E9%87%8F%E7%BA%A7%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/52671915&#34;&gt;轻量级标记语言&lt;/a&gt;，创始人为约翰·格鲁伯（英语：John Gruber）。 它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。&lt;/p&gt;
+&lt;h1 id=&#34;markdown的应用&#34;&gt;MarkDown的应用&lt;/h1&gt;
+&lt;p&gt;由于Markdown的轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，目前许多网站都广泛使用Markdown来撰写帮助文档或是用于论坛上发表消息。 如&lt;a href=&#34;https://baike.baidu.com/item/GitHub/10145341&#34;&gt;GitHub&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/Reddit/1272010&#34;&gt;Reddit&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/Diaspora/10726893&#34;&gt;Diaspora&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/StackExchange/13777796&#34;&gt;Stack Exchange&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/OpenStreetMap/3171606&#34;&gt;OpenStreetMap&lt;/a&gt; 、&lt;a href=&#34;https://baike.baidu.com/item/SourceForge/6562141&#34;&gt;SourceForge&lt;/a&gt;、&lt;a href=&#34;https://baike.baidu.com/item/%E7%AE%80%E4%B9%A6/5782216&#34;&gt;简书&lt;/a&gt;等，甚至还能被使用来撰写&lt;a href=&#34;https://baike.baidu.com/item/%E7%94%B5%E5%AD%90%E4%B9%A6/346054&#34;&gt;电子书&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;因此您现在看到的&lt;s&gt;这篇文章&lt;/s&gt;(应该是说这个博客的所有文章)都是用&lt;strong&gt;MarkDown&lt;/strong&gt;写的。&lt;/p&gt;
+&lt;p&gt;当然，本博客使用的评论系统也支持MarkDown语法~&lt;/p&gt;
+&lt;h1 id=&#34;markdown戳写&#34;&gt;MarkDown戳写&lt;/h1&gt;
+&lt;p&gt;因为MD只是门标记语言，不需要配置环境之类的东西，因此完全可以使用Notepad编写，甚至可以用网页在线编辑。&lt;/p&gt;
+&lt;p&gt;不过硬是要说MD编辑器的话，我推荐&lt;a href=&#34;https://typora.io/&#34;&gt;typora&lt;/a&gt;，支持Windows/Mac Os/Linux操作系统&lt;/p&gt;
+&lt;h1 id=&#34;markdown基础语法&#34;&gt;MarkDown基础语法&lt;/h1&gt;
+&lt;h2 id=&#34;1代码&#34;&gt;1.代码&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;//代码
+ `` `语言类型
+代码内容
+ `` `
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;示例&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-JavaScript&#34;&gt;(function (factory) {
+    if (typeof module === &#39;object&#39; &amp;amp;&amp;amp; module.exports) {
+        module.exports = factory(global, global.engine, false);
+    } else {
+        engine = factory(this, engine, true);
+    }
+})(function (global, engine, hasOnLoad) {
+    &#39;use strict&#39;;
+
+    var VERSION = [1, 5, 0, 8];
+
+    /**
+    * 事件发射器
+    *
+    * @class 发射器
+    */
+
+
+    function Emitter() {
+        this.events = {};
+    }
+
+    function Handler(code, context) {
+        this.code = code;
+        this.context = context;
+    }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;2标题&#34;&gt;2.标题&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;//标题
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;一级标题-h1&#34;&gt;一级标题 H1&lt;/h1&gt;
+&lt;h2 id=&#34;二级标题-h2&#34;&gt;二级标题 H2&lt;/h2&gt;
+&lt;h3 id=&#34;三级标题-h3&#34;&gt;三级标题 H3&lt;/h3&gt;
+&lt;h4 id=&#34;四级标题-h4&#34;&gt;四级标题 H4&lt;/h4&gt;
+&lt;h5 id=&#34;五级标题-h5&#34;&gt;五级标题 H5&lt;/h5&gt;
+&lt;h6 id=&#34;六级标题-h6&#34;&gt;六级标题 H6&lt;/h6&gt;
+&lt;h2 id=&#34;3段落&#34;&gt;3.段落&lt;/h2&gt;
+&lt;p&gt;123456abcdefg&lt;/p&gt;
+&lt;h2 id=&#34;4字体&#34;&gt;4.字体&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;//字体
+普通
+
+**粗体**
+
+*斜体*   _斜体_
+
+***粗斜体***  ___粗斜体___
+
+~~删除~~
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;普通&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;   &lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;*&lt;strong&gt;粗斜体*&lt;/strong&gt;  *&lt;strong&gt;粗斜体*&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;删除&lt;/s&gt;&lt;/p&gt;
+&lt;h2 id=&#34;5标签&#34;&gt;5.标签&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;//标签
+`标签`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;标签
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;6引用&#34;&gt;6.引用&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;//引用
+&amp;gt;  引用
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用&lt;/p&gt;
+&lt;p&gt;111&lt;/p&gt;
+&lt;p&gt;aaa&lt;/p&gt;
+&lt;p&gt;aaa&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;7链接&#34;&gt;7.链接&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;//链接
+[普通链接](链接)
+邮箱
+&amp;gt; [链接说明](链接)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:123@123.com&#34;&gt;123@123.com&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;baidu.com&#34;&gt;百度&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;8图片&#34;&gt;8.图片&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;![图片说明](图片链接/路径)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;本地图片&#34;&gt;本地图片&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;../favicon.ico&#34; alt=&#34;本地图片&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;网络图片&#34;&gt;网络图片&lt;/h3&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://i0.hdslb.com/bfs/archive/622017dd4b0140432962d3ce0c6db99d77d2e937.png&#34; alt=&#34;网络图片&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;9列表&#34;&gt;9.列表&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;//有序列表
+
+1. 第一行
+2. 第二行
+
+
+
+//无序列表
+
+* 星号*
+
+
+
++ 加号+
+
+
+
+- 减号-
+
+
+
+* 第一列
+
+  * 112
+    * 113
+    * 123
+
+  * 122
+  * 132
+
+* 第二列
+
+* 第三列
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;有序列表&#34;&gt;有序列表&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;第一行&lt;/li&gt;
+&lt;li&gt;第二行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;无序列表&#34;&gt;无序列表&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;星号*&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;加号+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;减号-&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第一列&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;112
+&lt;ul&gt;
+&lt;li&gt;113&lt;/li&gt;
+&lt;li&gt;123&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;122&lt;/li&gt;
+&lt;li&gt;132&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第二列&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第三列&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;9表格&#34;&gt;9.表格&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;//表格
+| a | b | c |
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目1&lt;/th&gt;
+&lt;th&gt;项目2&lt;/th&gt;
+&lt;th&gt;项目3&lt;/th&gt;
+&lt;th&gt;项目4&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+">MarkDown基础语法</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/支持与赞助/"" data-c="
+          &lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此,包括BEic2,BEgc,IceAge,BEtic等系列作品&lt;br&gt;
+加群仅需10.0RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;br&gt;
+该QQ只做收费，不接受问题咨询（更加不要加了后还问价格多少之内的低级问题）&lt;br&gt;
+建议中午和晚上支付，此时我才有时间&lt;br&gt;
+有时可能会不回消息，要么是因为心态崩溃要么就是太忙了，还请谅解&lt;/p&gt;
+&lt;p&gt;Bilibili关注我&lt;a href=&#34;https://space.bilibili.com/293767574&#34;&gt;@碧月狐dada&lt;/a&gt;，三联我的视频已经是对我莫大的支持与认可了awa&lt;/p&gt;
+&lt;p&gt;最后更新:2021-10-30&lt;/p&gt;
+">支持与赞助</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/行为记录/"" data-c="
+          &lt;p&gt;这是一个基于Script Engine的Addon&lt;/p&gt;
+&lt;h2 id=&#34;什么是script-engine&#34;&gt;什么是Script Engine？&lt;/h2&gt;
+&lt;p&gt;脚本引擎(Script Engine)简称为&amp;quot;SE&amp;quot;，Minecraft基岩版的脚本引擎系统为Addon附加包的一部分，由JavaScript语言为载体。 用于制作更多较为复杂的带有逻辑性的作品&lt;br&gt;
+不过遗憾的是，Minecraft基岩版的SE目前并未成熟，API接口不完整且仅对WIN10基岩版开放了使用权，所以本Addon仅支持WIN10基岩版。&lt;/p&gt;
+&lt;p&gt;目前一共支持24种玩家行为监听与记录，总计40+种结果！&lt;br&gt;
+已支持事件：&lt;br&gt;
+&lt;img src=&#34;https://attachment.mcbbs.net/forum/202010/11/135719beh6nazqjn4691sa.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;部分日志将会在聊天栏内提示，所有事件日志均会保存至：&lt;br&gt;
+C:\Users\账号\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\logs&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://attachment.mcbbs.net/forum/202010/11/140330r2l2o2dvl2xhb2b2.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://attachment.mcbbs.net/forum/202010/11/140329unotw0azutuyybub.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;适用范围&#34;&gt;适用范围:&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1.Addon开发者&lt;/strong&gt;&lt;br&gt;
+在制作开发时你可以使用本Addon对其进行调试与监测，就比如 minecraft:entity_definition_event 事件可以监听实体被添加JSON事件&lt;br&gt;
+&lt;img src=&#34;https://attachment.mcbbs.net/forum/202010/11/140330c383lhcb84zbyr81.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.服务器&lt;/strong&gt;&lt;br&gt;
+*仅对BDS端或基于BDS端的第三方MOD端有效&lt;br&gt;
+对于原生的BDS服务端也可以支持！&lt;/p&gt;
+&lt;h2 id=&#34;导入使用&#34;&gt;导入使用&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;单机&lt;/strong&gt;&lt;br&gt;
+方法1.将压缩包后缀名更改为.mcaddon接着双击即可&lt;br&gt;
+方法2.解压，然后复制到：&lt;br&gt;
+C:\Users\账号\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\behavior_packs&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;服务器&lt;/strong&gt;&lt;br&gt;
+*仅对BDS端或基于BDS端的第三方MOD端有效&lt;br&gt;
+解压，复制到 服务端根目录\behavior_packs 文件夹 与 服务端根目录\worlds\地图名\behavior_packs 文件夹&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://i0.hdslb.com/bfs/album/409fd4d64ac09c024154deb1ecbd8cbbad739485.png&#34; alt=&#34;ICON&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:行为记录&lt;br&gt;
+英文名字:Log record&lt;br&gt;
+类型:Add-Ons&lt;br&gt;
+前置:MinecraftBE&lt;br&gt;
+最新版本:--&lt;br&gt;
+最新版本支持游戏版本:1.16.x&lt;br&gt;
+最后更新时间:2020-10-11&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;p&gt;新增24种监听事件(23种服务端事件,1种客户端事件)&lt;br&gt;
+共计40+种结果&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此,包括BEic2,BEgc,IceAge,BEtic等系列作品&lt;br&gt;
+加群仅需10.0RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;null&lt;/p&gt;
+&lt;h6 id=&#34;开源地址&#34;&gt;开源地址：&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&#34;https://gitee.com/BIYUEHU/Log_record&#34;&gt;Gitee&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/BIYUEHU/Log_record&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+">行为记录Addon</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/中秋节/"" data-c="
+          &lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:中秋节Addon&lt;br&gt;
+英文名字:-&lt;br&gt;
+类型:Add-Ons&lt;br&gt;
+前置:MinecraftBE&lt;br&gt;
+最新版本:-&lt;br&gt;
+最新版本支持游戏版本:1.16.x，1.14.x&lt;br&gt;
+最后更新时间:2020-10-01&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;p&gt;加入了冰糖月饼&lt;br&gt;
+加入了蛋黄月饼&lt;br&gt;
+加入了豆沙月饼&lt;br&gt;
+加入了五仁月饼&lt;/p&gt;
+&lt;p&gt;加入了月饼商人，用于交易月饼&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此,包括BEic2,BEgc,IceAge,BEtic等系列作品&lt;br&gt;
+加群仅需10.0RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;null&lt;/p&gt;
+">中秋节Addon</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/地下城武器Addon/"" data-c="
+          &lt;p&gt;本Addon一共新增了五把Minecraft Dungeons（MINECRAFT地下城）里的武器。&lt;br&gt;
+仅为瞎搞一小时不到做的Addon。&lt;/p&gt;
+&lt;p&gt;一切贴图与武器名字均来源于&lt;strong&gt;Minecraft Dungeons&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:MINECRAFT地下城武器Addon&lt;br&gt;
+英文名字:---&lt;br&gt;
+类型:Add-Ons&lt;br&gt;
+前置:MinecraftBE&lt;br&gt;
+最新版本:---&lt;br&gt;
+最新版本支持游戏版本:1.16.x&lt;br&gt;
+最后更新时间:2020-08-15&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;h4 id=&#34;新增物品&#34;&gt;新增物品&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;斧子：&lt;/strong&gt;&lt;br&gt;
+拥有19攻击伤害&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5f37a20914195aa594f98b56.png&#34; alt=&#34;斧子&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;大剑：&lt;/strong&gt;&lt;br&gt;
+拥有22攻击伤害&lt;br&gt;
+带附魔效果&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5f37a20914195aa594f98b5a.png&#34; alt=&#34;大剑&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;弯刀：&lt;/strong&gt;&lt;br&gt;
+拥有34攻击伤害与3速度&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5f37a20914195aa594f98b5e.png&#34; alt=&#34;弯刀&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;链锤：&lt;/strong&gt;&lt;br&gt;
+拥有42攻击伤害&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5f37a20914195aa594f98b62.png&#34; alt=&#34;链锤&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;大锤：&lt;/strong&gt;&lt;br&gt;
+拥有60攻击伤害与1幸运&lt;br&gt;
+带附魔效果以及3D模型效果（第三人称视角）&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5f37a20914195aa594f98b66.png&#34; alt=&#34;大锤&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;介绍书：&lt;/strong&gt;&lt;br&gt;
+潜行即可一键获得所有武器&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此&lt;br&gt;
+加群需3.5RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;&amp;gt;戳我&amp;lt;&lt;/a&gt;&lt;/p&gt;
+">Minecraft Dungeons武器Addon</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/BEtic基岩版匠魂/"" data-c="
+          &lt;p&gt;类似于BEic2，也是移植Addon&lt;br&gt;
+本Addon仅打算更新一个版本（即此版本）&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://pic.downk.cc/item/5f22683e14195aa59403e09a.png&#34; alt=&#34;BEtic&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;介绍视频：&lt;a href=&#34;https://www.bilibili.com/video/BV1U54y1S7NV&#34;&gt;点我观看b站介绍视频&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:基岩版匠魂&lt;br&gt;
+英文名字:BEtic&lt;br&gt;
+类型:Add-Ons&lt;br&gt;
+前置:MinecraftBE&lt;br&gt;
+最新版本:---&lt;br&gt;
+最新版本支持游戏版本:1.16.x&lt;br&gt;
+最后更新时间:2020-07-30&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;h4 id=&#34;新增物品&#34;&gt;新增物品&lt;/h4&gt;
+&lt;p&gt;一共加入了五种模板:&lt;br&gt;
+手柄模具&lt;br&gt;
+护手模具&lt;br&gt;
+宽护手模具&lt;br&gt;
+宽剑刃模具&lt;br&gt;
+剑刃模具&lt;/p&gt;
+&lt;p&gt;一共加入了12种武器，分为三大类：大剑,长剑,西洋剑&lt;br&gt;
+每类一共有四种不同等级（即四种不同材料制作）&lt;br&gt;
+分别由仙人掌,骨头,黑曜石,地狱岩制作，四种材料制作出的武器基础伤害分别为6,8,11,15。&lt;br&gt;
+大剑：&lt;br&gt;
+A&lt;br&gt;
+A=大剑&lt;br&gt;
+B&lt;br&gt;
+A为对应材料,B为木棍&lt;br&gt;
+大剑拥有该材料制作的武器的基础伤害+抗性提升&lt;br&gt;
+长剑：&lt;br&gt;
+A&lt;br&gt;
+A=长剑&lt;br&gt;
+B&lt;br&gt;
+A为对应材料,B为相同材料的大剑&lt;br&gt;
+长剑拥有基础伤害+速度提升&lt;br&gt;
+西洋剑：&lt;br&gt;
+A&lt;br&gt;
+A=西洋剑&lt;br&gt;
+B&lt;br&gt;
+A为对应材料,B为相同材料的长剑&lt;br&gt;
+西洋剑拥有基础伤害+2伤害&lt;/p&gt;
+&lt;p&gt;加入了钴锭&lt;/p&gt;
+&lt;p&gt;加入了BEticAddon介绍书,潜行使用&lt;br&gt;
+合成配方：&lt;br&gt;
+AB&lt;br&gt;
+A为书,B为木板&lt;/p&gt;
+&lt;p&gt;加入了匠魂粘液球&lt;/p&gt;
+&lt;p&gt;加入了史莱姆水晶&lt;/p&gt;
+&lt;p&gt;加入了焦黑石砖&lt;/p&gt;
+&lt;h4 id=&#34;新增方块&#34;&gt;新增方块:&lt;/h4&gt;
+&lt;p&gt;加入了焦黑石砖块&lt;br&gt;
+合成配方：&lt;br&gt;
+AA&lt;br&gt;
+AA&lt;br&gt;
+A为焦黑石砖,焦黑石砖块也可再次分为4*焦黑石砖&lt;/p&gt;
+&lt;p&gt;加入了冶炼炉（装饰品）&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5f22688f14195aa5940408af.png&#34; alt=&#34;炉子&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;加入了匠魂史莱姆空岛草方块&lt;/p&gt;
+&lt;h4 id=&#34;新增实体&#34;&gt;新增实体&lt;/h4&gt;
+&lt;p&gt;加入了匠魂史莱姆&lt;br&gt;
+击杀后会掉落匠魂粘液球&lt;/p&gt;
+&lt;h4 id=&#34;新增结构&#34;&gt;新增结构&lt;/h4&gt;
+&lt;p&gt;加入了匠魂史莱姆空岛&lt;br&gt;
+会在主世界随机生成，空岛上的箱子有几率获得史莱姆水晶于匠魂史莱姆粘液球。&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5f2269a314195aa59404ad61.png&#34; alt=&#34;匠魂史莱姆空岛&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此,包括BEic2,BEgc,IceAge,BEtic等系列作品&lt;br&gt;
+加群仅需10.0RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;请加群&lt;/p&gt;
+">BEtic基岩版匠魂Add</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/端午节/"" data-c="
+          &lt;p&gt;面粉:小麦一圈,糖中间&lt;br&gt;
+糯米:面粉一圈,氵中间&lt;br&gt;
+竹叶:1个竹子=4个竹叶&lt;br&gt;
+生的豆沙/甜/肉粽子:&lt;br&gt;
+ABA&lt;br&gt;
+CDC&lt;br&gt;
+BEB&lt;br&gt;
+A糖,B线,C竹叶,E糯米合成豆沙粽子 D放可可豆合成甜粽子 D放糖块合成肉粽子 D放生猪排&lt;/p&gt;
+&lt;p&gt;糖块:9个格子全放糖即可&lt;/p&gt;
+&lt;p&gt;熟的豆沙/甜/肉粽子:&lt;br&gt;
+熔炉/烟熏炉/篝火都可以烤,仅高炉不可以&lt;/p&gt;
+&lt;p&gt;粽子苹果:&lt;br&gt;
+食用后会获得许多buff(并非无脑的把所有效果都加了225和永久)&lt;/p&gt;
+&lt;p&gt;粽子神剑:&lt;br&gt;
+名字只是个比喻~伤害为8如果没有伤害请确保此Addon中的player.json是否有被其它add覆盖&lt;/p&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:端午节Addon&lt;br&gt;
+英文名字:-&lt;br&gt;
+类型:Add-Ons&lt;br&gt;
+前置:MinecraftBE&lt;br&gt;
+最新版本:-&lt;br&gt;
+最新版本支持游戏版本:1.16.x，1.14.x&lt;br&gt;
+最后更新时间:2020-06-27&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;p&gt;加入了生的豆沙粽/肉粽/甜粽&lt;br&gt;
+加入了数的豆沙粽/肉粽/甜粽&lt;br&gt;
+加入了糖块&lt;br&gt;
+加入了面粉,糯米&lt;br&gt;
+加入了粽子苹果&lt;br&gt;
+加入了粽子神剑&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此&lt;br&gt;
+加群需3.5RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;null&lt;/p&gt;
+">端午节Addon</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/节日系列Add/"" data-c="
+          &lt;p&gt;又开了个新坑，本坑将会更新节日相关的Addon(仅传统节日)&lt;br&gt;
+这个add就是其中一个(名字我也没想好,就这样将就吧)&lt;/p&gt;
+&lt;h3 id=&#34;已更addon&#34;&gt;已更Addon:&lt;/h3&gt;
+&lt;p&gt;端午节：&lt;a href=&#34;/post/%E7%AB%AF%E5%8D%88%E8%8A%82/&#34;&gt;端午节Addon&lt;/a&gt;&lt;br&gt;
+中秋节：&lt;a href=&#34;/post/%E4%B8%AD%E7%A7%8B%E8%8A%82/&#34;&gt;中秋节Addon&lt;/a&gt;&lt;br&gt;
+春节：&lt;a href=&#34;/post/%E6%98%A5%E8%8A%82/&#34;&gt;春节Addon&lt;/a&gt;&lt;/p&gt;
+">节日系列Add</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/垃圾分类/"" data-c="
+          &lt;p&gt;没想到吧!MC里也要垃圾分类&lt;/p&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:垃圾分类-垃圾桶&lt;br&gt;
+英文名字:-&lt;br&gt;
+类型:Add-Ons&lt;br&gt;
+前置:MinecraftBE&lt;br&gt;
+最新版本:-&lt;br&gt;
+最新版本支持游戏版本:1.16.x，1.14.x&lt;br&gt;
+最后更新时间:2020-06-25&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;p&gt;加了三个垃圾桶&lt;br&gt;
+分别对应:&lt;br&gt;
+红色-有害垃圾桶&lt;br&gt;
+绿色-可回收垃圾桶&lt;br&gt;
+黄色-湿垃圾&lt;/p&gt;
+&lt;p&gt;为了进行点缀，本Add也加了一些&amp;quot;垃圾&amp;quot;&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此&lt;br&gt;
+加群需3.5RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;&amp;gt;戳我&amp;lt;&lt;/a&gt;&lt;/p&gt;
+">垃圾分类-垃圾桶</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/BEic2高清材质包/"" data-c="
+          &lt;p&gt;今天六一，祝各位大朋友和小朋友门六一快乐awa&lt;br&gt;
+接下来是六一礼物啦~&lt;/p&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:基岩版工业2&lt;br&gt;
+英文名字:--&lt;br&gt;
+类型:资源包&lt;br&gt;
+前置:MinecraftBE&lt;br&gt;
+最新版本:--&lt;br&gt;
+最新版本支持游戏版本:1.16.x，1.14.x&lt;br&gt;
+最新版本支持BEic2版本:V0.2.0&lt;br&gt;
+最后更新时间:2020-06-01&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;p&gt;适配了BEic2V0.2.0与BEic2扩展包_投掷炸药声明&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此,包括BEic2,BEgc,IceAge,BEtic等系列作品&lt;br&gt;
+加群仅需10.0RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;null&lt;/p&gt;
+">BEic2基岩版工业2高清材质包</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/BEic2扩展包炸药/"" data-c="
+          &lt;p&gt;扩展包为beic2addons的扩展内容&lt;br&gt;
+扩展包为时不时更新，扩展包内容一般为优化或者附加更多内容等&lt;/p&gt;
+&lt;p&gt;装载扩展包前请先装载BEic2Addons本体&lt;/p&gt;
+&lt;p&gt;然后是装载顺序:&lt;br&gt;
+行为包装载顺序:最先加载此扩展包，再加载BEic2本体&lt;br&gt;
+资源包:随意&lt;/p&gt;
+&lt;p&gt;装上包后，再打开实验玩法&lt;/p&gt;
+&lt;p&gt;为了确保player.json不被其它包覆盖，于是用player做了一个简单的time组件&lt;br&gt;
+进入存档后会有提示信息(打开聊天栏查看),即代表已可以使用&lt;/p&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:投掷炸药&lt;br&gt;
+英文名字:--&lt;br&gt;
+类型:Add-Ons&lt;br&gt;
+前置:BEic2Addon&lt;br&gt;
+最新版本:--&lt;br&gt;
+最新版本支持游戏版本:1.16.x，1.14.x&lt;br&gt;
+最后更新时间:2020-05-21&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;p&gt;加入了投掷炸药&lt;br&gt;
+加入了投掷核弹&lt;/p&gt;
+&lt;p&gt;合成配方:&lt;br&gt;
+线(蛛丝)&lt;br&gt;
+tnt&lt;br&gt;
+＝投掷炸药&lt;/p&gt;
+&lt;p&gt;线(蛛丝)&lt;br&gt;
+核弹&lt;br&gt;
+＝投掷核弹&lt;/p&gt;
+&lt;p&gt;投掷炸药威力与tnt一样,投掷核弹威力比核弹威力小一点&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此,包括BEic2,BEgc,IceAge,BEtic等系列作品&lt;br&gt;
+加群仅需10.0RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;null&lt;/p&gt;
+">BEic2基岩版工业2扩展包投掷炸药</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/BEic2翻译补丁包/"" data-c="
+          &lt;p&gt;优化了en_US,en_UK,zh_TW的翻译&lt;/p&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:基岩版工业2翻译补丁包&lt;br&gt;
+英文名字:--&lt;br&gt;
+类型:资源包&lt;br&gt;
+前置:BEic2Addon&lt;br&gt;
+最新版本:V0.2.0(不再更新)&lt;br&gt;
+最新版本支持游戏版本:1.16.x，1.14.x&lt;br&gt;
+最新版本支持BEic2版本:BEic2V0.2.0，BEic2扩展包_投掷炸药&lt;br&gt;
+最后更新时间:2020-05-12&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;历史更新日志&#34;&gt;历史更新日志:&lt;/h2&gt;
+&lt;h3 id=&#34;v020&#34;&gt;V0.2.0:&lt;/h3&gt;
+&lt;p&gt;适配了BEic2扩展包_炸药&lt;/p&gt;
+&lt;h3 id=&#34;v010&#34;&gt;V0.1.0&lt;/h3&gt;
+&lt;p&gt;适配了BEic2V0.2.0&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此,包括BEic2,BEgc,IceAge,BEtic等系列作品&lt;br&gt;
+加群仅需10.0RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+&lt;h5 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h5&gt;
+&lt;p&gt;null&lt;/p&gt;
+">BEic2基岩版工业2翻译补丁包</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/BEic2基岩版工业2/"" data-c="
+          &lt;p&gt;&lt;strong&gt;&lt;font color=&#34;#FF0000&#34;&gt;本贴记录的为国际版BEic2，对于中国版BEic2会略有差距（有好也有坏），请自行分辨。&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;hello,大家好，这里是狐狸看世界&lt;br&gt;
+工业时代这个模组想必大家一定不陌生吧，这是窝De 4J电脑版里十分有名的模组...&lt;br&gt;
+(大雾,以上全为废话)&lt;/p&gt;
+&lt;p&gt;工业时代2(简称IC2)是围绕&lt;a href=&#34;https://minecraft.net&#34;&gt;Minecraft&lt;/a&gt;生活现代化和生存自动化两个主题而展开的Minecraft模组&lt;/p&gt;
+&lt;p&gt;作为最著名的Minecraft模组之一&lt;br&gt;
+工业是初次接触大型Minecraft模组的玩家很好的选择。&lt;/p&gt;
+&lt;p&gt;当然这只是JAVA版的模组，基岩版部分玩家可能心中已经有无数个草泥马奔腾而过了(雾)&lt;/p&gt;
+&lt;p&gt;而BEic2既是以Add-Ons方式在基岩版上重新制作,目前依然在开发中ing...&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://pic.downk.cc/item/5fafe0095b02e238c909f875.png&#34; alt=&#34;icon&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;点击观看B站介绍视频&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;基本信息&#34;&gt;基本信息:&lt;/h2&gt;
+&lt;p&gt;中文名字:基岩版工业2&lt;br&gt;
+英文名字:BEic2&lt;br&gt;
+类型:Add-Ons&lt;br&gt;
+前置:ULANG&lt;br&gt;
+最新版本:正式版0.8.0&lt;br&gt;
+最新版本支持游戏版本:1.16.X&lt;br&gt;
+最后更新时间:2021-01-09&lt;br&gt;
+来源:原创&lt;/p&gt;
+&lt;h2 id=&#34;特色&#34;&gt;特色&lt;/h2&gt;
+&lt;p&gt;BEic2Addon与其它的移植版工业Addon不同&lt;br&gt;
+在更新BEic2本体时,我还会时不时做一些BEic2周边作品&lt;br&gt;
+比如优化资源包或扩展包&lt;/p&gt;
+&lt;h2 id=&#34;beic2基岩版工业2&#34;&gt;BEic2基岩版工业2&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;/post/BEic2%E5%9F%BA%E5%B2%A9%E7%89%88%E5%B7%A5%E4%B8%9A2-%E6%9C%AC%E4%BD%93/&#34;&gt;详细内容&lt;/a&gt;&lt;br&gt;
+注:本贴只做总结&lt;/p&gt;
+&lt;h3 id=&#34;周边作品&#34;&gt;周边作品&lt;/h3&gt;
+&lt;p&gt;周边作品目前包括两类：&lt;br&gt;
+优化资源包与扩展包&lt;/p&gt;
+&lt;h4 id=&#34;扩展资源包&#34;&gt;扩展资源包&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;/post/BEic2%E7%BF%BB%E8%AF%91%E8%A1%A5%E4%B8%81%E5%8C%85/&#34;&gt;BEic2翻译补丁包&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/post/BEic2%E9%AB%98%E6%B8%85%E6%9D%90%E8%B4%A8%E5%8C%85&#34;&gt;BEic2高清材质包&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;扩展包&#34;&gt;扩展包&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;/post/BEic2%E6%89%A9%E5%B1%95%E5%8C%85%E7%82%B8%E8%8D%AF/&#34;&gt;投掷炸药&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;声明&#34;&gt;声明&lt;/h2&gt;
+&lt;h3 id=&#34;addon协议201101&#34;&gt;Addon协议（201101）：&lt;/h3&gt;
+&lt;p&gt;本协议专门为@BIYUEHU制作的Addon（Pymod/SEmod等基于Addon的也算在内）的使用协议&lt;/p&gt;
+&lt;p&gt;1.本Addon禁止任何人转载与二次发布到任意地方，除非有我亲自的特殊授权（一般人都不会给）；&lt;br&gt;
+2.此Addon仅可能在MCBBS,MCPEDL,葫芦侠,中国版上发布，其余平台看到的都是假的，请举报；&lt;br&gt;
+3.如若要使用此Addon录制视频等，请务必在明显的地方标注作者名字（如置顶评论/视频开头/视频简介等）；&lt;br&gt;
+4.如若需使用本Addon装载至服务器则必须由我亲自同意，且必须在明显地方标注作者名字（服务器公告等）&lt;br&gt;
+5.使用本Addon即代表你遵守协议，否则别用；&lt;br&gt;
+6.如若不愿遵守以上协议，请注意您的个人隐私安全；&lt;/p&gt;
+&lt;h3 id=&#34;加入内测&#34;&gt;加入内测&lt;/h3&gt;
+&lt;p&gt;付费群:历史作品与最新作品的beta内测版均会第一时间发布于此,包括BEic2,BEgc,IceAge,BEtic等系列作品&lt;br&gt;
+加群仅需10.0RMB&lt;br&gt;
+支付请加收费员QQ1980067595&lt;br&gt;
+支持QQ和微信支付&lt;/p&gt;
+">BEic2基岩版工业2</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/水作合集/"" data-c="
+          &lt;h2 id=&#34;水作合集&#34;&gt;水作合集&lt;/h2&gt;
+&lt;h3 id=&#34;有蝠同享有难吃瓜&#34;&gt;有蝠同享，有难吃瓜&lt;/h3&gt;
+&lt;p&gt;支持游戏版本:1.16x，1.15.x，1.14x，1.13.x，1.12.x&lt;br&gt;
+最后更新时间:2020-01-19&lt;/p&gt;
+&lt;h4 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;&amp;gt;戳我&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;老八秘制小汉堡&#34;&gt;老八秘制小汉堡&lt;/h3&gt;
+&lt;p&gt;支持游戏版本:1.16x，1.15.x，1.14x，1.13.x，1.12.x&lt;br&gt;
+最后更新时间:2019-12-29&lt;/p&gt;
+&lt;h4 id=&#34;下载链接-2&#34;&gt;下载链接:&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;&amp;gt;戳我&amp;lt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;投掷烈焰弹&#34;&gt;投掷烈焰弹&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;/2017/04/13/%E6%8A%95%E6%8E%B7%E7%83%88%E7%84%B0%E5%BC%B9/&#34;&gt;*另见&lt;/a&gt;&lt;/p&gt;
+">水作合集</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/photos/"" data-c="
+          &lt;p&gt;&lt;img src=&#34;https://pic.downk.cc/item/5fcb5f35394ac523786d767d.jpg&#34; alt=&#34;MC美图1&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5fcb5f35394ac523786d7680.jpg&#34; alt=&#34;MC美图2&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5fcb5f35394ac523786d767a.png&#34; alt=&#34;MC美图3&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5fcb5f35394ac523786d7686.jpg&#34; alt=&#34;MC美图4&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5fcb5f35394ac523786d766e.png&#34; alt=&#34;MC美图5&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5fcb6025394ac523786e5a50.png&#34; alt=&#34;MC美图6&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5fcb6025394ac523786e5a55.png&#34; alt=&#34;MC美图7&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5fcb6025394ac523786e5a58.jpg&#34; alt=&#34;MC美图8&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://pic.downk.cc/item/5fcb6025394ac523786e5a5c.jpg&#34; alt=&#34;MC美图9&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+">相册</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/投掷烈焰弹/"" data-c="
+          &lt;h3 id=&#34;投掷烈焰弹&#34;&gt;投掷烈焰弹&lt;/h3&gt;
+&lt;p&gt;支持游戏版本:1.16x——1.0.x&lt;br&gt;
+最后更新时间:2017-04-13&lt;/p&gt;
+&lt;h4 id=&#34;下载链接&#34;&gt;下载链接:&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;&amp;gt;戳我&amp;lt;&lt;/a&gt;&lt;/p&gt;
+">投掷烈焰弹</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://biyuehu.github.io/post/作品集/"" data-c="
+          &lt;p&gt;&lt;strong&gt;系列Addon&lt;/strong&gt;以及&lt;strong&gt;行为记录LogRecordAddon&lt;/strong&gt;被承认，并收录其正式作品列表中&lt;br&gt;
+OCSAddon被承认，但因其出身特殊不被列入本作品列表&lt;br&gt;
+行为记录LogRecordAddon以外的零散Addon不被承认&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;beic2基岩版工业2系列&#34;&gt;&lt;a href=&#34;/post/BEic2%E5%9F%BA%E5%B2%A9%E7%89%88%E5%B7%A5%E4%B8%9A2/&#34;&gt;BEic2基岩版工业2系列&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;BEic2本体&lt;/li&gt;
+&lt;li&gt;BEic2周边作品
+&lt;ul&gt;
+&lt;li&gt;BEic2优化资源包
+&lt;ul&gt;
+&lt;li&gt;BEic2翻译补丁包&lt;/li&gt;
+&lt;li&gt;BEic2高清资源包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;BEic2扩展包
+&lt;ul&gt;
+&lt;li&gt;BEic2扩展包投掷炸药&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;begc基岩版星系&#34;&gt;&lt;a href=&#34;/post/BEgc%E5%9F%BA%E5%B2%A9%E7%89%88%E6%98%9F%E7%B3%BB/&#34;&gt;BEgc基岩版星系&lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;betic基岩版匠魂&#34;&gt;&lt;a href=&#34;/post/BEtic%E5%9F%BA%E5%B2%A9%E7%89%88%E5%8C%A0%E9%AD%82/&#34;&gt;BEtic基岩版匠魂&lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;ice-age-冰河世纪&#34;&gt;&lt;a href=&#34;/post/ICE%20AGE%E5%86%B0%E6%B2%B3%E4%B8%96%E7%BA%AA/&#34;&gt;ICE AGE 冰河世纪&lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;节日系列add&#34;&gt;&lt;a href=&#34;/post/%E8%8A%82%E6%97%A5%E7%B3%BB%E5%88%97Add/&#34;&gt;节日系列Add&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;端午节Addon&lt;/li&gt;
+&lt;li&gt;中秋节Addon&lt;/li&gt;
+&lt;li&gt;春节Addon&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;ulang框架&#34;&gt;&lt;a href=&#34;/post/ULANG%E6%A1%86%E6%9E%B6/&#34;&gt;ULANG框架&lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;行为记录&#34;&gt;&lt;a href=&#34;/post/%E8%A1%8C%E4%B8%BA%E8%AE%B0%E5%BD%95/&#34;&gt;行为记录&lt;/a&gt;&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+">作品集</a>
+      </div>
+      
+    </div>
+    <div class="page">
+      <div id="page_ul"></div>
+    </div>
+  </div>
+</div>
+<script>
+  !function () {
+    let searchMask = document.querySelector('#search_mask');
+    let result = document.querySelector('#result');
+    let items = document.querySelectorAll('.item');
+    let searchBox = document.querySelector('#search');
+    let statCount = document.querySelector('#stat_count');
+    let statTimes = document.querySelector('#stat_times');
+    let pageUl = document.querySelector('#page_ul');
+    let close = document.querySelector('#close');
+    
+    close.addEventListener('click', function() {
+      searchMask.style = 'display: none;'
+    })
+
+    let finds = [];
+    let contents = [];
+    let pageSize = 10;
+    items.forEach(item => {
+      let a = item.querySelector('a');
+      contents.push({
+        title: a.innerText,
+        details: a.dataset.c,
+        link: a.href
+      })
+      item.remove();
+    })
+
+    function insertStr(soure, start, count) {
+      let newStr = soure.substr(start, count);
+      return soure.slice(0, start) + '<em>' + newStr + '</em>' + soure.slice(start + count);
+    }
+
+    pageUl.addEventListener('click', function(event) {
+      let target = event.target;
+      if (target.__proto__ === HTMLSpanElement.prototype) {
+        appendResults(parseInt(target.dataset.i));
+      }
+    })
+
+    function appendResults(index) {
+      let htmlResult = '';
+      let start = index || 0;
+      let end = Math.min(start + pageSize, finds.length);
+      for (let i = start; i < end; i++) {
+        const current = finds[i];
+        let html = current.title;
+        let sum = 0;
+        let positions = current.positions;
+        positions.forEach(position => {
+          html = insertStr(html, position.start + sum, position.count);
+          sum += 9;
+        })
+        htmlResult += `<div class="item"><a class="result-title" href="${current.link}">${html}</a></div>`;
+      }
+      result.innerHTML = htmlResult;
+      pageUl.innerHTML = '';
+      let count = finds.length / pageSize;
+      let lis = '';
+      if (start !== 0) {
+        lis += `<span class="fa fa-angle-left" data-i='${start - 1}'></span>`;
+      }
+      for (let i = 0; i < count; i++) {
+        lis += `<span class='${i === start?'current':''}' data-i='${i}'>${i+1}</span>`;     
+      }
+      if (start+1 < count) {
+        lis += `<span class="fa fa-angle-right" data-i='${start+1}'></span>`;  
+      }
+      pageUl.innerHTML = lis;
+    }
+
+    function search(delay) {
+      let timer = null
+      return function () {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+          let start = Date.now();
+          let segments = searchBox.value.split(' ').filter(c => c != '');
+          if (segments.length <= 0) {
+            return;
+          }
+          finds = [];
+          let htmlResult = '';
+          contents.forEach(content => {
+            let title = content.title;
+            let positions = [];
+            let find = false;
+            segments.forEach((segment) => {
+              if (content.title.includes(segment)) {
+                find = true;
+                positions.push({
+                  start: content.title.indexOf(segment),
+                  count: segment.length
+                })
+              } else if (content.details.includes(segment)) {
+                find = true;
+              }
+            });
+            if (find) {
+              finds.push({
+                title: content.title,
+                link: content.link,
+                positions
+              });
+            }
+          })
+          appendResults(0);
+          statCount.textContent = finds.length;
+          statTimes.textContent = Date.now() - start;
+        }, delay)
+      }
+    }
+    searchBox.addEventListener('input', search(200));
+  }()
+</script>
+    
+      <input hidden id="copy" />
+      <script>
+        !function () {
+          let times = document.querySelectorAll('.publish-time');
+          for (let i = 0; i < times.length; i++) {
+            let date = times[i].dataset.t;
+            let time = Math.floor((new Date().getTime() - new Date(date).getTime()) / 1000);
+            if (time < 60) {
+              str = time + '秒之前';
+            } else if (time < 3600) {
+              str = Math.floor(time / 60) + '分钟之前';
+            } else if (time >= 3600 && time < 86400) {
+              str = Math.floor(time / 3600) + '小时之前';
+            } else if (time >= 86400 && time < 259200) {
+              str = Math.floor(time / 86400) + '天之前';
+            } else {
+              str = times[i].textContent;
+            }
+            times[i].textContent = str;
+          }
+        }();
+      </script>
+
+      <script>
+        let language = '';
+        if (language !== '') {
+          let map = new Map();
+          if (language === 'en') {
+            map.set('search', 'Search');
+            map.set('category', 'Categories');
+            map.set('article', 'Articles');
+            map.set('tag', 'Tags');
+            map.set('top', 'Top');
+            map.set('publish', 'published');
+            map.set('minute', ' minutes');
+            map.set('read-more', 'Read More');
+            map.set('view', 'View');
+            map.set('words', ' words');
+            map.set('category-in', 'category in');
+            map.set('preview', 'Meta');
+            map.set('index', 'Toc');
+            map.set('no-archives', "You haven't created yet");
+            map.set('archives', " articles in total");
+            map.set('cloud-tags', " tags in total");
+            map.set('copyright', "Copyright: ");
+            map.set('author', "Author: ");
+            map.set('link', "Link: ");
+            map.set('leave-message', "Leave a message");
+            map.set('format', "Links Format");
+            map.set('site-name', "Name: ");
+            map.set('site-link', "Link: ");
+            map.set('site-desc', "Desc: ");
+            map.set('stat', " related results, taking ");
+            map.set('stat-time', " ms");
+            map.set('site-img', "Image: ");
+          }
+
+          if (map.size > 0) {
+            let lanElems = document.querySelectorAll('.language');
+            lanElems.forEach(elem => {
+              let lan = elem.dataset.lan, text = map.get(lan);
+              if (elem.__proto__ === HTMLInputElement.prototype) {
+                elem.placeholder = text
+              } else {
+                if (elem.dataset.count) {
+                  text = elem.dataset.count + text;
+                }
+                elem.textContent = text;
+              }
+            })
+          }
+        }
+
+        window.Clipboard = (function (window, document, navigator) {
+          var textArea,
+            copy;
+
+          // 判断是不是ios端
+          function isOS() {
+            return navigator.userAgent.match(/ipad|iphone/i);
+          }
+          //创建文本元素
+          function createTextArea(text) {
+            textArea = document.createElement('textArea');
+            textArea.value = text;
+            textArea.style.width = 0;
+            textArea.style.height = 0;
+            textArea.clientHeight = 0;
+            textArea.clientWidth = 0;
+            document.body.appendChild(textArea);
+          }
+          //选择内容
+          function selectText() {
+            var range,
+              selection;
+
+            if (isOS()) {
+              range = document.createRange();
+              range.selectNodeContents(textArea);
+              selection = window.getSelection();
+              selection.removeAllRanges();
+              selection.addRange(range);
+              textArea.setSelectionRange(0, 999999);
+            } else {
+              textArea.select();
+            }
+          }
+
+          //复制到剪贴板
+          function copyToClipboard() {
+            try {
+              document.execCommand("Copy")
+            } catch (err) {
+              alert("复制错误！请手动复制！")
+            }
+            document.body.removeChild(textArea);
+          }
+
+          copy = function (text) {
+            createTextArea(text);
+            selectText();
+            copyToClipboard();
+          };
+
+          return {
+            copy: copy
+          };
+        })(window, document, navigator);
+
+        function copyCode(e) {
+          if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+            let code = e.currentTarget.querySelector('code');
+            var text = code.innerText;
+            if (e.srcElement.textContent === '复制成功') {
+              return;
+            }
+            e.srcElement.textContent = '复制成功';
+            (function (elem) {
+              setTimeout(() => {
+                if (elem.textContent === '复制成功') {
+                  elem.textContent = '复制代码'
+                }
+              }, 1000);
+            })(e.srcElement)
+            Clipboard.copy(text);
+          }
+        }
+
+        let pres = document.querySelectorAll('pre');
+        pres.forEach(pre => {
+          let code = pre.querySelector('code');
+          let copyElem = document.createElement('span');
+          copyElem.classList.add('copy-code');
+          copyElem.textContent = '复制代码';
+          pre.appendChild(copyElem);
+          pre.onclick = copyCode
+        })
+
+      </script>
+      <script src="/media/js/motion.js"></script>
+
+      
+        <script
+          src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <script>
+          var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 200
+          });
+        </script>
+        
+          
+<script src="/media/js/mouse/love.js"></script>
+
+            
+              <script src="/media/js/cool.js"></script>
+              
+
+                
+
+</html>
