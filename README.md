@@ -1,2 +1,2 @@
 # biyuehu.github.io
-New url:[https://iamlolicon.work](https://iamlolicon.work)
+New url:[http://imlolicon.tk](http://imlolicon.tk)
