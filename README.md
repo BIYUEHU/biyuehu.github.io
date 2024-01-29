@@ -1,3 +1,4 @@
 # Blog
-> New Url: [https://imlolicon.tk](https://imlolicon.tk)
+
+> New Url: [https://hotaru.icu](https://hotaru.icu)
 > By PHP + MYSQL + PHP-Typecho
