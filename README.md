@@ -1,4 +1,4 @@
 # Blog
 
-> New Url: [https://hotaru.icu](https://hotaru.icu)
-> By PHP + MYSQL + PHP-Typecho
+> New url: [https://hotaru.icu](https://hotaru.icu)
+> Base for PHP + Mysql + Typecho
