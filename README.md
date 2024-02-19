@@ -1,4 +1,4 @@
 # Blog
 
-> New url: [https://hotaru.icu](https://hotaru.icu)
-> Base for PHP + Mysql + Typecho
+- Navigation page: [biyuehu.github.io](https://biyuehu.github.io)
+- New Blog: [HotaruBlog](https://hotaru.icu)

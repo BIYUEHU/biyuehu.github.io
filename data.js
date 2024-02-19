@@ -3,7 +3,7 @@
  * @Blog: https://hotaru.icu
  * @Date: 2024-01-30 13:43:47
  * @LastEditors: Hotaru biyuehuya@gmail.com
- * @LastEditTime: 2024-01-30 13:47:03
+ * @LastEditTime: 2024-02-19 14:20:46
  */
 export const sites = [
   {
@@ -12,12 +12,17 @@ export const sites = [
     text: "HotaruBlog",
   },
   {
+    info: "KotoriBot",
+    url: "https://kotori.js.org",
+    text: "KotoriDoc",
+  },
+  {
     info: "接口站点",
     url: "https://api.hotaru.icu",
     text: "HotaruAPI",
   },
   {
-    info: "个人导航页",
+    info: "个人页",
     url: "https://g.hotaru.icu",
     text: "ほたるー蛍",
   },
