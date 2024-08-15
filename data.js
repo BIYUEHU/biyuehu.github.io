@@ -3,7 +3,7 @@
  * @Blog: https://hotaru.icu
  * @Date: 2024-01-30 13:43:47
  * @LastEditors: Hotaru biyuehuya@gmail.com
- * @LastEditTime: 2024-02-19 14:20:46
+ * @LastEditTime: 2024-08-15 18:55:45
  */
 export const sites = [
   {
@@ -31,17 +31,25 @@ export const sites = [
     url: "https://tool.hotaru.icu",
     text: "HULITool",
   },
-  {
-    info: "云存储",
-    url: "http://c.huoshen80.cn:5",
-    text: "狐盘",
-  },
+  // {
+  //   info: "云存储",
+  //   url: "http://c.huoshen80.cn:5",
+  //   text: "狐盘",
+  // },
 ];
 
 export const pages = [
   {
-    url: "https://hotaru.icu",
+    url: "https://hotaru.icu/api",
     text: "接口站点工具",
+  },
+  {
+    url: "https://m.hotaru.icu",
+    text: "角色收藏",
+  },
+  {
+    url: "https://hotaru.icu/anime.html",
+    text: "追番&GAL",
   },
   {
     url: "https://hotaru.icu/hitokoto.html",
@@ -49,14 +57,10 @@ export const pages = [
   },
   {
     url: "https://hotaru.icu/hwall.html",
-    text: "语录墙",
+    text: "语录精选",
   },
-  {
-    url: "https://hotaru.icu/anime.html",
-    text: "收藏列表",
-  },
-  {
-    url: "https://hotaru.icu/status",
-    text: "站点状态",
-  },
+  // {
+  //   url: "https://hotaru.icu/status",
+  //   text: "站点状态",
+  // },
 ];
