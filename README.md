@@ -1,4 +1,4 @@
 # Blog
 
 - Navigation page: [biyuehu.github.io](https://biyuehu.github.io)
-- New Blog: [HotaruBlog](https://hotaru.icu)
+- Personal CMS & Blog: [Romi Nest](https://i.arimuraromi.com)

@@ -1,31 +1,90 @@
-<!--
- * @Author: Hotaru biyuehuya@gmail.com
- * @Blog: https://hotaru.icu
- * @Date: 2023-06-16 18:34:37
- * @LastEditors: Hotaru biyuehuya@gmail.com
- * @LastEditTime: 2024-02-19 12:59:18
--->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="shortcut icon" href="/favicon.ico">
+    <title>Support Me</title>
+    <link rel="shortcut icon" href="/favicon.png">
     <link rel="stylesheet" href="/style.css">
 </head>
 
-<body">
-<div class="main">
-    <h1 class="f-info" align="center" ><strong>站点已迁移</strong></h1>
-    <span>本博客（Hexo & Ayer）已于2021年停用，2022年彻底废弃。现已迁移至新域名，新博客基于 PHP + Mysql + Typecho。</span>
-    <h2 align="center">站点导航</h2>
-    <ul id="sites"></ul>
-    <h2 align="center">页面导航</h2>
-    <ul id="pages"></ul>
-  </div>
-    <script src="https://cdn.staticfile.net/jquery/3.7.1/jquery.min.js"></script>
+<body>
+    <div class="main">
+        <h2 align="center">Support Me</h2>
+        <p class="intro">Whatever brought you here — a tool, a repo, a post — this is the one place to send
+            something back. Pick whichever channel is easiest.</p>
+
+        <div class="grid">
+            <button type="button" class="card" data-c="wechat">
+                <span class="dot" style="background:#07c160"></span>
+                <span class="name">WeChat Pay</span>
+                <span class="sub">China · Mobile</span>
+            </button>
+            <button type="button" class="card" data-c="alipay">
+                <span class="dot" style="background:#1677ff"></span>
+                <span class="name">Alipay</span>
+                <span class="sub">China · Mobile</span>
+            </button>
+            <button type="button" class="card" data-c="btc">
+                <span class="dot" style="background:#d97706"></span>
+                <span class="name">Bitcoin</span>
+                <span class="sub">BTC · On-chain</span>
+            </button>
+        </div>
+
+        <div class="why">
+            <p>Everything here is made independently, in my own time, without sponsorship or ads. Donating doesn't
+                unlock anything — nothing is gated behind it. It simply helps cover the time and tools that go into what
+                I build, and makes it more likely I keep building it.</p>
+            <p>There's no obligation. If something here was useful or interesting to you, that's already enough. You can
+                leave a message directly, or after sponsoring, send your message along with the payment receipt to the
+                email. The sponsor list will be updated regularly.</p>
+        </div>
+
+        <h2 align="center">Site Navigation</h2>
+        <div id="sites" align="center"></div>
+
+        <div class="about">
+            <span>Arimura Sena</span>
+            <a href="https://github.com/biyuehu" target="_blank" rel="noopener">GitHub / biyuehu</a>
+            <a href="https://codeberg.org/lomi" target="_blank" rel="noopener">Codeberg / lomi</a>
+            <a href="mailto:biyuehuya@gmail.com">biyuehuya@gmail.com</a>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div class="dialog" id="wechat" hidden>
+            <button class="close" aria-label="Close">✕</button>
+            <h3>WeChat Pay</h3>
+            <p class="tip">Open WeChat and scan this code — or tap it to open full size.</p>
+            <a href="images/wechat.png" target="_blank" rel="noopener"><img src="images/wechat.png"
+                    alt="WeChat Pay QR code" loading="lazy"></a>
+        </div>
+        <div class="dialog" id="alipay" hidden>
+            <button class="close" aria-label="Close">✕</button>
+            <h3>Alipay</h3>
+            <p class="tip">Open Alipay and scan this code — or tap it to open full size.</p>
+            <a href="images/alipay.png" target="_blank" rel="noopener"><img src="images/alipay.png" alt="Alipay QR code"
+                    alt="Alipay QR code" loading="lazy"></a>
+        </div>
+        <div class="dialog" id="btc" hidden>
+            <button class="close" aria-label="Close">✕</button>
+            <h3>Bitcoin</h3>
+            <p class="tip">Send BTC to the address below, or scan the QR code.</p>
+            <a href="images/btc.png" target="_blank" rel="noopener"><img src="images/btc.png" alt="BTC wallet QR code"
+                    loading="lazy"></a>
+            <div class="btc-meta">
+                <span>NETWORK</span>
+                <span>mainnet</span>
+            </div>
+            <div class="btc-address">bc1qe0kn3hkqls54rfrjkj5ezcyvtk8suxcy0lfz3r</div>
+            <button type="button" class="btc-copy">Copy address</button>
+        </div>
+    </div>
+
+    <p style="display: none;">This blog (Hexo &amp; Ayer) was discontinued in 2021 and fully abandoned in 2022.</p>
+
     <script type="module" src="./main.js"></script>
 </body>
 

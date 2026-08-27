@@ -1,10 +1,3 @@
-/*
- * @Author: Hotaru biyuehuya@gmail.com
- * @Blog: https://hotaru.icu
- * @Date: 2024-01-30 12:36:30
- * @LastEditors: Hotaru biyuehuya@gmail.com
- * @LastEditTime: 2024-01-30 12:52:20
- */
 html {
   color-scheme: light dark;
 }
@@ -13,6 +6,8 @@ body {
   font-family: system-ui;
   font-size: 1.125rem;
   line-height: 1.5;
+  margin: 0;
+  padding: 2rem 0;
 }
 
 .main {
@@ -27,19 +22,246 @@ video {
   display: block;
 }
 
-.f-warning {
-  color: orange;
-}
-
-.f-error {
-  color: red;
-}
-
-.f-info {
-  color: rgb(5, 160, 199);
-}
-
 a {
-  color: deepskyblue;
-  text-decoration: none;
+  color: #555;
+}
+
+a:hover {
+  color: #222;
+}
+
+.intro {
+  color: #666;
+  text-align: center;
+  margin: 0 0 1.2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.card[data-c="wechat"]:hover {
+  border-color: #07c160;
+}
+
+.card[data-c="alipay"]:hover {
+  border-color: #1677ff;
+}
+
+.card[data-c="btc"]:hover {
+  border-color: #d97706;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.sub {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.why {
+  margin-top: 2.2rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid #ccc;
+  color: #555;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.why p + p {
+  margin-top: 0.9rem;
+}
+
+.about {
+  border-top: 1px solid #ccc;
+  margin-top: 2.2rem;
+  padding-top: 1.4rem;
+  display: flex;
+  gap: 0.9rem 1.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  z-index: 100;
+}
+
+.overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.dialog {
+  background: #fff;
+  color: #222;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: min(92vw, 360px);
+  position: relative;
+  text-align: center;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.dialog h3 {
+  margin: 0 0 0.4rem;
+}
+
+.tip {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0 0 0.8rem;
+}
+
+.dialog img {
+  width: min(100%, 260px);
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #666;
+  cursor: pointer;
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.btc-meta {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8rem 0 0.5rem;
+  padding: 0 0.2rem 0.5rem;
+  border-bottom: 1px dashed #ccc;
+  font-family: ui-monospace, monospace;
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.btc-address {
+  margin: 0.8rem 0 0.6rem;
+  padding: 0.55rem;
+  border: 1px dashed #ccc;
+  border-radius: 6px;
+  font-family: ui-monospace, monospace;
+  font-size: 0.8rem;
+  word-break: break-all;
+}
+
+.btc-copy {
+  width: 100%;
+  padding: 0.55rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.btc-copy:hover {
+  border-color: #d97706;
+  color: #d97706;
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #aaa;
+  }
+
+  a:hover {
+    color: #ddd;
+  }
+
+  .intro,
+  .sub,
+  .tip,
+  .about {
+    color: #999;
+  }
+
+  .why {
+    color: #bbb;
+  }
+
+  .card,
+  .dialog,
+  .close,
+  .btc-copy {
+    border-color: #444;
+  }
+
+  .dialog {
+    background: #1e1e1e;
+    color: #eee;
+  }
+
+  .close {
+    background: #1e1e1e;
+    color: #999;
+  }
+
+  .btc-meta,
+  .btc-address {
+    border-color: #444;
+    color: #999;
+  }
 }
